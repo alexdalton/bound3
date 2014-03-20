@@ -347,7 +347,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "21:13:44"
+value "21:45:12"
 )
 (vvPair
 variable "unit"
@@ -993,7 +993,7 @@ uid 195,0
 decl (Decl
 n "CW2out"
 t "lc3b_oword"
-o 5
+o 1
 suid 7,0
 )
 declText (MLText
@@ -1011,7 +1011,7 @@ uid 197,0
 decl (Decl
 n "IR2out"
 t "lc3b_word"
-o 4
+o 2
 suid 8,0
 )
 declText (MLText
@@ -1047,7 +1047,7 @@ uid 201,0
 decl (Decl
 n "regB2out"
 t "lc3b_word"
-o 2
+o 10
 suid 10,0
 )
 declText (MLText
@@ -1065,7 +1065,7 @@ uid 203,0
 decl (Decl
 n "regA2out"
 t "lc3b_word"
-o 1
+o 9
 suid 11,0
 )
 declText (MLText
@@ -1258,9 +1258,8 @@ vasetType 1
 fg "49152,49152,49152"
 )
 xt "24250,17250,25750,18750"
-iconName "VhdlFileViewIcon.png"
-iconMaskName "VhdlFileViewIcon.msk"
-ftype 10
+iconName "UnknownFile.png"
+iconMaskName "UnknownFile.msk"
 )
 ordering 1
 viewiconposition 0
@@ -1827,9 +1826,8 @@ vasetType 1
 fg "49152,49152,49152"
 )
 xt "24250,29250,25750,30750"
-iconName "VhdlFileViewIcon.png"
-iconMaskName "VhdlFileViewIcon.msk"
-ftype 10
+iconName "UnknownFile.png"
+iconMaskName "UnknownFile.msk"
 )
 ordering 1
 viewiconposition 0
@@ -1888,7 +1886,7 @@ uid 307,0
 decl (Decl
 n "clk"
 t "std_logic"
-o 7
+o 8
 suid 13,0
 )
 declText (MLText
@@ -1924,7 +1922,7 @@ uid 337,0
 decl (Decl
 n "index6"
 t "LC3b_index6"
-o 8
+o 33
 suid 16,0
 )
 declText (MLText
@@ -1942,7 +1940,7 @@ uid 345,0
 decl (Decl
 n "imm4"
 t "lc3b_nibble"
-o 9
+o 31
 suid 17,0
 )
 declText (MLText
@@ -1960,7 +1958,7 @@ uid 361,0
 decl (Decl
 n "imm5"
 t "LC3b_imm5"
-o 11
+o 32
 suid 19,0
 )
 declText (MLText
@@ -2346,7 +2344,7 @@ uid 489,0
 decl (Decl
 n "SEXT5out"
 t "LC3b_word"
-o 11
+o 27
 suid 20,0
 )
 declText (MLText
@@ -2364,7 +2362,7 @@ uid 497,0
 decl (Decl
 n "SEXT6out"
 t "lc3b_word"
-o 12
+o 28
 suid 21,0
 )
 declText (MLText
@@ -2382,7 +2380,7 @@ uid 505,0
 decl (Decl
 n "ZEXT4out"
 t "lc3b_word"
-o 13
+o 29
 suid 22,0
 )
 declText (MLText
@@ -2400,7 +2398,7 @@ uid 513,0
 decl (Decl
 n "ADJ6out"
 t "LC3b_word"
-o 14
+o 19
 suid 23,0
 )
 declText (MLText
@@ -2418,7 +2416,7 @@ uid 529,0
 decl (Decl
 n "cctWordIn"
 t "lc3b_oword"
-o 15
+o 30
 suid 25,0
 )
 declText (MLText
@@ -2505,8 +2503,9 @@ vasetType 1
 fg "49152,49152,49152"
 )
 xt "70250,24250,71750,25750"
-iconName "UnknownFile.png"
-iconMaskName "UnknownFile.msk"
+iconName "VhdlFileViewIcon.png"
+iconMaskName "VhdlFileViewIcon.msk"
+ftype 10
 )
 viewiconposition 0
 )
@@ -2515,7 +2514,7 @@ uid 571,0
 decl (Decl
 n "ALUopBsel_from_CW2"
 t "lc3b_c_offset"
-o 16
+o 22
 suid 29,0
 )
 declText (MLText
@@ -2533,7 +2532,7 @@ uid 591,0
 decl (Decl
 n "sourceB"
 t "lc3b_word"
-o 17
+o 34
 suid 32,0
 )
 declText (MLText
@@ -2630,7 +2629,7 @@ uid 647,0
 decl (Decl
 n "STALL_ALU_L"
 t "std_logic"
-o 18
+o 15
 suid 35,0
 )
 declText (MLText
@@ -2693,7 +2692,7 @@ uid 669,0
 decl (Decl
 n "MULTDIVEN_L"
 t "std_logic"
-o 19
+o 24
 suid 37,0
 )
 declText (MLText
@@ -2711,7 +2710,7 @@ uid 687,0
 decl (Decl
 n "MultDivout"
 t "lc3b_word"
-o 20
+o 26
 suid 39,0
 )
 declText (MLText
@@ -2729,7 +2728,7 @@ uid 709,0
 decl (Decl
 n "ALUop"
 t "lc3b_aluop"
-o 22
+o 21
 suid 42,0
 )
 declText (MLText
@@ -2995,7 +2994,7 @@ uid 831,0
 decl (Decl
 n "RESET_L"
 t "std_logic"
-o 24
+o 4
 suid 50,0
 )
 declText (MLText
@@ -3013,7 +3012,7 @@ uid 833,0
 decl (Decl
 n "STALL_L"
 t "std_logic"
-o 26
+o 5
 suid 51,0
 )
 declText (MLText
@@ -3031,7 +3030,7 @@ uid 913,0
 decl (Decl
 n "MULTDIVEN_L_from_cw2"
 t "std_logic"
-o 19
+o 25
 suid 56,0
 )
 declText (MLText
@@ -3049,7 +3048,7 @@ uid 915,0
 decl (Decl
 n "ALUMuxout"
 t "lc3b_word"
-o 23
+o 20
 suid 57,0
 )
 declText (MLText
@@ -3332,7 +3331,7 @@ uid 1341,0
 decl (Decl
 n "ALU3out"
 t "lc3b_word"
-o 26
+o 11
 suid 58,0
 )
 declText (MLText
@@ -3665,7 +3664,7 @@ uid 1385,0
 decl (Decl
 n "Valid3out"
 t "std_logic"
-o 26
+o 16
 suid 59,0
 )
 declText (MLText
@@ -3762,7 +3761,7 @@ uid 1407,0
 decl (Decl
 n "clearValid"
 t "std_logic"
-o 31
+o 7
 suid 61,0
 )
 declText (MLText
@@ -3826,7 +3825,7 @@ uid 1425,0
 decl (Decl
 n "regA3out"
 t "lc3b_word"
-o 26
+o 17
 suid 63,0
 )
 declText (MLText
@@ -3844,7 +3843,7 @@ uid 1427,0
 decl (Decl
 n "regB3out"
 t "lc3b_word"
-o 26
+o 18
 suid 64,0
 )
 declText (MLText
@@ -3862,7 +3861,7 @@ uid 1429,0
 decl (Decl
 n "PC3out"
 t "lc3b_word"
-o 26
+o 14
 suid 65,0
 )
 declText (MLText
@@ -3880,7 +3879,7 @@ uid 1431,0
 decl (Decl
 n "IR3out"
 t "lc3b_word"
-o 26
+o 13
 suid 66,0
 )
 declText (MLText
@@ -3898,7 +3897,7 @@ uid 1433,0
 decl (Decl
 n "CW3out"
 t "lc3b_word"
-o 26
+o 12
 suid 67,0
 )
 declText (MLText
@@ -8842,12 +8841,12 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-6,36,1926,1071"
-viewArea "-10900,3994,81386,52162"
+windowSize "-6,38,1926,1073"
+viewArea "30206,4000,117365,49492"
 cachedDiagramExtent "-1000,-5500,169000,55300"
 hasePageBreakOrigin 1
 pageBreakOrigin "-69000,-51000"
-lastUid 2604,0
+lastUid 2763,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -9949,7 +9948,7 @@ port (LogicalPort
 decl (Decl
 n "CW2out"
 t "lc3b_oword"
-o 5
+o 1
 suid 7,0
 )
 )
@@ -9960,7 +9959,7 @@ port (LogicalPort
 decl (Decl
 n "IR2out"
 t "lc3b_word"
-o 4
+o 2
 suid 8,0
 )
 )
@@ -9982,7 +9981,7 @@ port (LogicalPort
 decl (Decl
 n "regB2out"
 t "lc3b_word"
-o 2
+o 10
 suid 10,0
 )
 )
@@ -9993,7 +9992,7 @@ port (LogicalPort
 decl (Decl
 n "regA2out"
 t "lc3b_word"
-o 1
+o 9
 suid 11,0
 )
 )
@@ -10004,7 +10003,7 @@ port (LogicalPort
 decl (Decl
 n "clk"
 t "std_logic"
-o 7
+o 8
 suid 13,0
 )
 )
@@ -10027,7 +10026,7 @@ m 4
 decl (Decl
 n "index6"
 t "LC3b_index6"
-o 8
+o 33
 suid 16,0
 )
 )
@@ -10039,7 +10038,7 @@ m 4
 decl (Decl
 n "imm4"
 t "lc3b_nibble"
-o 9
+o 31
 suid 17,0
 )
 )
@@ -10051,7 +10050,7 @@ m 4
 decl (Decl
 n "imm5"
 t "LC3b_imm5"
-o 11
+o 32
 suid 19,0
 )
 )
@@ -10063,7 +10062,7 @@ m 4
 decl (Decl
 n "SEXT5out"
 t "LC3b_word"
-o 11
+o 27
 suid 20,0
 )
 )
@@ -10075,7 +10074,7 @@ m 4
 decl (Decl
 n "SEXT6out"
 t "lc3b_word"
-o 12
+o 28
 suid 21,0
 )
 )
@@ -10087,7 +10086,7 @@ m 4
 decl (Decl
 n "ZEXT4out"
 t "lc3b_word"
-o 13
+o 29
 suid 22,0
 )
 )
@@ -10099,7 +10098,7 @@ m 4
 decl (Decl
 n "ADJ6out"
 t "LC3b_word"
-o 14
+o 19
 suid 23,0
 )
 )
@@ -10111,7 +10110,7 @@ m 4
 decl (Decl
 n "cctWordIn"
 t "lc3b_oword"
-o 15
+o 30
 suid 25,0
 )
 )
@@ -10123,7 +10122,7 @@ m 4
 decl (Decl
 n "ALUopBsel_from_CW2"
 t "lc3b_c_offset"
-o 16
+o 22
 suid 29,0
 )
 )
@@ -10135,7 +10134,7 @@ m 4
 decl (Decl
 n "sourceB"
 t "lc3b_word"
-o 17
+o 34
 suid 32,0
 )
 )
@@ -10147,7 +10146,7 @@ m 1
 decl (Decl
 n "STALL_ALU_L"
 t "std_logic"
-o 18
+o 15
 suid 35,0
 )
 )
@@ -10159,7 +10158,7 @@ m 4
 decl (Decl
 n "MULTDIVEN_L"
 t "std_logic"
-o 19
+o 24
 suid 37,0
 )
 )
@@ -10171,7 +10170,7 @@ m 4
 decl (Decl
 n "MultDivout"
 t "lc3b_word"
-o 20
+o 26
 suid 39,0
 )
 )
@@ -10183,7 +10182,7 @@ m 4
 decl (Decl
 n "ALUop"
 t "lc3b_aluop"
-o 22
+o 21
 suid 42,0
 )
 )
@@ -10206,7 +10205,7 @@ port (LogicalPort
 decl (Decl
 n "RESET_L"
 t "std_logic"
-o 24
+o 4
 suid 50,0
 )
 )
@@ -10217,7 +10216,7 @@ port (LogicalPort
 decl (Decl
 n "STALL_L"
 t "std_logic"
-o 26
+o 5
 suid 51,0
 )
 )
@@ -10229,7 +10228,7 @@ m 4
 decl (Decl
 n "MULTDIVEN_L_from_cw2"
 t "std_logic"
-o 19
+o 25
 suid 56,0
 )
 )
@@ -10241,7 +10240,7 @@ m 4
 decl (Decl
 n "ALUMuxout"
 t "lc3b_word"
-o 23
+o 20
 suid 57,0
 )
 )
@@ -10253,7 +10252,7 @@ m 1
 decl (Decl
 n "ALU3out"
 t "lc3b_word"
-o 26
+o 11
 suid 58,0
 )
 )
@@ -10265,7 +10264,7 @@ m 1
 decl (Decl
 n "Valid3out"
 t "std_logic"
-o 26
+o 16
 suid 59,0
 )
 )
@@ -10276,7 +10275,7 @@ port (LogicalPort
 decl (Decl
 n "clearValid"
 t "std_logic"
-o 31
+o 7
 suid 61,0
 )
 )
@@ -10288,7 +10287,7 @@ m 1
 decl (Decl
 n "regA3out"
 t "lc3b_word"
-o 26
+o 17
 suid 63,0
 )
 )
@@ -10300,7 +10299,7 @@ m 1
 decl (Decl
 n "regB3out"
 t "lc3b_word"
-o 26
+o 18
 suid 64,0
 )
 )
@@ -10312,7 +10311,7 @@ m 1
 decl (Decl
 n "PC3out"
 t "lc3b_word"
-o 26
+o 14
 suid 65,0
 )
 )
@@ -10324,7 +10323,7 @@ m 1
 decl (Decl
 n "IR3out"
 t "lc3b_word"
-o 26
+o 13
 suid 66,0
 )
 )
@@ -10336,7 +10335,7 @@ m 1
 decl (Decl
 n "CW3out"
 t "lc3b_word"
-o 26
+o 12
 suid 67,0
 )
 )
@@ -10436,163 +10435,163 @@ uid 872,0
 )
 *361 (MRCItem
 litem &322
-pos 7
+pos 18
 dimension 20
 uid 874,0
 )
 *362 (MRCItem
 litem &323
-pos 8
+pos 19
 dimension 20
 uid 876,0
 )
 *363 (MRCItem
 litem &324
-pos 9
+pos 20
 dimension 20
 uid 878,0
 )
 *364 (MRCItem
 litem &325
-pos 10
+pos 21
 dimension 20
 uid 880,0
 )
 *365 (MRCItem
 litem &326
-pos 11
+pos 22
 dimension 20
 uid 882,0
 )
 *366 (MRCItem
 litem &327
-pos 12
+pos 23
 dimension 20
 uid 884,0
 )
 *367 (MRCItem
 litem &328
-pos 13
+pos 24
 dimension 20
 uid 886,0
 )
 *368 (MRCItem
 litem &329
-pos 14
+pos 25
 dimension 20
 uid 888,0
 )
 *369 (MRCItem
 litem &330
-pos 15
+pos 26
 dimension 20
 uid 890,0
 )
 *370 (MRCItem
 litem &331
-pos 16
+pos 27
 dimension 20
 uid 892,0
 )
 *371 (MRCItem
 litem &332
-pos 17
+pos 7
 dimension 20
 uid 894,0
 )
 *372 (MRCItem
 litem &333
-pos 18
+pos 28
 dimension 20
 uid 896,0
 )
 *373 (MRCItem
 litem &334
-pos 19
+pos 29
 dimension 20
 uid 898,0
 )
 *374 (MRCItem
 litem &335
-pos 20
+pos 30
 dimension 20
 uid 902,0
 )
 *375 (MRCItem
 litem &336
-pos 21
+pos 31
 dimension 20
 uid 904,0
 )
 *376 (MRCItem
 litem &337
-pos 22
+pos 8
 dimension 20
 uid 906,0
 )
 *377 (MRCItem
 litem &338
-pos 23
+pos 9
 dimension 20
 uid 908,0
 )
 *378 (MRCItem
 litem &339
-pos 24
+pos 32
 dimension 20
 uid 918,0
 )
 *379 (MRCItem
 litem &340
-pos 25
+pos 33
 dimension 20
 uid 920,0
 )
 *380 (MRCItem
 litem &341
-pos 26
+pos 10
 dimension 20
 uid 1436,0
 )
 *381 (MRCItem
 litem &342
-pos 27
+pos 11
 dimension 20
 uid 1438,0
 )
 *382 (MRCItem
 litem &343
-pos 28
+pos 12
 dimension 20
 uid 1440,0
 )
 *383 (MRCItem
 litem &344
-pos 29
+pos 13
 dimension 20
 uid 1442,0
 )
 *384 (MRCItem
 litem &345
-pos 30
+pos 14
 dimension 20
 uid 1444,0
 )
 *385 (MRCItem
 litem &346
-pos 31
+pos 15
 dimension 20
 uid 1446,0
 )
 *386 (MRCItem
 litem &347
-pos 32
+pos 16
 dimension 20
 uid 1448,0
 )
 *387 (MRCItem
 litem &348
-pos 33
+pos 17
 dimension 20
 uid 1450,0
 )
