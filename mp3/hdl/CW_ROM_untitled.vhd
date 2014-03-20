@@ -18,7 +18,7 @@ ENTITY CW_ROM IS
    PORT( 
       OPCODE : IN     LC3B_OPCODE;
       clk    : IN     std_logic;
-      CW1out : OUT    lc3b_word
+      CW1out : OUT    LC3B_DWORD
    );
 
 -- Declarations
@@ -29,41 +29,41 @@ END CW_ROM ;
 ARCHITECTURE untitled OF CW_ROM IS
 BEGIN
   controlROM : PROCESS(OPCODE)
-  VARIABLE cword_out : lc3b_word;
+  VARIABLE cword_out : lc3b_dword;
     BEGIN
         CASE OPCODE is
           when "0000" =>
-            cword_out := x"0000";
+            cword_out := x"00000000";
           when "0001" =>
-            cword_out := x"0000";
+            cword_out := x"00000000";
           when "0010" =>
-            cword_out := x"0000";
+            cword_out := x"00000000";
           when "0011" =>
-            cword_out := x"0000";
+            cword_out := x"00000000";
           when "0100" =>
-            cword_out := x"0000";
+            cword_out := x"00000000";
           when "0101" =>
-            cword_out := x"0000";
+            cword_out := x"00000000";
           when "0110" =>
-            cword_out := x"0000";
+            cword_out := x"00000000";
           when "0111" =>
-            cword_out := x"0000";
+            cword_out := x"00000000";
           when "1000" =>
-            cword_out := x"0000";
+            cword_out := x"00000000";
           when "1001" =>
-            cword_out := x"0000";
+            cword_out := x"00000000";
           when "1010" =>
-            cword_out := x"0000";
+            cword_out := x"00000000";
           when "1011" =>
-            cword_out := x"0000";
+            cword_out := x"00000000";
           when "1100" =>
-            cword_out := x"0000";
+            cword_out := x"00000000";
           when "1101" =>
-            cword_out := x"0000";
+            cword_out := x"00000000";
           when "1110" =>
-            cword_out := x"0000";
+            cword_out := x"00000000";
           when "1111" =>
-            cword_out := x"0000";
+            cword_out := x"00000000";
           when others =>
             NULL;   
         end CASE;

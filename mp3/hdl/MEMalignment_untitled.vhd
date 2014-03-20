@@ -17,7 +17,6 @@ USE ece411.LC3b_types.all;
 ENTITY MEMalign IS
    PORT( 
       ADDRESS : IN     LC3b_word;
-      clk     : IN     std_logic;
       M_align : OUT    std_logic
    );
 

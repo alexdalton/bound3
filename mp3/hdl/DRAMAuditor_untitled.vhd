@@ -2,14 +2,15 @@
 -- VHDL Architecture ece411.DRAMAuditor.untitled
 --
 -- Created:
---          by - buris2.ews (gelib-057-31.ews.illinois.edu)
---          at - 16:07:21 02/02/14
+--          by - anbrown2.stdt (eelnx6.ews.illinois.edu)
+--          at - 13:20:49 08/25/10
 --
--- using Mentor Graphics HDL Designer(TM) 2012.1 (Build 6)
+-- using Mentor Graphics HDL Designer(TM) 2005.3 (Build 75)
 --
 LIBRARY ieee;
 USE ieee.std_logic_1164.all;
 USE ieee.NUMERIC_STD.all;
+
 LIBRARY ece411;
 USE ece411.LC3b_types.all;
 
@@ -19,7 +20,8 @@ ENTITY DRAMAuditor IS
       MREAD_L   : IN     std_logic;
       MWRITEH_L : IN     std_logic;
       MWRITEL_L : IN     std_logic;
-      RESET_L   : IN     std_logic
+      RESET_L   : IN     std_logic;
+      clk       : IN     std_logic
    );
 
 -- Declarations
@@ -38,13 +40,13 @@ BEGIN
       -- resetting
       ASSERT TRUE;
     ELSIF ((INT_ADDRESS >= 0) AND (INT_ADDRESS <= 4095)) THEN
-      IF (MWRITEH_L'EVENT AND (MWRITEH_L = '0') AND (MWRITEH_L'LAST_VALUE /= '1')) THEN
+      IF (MWRITEH_L'EVENT AND (MWRITEH_L = '0') AND (MWRITEL_L'LAST_VALUE /= '1')) THEN
         ASSERT FALSE
         REPORT "MEMORY WRITE HI-LO TIMING ERROR"
         SEVERITY FAILURE;
       END IF;
     
-      IF (MWRITEL_L'EVENT AND (MWRITEL_L = '0') AND (MWRITEL_L'LAST_VALUE /= '1')) THEN
+      IF (MWRITEL_L'EVENT AND (MWRITEL_L = '0') AND (MWRITEH_L'LAST_VALUE /= '1')) THEN
         ASSERT FALSE 
         REPORT "MEMORY WRITE LO-HI TIMING ERROR"
         SEVERITY FAILURE;
@@ -96,5 +98,4 @@ BEGIN
     END IF;
   END PROCESS;
 END ARCHITECTURE untitled;
-
 

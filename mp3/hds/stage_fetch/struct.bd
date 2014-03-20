@@ -17,7 +17,7 @@ unitName "LC3b_types"
 ]
 instances [
 (Instance
-name "U_0"
+name "aPlus2"
 duLibraryName "ece411"
 duName "Plus2"
 elements [
@@ -26,7 +26,7 @@ mwi 0
 uid 223,0
 )
 (Instance
-name "U_1"
+name "PCMUX"
 duLibraryName "ece411"
 duName "WordMux2"
 elements [
@@ -130,19 +130,19 @@ value "/home/adalton2/ece411/bound3/mp3/hds/stage_fetch"
 )
 (vvPair
 variable "date"
-value "03/19/14"
+value "03/20/14"
 )
 (vvPair
 variable "day"
-value "Wed"
+value "Thu"
 )
 (vvPair
 variable "day_long"
-value "Wednesday"
+value "Thursday"
 )
 (vvPair
 variable "dd"
-value "19"
+value "20"
 )
 (vvPair
 variable "entity_name"
@@ -170,7 +170,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "gelib-057-27.ews.illinois.edu"
+value "gelib-057-31.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -179,6 +179,10 @@ value "VHDL"
 (vvPair
 variable "library"
 value "ece411"
+)
+(vvPair
+variable "library_downstream_HdsLintPlugin"
+value "$HDS_PROJECT_DIR/ece411/designcheck"
 )
 (vvPair
 variable "library_downstream_ModelSimCompiler"
@@ -214,7 +218,7 @@ value "<Undefined Variable>"
 )
 (vvPair
 variable "project_name"
-value "ece411_mp3"
+value "ece411"
 )
 (vvPair
 variable "series"
@@ -262,7 +266,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "22:13:15"
+value "01:32:16"
 )
 (vvPair
 variable "unit"
@@ -474,7 +478,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "courier,8,0"
 )
-xt "53200,46050,58700,46950"
+xt "53200,46050,56200,46950"
 st "
 %project_name
 "
@@ -966,8 +970,8 @@ uid 228,0
 va (VaSet
 font "courier,8,1"
 )
-xt "17000,3800,18500,4700"
-st "U_0"
+xt "17000,3800,20000,4700"
+st "aPlus2"
 blo "17000,4500"
 tm "InstanceNameMgr"
 )
@@ -1213,8 +1217,8 @@ uid 282,0
 va (VaSet
 font "courier,8,1"
 )
-xt "30750,16900,32250,17800"
-st "U_1"
+xt "30750,16900,33250,17800"
+st "PCMUX"
 blo "30750,17600"
 tm "InstanceNameMgr"
 )
@@ -1502,7 +1506,7 @@ font "courier,8,0"
 )
 xt "22200,27200,35200,29000"
 st "
-ADDRESS <= PC1out;
+ADDRESS1 <= PC1out;
 MREADI_L <= not(STALL_L);
 "
 tm "HdlTextMgr"
@@ -2565,9 +2569,8 @@ vasetType 1
 fg "49152,49152,49152"
 )
 xt "45250,20250,46750,21750"
-iconName "VhdlFileViewIcon.png"
-iconMaskName "VhdlFileViewIcon.msk"
-ftype 10
+iconName "UnknownFile.png"
+iconMaskName "UnknownFile.msk"
 )
 ordering 1
 sed 1
@@ -2945,9 +2948,8 @@ vasetType 1
 fg "49152,49152,49152"
 )
 xt "45250,30250,46750,31750"
-iconName "VhdlFileViewIcon.png"
-iconMaskName "VhdlFileViewIcon.msk"
-ftype 10
+iconName "UnknownFile.png"
+iconMaskName "UnknownFile.msk"
 )
 ordering 1
 sed 1
@@ -3323,9 +3325,8 @@ vasetType 1
 fg "49152,49152,49152"
 )
 xt "45250,41250,46750,42750"
-iconName "VhdlFileViewIcon.png"
-iconMaskName "VhdlFileViewIcon.msk"
-ftype 10
+iconName "UnknownFile.png"
+iconMaskName "UnknownFile.msk"
 )
 ordering 1
 sed 1
@@ -4450,11 +4451,11 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "1914,27,3846,1059"
-viewArea "-20893,-2554,73102,46341"
+viewArea "-18101,-96,95062,58771"
 cachedDiagramExtent "500,0,69000,57300"
 hasePageBreakOrigin 1
-pageBreakOrigin "-69000,0"
-lastUid 1758,0
+pageBreakOrigin "0,0"
+lastUid 1860,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

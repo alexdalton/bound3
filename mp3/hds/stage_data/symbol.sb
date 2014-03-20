@@ -25,7 +25,7 @@ appVersion "2012.1 (Build 6)"
 model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
-suid 37,0
+suid 38,0
 usingSuid 1
 emptyRow *1 (LEmptyRow
 )
@@ -79,8 +79,8 @@ uid 476,0
 port (LogicalPort
 decl (Decl
 n "Control_word"
-t "lc3b_word"
-o 1
+t "lc3b_dword"
+o 2
 suid 27,0
 )
 )
@@ -91,7 +91,7 @@ port (LogicalPort
 m 1
 decl (Decl
 n "Control_word_out"
-t "lc3b_word"
+t "lc3b_dword"
 o 9
 suid 28,0
 )
@@ -103,7 +103,7 @@ port (LogicalPort
 decl (Decl
 n "IR"
 t "lc3b_word"
-o 2
+o 3
 suid 29,0
 )
 )
@@ -126,7 +126,7 @@ port (LogicalPort
 decl (Decl
 n "PC"
 t "lc3b_word"
-o 3
+o 4
 suid 31,0
 )
 )
@@ -149,7 +149,7 @@ port (LogicalPort
 decl (Decl
 n "RESET_L"
 t "std_logic"
-o 4
+o 5
 suid 33,0
 )
 )
@@ -160,7 +160,7 @@ port (LogicalPort
 decl (Decl
 n "STALL_L"
 t "std_logic"
-o 5
+o 6
 suid 34,0
 )
 )
@@ -171,7 +171,7 @@ port (LogicalPort
 decl (Decl
 n "Valid"
 t "std_logic"
-o 6
+o 7
 suid 35,0
 )
 )
@@ -192,13 +192,13 @@ uid 496,0
 *25 (LogPort
 port (LogicalPort
 decl (Decl
-n "clearValid"
+n "ClearValid"
 t "std_logic"
-o 7
-suid 37,0
+o 1
+suid 38,0
 )
 )
-uid 706,0
+uid 828,0
 )
 ]
 )
@@ -320,7 +320,7 @@ uid 497,0
 litem &25
 pos 11
 dimension 20
-uid 705,0
+uid 827,0
 )
 ]
 )
@@ -591,19 +591,19 @@ value "/home/adalton2/ece411/bound3/mp3/hds/stage_data"
 )
 (vvPair
 variable "date"
-value "03/19/14"
+value "03/20/14"
 )
 (vvPair
 variable "day"
-value "Wed"
+value "Thu"
 )
 (vvPair
 variable "day_long"
-value "Wednesday"
+value "Thursday"
 )
 (vvPair
 variable "dd"
-value "19"
+value "20"
 )
 (vvPair
 variable "entity_name"
@@ -631,7 +631,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "gelib-057-27.ews.illinois.edu"
+value "gelib-057-31.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -640,6 +640,10 @@ value "VHDL"
 (vvPair
 variable "library"
 value "ece411"
+)
+(vvPair
+variable "library_downstream_HdsLintPlugin"
+value "$HDS_PROJECT_DIR/ece411/designcheck"
 )
 (vvPair
 variable "library_downstream_ModelSimCompiler"
@@ -675,7 +679,7 @@ value "<Undefined Variable>"
 )
 (vvPair
 variable "project_name"
-value "ece411_mp3"
+value "ece411"
 )
 (vvPair
 variable "series"
@@ -723,7 +727,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "21:33:35"
+value "00:47:30"
 )
 (vvPair
 variable "unit"
@@ -790,8 +794,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,8100,63500,9000"
-st "clk              : IN     std_logic  ;
-"
+st "clk              : IN     std_logic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -834,15 +837,14 @@ uid 430,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,1800,63500,2700"
-st "Control_word     : IN     lc3b_word  ;
-"
+xt "44000,2700,64000,3600"
+st "Control_word     : IN     lc3b_dword  ;"
 )
 thePort (LogicalPort
 decl (Decl
 n "Control_word"
-t "lc3b_word"
-o 1
+t "lc3b_dword"
+o 2
 suid 27,0
 )
 )
@@ -880,15 +882,14 @@ uid 435,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,9000,63500,9900"
-st "Control_word_out : OUT    lc3b_word  ;
-"
+xt "44000,9000,64000,9900"
+st "Control_word_out : OUT    lc3b_dword  ;"
 )
 thePort (LogicalPort
 m 1
 decl (Decl
 n "Control_word_out"
-t "lc3b_word"
+t "lc3b_dword"
 o 9
 suid 28,0
 )
@@ -926,15 +927,14 @@ uid 440,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,2700,63500,3600"
-st "IR               : IN     lc3b_word  ;
-"
+xt "44000,3600,63500,4500"
+st "IR               : IN     lc3b_word  ;"
 )
 thePort (LogicalPort
 decl (Decl
 n "IR"
 t "lc3b_word"
-o 2
+o 3
 suid 29,0
 )
 )
@@ -973,8 +973,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,9900,63500,10800"
-st "IR_out           : OUT    lc3b_word  ;
-"
+st "IR_out           : OUT    lc3b_word  ;"
 )
 thePort (LogicalPort
 m 1
@@ -1018,15 +1017,14 @@ uid 450,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,3600,63500,4500"
-st "PC               : IN     lc3b_word  ;
-"
+xt "44000,4500,63500,5400"
+st "PC               : IN     lc3b_word  ;"
 )
 thePort (LogicalPort
 decl (Decl
 n "PC"
 t "lc3b_word"
-o 3
+o 4
 suid 31,0
 )
 )
@@ -1065,8 +1063,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,10800,63500,11700"
-st "PC_out           : OUT    lc3b_word  ;
-"
+st "PC_out           : OUT    lc3b_word  ;"
 )
 thePort (LogicalPort
 m 1
@@ -1110,15 +1107,14 @@ uid 460,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,4500,63500,5400"
-st "RESET_L          : IN     std_logic  ;
-"
+xt "44000,5400,63500,6300"
+st "RESET_L          : IN     std_logic  ;"
 )
 thePort (LogicalPort
 decl (Decl
 n "RESET_L"
 t "std_logic"
-o 4
+o 5
 suid 33,0
 )
 )
@@ -1155,15 +1151,14 @@ uid 465,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,5400,63500,6300"
-st "STALL_L          : IN     std_logic  ;
-"
+xt "44000,6300,63500,7200"
+st "STALL_L          : IN     std_logic  ;"
 )
 thePort (LogicalPort
 decl (Decl
 n "STALL_L"
 t "std_logic"
-o 5
+o 6
 suid 34,0
 )
 )
@@ -1200,15 +1195,14 @@ uid 470,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,6300,63500,7200"
-st "Valid            : IN     std_logic  ;
-"
+xt "44000,7200,63500,8100"
+st "Valid            : IN     std_logic  ;"
 )
 thePort (LogicalPort
 decl (Decl
 n "Valid"
 t "std_logic"
-o 6
+o 7
 suid 35,0
 )
 )
@@ -1247,8 +1241,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,11700,62500,12600"
-st "Valid_out        : OUT    std_logic 
-"
+st "Valid_out        : OUT    std_logic "
 )
 thePort (LogicalPort
 m 1
@@ -1261,10 +1254,10 @@ suid 36,0
 )
 )
 *87 (CptPort
-uid 707,0
+uid 829,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 708,0
+uid 830,0
 ro 90
 va (VaSet
 vasetType 1
@@ -1273,35 +1266,34 @@ fg "0,65535,0"
 xt "12250,10625,13000,11375"
 )
 tg (CPTG
-uid 709,0
+uid 831,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 710,0
+uid 832,0
 va (VaSet
 font "courier,8,0"
 )
 xt "14000,10550,19500,11450"
-st "clearValid"
+st "ClearValid"
 blo "14000,11250"
 tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 711,0
+uid 833,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,7200,63500,8100"
-st "clearValid       : IN     std_logic  ;
-"
+xt "44000,1800,63500,2700"
+st "ClearValid       : IN     std_logic  ;"
 )
 thePort (LogicalPort
 decl (Decl
-n "clearValid"
+n "ClearValid"
 t "std_logic"
-o 7
-suid 37,0
+o 1
+suid 38,0
 )
 )
 )
@@ -1550,7 +1542,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "courier,8,0"
 )
-xt "53200,46050,58700,46950"
+xt "53200,46050,56200,46950"
 st "
 %project_name
 "
@@ -2017,7 +2009,7 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 780,0
+lastUid 948,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol"

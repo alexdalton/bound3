@@ -95,12 +95,15 @@ DESIGN stage_writeback
 VIEW struct.bd
 NO_GRAPHIC 68
 LIBRARY ece411
-DESIGN stage_writeback
-VIEW struct
+DESIGN @c@w4sig_ripper
+VIEW untitled
 GRAPHIC 629,0 70 0 
 DESIGN stage_writeback
 VIEW struct.bd
 GRAPHIC 641,0 72 0 
+DESIGN stage_writeback
+VIEW struct.bd
+GRAPHIC 228,0 73 0 
 DESIGN stage_writeback
 VIEW struct.bd
 GRAPHIC 671,0 74 0 
@@ -110,9 +113,6 @@ GRAPHIC 169,0 75 0
 DESIGN stage_writeback
 VIEW struct.bd
 GRAPHIC 71,0 76 0 
-DESIGN stage_writeback
-VIEW struct.bd
-NO_GRAPHIC 77
 DESIGN stage_writeback
 VIEW struct.bd
 GRAPHIC 649,0 79 0 
@@ -145,25 +145,25 @@ VIEW struct.bd
 GRAPHIC 577,0 94 0 
 DESIGN stage_data
 VIEW symbol.sb
-GRAPHIC 426,0 96 0 
+GRAPHIC 829,0 96 0 
 DESIGN stage_data
 VIEW symbol.sb
-GRAPHIC 436,0 97 0 
+GRAPHIC 426,0 97 0 
 DESIGN stage_data
 VIEW symbol.sb
-GRAPHIC 446,0 98 0 
+GRAPHIC 436,0 98 0 
 DESIGN stage_data
 VIEW symbol.sb
-GRAPHIC 456,0 99 0 
+GRAPHIC 446,0 99 0 
 DESIGN stage_data
 VIEW symbol.sb
-GRAPHIC 461,0 100 0 
+GRAPHIC 456,0 100 0 
 DESIGN stage_data
 VIEW symbol.sb
-GRAPHIC 466,0 101 0 
+GRAPHIC 461,0 101 0 
 DESIGN stage_data
 VIEW symbol.sb
-GRAPHIC 707,0 102 0 
+GRAPHIC 466,0 102 0 
 DESIGN stage_data
 VIEW symbol.sb
 GRAPHIC 421,0 103 0 
@@ -227,25 +227,25 @@ VIEW struct.bd
 GRAPHIC 577,0 144 0 
 DESIGN stage_writeback
 VIEW struct.bd
-GRAPHIC 43,0 146 0 
+GRAPHIC 29,0 146 0 
 DESIGN stage_writeback
 VIEW struct.bd
-GRAPHIC 85,0 147 0 
+GRAPHIC 43,0 147 0 
 DESIGN stage_writeback
 VIEW struct.bd
-GRAPHIC 113,0 148 0 
+GRAPHIC 85,0 148 0 
 DESIGN stage_writeback
 VIEW struct.bd
-GRAPHIC 613,0 149 0 
+GRAPHIC 113,0 149 0 
 DESIGN stage_writeback
 VIEW struct.bd
-GRAPHIC 621,0 150 0 
+GRAPHIC 613,0 150 0 
 DESIGN stage_writeback
 VIEW struct.bd
-GRAPHIC 211,0 151 0 
+GRAPHIC 621,0 151 0 
 DESIGN stage_writeback
 VIEW struct.bd
-GRAPHIC 29,0 152 0 
+GRAPHIC 211,0 152 0 
 DESIGN stage_writeback
 VIEW struct.bd
 GRAPHIC 605,0 153 0 

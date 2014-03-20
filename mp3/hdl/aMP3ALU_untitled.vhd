@@ -35,7 +35,7 @@ BEGIN
     BEGIN
         case ALUop is
             when alu_add =>
-                temp := regA2out + sourceB;
+                temp := std_logic_vector(signed(regA2out) + signed(sourceB));
             when alu_and =>
                 temp := (regA2out AND sourceB);
             when alu_not =>

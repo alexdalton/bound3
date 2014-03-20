@@ -17,7 +17,6 @@ USE ece411.LC3b_types.all;
 ENTITY IRnzp_ripper IS
    PORT( 
       IR3out : IN     lc3b_word;
-      clk    : IN     std_logic;
       NZPin  : OUT    LC3b_CC
    );
 
@@ -28,6 +27,6 @@ END IRnzp_ripper ;
 --
 ARCHITECTURE untitled OF IRnzp_ripper IS
 BEGIN
-  NZP <= IR3out(11 DOWNTO 9);
+  NZPin <= IR3out(11 DOWNTO 9);
 END ARCHITECTURE untitled;
 

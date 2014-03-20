@@ -17,7 +17,6 @@ USE ece411.LC3b_types.all;
 ENTITY generateCC IS
    PORT( 
       CCdata   : IN     LC3b_word;
-      clk      : IN     std_logic;
       genCCout : OUT    LC3b_CC
    );
 
