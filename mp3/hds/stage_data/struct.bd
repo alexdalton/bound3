@@ -229,7 +229,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "21:17:36"
+value "21:33:35"
 )
 (vvPair
 variable "unit"
@@ -364,7 +364,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "courier,8,0"
 )
-xt "26200,50050,38700,50950"
+xt "26200,50050,39700,50950"
 st "
 by %user on %dd %month %year
 "
@@ -1025,7 +1025,7 @@ tm "WireNameMgr"
 uid 227,0
 decl (Decl
 n "Control_word_out"
-t "std_logic"
+t "lc3b_word"
 o 8
 suid 7,0
 )
@@ -1035,7 +1035,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "48000,10000,62500,10900"
-st "Control_word_out : std_logic
+st "Control_word_out : lc3b_word
 "
 )
 )
@@ -3386,11 +3386,11 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "-6,2,1926,1082"
-viewArea "-37300,-1600,58404,50872"
+viewArea "-37300,-1600,53277,48061"
 cachedDiagramExtent "-15500,-300,63000,55300"
 hasePageBreakOrigin 1
 pageBreakOrigin "-75000,-51000"
-lastUid 733,0
+lastUid 784,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -4564,7 +4564,7 @@ port (LogicalPort
 m 1
 decl (Decl
 n "Control_word_out"
-t "std_logic"
+t "lc3b_word"
 o 8
 suid 7,0
 )

@@ -91,7 +91,7 @@ port (LogicalPort
 m 1
 decl (Decl
 n "Control_word_out"
-t "std_logic"
+t "lc3b_word"
 o 9
 suid 28,0
 )
@@ -723,7 +723,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "21:17:36"
+value "21:33:35"
 )
 (vvPair
 variable "unit"
@@ -881,14 +881,14 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,9000,63500,9900"
-st "Control_word_out : OUT    std_logic  ;
+st "Control_word_out : OUT    lc3b_word  ;
 "
 )
 thePort (LogicalPort
 m 1
 decl (Decl
 n "Control_word_out"
-t "std_logic"
+t "lc3b_word"
 o 9
 suid 28,0
 )
@@ -1391,7 +1391,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "courier,8,0"
 )
-xt "32200,50050,44700,50950"
+xt "32200,50050,45700,50950"
 st "
 by %user on %dd %month %year
 "
@@ -2017,7 +2017,7 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 757,0
+lastUid 780,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol"
