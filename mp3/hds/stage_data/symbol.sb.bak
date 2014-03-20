@@ -215,7 +215,7 @@ font "courier,10,0"
 )
 emptyMRCItem *26 (MRCItem
 litem &1
-pos 3
+pos 11
 dimension 20
 )
 uid 82,0
@@ -439,7 +439,7 @@ font "courier,10,0"
 )
 emptyMRCItem *62 (MRCItem
 litem &49
-pos 3
+pos 0
 dimension 20
 )
 uid 110,0
@@ -542,11 +542,11 @@ value "/home/buris2/ece411/mp3/hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "/home/buris2/ece411/mp3/hds/stage_data/interface.info"
+value "/home/buris2/ece411/mp3/hds/stage_data/symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "/home/buris2/ece411/mp3/hds/stage_data/interface.user"
+value "/home/buris2/ece411/mp3/hds/stage_data/symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
@@ -558,7 +558,7 @@ value "HDL Designer"
 )
 (vvPair
 variable "arch_name"
-value "interface"
+value "symbol"
 )
 (vvPair
 variable "config"
@@ -598,15 +598,15 @@ value "<TBD>"
 )
 (vvPair
 variable "f"
-value "interface"
+value "symbol.sb"
 )
 (vvPair
 variable "f_logical"
-value "interface"
+value "symbol.sb"
 )
 (vvPair
 variable "f_noext"
-value "interface"
+value "symbol"
 )
 (vvPair
 variable "group"
@@ -646,11 +646,11 @@ value "March"
 )
 (vvPair
 variable "p"
-value "/home/buris2/ece411/mp3/hds/stage_data/interface"
+value "/home/buris2/ece411/mp3/hds/stage_data/symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "/home/buris2/ece411/mp3/hds/stage_data/interface"
+value "/home/buris2/ece411/mp3/hds/stage_data/symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -694,19 +694,19 @@ value "<TBD>"
 )
 (vvPair
 variable "this_ext"
-value "<TBD>"
+value "sb"
 )
 (vvPair
 variable "this_file"
-value "interface"
+value "symbol"
 )
 (vvPair
 variable "this_file_logical"
-value "interface"
+value "symbol"
 )
 (vvPair
 variable "time"
-value "19:46:38"
+value "19:57:53"
 )
 (vvPair
 variable "unit"
@@ -722,7 +722,7 @@ value "2012.1 (Build 6)"
 )
 (vvPair
 variable "view"
-value "interface"
+value "symbol"
 )
 (vvPair
 variable "year"
@@ -745,12 +745,11 @@ uid 421,0
 ps "OnEdgeStrategy"
 shape (Triangle
 uid 422,0
-ro 90
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "14250,10625,15000,11375"
+xt "16625,16000,17375,16750"
 )
 tg (CPTG
 uid 423,0
@@ -758,12 +757,14 @@ ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
 uid 424,0
+ro 270
 va (VaSet
+isHidden 1
 font "courier,8,0"
 )
-xt "16000,10550,17500,11450"
+xt "16550,13500,17450,15000"
 st "clk"
-blo "16000,11250"
+blo "17250,15000"
 tm "CptPortNameMgr"
 )
 )
@@ -803,6 +804,7 @@ stg "VerticalLayoutStrategy"
 f (Text
 uid 429,0
 va (VaSet
+isHidden 1
 font "courier,8,0"
 )
 xt "16000,6550,22500,7450"
@@ -847,6 +849,7 @@ stg "RightVerticalLayoutStrategy"
 f (Text
 uid 434,0
 va (VaSet
+isHidden 1
 font "courier,8,0"
 )
 xt "13500,6550,22000,7450"
@@ -893,6 +896,7 @@ stg "VerticalLayoutStrategy"
 f (Text
 uid 439,0
 va (VaSet
+isHidden 1
 font "courier,8,0"
 )
 xt "16000,7550,17000,8450"
@@ -937,6 +941,7 @@ stg "RightVerticalLayoutStrategy"
 f (Text
 uid 444,0
 va (VaSet
+isHidden 1
 font "courier,8,0"
 )
 xt "19000,7550,22000,8450"
@@ -983,6 +988,7 @@ stg "VerticalLayoutStrategy"
 f (Text
 uid 449,0
 va (VaSet
+isHidden 1
 font "courier,8,0"
 )
 xt "16000,8550,17000,9450"
@@ -1027,6 +1033,7 @@ stg "RightVerticalLayoutStrategy"
 f (Text
 uid 454,0
 va (VaSet
+isHidden 1
 font "courier,8,0"
 )
 xt "19000,8550,22000,9450"
@@ -1059,12 +1066,11 @@ uid 456,0
 ps "OnEdgeStrategy"
 shape (Triangle
 uid 457,0
-ro 90
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "14250,11625,15000,12375"
+xt "18625,16000,19375,16750"
 )
 tg (CPTG
 uid 458,0
@@ -1072,12 +1078,14 @@ ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
 uid 459,0
+ro 270
 va (VaSet
+isHidden 1
 font "courier,8,0"
 )
-xt "16000,11550,19500,12450"
+xt "18550,11500,19450,15000"
 st "RESET_L"
-blo "16000,12250"
+blo "19250,15000"
 tm "CptPortNameMgr"
 )
 )
@@ -1103,12 +1111,11 @@ uid 461,0
 ps "OnEdgeStrategy"
 shape (Triangle
 uid 462,0
-ro 90
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "14250,12625,15000,13375"
+xt "20625,16000,21375,16750"
 )
 tg (CPTG
 uid 463,0
@@ -1116,12 +1123,14 @@ ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
 uid 464,0
+ro 270
 va (VaSet
+isHidden 1
 font "courier,8,0"
 )
-xt "16000,12550,18500,13450"
+xt "20550,12500,21450,15000"
 st "STALL"
-blo "16000,13250"
+blo "21250,15000"
 tm "CptPortNameMgr"
 )
 )
@@ -1161,6 +1170,7 @@ stg "VerticalLayoutStrategy"
 f (Text
 uid 469,0
 va (VaSet
+isHidden 1
 font "courier,8,0"
 )
 xt "16000,9550,18500,10450"
@@ -1205,6 +1215,7 @@ stg "RightVerticalLayoutStrategy"
 f (Text
 uid 474,0
 va (VaSet
+isHidden 1
 font "courier,8,0"
 )
 xt "17500,9550,22000,10450"
@@ -1287,10 +1298,12 @@ elements [
 )
 portInstanceVisAsIs 1
 portInstanceVis (PortSigDisplay
+sN 0
 sTC 0
 sF 0
 )
 portVis (PortSigDisplay
+sN 0
 sTC 0
 sF 0
 )
@@ -1603,7 +1616,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "courier,8,0"
 )
-xt "32200,49050,46200,49950"
+xt "32200,49050,44700,49950"
 st "
 %library/%unit/%view
 "
@@ -1670,10 +1683,11 @@ tm "PackageList"
 )
 ]
 )
-windowSize "0,0,1015,690"
-viewArea "0,0,0,0"
-cachedDiagramExtent "0,0,0,0"
-pageBreakOrigin "0,0"
+windowSize "570,164,1585,854"
+viewArea "-3427,1405,33069,26611"
+cachedDiagramExtent "-18000,0,69000,51000"
+hasePageBreakOrigin 1
+pageBreakOrigin "-19000,0"
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -1942,6 +1956,8 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 566,0
-activeModelName "Symbol:CDM"
+lastUid 589,0
+okToSyncOnLoad 1
+OkToSyncGenericsOnLoad 1
+activeModelName "Symbol"
 )

@@ -16,7 +16,6 @@ USE ece411.LC3b_types.all;
 
 ENTITY NZPsplit IS
    PORT( 
-      clk    : IN     std_logic;
       dest   : IN     LC3b_reg;
       CheckN : OUT    std_logic;
       CheckP : OUT    std_logic;
