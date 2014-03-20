@@ -79,7 +79,7 @@ uid 476,0
 port (LogicalPort
 decl (Decl
 n "Control_word"
-t "std_logic"
+t "lc3b_word"
 o 1
 suid 27,0
 )
@@ -551,23 +551,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "/home/buris2/ece411/mp3/hdl"
+value "/home/adalton2/ece411/bound3/mp3/hdl"
 )
 (vvPair
 variable "HDSDir"
-value "/home/buris2/ece411/mp3/hds"
+value "/home/adalton2/ece411/bound3/mp3/hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "/home/buris2/ece411/mp3/hds/stage_data/symbol.sb.info"
+value "/home/adalton2/ece411/bound3/mp3/hds/stage_data/symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "/home/buris2/ece411/mp3/hds/stage_data/symbol.sb.user"
+value "/home/adalton2/ece411/bound3/mp3/hds/stage_data/symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "/home/buris2/ece411/mp3/hds"
+value "/home/adalton2/ece411/bound3/mp3/hds"
 )
 (vvPair
 variable "appl"
@@ -583,11 +583,11 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "/home/buris2/ece411/mp3/hds/stage_data"
+value "/home/adalton2/ece411/bound3/mp3/hds/stage_data"
 )
 (vvPair
 variable "d_logical"
-value "/home/buris2/ece411/mp3/hds/stage_data"
+value "/home/adalton2/ece411/bound3/mp3/hds/stage_data"
 )
 (vvPair
 variable "date"
@@ -631,7 +631,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "gelib-057-26.ews.illinois.edu"
+value "gelib-057-27.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -663,11 +663,11 @@ value "March"
 )
 (vvPair
 variable "p"
-value "/home/buris2/ece411/mp3/hds/stage_data/symbol.sb"
+value "/home/adalton2/ece411/bound3/mp3/hds/stage_data/symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "/home/buris2/ece411/mp3/hds/stage_data/symbol.sb"
+value "/home/adalton2/ece411/bound3/mp3/hds/stage_data/symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -691,7 +691,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_ModelSimPath"
-value "/software/mentor/ModelSim-SE-10.1d/modeltech/bin"
+value "<TBD>"
 )
 (vvPair
 variable "task_NC-SimPath"
@@ -699,7 +699,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_PrecisionRTLPath"
-value "/software/mentor/PS2012b/Mgc_home/bin"
+value "<TBD>"
 )
 (vvPair
 variable "task_QuestaSimPath"
@@ -723,7 +723,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "18:10:24"
+value "21:17:36"
 )
 (vvPair
 variable "unit"
@@ -731,7 +731,7 @@ value "stage_data"
 )
 (vvPair
 variable "user"
-value "buris2"
+value "adalton2"
 )
 (vvPair
 variable "version"
@@ -790,7 +790,8 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,8100,63500,9000"
-st "clk              : IN     std_logic  ;"
+st "clk              : IN     std_logic  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
@@ -834,12 +835,13 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,1800,63500,2700"
-st "Control_word     : IN     std_logic  ;"
+st "Control_word     : IN     lc3b_word  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
 n "Control_word"
-t "std_logic"
+t "lc3b_word"
 o 1
 suid 27,0
 )
@@ -879,7 +881,8 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,9000,63500,9900"
-st "Control_word_out : OUT    std_logic  ;"
+st "Control_word_out : OUT    std_logic  ;
+"
 )
 thePort (LogicalPort
 m 1
@@ -924,7 +927,8 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,2700,63500,3600"
-st "IR               : IN     lc3b_word  ;"
+st "IR               : IN     lc3b_word  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
@@ -969,7 +973,8 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,9900,63500,10800"
-st "IR_out           : OUT    lc3b_word  ;"
+st "IR_out           : OUT    lc3b_word  ;
+"
 )
 thePort (LogicalPort
 m 1
@@ -1014,7 +1019,8 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,3600,63500,4500"
-st "PC               : IN     lc3b_word  ;"
+st "PC               : IN     lc3b_word  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1059,7 +1065,8 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,10800,63500,11700"
-st "PC_out           : OUT    lc3b_word  ;"
+st "PC_out           : OUT    lc3b_word  ;
+"
 )
 thePort (LogicalPort
 m 1
@@ -1104,7 +1111,8 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,4500,63500,5400"
-st "RESET_L          : IN     std_logic  ;"
+st "RESET_L          : IN     std_logic  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1148,7 +1156,8 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,5400,63500,6300"
-st "STALL_L          : IN     std_logic  ;"
+st "STALL_L          : IN     std_logic  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1192,7 +1201,8 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,6300,63500,7200"
-st "Valid            : IN     std_logic  ;"
+st "Valid            : IN     std_logic  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1237,7 +1247,8 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,11700,62500,12600"
-st "Valid_out        : OUT    std_logic "
+st "Valid_out        : OUT    std_logic 
+"
 )
 thePort (LogicalPort
 m 1
@@ -1282,7 +1293,8 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,7200,63500,8100"
-st "clearValid       : IN     std_logic  ;"
+st "clearValid       : IN     std_logic  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
@@ -2005,7 +2017,7 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 734,0
+lastUid 757,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol"

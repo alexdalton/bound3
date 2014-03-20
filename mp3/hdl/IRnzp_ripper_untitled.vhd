@@ -18,7 +18,7 @@ ENTITY IRnzp_ripper IS
    PORT( 
       IR3out : IN     lc3b_word;
       clk    : IN     std_logic;
-      NZP    : OUT    LC3b_CC
+      NZPin  : OUT    LC3b_CC
    );
 
 -- Declarations

@@ -229,7 +229,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "18:10:18"
+value "18:10:24"
 )
 (vvPair
 variable "unit"
@@ -2451,16 +2451,16 @@ optionalChildren [
 uid 667,0
 sl 0
 ro 270
-xt "-2000,47625,-500,48375"
+xt "-9000,36625,-7500,37375"
 )
 (Line
 uid 668,0
 sl 0
 ro 270
-xt "-500,48000,0,48000"
+xt "-7500,37000,-7000,37000"
 pts [
-"-500,48000"
-"0,48000"
+"-7500,37000"
+"-7000,37000"
 ]
 )
 ]
@@ -2476,10 +2476,10 @@ uid 670,0
 va (VaSet
 font "courier,8,0"
 )
-xt "-8500,47550,-3000,48450"
+xt "-15500,36550,-10000,37450"
 st "clearValid"
 ju 2
-blo "-3000,48250"
+blo "-10000,37250"
 tm "WireNameMgr"
 )
 )
@@ -3237,10 +3237,10 @@ uid 674,0
 va (VaSet
 vasetType 3
 )
-xt "0,48000,6000,48000"
+xt "-7000,37000,-1000,37000"
 pts [
-"0,48000"
-"6000,48000"
+"-7000,37000"
+"-1000,37000"
 ]
 )
 start &70
@@ -3260,9 +3260,9 @@ va (VaSet
 isHidden 1
 font "courier,8,0"
 )
-xt "2000,47100,7500,48000"
+xt "-5000,36100,500,37000"
 st "clearValid"
-blo "2000,47800"
+blo "-5000,36800"
 tm "WireNameMgr"
 )
 )
@@ -3387,7 +3387,7 @@ associable 1
 )
 windowSize "-6,4,1926,1084"
 viewArea "-37300,-1600,65240,54620"
-cachedDiagramExtent "-9500,-300,63000,55300"
+cachedDiagramExtent "-15500,-300,63000,55300"
 hasePageBreakOrigin 1
 pageBreakOrigin "-75000,-51000"
 lastUid 682,0

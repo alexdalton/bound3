@@ -121,23 +121,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "/home/buris2/ece411/mp3/hdl"
+value "/home/adalton2/ece411/bound3/mp3/hdl"
 )
 (vvPair
 variable "HDSDir"
-value "/home/buris2/ece411/mp3/hds"
+value "/home/adalton2/ece411/bound3/mp3/hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "/home/buris2/ece411/mp3/hds/stage_fetch/struct.bd.info"
+value "/home/adalton2/ece411/bound3/mp3/hds/stage_fetch/struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "/home/buris2/ece411/mp3/hds/stage_fetch/struct.bd.user"
+value "/home/adalton2/ece411/bound3/mp3/hds/stage_fetch/struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "/home/buris2/ece411/mp3/hds"
+value "/home/adalton2/ece411/bound3/mp3/hds"
 )
 (vvPair
 variable "appl"
@@ -153,11 +153,11 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "/home/buris2/ece411/mp3/hds/stage_fetch"
+value "/home/adalton2/ece411/bound3/mp3/hds/stage_fetch"
 )
 (vvPair
 variable "d_logical"
-value "/home/buris2/ece411/mp3/hds/stage_fetch"
+value "/home/adalton2/ece411/bound3/mp3/hds/stage_fetch"
 )
 (vvPair
 variable "date"
@@ -201,7 +201,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "gelib-057-26.ews.illinois.edu"
+value "gelib-057-27.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -233,11 +233,11 @@ value "March"
 )
 (vvPair
 variable "p"
-value "/home/buris2/ece411/mp3/hds/stage_fetch/struct.bd"
+value "/home/adalton2/ece411/bound3/mp3/hds/stage_fetch/struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "/home/buris2/ece411/mp3/hds/stage_fetch/struct.bd"
+value "/home/adalton2/ece411/bound3/mp3/hds/stage_fetch/struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -261,7 +261,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_ModelSimPath"
-value "/software/mentor/ModelSim-SE-10.1d/modeltech/bin"
+value "<TBD>"
 )
 (vvPair
 variable "task_NC-SimPath"
@@ -269,7 +269,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_PrecisionRTLPath"
-value "/software/mentor/PS2012b/Mgc_home/bin"
+value "<TBD>"
 )
 (vvPair
 variable "task_QuestaSimPath"
@@ -293,7 +293,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "17:44:21"
+value "21:12:42"
 )
 (vvPair
 variable "unit"
@@ -301,7 +301,7 @@ value "stage_fetch"
 )
 (vvPair
 variable "user"
-value "buris2"
+value "adalton2"
 )
 (vvPair
 variable "version"
@@ -810,7 +810,8 @@ va (VaSet
 font "courier,8,0"
 )
 xt "-7000,35500,5500,36400"
-st "RESET_L      : std_logic"
+st "RESET_L      : std_logic
+"
 )
 )
 *16 (Net
@@ -827,7 +828,8 @@ va (VaSet
 font "courier,8,0"
 )
 xt "-7000,40000,5500,40900"
-st "clk          : std_logic"
+st "clk          : std_logic
+"
 )
 )
 *17 (Net
@@ -844,7 +846,8 @@ va (VaSet
 font "courier,8,0"
 )
 xt "-7000,36400,5500,37300"
-st "STALL_L      : std_logic"
+st "STALL_L      : std_logic
+"
 )
 )
 *18 (Net
@@ -861,7 +864,8 @@ va (VaSet
 font "courier,8,0"
 )
 xt "-7000,48100,9000,49000"
-st "SIGNAL PCLoad       : std_logic"
+st "SIGNAL PCLoad       : std_logic
+"
 )
 )
 *19 (SaComponent
@@ -1068,7 +1072,8 @@ va (VaSet
 font "courier,8,0"
 )
 xt "-7000,44500,5500,45400"
-st "PC1out       : lc3b_word"
+st "PC1out       : lc3b_word
+"
 )
 )
 *27 (SaComponent
@@ -1315,7 +1320,8 @@ va (VaSet
 font "courier,8,0"
 )
 xt "-7000,49900,9000,50800"
-st "SIGNAL PCPlus2out   : LC3b_word"
+st "SIGNAL PCPlus2out   : LC3b_word
+"
 )
 )
 *36 (Net
@@ -1332,7 +1338,8 @@ va (VaSet
 font "courier,8,0"
 )
 xt "-7000,49000,9000,49900"
-st "SIGNAL PCMuxSel     : std_logic"
+st "SIGNAL PCMuxSel     : std_logic
+"
 )
 )
 *37 (Net
@@ -1349,7 +1356,8 @@ va (VaSet
 font "courier,8,0"
 )
 xt "-7000,38200,5500,39100"
-st "calcPC       : LC3b_word"
+st "calcPC       : LC3b_word
+"
 )
 )
 *38 (PortIoIn
@@ -1457,7 +1465,8 @@ va (VaSet
 font "courier,8,0"
 )
 xt "-7000,40900,5500,41800"
-st "ADDRESS1     : lc3b_word"
+st "ADDRESS1     : lc3b_word
+"
 )
 )
 *41 (PortIoOut
@@ -1519,7 +1528,8 @@ va (VaSet
 font "courier,8,0"
 )
 xt "-7000,43600,5500,44500"
-st "MREADI_L     : std_logic"
+st "MREADI_L     : std_logic
+"
 )
 )
 *43 (HdlText
@@ -1625,7 +1635,8 @@ va (VaSet
 font "courier,8,0"
 )
 xt "-7000,50800,9000,51700"
-st "SIGNAL nextPC       : LC3b_word"
+st "SIGNAL nextPC       : LC3b_word
+"
 )
 )
 *48 (PortIoIn
@@ -1688,7 +1699,8 @@ va (VaSet
 font "courier,8,0"
 )
 xt "-7000,33700,5500,34600"
-st "CondBR       : std_logic"
+st "CondBR       : std_logic
+"
 )
 )
 *50 (PortIoIn
@@ -1751,7 +1763,8 @@ va (VaSet
 font "courier,8,0"
 )
 xt "-7000,32800,5500,33700"
-st "BTB_Taken    : std_logic"
+st "BTB_Taken    : std_logic
+"
 )
 )
 *52 (Blk
@@ -1847,7 +1860,8 @@ va (VaSet
 font "courier,8,0"
 )
 xt "-7000,51700,10000,52600"
-st "SIGNAL opcode       : lc3b_opcode"
+st "SIGNAL opcode       : lc3b_opcode
+"
 )
 )
 *57 (HdlText
@@ -1996,7 +2010,8 @@ va (VaSet
 font "courier,8,0"
 )
 xt "-7000,37300,5500,38200"
-st "UncondBranch : std_logic"
+st "UncondBranch : std_logic
+"
 )
 )
 *63 (Blk
@@ -2092,7 +2107,8 @@ va (VaSet
 font "courier,8,0"
 )
 xt "-7000,47200,9500,48100"
-st "SIGNAL ControlWord  : lc3b_oword"
+st "SIGNAL ControlWord  : lc3b_oword
+"
 )
 )
 *68 (Net
@@ -2109,7 +2125,8 @@ va (VaSet
 font "courier,8,0"
 )
 xt "-7000,42700,5500,43600"
-st "IR1out       : lc3b_word"
+st "IR1out       : lc3b_word
+"
 )
 )
 *69 (PortIoOut
@@ -2216,7 +2233,8 @@ va (VaSet
 font "courier,8,0"
 )
 xt "-7000,41800,6000,42700"
-st "CW1out       : lc3b_oword"
+st "CW1out       : lc3b_oword
+"
 )
 )
 *72 (PortIoIn
@@ -2324,7 +2342,8 @@ va (VaSet
 font "courier,8,0"
 )
 xt "-7000,39100,5500,40000"
-st "clearValid   : std_logic"
+st "clearValid   : std_logic
+"
 )
 )
 *75 (Net
@@ -2341,7 +2360,8 @@ va (VaSet
 font "courier,8,0"
 )
 xt "-7000,45400,5500,46300"
-st "Valid1out    : std_logic"
+st "Valid1out    : std_logic
+"
 )
 )
 *76 (PortIoOut
@@ -2449,7 +2469,8 @@ va (VaSet
 font "courier,8,0"
 )
 xt "-7000,34600,5500,35500"
-st "DataIn1      : lc3b_word"
+st "DataIn1      : lc3b_word
+"
 )
 )
 *79 (SaComponent
@@ -5597,12 +5618,12 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-8,2,1928,1088"
-viewArea "6920,12255,97709,62234"
+windowSize "1912,27,3848,1063"
+viewArea "-3816,-187,103247,55625"
 cachedDiagramExtent "-9000,0,103500,52600"
 hasePageBreakOrigin 1
 pageBreakOrigin "-69000,0"
-lastUid 1491,0
+lastUid 1580,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
