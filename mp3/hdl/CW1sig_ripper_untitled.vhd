@@ -19,7 +19,8 @@ ENTITY CW1sig_ripper IS
       CW1out  : IN     LC3B_DWORD;
       clk     : IN     std_logic;
       srcAsel : OUT    std_logic;
-      srcBsel : OUT    std_logic
+      srcBsel : OUT    std_logic;
+      branch  : OUT    std_logic
    );
 
 -- Declarations
@@ -31,5 +32,6 @@ ARCHITECTURE untitled OF CW1sig_ripper IS
 BEGIN
   srcAsel <= CW1out(31);
   srcBsel <= CW1out(30);
+  branch <= CW1out(12);
 END ARCHITECTURE untitled;
 

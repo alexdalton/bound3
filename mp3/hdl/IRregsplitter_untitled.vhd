@@ -22,6 +22,7 @@ ENTITY IRregsplitter IS
       IR8_6  : OUT    lc3b_reg;
       IR2_0  : OUT    lc3b_reg;
       OPCODE : OUT    LC3B_OPCODE;
+      OFFSET9 : OUT   LC3B_OFFSET9;
       const111 : OUT lc3b_reg
    );
 
@@ -36,6 +37,7 @@ BEGIN
   IR8_6  <= IR1out(8 DOWNTO 6);
   IR2_0  <= IR1out(2 DOWNTO 0);
   OPCODE <= IR1out(15 downto 12);
+  OFFSET9 <= IR1out(8 downto 0);
   const111 <= "111";
 END ARCHITECTURE untitled;
 
