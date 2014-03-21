@@ -25,7 +25,7 @@ appVersion "2012.1 (Build 6)"
 model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
-suid 4,0
+suid 8,0
 usingSuid 1
 emptyRow *1 (LEmptyRow
 )
@@ -69,11 +69,11 @@ port (LogicalPort
 decl (Decl
 n "ALUop"
 t "lc3b_aluop"
-o 21
-suid 1,0
+o 19
+suid 5,0
 )
 )
-uid 71,0
+uid 180,0
 )
 *15 (LogPort
 port (LogicalPort
@@ -81,11 +81,11 @@ m 1
 decl (Decl
 n "ALUout"
 t "lc3b_word"
-o 23
-suid 2,0
+o 20
+suid 6,0
 )
 )
-uid 73,0
+uid 182,0
 )
 *16 (LogPort
 port (LogicalPort
@@ -93,21 +93,21 @@ decl (Decl
 n "regA2out"
 t "lc3b_word"
 o 9
-suid 3,0
+suid 7,0
 )
 )
-uid 75,0
+uid 184,0
 )
 *17 (LogPort
 port (LogicalPort
 decl (Decl
 n "sourceB"
-t "lc3b_word"
-o 34
-suid 4,0
+t "LC3b_word"
+o 30
+suid 8,0
 )
 )
-uid 77,0
+uid 186,0
 )
 ]
 )
@@ -163,25 +163,25 @@ uid 99,0
 litem &14
 pos 0
 dimension 20
-uid 72,0
+uid 181,0
 )
 *24 (MRCItem
 litem &15
 pos 1
 dimension 20
-uid 74,0
+uid 183,0
 )
 *25 (MRCItem
 litem &16
 pos 2
 dimension 20
-uid 76,0
+uid 185,0
 )
 *26 (MRCItem
 litem &17
 pos 3
 dimension 20
-uid 78,0
+uid 187,0
 )
 ]
 )
@@ -452,19 +452,19 @@ value "/home/adalton2/ece411/bound3/mp3/hds/aMP3ALU"
 )
 (vvPair
 variable "date"
-value "03/19/14"
+value "03/20/14"
 )
 (vvPair
 variable "day"
-value "Wed"
+value "Thu"
 )
 (vvPair
 variable "day_long"
-value "Wednesday"
+value "Thursday"
 )
 (vvPair
 variable "dd"
-value "19"
+value "20"
 )
 (vvPair
 variable "entity_name"
@@ -492,7 +492,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "gelib-057-27.ews.illinois.edu"
+value "gelib-057-16.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -584,7 +584,7 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "21:45:12"
+value "22:07:11"
 )
 (vvPair
 variable "unit"
@@ -619,10 +619,10 @@ optionalChildren [
 uid 8,0
 optionalChildren [
 *60 (CptPort
-uid 51,0
+uid 160,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 52,0
+uid 161,0
 ro 180
 va (VaSet
 vasetType 1
@@ -631,11 +631,11 @@ fg "0,65535,0"
 xt "74625,17333,75375,18083"
 )
 tg (CPTG
-uid 53,0
+uid 162,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 54,0
+uid 163,0
 ro 270
 va (VaSet
 font "courier,8,0"
@@ -648,27 +648,28 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 55,0
+uid 164,0
 va (VaSet
 font "courier,8,0"
 )
 xt "44000,1800,60000,2700"
-st "ALUop    : IN     lc3b_aluop  ;"
+st "ALUop    : IN     lc3b_aluop  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
 n "ALUop"
 t "lc3b_aluop"
-o 21
-suid 1,0
+o 19
+suid 5,0
 )
 )
 )
 *61 (CptPort
-uid 56,0
+uid 165,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 57,0
+uid 166,0
 ro 90
 va (VaSet
 vasetType 1
@@ -677,11 +678,11 @@ fg "0,65535,0"
 xt "78000,20625,78750,21375"
 )
 tg (CPTG
-uid 58,0
+uid 167,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 59,0
+uid 168,0
 va (VaSet
 font "courier,8,0"
 )
@@ -693,28 +694,29 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 60,0
+uid 169,0
 va (VaSet
 font "courier,8,0"
 )
 xt "44000,4500,58500,5400"
-st "ALUout   : OUT    lc3b_word "
+st "ALUout   : OUT    lc3b_word 
+"
 )
 thePort (LogicalPort
 m 1
 decl (Decl
 n "ALUout"
 t "lc3b_word"
-o 23
-suid 2,0
+o 20
+suid 6,0
 )
 )
 )
 *62 (CptPort
-uid 61,0
+uid 170,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 62,0
+uid 171,0
 ro 90
 va (VaSet
 vasetType 1
@@ -723,11 +725,11 @@ fg "0,65535,0"
 xt "69250,17625,70000,18375"
 )
 tg (CPTG
-uid 63,0
+uid 172,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 64,0
+uid 173,0
 va (VaSet
 font "courier,8,0"
 )
@@ -738,27 +740,28 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 65,0
+uid 174,0
 va (VaSet
 font "courier,8,0"
 )
 xt "44000,2700,59500,3600"
-st "regA2out : IN     lc3b_word  ;"
+st "regA2out : IN     lc3b_word  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
 n "regA2out"
 t "lc3b_word"
 o 9
-suid 3,0
+suid 7,0
 )
 )
 )
 *63 (CptPort
-uid 66,0
+uid 175,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 67,0
+uid 176,0
 ro 90
 va (VaSet
 vasetType 1
@@ -767,11 +770,11 @@ fg "0,65535,0"
 xt "69250,23625,70000,24375"
 )
 tg (CPTG
-uid 68,0
+uid 177,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 69,0
+uid 178,0
 va (VaSet
 font "courier,8,0"
 )
@@ -782,19 +785,20 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 70,0
+uid 179,0
 va (VaSet
 font "courier,8,0"
 )
 xt "44000,3600,59500,4500"
-st "sourceB  : IN     lc3b_word  ;"
+st "sourceB  : IN     LC3b_word  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
 n "sourceB"
-t "lc3b_word"
-o 34
-suid 4,0
+t "LC3b_word"
+o 30
+suid 8,0
 )
 )
 )
@@ -1508,6 +1512,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 136,0
+lastUid 187,0
 activeModelName "Symbol:CDM"
 )

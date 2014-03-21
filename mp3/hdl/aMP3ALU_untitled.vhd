@@ -18,7 +18,7 @@ ENTITY aMP3ALU IS
    PORT( 
       ALUop    : IN     lc3b_aluop;
       regA2out : IN     lc3b_word;
-      sourceB  : IN     lc3b_word;
+      sourceB  : IN     LC3b_word;
       ALUout   : OUT    lc3b_word
    );
 
