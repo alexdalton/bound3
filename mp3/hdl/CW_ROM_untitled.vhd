@@ -2,7 +2,7 @@
 -- VHDL Architecture ece411.CW_ROM.untitled
 --
 -- Created:
---          by - adalton2.ews (gelib-057-27.ews.illinois.edu)
+--          by - lis2.ews (gelib-057-27.ews.illinois.edu)
 --          at - 22:17:42 03/19/14
 --
 -- using Mentor Graphics HDL Designer(TM) 2012.1 (Build 6)
