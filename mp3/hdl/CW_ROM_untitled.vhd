@@ -33,19 +33,19 @@ BEGIN
     BEGIN
         CASE OPCODE is  --X     X   XXX XXX 0   X   0   0   XX  00  X   0   X   0   XXXXXXXXXXX = do nothing. NOP = branch with nzp = 000.
           when OP_ADD =>--31    30  29  26  23  22  21  20  19  17  15  14  13  12  11
-            cword_out := "100000000010XX000100XXXXXXXXXXX";
+            cword_out := "100000000010XX000100XXXXXXXXXXXX";
           when OP_AND =>
-            cword_out := "100010000010XX000100XXXXXXXXXXX";
+            cword_out := "100010000010XX000100XXXXXXXXXXXX";
           when OP_NOT =>
-            cword_out := "100100000010XX000100XXXXXXXXXXX";
+            cword_out := "100100000010XX000100XXXXXXXXXXXX";
           when OP_BR =>
-            cword_out := "XXXXXXXX0X00XX00X0X1XXXXXXXXXXX";
+            cword_out := "XXXXXXXX0X00XX00X0X1XXXXXXXXXXXX";
           when OP_JSR =>
             cword_out := x"XXXXXXXX";
           when OP_JMP =>
             cword_out := x"XXXXXXXX";
           when OP_LDR =>
-            cword_out := "11000001111000000110XXXXXXXXXXX";
+            cword_out := "11000001111000000110XXXXXXXXXXXX";
           when OP_LDB =>
             cword_out := x"XXXXXXXX";
           when OP_LDI =>
@@ -57,7 +57,7 @@ BEGIN
           when OP_SHF =>
             cword_out := x"XXXXXXXX";
           when OP_STR =>
-            cword_out := "11000001010000110110XXXXXXXXXXX";
+            cword_out := "11000001010000110010XXXXXXXXXXXX";
           when OP_STB =>
             cword_out := x"XXXXXXXX";
           when OP_STI =>
@@ -65,7 +65,7 @@ BEGIN
           when OP_TRAP =>
             cword_out := x"XXXXXXXX";
           when others =>
-            cword_out := "XXXXXXXX0X00XX00X0X0XXXXXXXXXXX";   
+            cword_out := "XXXXXXXX0X00XX00X0X0XXXXXXXXXXXX";   
         end CASE;
         CW1out <= cword_out after DELAY_ROM;
   END PROCESS;

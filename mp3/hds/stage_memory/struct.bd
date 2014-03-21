@@ -338,7 +338,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "22:27:10"
+value "23:46:04"
 )
 (vvPair
 variable "unit"
@@ -820,16 +820,16 @@ optionalChildren [
 uid 109,0
 sl 0
 ro 270
-xt "52500,6625,54000,7375"
+xt "52500,7625,54000,8375"
 )
 (Line
 uid 110,0
 sl 0
 ro 270
-xt "52000,7000,52500,7000"
+xt "52000,8000,52500,8000"
 pts [
-"52000,7000"
-"52500,7000"
+"52000,8000"
+"52500,8000"
 ]
 )
 ]
@@ -845,9 +845,9 @@ uid 112,0
 va (VaSet
 font "courier,8,0"
 )
-xt "55000,6550,58500,7450"
+xt "55000,7550,58500,8450"
 st "DATAOUT"
-blo "55000,7250"
+blo "55000,8250"
 tm "WireNameMgr"
 )
 )
@@ -5564,7 +5564,7 @@ fg "65535,65535,65535"
 lineColor "0,0,32768"
 lineWidth 2
 )
-xt "42000,4000,53000,6000"
+xt "42000,4000,61000,7000"
 )
 oxt "0,0,18000,5000"
 text (MLText
@@ -5572,15 +5572,16 @@ uid 2734,0
 va (VaSet
 font "courier,8,0"
 )
-xt "42200,4200,52700,6000"
+xt "42200,4200,61200,6900"
 st "
 -- eb2 2
-DATAOUT <= regB3out;
+-- DATAOUT matches MWRITE
+DATAOUT <= regB3out after delay_MUX8;
 "
 tm "HdlTextMgr"
 wrapOption 3
-visibleHeight 2000
-visibleWidth 11000
+visibleHeight 3000
+visibleWidth 19000
 )
 )
 )
@@ -6767,10 +6768,10 @@ uid 114,0
 va (VaSet
 vasetType 3
 )
-xt "42000,7000,52000,7000"
+xt "42000,8000,52000,8000"
 pts [
-"52000,7000"
-"42000,7000"
+"52000,8000"
+"42000,8000"
 ]
 )
 start &15
@@ -6789,9 +6790,9 @@ va (VaSet
 isHidden 1
 font "courier,8,0"
 )
-xt "51000,6100,54500,7000"
+xt "51000,7100,54500,8000"
 st "DATAOUT"
-blo "51000,6800"
+blo "51000,7800"
 tm "WireNameMgr"
 )
 )
@@ -9155,11 +9156,11 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "1914,27,3846,1059"
-viewArea "-12333,10127,81662,57482"
+viewArea "6400,-7100,91850,35950"
 cachedDiagramExtent "-10000,0,169500,80000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-10000,0"
-lastUid 3829,0
+lastUid 3946,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
