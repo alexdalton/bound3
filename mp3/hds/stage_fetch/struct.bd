@@ -257,7 +257,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "21:17:28"
+value "22:52:46"
 )
 (vvPair
 variable "unit"
@@ -1481,7 +1481,7 @@ font "courier,8,0"
 xt "22200,27200,35200,29000"
 st "
 ADDRESS1 <= PC1out;
-MREADI_L <= not(STALL_L);
+MREADI_L <= NOT(STALL_L);
 "
 tm "HdlTextMgr"
 wrapOption 3
@@ -4295,11 +4295,11 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "1914,27,3846,1059"
-viewArea "-18100,-10704,81022,40858"
+viewArea "-6652,-1412,85634,45082"
 cachedDiagramExtent "500,0,69000,57300"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,0"
-lastUid 1990,0
+lastUid 2045,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

@@ -4,9 +4,9 @@ K3
 cModel Technology
 Z0 d/home/buris2/ece411
 T_opt
-V9HTUSEN=bH:3L_H2G064W0
+V1SodMno_0z;^WmkWe=dZV3
 04 7 6 work mp3_cpu struct 1
-=2-80c16ee65d6c-532bb2b1-e3d2a-5f45
+=13-80c16ee65d6c-532bbd43-89fea-5f45
 o-quiet +acc -auto_acc_if_foreign -work ece411 -L ece411 -L mp3lib
 n@_opt
 Z1 OE;O;10.1d;51
@@ -839,14 +839,14 @@ DEx6 ece411 3 way 0 22 9X7o5O0eABdGIHHoN2<JG2
 DEx6 ece411 11 tag_compare 0 22 ZcAl;fJePU;dHGOKHWW5d1
 Z120 DEx6 ece411 11 oword_split 0 22 CYCcP_<mFV_mT]^KnMO_F0
 DEx6 ece411 9 owordmux2 0 22 ?@de_4O@gmHdB7XK=@f8P2
-Z121 DEx6 ece411 3 or2 0 22 HKeXU<KbGOTgSdAeOIUfn0
+DEx6 ece411 3 or2 0 22 HKeXU<KbGOTgSdAeOIUfn0
 DEx6 ece411 5 nand3 0 22 elM7cch;IUO1BOlnE3`od0
-Z122 DEx6 ece411 5 nand2 0 22 zdgVW``fjQVC>ocYSJZUb0
+Z121 DEx6 ece411 5 nand2 0 22 zdgVW``fjQVC>ocYSJZUb0
 DEx6 ece411 4 mux2 0 22 C6D:?<UaoS4ZZE>`m@:ld2
 DEx6 ece411 14 bitarray_clked 0 22 O3naNEWOh=gQh8F`hl_f22
-Z123 DEx6 ece411 7 andinv2 0 22 USV:XU:i=b70<KLlQCSdf0
-Z124 DEx6 ece411 4 and3 0 22 I]ieMc2hOIf?_XnQ816Y43
-Z125 DEx6 ece411 4 and2 0 22 S;<FhR4Th>29J[k@=cWaW1
+Z122 DEx6 ece411 7 andinv2 0 22 USV:XU:i=b70<KLlQCSdf0
+Z123 DEx6 ece411 4 and3 0 22 I]ieMc2hOIf?_XnQ816Y43
+Z124 DEx6 ece411 4 and2 0 22 S;<FhR4Th>29J[k@=cWaW1
 DEx6 ece411 10 addr_split 0 22 o;>_PjJQMh@O17H>Gaaf^1
 DEx4 work 14 cache_datapath 0 22 L03[QP7ePUAXc<QcJMm<Q2
 R6
@@ -866,22 +866,22 @@ R18
 !s100 S]F3fN2l5F4;b_0IFofWk2
 !i10b 1
 Eclk_delay
-Z126 w1393575979
+Z125 w1393575979
 R6
 R7
 R8
 R9
 R10
-Z127 8/home/buris2/ece411/mp2.2/hdl/clk_delay_untitled.vhd
-Z128 F/home/buris2/ece411/mp2.2/hdl/clk_delay_untitled.vhd
+Z126 8/home/buris2/ece411/mp2.2/hdl/clk_delay_untitled.vhd
+Z127 F/home/buris2/ece411/mp2.2/hdl/clk_delay_untitled.vhd
 l0
 L17
 V348_4[OUP=TYLUH1;]B_X2
 R13
 33
-Z129 !s108 1393576124.207520
+Z128 !s108 1393576124.207520
 R45
-Z130 !s107 /home/buris2/ece411/mp2.2/hdl/clk_delay_untitled.vhd|
+Z129 !s107 /home/buris2/ece411/mp2.2/hdl/clk_delay_untitled.vhd|
 R17
 R18
 !s100 o<NIo`L3e6hOFKeDoUE_Q3
@@ -897,9 +897,9 @@ L28
 Vfh@nm:JSj`biAV>Km=N_71
 R13
 33
-R129
+R128
 R45
-R130
+R129
 R17
 R18
 !s100 R=@EclLg13QO?R^=BFh;e2
@@ -911,16 +911,16 @@ R7
 R8
 R9
 R26
-Z131 8/home/adalton2/ece411/bound3/mp3/hdl/CLKgen_untitled.vhd
-Z132 F/home/adalton2/ece411/bound3/mp3/hdl/CLKgen_untitled.vhd
+Z130 8/home/adalton2/ece411/bound3/mp3/hdl/CLKgen_untitled.vhd
+Z131 F/home/adalton2/ece411/bound3/mp3/hdl/CLKgen_untitled.vhd
 l0
 L17
 VKQk8Pa[5d4oZeGAJ9LdXP0
 R13
 33
-Z133 !s108 1395299225.057828
+Z132 !s108 1395299225.057828
 R15
-Z134 !s107 /home/adalton2/ece411/bound3/mp3/hdl/DRAM16_DP_UNTITLED.vhd|/home/adalton2/ece411/bound3/mp3/hdl/CLKgen_untitled.vhd|
+Z133 !s107 /home/adalton2/ece411/bound3/mp3/hdl/DRAM16_DP_UNTITLED.vhd|/home/adalton2/ece411/bound3/mp3/hdl/CLKgen_untitled.vhd|
 R17
 R18
 !s100 ePGR4]:<^DL5m_D3B`jUW2
@@ -936,30 +936,30 @@ L27
 VdhInjUL9fG`KeSO=T??OZ3
 R13
 33
-R133
+R132
 R15
-R134
+R133
 R17
 R18
 !s100 JTWmh<H^CKI2Q4PGg0Y3m2
 !i10b 1
 Econtrol
-Z135 w1392350502
+Z134 w1392350502
 R6
 R7
 R8
 R9
 R10
-Z136 8/home/buris2/ece411/mp2.2/hdl/control_fsm.vhd
-Z137 F/home/buris2/ece411/mp2.2/hdl/control_fsm.vhd
+Z135 8/home/buris2/ece411/mp2.2/hdl/control_fsm.vhd
+Z136 F/home/buris2/ece411/mp2.2/hdl/control_fsm.vhd
 l0
 L16
 VF_:KI5TgjFVT25UWo2=>`2
 R13
 32
-Z138 !s108 1392350627.184217
+Z137 !s108 1392350627.184217
 R113
-Z139 !s107 /home/buris2/ece411/mp2.2/hdl/mp2_cpu_struct.vhd|/home/buris2/ece411/mp2.2/hdl/control_fsm.vhd|
+Z138 !s107 /home/buris2/ece411/mp2.2/hdl/mp2_cpu_struct.vhd|/home/buris2/ece411/mp2.2/hdl/control_fsm.vhd|
 R115
 R18
 !s100 VMa5?SZ0XgoTM9H1CXO=E0
@@ -975,9 +975,9 @@ L72
 VaQ]dj:K2SJ:<F]GhCiXo;2
 R13
 32
-R138
+R137
 R113
-R139
+R138
 R115
 R18
 !s100 cMjTR8PK?T?XVEfMhmM=<2
@@ -993,26 +993,26 @@ L68
 V3_dQl_KiIJ]HeRVMiFZj[2
 R13
 32
-Z140 !s108 1391375589.236584
+Z139 !s108 1391375589.236584
 R113
-Z141 !s107 /home/buris2/ece411/mp2/hdl/mp1_cpu_struct.vhd|/home/buris2/ece411/mp2/hdl/control_struct.vhd|
+Z140 !s107 /home/buris2/ece411/mp2/hdl/mp1_cpu_struct.vhd|/home/buris2/ece411/mp2/hdl/control_struct.vhd|
 R115
 R18
 F/home/buris2/ece411/mp2/hdl/control_struct.vhd
-Z142 w1391375481
+Z141 w1391375481
 8/home/buris2/ece411/mp2/hdl/control_struct.vhd
 R20
 !s100 5>U@W`SWSF^SA5ZfWP7gQ1
 !i10b 1
 Ecw1sig_ripper
-Z143 w1395366772
+Z142 w1395366772
 R6
 R7
 R8
 R9
 R26
-Z144 8/home/adalton2/ece411/bound3/mp3/hdl/CW1sig_ripper_untitled.vhd
-Z145 F/home/adalton2/ece411/bound3/mp3/hdl/CW1sig_ripper_untitled.vhd
+Z143 8/home/adalton2/ece411/bound3/mp3/hdl/CW1sig_ripper_untitled.vhd
+Z144 F/home/adalton2/ece411/bound3/mp3/hdl/CW1sig_ripper_untitled.vhd
 l0
 L17
 V?10Fbla>`BY95L?BOlU3[3
@@ -1044,22 +1044,22 @@ R18
 !s100 Sz>@]dz?MXQ4>eelNSa6C3
 !i10b 1
 Ecw2sig_ripper
-Z146 w1395298643
+Z145 w1395298643
 R6
 R7
 R8
 R9
 R26
-Z147 8/home/adalton2/ece411/bound3/mp3/hdl/CW2sig_ripper_untitled.vhd
-Z148 F/home/adalton2/ece411/bound3/mp3/hdl/CW2sig_ripper_untitled.vhd
+Z146 8/home/adalton2/ece411/bound3/mp3/hdl/CW2sig_ripper_untitled.vhd
+Z147 F/home/adalton2/ece411/bound3/mp3/hdl/CW2sig_ripper_untitled.vhd
 l0
 L17
 VQohi;0JIBcf19o9>Xj3Em3
 R13
 33
-Z149 !s108 1395298823.254973
+Z148 !s108 1395298823.254973
 R45
-Z150 !s107 /home/adalton2/ece411/bound3/mp3/hdl/CW2sig_ripper_untitled.vhd|
+Z149 !s107 /home/adalton2/ece411/bound3/mp3/hdl/CW2sig_ripper_untitled.vhd|
 R17
 R18
 !s100 2FIL8CSNzO=f<A6@9k5O01
@@ -1075,30 +1075,30 @@ L29
 VhQ[=VMb=:YaoRiO8Y]M>S2
 R13
 33
-R149
+R148
 R45
-R150
+R149
 R17
 R18
 !s100 ncOEUgVd<Ne1SN2E4kl[;2
 !i10b 1
 Ecw3sig_ripper
-Z151 w1395298920
+Z150 w1395298920
 R6
 R7
 R8
 R9
 R26
-Z152 8/home/adalton2/ece411/bound3/mp3/hdl/CW3sig_ripper_untitled.vhd
-Z153 F/home/adalton2/ece411/bound3/mp3/hdl/CW3sig_ripper_untitled.vhd
+Z151 8/home/adalton2/ece411/bound3/mp3/hdl/CW3sig_ripper_untitled.vhd
+Z152 F/home/adalton2/ece411/bound3/mp3/hdl/CW3sig_ripper_untitled.vhd
 l0
 L17
 VfobTN:>d:?QQMlJRY^f^@3
 R13
 33
-Z154 !s108 1395299157.076717
+Z153 !s108 1395299157.076717
 R45
-Z155 !s107 /home/adalton2/ece411/bound3/mp3/hdl/WRbyte_sel_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/ZEXT8_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/IRnzp_ripper_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/generateCC_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/CW3sig_ripper_untitled.vhd|
+Z154 !s107 /home/adalton2/ece411/bound3/mp3/hdl/WRbyte_sel_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/ZEXT8_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/IRnzp_ripper_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/generateCC_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/CW3sig_ripper_untitled.vhd|
 R17
 R18
 !s100 =n71S4PU`8UiRn><0FdRC2
@@ -1114,30 +1114,30 @@ L33
 VC0Z@Qg75483e2FH<fHfFD1
 R13
 33
-R154
+R153
 R45
-R155
+R154
 R17
 R18
 !s100 2AGYL5Jm6PFC4?F>nEaS?1
 !i10b 1
 Ecw4sig_ripper
-Z156 w1395298845
+Z155 w1395298845
 R6
 R7
 R8
 R9
 R26
-Z157 8/home/adalton2/ece411/bound3/mp3/hdl/CW4sig_ripper_untitled.vhd
-Z158 F/home/adalton2/ece411/bound3/mp3/hdl/CW4sig_ripper_untitled.vhd
+Z156 8/home/adalton2/ece411/bound3/mp3/hdl/CW4sig_ripper_untitled.vhd
+Z157 F/home/adalton2/ece411/bound3/mp3/hdl/CW4sig_ripper_untitled.vhd
 l0
 L17
 V;GjF]>@ZWGgV_1f@MMcZh2
 R13
 33
-Z159 !s108 1395299157.679479
-Z160 !s90 -work|ece411|-nologo|-2008|-f|/tmp/Files2|
-Z161 !s107 /home/adalton2/ece411/bound3/mp3/hdl/IRdest_ripper_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/CW4sig_ripper_untitled.vhd|
+Z158 !s108 1395299157.679479
+Z159 !s90 -work|ece411|-nologo|-2008|-f|/tmp/Files2|
+Z160 !s107 /home/adalton2/ece411/bound3/mp3/hdl/IRdest_ripper_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/CW4sig_ripper_untitled.vhd|
 R17
 R18
 !s100 PFVXTo0Q`^AjXWJ`MoZ1S0
@@ -1153,30 +1153,30 @@ L31
 VgFY<RaP[GQKVKgC=GAndY1
 R13
 33
+R158
 R159
 R160
-R161
 R17
 R18
 !s100 =TUBj7Z?CdD_3Sa?eb<Ka1
 !i10b 1
 Ecw_rom
-Z162 w1395293781
+Z161 w1395375253
 R6
 R7
 R8
 R9
 R26
-Z163 8/home/adalton2/ece411/bound3/mp3/hdl/CW_ROM_untitled.vhd
-Z164 F/home/adalton2/ece411/bound3/mp3/hdl/CW_ROM_untitled.vhd
+Z162 8/home/adalton2/ece411/bound3/mp3/hdl/CW_ROM_untitled.vhd
+Z163 F/home/adalton2/ece411/bound3/mp3/hdl/CW_ROM_untitled.vhd
 l0
 L17
 V6nbQjj`9ZSeQ=f?9Q_QS50
 R13
 33
-Z165 !s108 1395298343.736091
-R160
-Z166 !s107 /home/adalton2/ece411/bound3/mp3/hdl/CW_ROM_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/CW1sig_ripper_untitled.vhd|
+Z164 !s108 1395375424.830449
+R45
+Z165 !s107 /home/adalton2/ece411/bound3/mp3/hdl/CW_ROM_untitled.vhd|
 R17
 R18
 !s100 gUR]cA>z?g@bAMc^5LK0T1
@@ -1189,25 +1189,25 @@ R9
 DEx4 work 6 cw_rom 0 22 6nbQjj`9ZSeQ=f?9Q_QS50
 l30
 L29
-VoI>@ZMAfT5;SGKd1b1KN92
+VmBD<NI74cLaBQKIBTQjnQ3
 R13
 33
+R164
+R45
 R165
-R160
-R166
 R17
 R18
-!s100 kShz6>b^?<e0TPLbC_nHi2
+!s100 ]KG=R4d52A3GJWP0oz`_@0
 !i10b 1
 Edataarray
-Z167 w1392356362
+Z166 w1392356362
 R6
 R7
 R8
 R9
 R10
-Z168 8/home/buris2/ece411/mp2.2/hdl/DataArray_untitled.vhd
-Z169 F/home/buris2/ece411/mp2.2/hdl/DataArray_untitled.vhd
+Z167 8/home/buris2/ece411/mp2.2/hdl/DataArray_untitled.vhd
+Z168 F/home/buris2/ece411/mp2.2/hdl/DataArray_untitled.vhd
 l0
 L7
 V`8:z=4n`]4O]NFgFJZIPU2
@@ -1239,22 +1239,22 @@ R18
 !s100 h6@>2R7^WIQ:d4UUdfn?B1
 !i10b 1
 Edatapath
-Z170 w1391763488
+Z169 w1391763488
 R6
 R7
 R8
 R9
 R20
-Z171 8/home/buris2/ece411/mp2/hdl/datapath_struct.vhd
-Z172 F/home/buris2/ece411/mp2/hdl/datapath_struct.vhd
+Z170 8/home/buris2/ece411/mp2/hdl/datapath_struct.vhd
+Z171 F/home/buris2/ece411/mp2/hdl/datapath_struct.vhd
 l0
 L16
 VRQd1a3UB;F7XaPPWGQDnl2
 R13
 32
-Z173 !s108 1391763608.984293
-Z174 !s90 -work|ece411|-nologo|-f|/tmp/Files1|
-Z175 !s107 /home/buris2/ece411/mp2/hdl/mp2_cpu_struct.vhd|/home/buris2/ece411/mp2/hdl/datapath_struct.vhd|
+Z172 !s108 1391763608.984293
+Z173 !s90 -work|ece411|-nologo|-f|/tmp/Files1|
+Z174 !s107 /home/buris2/ece411/mp2/hdl/mp2_cpu_struct.vhd|/home/buris2/ece411/mp2/hdl/datapath_struct.vhd|
 R115
 R18
 !s100 GSSkJ6Ecbbfi:5aVDbi<10
@@ -1263,18 +1263,18 @@ Astruct
 DEx6 ece411 10 sll8_const 0 22 ClgF`hJe3mm2?97CCEzVg3
 DEx6 ece411 10 byteselect 0 22 LA>^]1^]7M1E[]87k@<KU2
 DEx6 ece411 8 wordmux5 0 22 WYgC]3?_G>?Kg7<PI8Ke31
-Z176 DEx6 ece411 8 wordmux4 0 22 AnF=49S>JKLHFl4n`O7lN2
+Z175 DEx6 ece411 8 wordmux4 0 22 AnF=49S>JKLHFl4n`O7lN2
 R119
 DEx6 ece411 8 storemux 0 22 TKb4`DG3DCcfJB1P?kgJX1
 DEx6 ece411 5 sext6 0 22 kPQ]aiFXRTEc_dbWXHP4?2
-Z177 DEx6 ece411 5 sext5 0 22 fo:O<ezhP^@>:2OVGgYzg0
+Z176 DEx6 ece411 5 sext5 0 22 fo:O<ezhP^@>:2OVGgYzg0
 DEx6 ece411 6 regmux 0 22 @oTSf5DdKkC^fK?Ce]n9M3
 DEx6 ece411 7 regfile 0 22 nhHW=`MVQX:J0?Uez?Sl13
 DEx6 ece411 5 reg16 0 22 EGKT41;e_=Xh2k@SWJFGE3
-Z178 DEx6 ece411 5 plus2 0 22 ;NU98<B;jTP]Xo772mo1c2
+Z177 DEx6 ece411 5 plus2 0 22 ;NU98<B;jTP]Xo772mo1c2
 DEx6 ece411 11 pcplusoff11 0 22 5]mdelHA>24d<Zkk^^Hh11
 DEx6 ece411 8 nzpsplit 0 22 3oCM7^7`7ii5[XGc7KR9_1
-Z179 DEx6 ece411 3 nzp 0 22 @C5G7XE?LVJBKWokOe5k40
+Z178 DEx6 ece411 3 nzp 0 22 @C5G7XE?LVJBKWokOe5k40
 DEx6 ece411 8 memalign 0 22 JJHR4Km3SjIk0I0UI7dlU3
 DEx6 ece411 2 ir 0 22 zlDgQP[DVka38Ljojnaj=1
 DEx6 ece411 5 gencc 0 22 @[<=Dk2FJSBZ0[_dOHb1I2
@@ -1294,30 +1294,30 @@ L71
 V9R9Lb2ToTIa[Bo6@<dDDC0
 R13
 32
+R172
 R173
 R174
-R175
 R115
 R18
 !s100 `957^z9dnNhfidnhd98Ef3
 !i10b 1
 Edecoder2
-Z180 w1393492915
+Z179 w1393492915
 R6
 R7
 R8
 R9
 R10
-Z181 8/home/buris2/ece411/mp2.2/hdl/Decoder2_untitled.vhd
-Z182 F/home/buris2/ece411/mp2.2/hdl/Decoder2_untitled.vhd
+Z180 8/home/buris2/ece411/mp2.2/hdl/Decoder2_untitled.vhd
+Z181 F/home/buris2/ece411/mp2.2/hdl/Decoder2_untitled.vhd
 l0
 L17
 V8QmmYX0f7zJdaWR@3ImEj2
 R13
 33
-Z183 !s108 1393493121.885759
+Z182 !s108 1393493121.885759
 R45
-Z184 !s107 /home/buris2/ece411/mp2.2/hdl/Decoder2_untitled.vhd|
+Z183 !s107 /home/buris2/ece411/mp2.2/hdl/Decoder2_untitled.vhd|
 R17
 R18
 !s100 Ni?CDi2W^:Rn^?dk`[8S[2
@@ -1333,22 +1333,22 @@ L29
 VFb^D7?GfKic52=KPQO8kE2
 R13
 33
-R183
+R182
 R45
-R184
+R183
 R17
 R18
 !s100 D_FZ9g2dEVNolzY1eC^AX1
 !i10b 1
 Edecoder3
-Z185 w1393347291
+Z184 w1393347291
 R6
 R7
 R8
 R9
 R10
-Z186 8/home/buris2/ece411/mp2.2/hdl/Decoder3_untitled.vhd
-Z187 F/home/buris2/ece411/mp2.2/hdl/Decoder3_untitled.vhd
+Z185 8/home/buris2/ece411/mp2.2/hdl/Decoder3_untitled.vhd
+Z186 F/home/buris2/ece411/mp2.2/hdl/Decoder3_untitled.vhd
 l0
 L17
 VVkZd7Ub[lFE=RRcac]D1b1
@@ -1380,22 +1380,22 @@ R18
 !s100 ViKj^IUJ1R]Ah;eG_S[^i2
 !i10b 1
 Edirty_delay
-Z188 w1393579249
+Z187 w1393579249
 R6
 R7
 R8
 R9
 R10
-Z189 8/home/buris2/ece411/mp2.2/hdl/dirty_delay_untitled.vhd
-Z190 F/home/buris2/ece411/mp2.2/hdl/dirty_delay_untitled.vhd
+Z188 8/home/buris2/ece411/mp2.2/hdl/dirty_delay_untitled.vhd
+Z189 F/home/buris2/ece411/mp2.2/hdl/dirty_delay_untitled.vhd
 l0
 L17
 VmlzgCmfaGM8RU`S^c4AGb0
 R13
 33
-Z191 !s108 1393579398.602565
+Z190 !s108 1393579398.602565
 R45
-Z192 !s107 /home/buris2/ece411/mp2.2/hdl/dirty_delay_untitled.vhd|
+Z191 !s107 /home/buris2/ece411/mp2.2/hdl/dirty_delay_untitled.vhd|
 R17
 R18
 !s100 NCf?BT:9ibo86XUmG_:Ml0
@@ -1411,30 +1411,30 @@ L28
 VjGIeA5PKz?NgFl2AbBTmn1
 R13
 33
-R191
+R190
 R45
-R192
+R191
 R17
 R18
 !s100 ^9[k@cIFH;T5]bn[^i]3I3
 !i10b 1
 Edram16_dp
-Z193 w1395368535
+Z192 w1395375153
 R6
 R7
 R8
 R9
 R26
-Z194 8/home/adalton2/ece411/bound3/mp3/hdl/DRAM16_DP_UNTITLED.vhd
-Z195 F/home/adalton2/ece411/bound3/mp3/hdl/DRAM16_DP_UNTITLED.vhd
+Z193 8/home/adalton2/ece411/bound3/mp3/hdl/DRAM16_DP_UNTITLED.vhd
+Z194 F/home/adalton2/ece411/bound3/mp3/hdl/DRAM16_DP_UNTITLED.vhd
 l0
 L7
 VZZbHHi2F5zBQ=h[7FmZXf0
 R13
 33
-Z196 !s108 1395368817.300920
-R160
-Z197 !s107 /home/adalton2/ece411/bound3/mp3/hdl/DRAM16_DP_UNTITLED.vhd|
+Z195 !s108 1395375320.311072
+R15
+Z196 !s107 /home/adalton2/ece411/bound3/mp3/hdl/DRAM16_DP_UNTITLED.vhd|
 R17
 R18
 !s100 T95S3mEzomJoL2Zd53;QL3
@@ -1450,30 +1450,30 @@ L25
 VR0KI0[BQJUFkK>J[VWBbF3
 R13
 33
+R195
+R15
 R196
-R160
-R197
 R17
 R18
 !s100 S>zb7H3VzJR7Y:b4LDTM00
 !i10b 1
 Edramauditor
-Z198 w1391378761
+Z197 w1391378761
 R6
 R7
 R8
 R9
 R20
-Z199 8/home/buris2/ece411/mp2/hdl/DRAMAuditor_untitled.vhd
-Z200 F/home/buris2/ece411/mp2/hdl/DRAMAuditor_untitled.vhd
+Z198 8/home/buris2/ece411/mp2/hdl/DRAMAuditor_untitled.vhd
+Z199 F/home/buris2/ece411/mp2/hdl/DRAMAuditor_untitled.vhd
 l0
 L16
 VB_GefgQA4F]TD]0aI0c1@0
 R13
 33
-Z201 !s108 1391398488.146423
+Z200 !s108 1391398488.146423
 R15
-Z202 !s107 /home/buris2/ece411/mp2/hdl/WordMux4_untitled.vhd|/home/buris2/ece411/mp2/hdl/SEXT5_untitled.vhd|/home/buris2/ece411/mp2/hdl/IR_untitled.vhd|/home/buris2/ece411/mp2/hdl/ALU_untitled.vhd|/home/buris2/ece411/mp2/hdl/DRAMAuditor_untitled.vhd|
+Z201 !s107 /home/buris2/ece411/mp2/hdl/WordMux4_untitled.vhd|/home/buris2/ece411/mp2/hdl/SEXT5_untitled.vhd|/home/buris2/ece411/mp2/hdl/IR_untitled.vhd|/home/buris2/ece411/mp2/hdl/ALU_untitled.vhd|/home/buris2/ece411/mp2/hdl/DRAMAuditor_untitled.vhd|
 R17
 R18
 !s100 :B_W_cU<iGkEc9iO3f]Bj3
@@ -1489,30 +1489,30 @@ L30
 VVf<=6fK^9PJLRL^Oo9AY=0
 R13
 33
-R201
+R200
 R15
-R202
+R201
 R17
 R18
 !s100 zoHUIU@fE3z=A^3a^OPUI0
 !i10b 1
 Eeq_v0delay
-Z203 w1393553662
+Z202 w1393553662
 R6
 R7
 R8
 R9
 R10
-Z204 8/home/buris2/ece411/mp2.2/hdl/eq_v0Delay6ns_untitled.vhd
-Z205 F/home/buris2/ece411/mp2.2/hdl/eq_v0Delay6ns_untitled.vhd
+Z203 8/home/buris2/ece411/mp2.2/hdl/eq_v0Delay6ns_untitled.vhd
+Z204 F/home/buris2/ece411/mp2.2/hdl/eq_v0Delay6ns_untitled.vhd
 l0
 L17
 VWOl;SfMiX2Y3XO?JBmjhL1
 R13
 33
-Z206 !s108 1393553821.164598
+Z205 !s108 1393553821.164598
 R45
-Z207 !s107 /home/buris2/ece411/mp2.2/hdl/eq_v0Delay6ns_untitled.vhd|
+Z206 !s107 /home/buris2/ece411/mp2.2/hdl/eq_v0Delay6ns_untitled.vhd|
 R17
 R18
 !s100 <4X3PdC=AX@lB@O>]19NP0
@@ -1528,30 +1528,30 @@ L28
 VK0l4951I:hZlCOUT=66>?0
 R13
 33
-R206
+R205
 R45
-R207
+R206
 R17
 R18
 !s100 5ZV4QUj@=7HJZVzg2W=A70
 !i10b 1
 Eeq_v0delay3ns
-Z208 w1393535221
+Z207 w1393535221
 R6
 R7
 R8
 R9
 R10
+R203
 R204
-R205
 l0
 L17
 VWfIAeXGOY3<`l`;Ki2Qao3
 R13
 33
-Z209 !s108 1393535407.284256
+Z208 !s108 1393535407.284256
 R45
-R207
+R206
 R17
 R18
 !s100 e3G<<J6XRn3e:NG1=CX^50
@@ -1567,30 +1567,30 @@ L28
 VX>o>DoYcdM:2M8XZ8_>0=3
 R13
 33
-R209
+R208
 R45
-R207
+R206
 R17
 R18
 !s100 ;7eQIHa=ChK:ZQF?Y4>`f3
 !i10b 1
 Eeq_v0delay6ns
-Z210 w1393529411
+Z209 w1393529411
 R6
 R7
 R8
 R9
 R10
+R203
 R204
-R205
 l0
 L17
 V^Cgnb9aU6R`j<Ie>C;YW:2
 R13
 33
-Z211 !s108 1393529584.851188
+Z210 !s108 1393529584.851188
 R45
-R207
+R206
 R17
 R18
 !s100 g0dhDBBJ6;9doGV1bW9RK2
@@ -1606,30 +1606,30 @@ L28
 Va>zcJL[9VnW1:kIamz8@P2
 R13
 33
-R211
+R210
 R45
-R207
+R206
 R17
 R18
 !s100 Zk;k?UfLo_9U[`0__D69]3
 !i10b 1
 Egencc
-Z212 w1391383609
+Z211 w1391383609
 R6
 R7
 R8
 R9
 R20
-Z213 8/home/buris2/ece411/mp2/hdl/GenCC_untitled.vhd
-Z214 F/home/buris2/ece411/mp2/hdl/GenCC_untitled.vhd
+Z212 8/home/buris2/ece411/mp2/hdl/GenCC_untitled.vhd
+Z213 F/home/buris2/ece411/mp2/hdl/GenCC_untitled.vhd
 l0
 L17
 V@[<=Dk2FJSBZ0[_dOHb1I2
 R13
 33
-Z215 !s108 1391383756.238294
+Z214 !s108 1391383756.238294
 R45
-Z216 !s107 /home/buris2/ece411/mp2/hdl/StoreMux_untitled.vhd|/home/buris2/ece411/mp2/hdl/RegFile_untitled.vhd|/home/buris2/ece411/mp2/hdl/Plus2_untitled.vhd|/home/buris2/ece411/mp2/hdl/NZPsplit_untitled.vhd|/home/buris2/ece411/mp2/hdl/NZP_untitled.vhd|/home/buris2/ece411/mp2/hdl/IR_untitled.vhd|/home/buris2/ece411/mp2/hdl/GenCC_untitled.vhd|
+Z215 !s107 /home/buris2/ece411/mp2/hdl/StoreMux_untitled.vhd|/home/buris2/ece411/mp2/hdl/RegFile_untitled.vhd|/home/buris2/ece411/mp2/hdl/Plus2_untitled.vhd|/home/buris2/ece411/mp2/hdl/NZPsplit_untitled.vhd|/home/buris2/ece411/mp2/hdl/NZP_untitled.vhd|/home/buris2/ece411/mp2/hdl/IR_untitled.vhd|/home/buris2/ece411/mp2/hdl/GenCC_untitled.vhd|
 R17
 R18
 !s100 ne5KT<N;mhz0:0cjO<^@81
@@ -1645,30 +1645,30 @@ L29
 VIg5l829Hg^3[N8SNS8EHa0
 R13
 33
-R215
+R214
 R45
-R216
+R215
 R17
 R18
 !s100 P]18A1UPkQZ4]ULBIiak52
 !i10b 1
 Egeneratecc
-Z217 w1395371777
+Z216 w1395371777
 R6
 R7
 R8
 R9
 R26
-Z218 8/home/adalton2/ece411/bound3/mp3/hdl/generateCC_untitled.vhd
-Z219 F/home/adalton2/ece411/bound3/mp3/hdl/generateCC_untitled.vhd
+Z217 8/home/adalton2/ece411/bound3/mp3/hdl/generateCC_untitled.vhd
+Z218 F/home/adalton2/ece411/bound3/mp3/hdl/generateCC_untitled.vhd
 l0
 L17
 Vz:]hJC7<BWA?Pnf_`TD^?0
 R13
 33
-Z220 !s108 1395372716.901421
-R160
-Z221 !s107 /home/adalton2/ece411/bound3/mp3/hdl/generateCC_untitled.vhd|
+Z219 !s108 1395372716.901421
+R159
+Z220 !s107 /home/adalton2/ece411/bound3/mp3/hdl/generateCC_untitled.vhd|
 R17
 R18
 !s100 C0JT5a8N:fInd4eKTkCec3
@@ -1684,22 +1684,22 @@ L28
 VdVPK0=ZzIzYM`A?F>B=iF1
 R13
 33
+R219
+R159
 R220
-R160
-R221
 R17
 R18
 !s100 lNdaHC7bEdX620Y`9O4la0
 !i10b 1
 Eir
-Z222 w1391660761
+Z221 w1391660761
 R6
 R7
 R8
 R9
 R20
-Z223 8/home/buris2/ece411/mp2/hdl/IR_untitled.vhd
-Z224 F/home/buris2/ece411/mp2/hdl/IR_untitled.vhd
+Z222 8/home/buris2/ece411/mp2/hdl/IR_untitled.vhd
+Z223 F/home/buris2/ece411/mp2/hdl/IR_untitled.vhd
 l0
 L17
 VzlDgQP[DVka38Ljojnaj=1
@@ -1731,14 +1731,14 @@ R18
 !s100 bCN:JkiY7eSHG4Tg`46Za2
 !i10b 1
 Eir2sig_ripper
-Z225 w1395370900
+Z224 w1395370900
 R6
 R7
 R8
 R9
 R26
-Z226 8/home/adalton2/ece411/bound3/mp3/hdl/IR2sig_ripper_untitled.vhd
-Z227 F/home/adalton2/ece411/bound3/mp3/hdl/IR2sig_ripper_untitled.vhd
+Z225 8/home/adalton2/ece411/bound3/mp3/hdl/IR2sig_ripper_untitled.vhd
+Z226 F/home/adalton2/ece411/bound3/mp3/hdl/IR2sig_ripper_untitled.vhd
 l0
 L17
 VBgfQQ?9SUg3>VG?0?TK3L3
@@ -1770,22 +1770,22 @@ R18
 !s100 4B<i=;og^KBmdzhTzJD3=1
 !i10b 1
 Eirdest_ripper
-Z228 w1395286213
+Z227 w1395286213
 R6
 R7
 R8
 R9
 R26
-Z229 8/home/adalton2/ece411/bound3/mp3/hdl/IRdest_ripper_untitled.vhd
-Z230 F/home/adalton2/ece411/bound3/mp3/hdl/IRdest_ripper_untitled.vhd
+Z228 8/home/adalton2/ece411/bound3/mp3/hdl/IRdest_ripper_untitled.vhd
+Z229 F/home/adalton2/ece411/bound3/mp3/hdl/IRdest_ripper_untitled.vhd
 l0
 L17
 VgX5OS5e]>KcOJAjAUMWUA0
 R13
 33
+R158
 R159
 R160
-R161
 R17
 R18
 !s100 >JPbFFaP]V2:Y6BT9eToJ3
@@ -1801,30 +1801,30 @@ L29
 VI_]T<z4hN0R]a[W1:`h^63
 R13
 33
+R158
 R159
 R160
-R161
 R17
 R18
 !s100 g24OR:NV;SgSL_aeK[FB]1
 !i10b 1
 Eirnzp_ripper
-R151
+R150
 R6
 R7
 R8
 R9
 R26
-Z231 8/home/adalton2/ece411/bound3/mp3/hdl/IRnzp_ripper_untitled.vhd
-Z232 F/home/adalton2/ece411/bound3/mp3/hdl/IRnzp_ripper_untitled.vhd
+Z230 8/home/adalton2/ece411/bound3/mp3/hdl/IRnzp_ripper_untitled.vhd
+Z231 F/home/adalton2/ece411/bound3/mp3/hdl/IRnzp_ripper_untitled.vhd
 l0
 L17
 VaQz>:b8?FJTEh3;^ZbHH03
 R13
 33
-R154
+R153
 R45
-R155
+R154
 R17
 R18
 !s100 eo3YU4A5U6M]WFkFB04Wm1
@@ -1840,22 +1840,22 @@ L28
 VEnAR1JP;TkV]kZjMBm6320
 R13
 33
-R154
+R153
 R45
-R155
+R154
 R17
 R18
 !s100 09jJFBQ>I6bD;h0^9o8D20
 !i10b 1
 Eirregsplitter
-Z233 w1395367089
+Z232 w1395367089
 R6
 R7
 R8
 R9
 R26
-Z234 8/home/adalton2/ece411/bound3/mp3/hdl/IRregsplitter_untitled.vhd
-Z235 F/home/adalton2/ece411/bound3/mp3/hdl/IRregsplitter_untitled.vhd
+Z233 8/home/adalton2/ece411/bound3/mp3/hdl/IRregsplitter_untitled.vhd
+Z234 F/home/adalton2/ece411/bound3/mp3/hdl/IRregsplitter_untitled.vhd
 l0
 L17
 V0=f;d38k1Y@;Y_>`:=Rfk2
@@ -1891,17 +1891,17 @@ R8
 R9
 R52
 R26
-Z236 8/home/adalton2/ece411/bound3/mp3/hdl/ece411package.vhd
-Z237 F/home/adalton2/ece411/bound3/mp3/hdl/ece411package.vhd
+Z235 8/home/adalton2/ece411/bound3/mp3/hdl/ece411package.vhd
+Z236 F/home/adalton2/ece411/bound3/mp3/hdl/ece411package.vhd
 l0
 L12
 VY^MG3gn[4FARO_W4L60_<3
 R13
 32
 b1
-Z238 !s108 1395298017.617395
+Z237 !s108 1395298017.617395
 R113
-Z239 !s107 /home/adalton2/ece411/bound3/mp3/hdl/ece411package.vhd|
+Z238 !s107 /home/adalton2/ece411/bound3/mp3/hdl/ece411package.vhd|
 R115
 R18
 !s100 Ea;QP;c9[Wof[1FA6YM8D2
@@ -1915,23 +1915,23 @@ L131
 VR^[;m<LJ;46FKVeHJ2XnJ2
 R13
 32
-R238
+R237
 R113
-R239
+R238
 R115
 R18
 nbody
 !s100 c2z9nXZN<0ZWIO?zlUDiI2
 !i10b 1
 Ememalign
-Z240 w1395292154
+Z239 w1395292154
 R6
 R7
 R8
 R9
 R26
-Z241 8/home/adalton2/ece411/bound3/mp3/hdl/MEMalignment_untitled.vhd
-Z242 F/home/adalton2/ece411/bound3/mp3/hdl/MEMalignment_untitled.vhd
+Z240 8/home/adalton2/ece411/bound3/mp3/hdl/MEMalignment_untitled.vhd
+Z241 F/home/adalton2/ece411/bound3/mp3/hdl/MEMalignment_untitled.vhd
 l0
 L17
 VZ^VV:PR5lWnlHM[Y;PP=D1
@@ -1963,14 +1963,14 @@ R18
 !s100 9nY`J`TYBgf]`Di?TN1dO0
 !i10b 1
 Ememory
-Z243 w1393621683
+Z242 w1393621683
 R6
 R7
 R8
 R9
 R10
-Z244 8/home/buris2/ece411/mp2.2/hdl/memory_struct.vhd
-Z245 F/home/buris2/ece411/mp2.2/hdl/memory_struct.vhd
+Z243 8/home/buris2/ece411/mp2.2/hdl/memory_struct.vhd
+Z244 F/home/buris2/ece411/mp2.2/hdl/memory_struct.vhd
 l0
 L17
 VMKHRb>5ZZoVJ2MF@F`:812
@@ -2027,22 +2027,22 @@ w1391376478
 !s100 SREOiK10`:g`8>K0m^3iB3
 !i10b 1
 Emp1_cpu
-R142
+R141
 R6
 R7
 R8
 R9
 R20
-Z246 8/home/buris2/ece411/mp2/hdl/mp1_cpu_struct.vhd
-Z247 F/home/buris2/ece411/mp2/hdl/mp1_cpu_struct.vhd
+Z245 8/home/buris2/ece411/mp2/hdl/mp1_cpu_struct.vhd
+Z246 F/home/buris2/ece411/mp2/hdl/mp1_cpu_struct.vhd
 l0
 L16
 V82MkZ<XOVKIK8ei^f5e;80
 R13
 32
-R140
+R139
 R113
-R141
+R140
 R115
 R18
 !s100 HSh17g_?fI5Q8Tf@RkVa_2
@@ -2051,7 +2051,7 @@ Astruct
 DEx6 ece411 6 memory 0 22 <=Q7P8Do8=J[DKo^U_ZOP3
 DEx6 ece411 8 datapath 0 22 jd>e4_`:FH03L<cQ?Ffok2
 DEx6 ece411 7 control 0 22 :bVIm11eBAd3g0RzoM^k60
-Z248 DEx6 ece411 6 clkgen 0 22 KQk8Pa[5d4oZeGAJ9LdXP0
+Z247 DEx6 ece411 6 clkgen 0 22 KQk8Pa[5d4oZeGAJ9LdXP0
 DEx4 work 7 mp1_cpu 0 22 82MkZ<XOVKIK8ei^f5e;80
 R6
 R7
@@ -2062,22 +2062,22 @@ L43
 VlQcWIMdgTK95W2`Rge5^90
 R13
 32
-R140
+R139
 R113
-R141
+R140
 R115
 R18
 !s100 >K87@^E3D>2A>HBmIESOW1
 !i10b 1
 Emp2_cpu
-R243
+R242
 R6
 R7
 R8
 R9
 R10
-Z249 8/home/buris2/ece411/mp2.2/hdl/mp2_cpu_struct.vhd
-Z250 F/home/buris2/ece411/mp2.2/hdl/mp2_cpu_struct.vhd
+Z248 8/home/buris2/ece411/mp2.2/hdl/mp2_cpu_struct.vhd
+Z249 F/home/buris2/ece411/mp2.2/hdl/mp2_cpu_struct.vhd
 l0
 L16
 V0_Bfm=QF`X=ReJg6glE1E2
@@ -2095,7 +2095,7 @@ DEx6 ece411 6 memory 0 22 MKHRb>5ZZoVJ2MF@F`:812
 DEx6 ece411 8 datapath 0 22 RQd1a3UB;F7XaPPWGQDnl2
 DEx6 ece411 11 dramauditor 0 22 B_GefgQA4F]TD]0aI0c1@0
 DEx6 ece411 7 control 0 22 F_:KI5TgjFVT25UWo2=>`2
-R248
+R247
 DEx4 work 7 mp2_cpu 0 22 0_Bfm=QF`X=ReJg6glE1E2
 R6
 R7
@@ -2114,56 +2114,56 @@ R18
 !s100 JHj[f`MSao_aX7X;1;=EH1
 !i10b 1
 Emp3_cpu
-Z251 w1395372557
+Z250 w1395375266
 R6
 R7
 R8
 R9
 R26
-Z252 8/home/adalton2/ece411/bound3/mp3/hdl/mp3_cpu_struct.vhd
-Z253 F/home/adalton2/ece411/bound3/mp3/hdl/mp3_cpu_struct.vhd
+Z251 8/home/adalton2/ece411/bound3/mp3/hdl/mp3_cpu_struct.vhd
+Z252 F/home/adalton2/ece411/bound3/mp3/hdl/mp3_cpu_struct.vhd
 l0
 L16
 VZ1O^ZL<7N^hX`QT;SHWH72
 R13
 32
-Z254 !s108 1395372717.118824
-Z255 !s90 -work|ece411|-nologo|-f|/tmp/Files3|
-Z256 !s107 /home/adalton2/ece411/bound3/mp3/hdl/mp3_cpu_struct.vhd|/home/adalton2/ece411/bound3/mp3/hdl/pipelinedp_struct.vhd|/home/adalton2/ece411/bound3/mp3/hdl/stage_memory_struct.vhd|
+Z253 !s108 1395375425.099813
+R173
+Z254 !s107 /home/adalton2/ece411/bound3/mp3/hdl/mp3_cpu_struct.vhd|/home/adalton2/ece411/bound3/mp3/hdl/pipelinedp_struct.vhd|/home/adalton2/ece411/bound3/mp3/hdl/stage_decode_struct.vhd|
 R115
 R18
 !s100 WlLa3GZXon89_Az^_n9`i1
 !i10b 1
 Astruct
-DEx6 ece411 10 pipelinedp 0 22 8BLEEdKIAS;PGNK<<8CmE0
+DEx6 ece411 10 pipelinedp 0 22 B]A88Z3LYf[5olIj[D>iP1
 DEx6 ece411 9 dram16_dp 0 22 ZZbHHi2F5zBQ=h[7FmZXf0
-R248
+R247
 DEx4 work 7 mp3_cpu 0 22 Z1O^ZL<7N^hX`QT;SHWH72
 R6
 R7
 R8
 R9
-l112
+l111
 L43
-V9RibBLfDOGCg;YaF3iO:O1
+VRDmS5T2a_fHbniL0MHQM82
 R13
 32
+R253
+R173
 R254
-R255
-R256
 R115
 R18
-!s100 Lnd<XB>_cbo]R@eYR1>__3
+!s100 zcJW0e4<Y^8KFEFlTcB?H3
 !i10b 1
 Emresp_delay
-Z257 w1393570082
+Z255 w1393570082
 R6
 R7
 R8
 R9
 R10
-Z258 8/home/buris2/ece411/mp2.2/hdl/MRESP_delay_untitled.vhd
-Z259 F/home/buris2/ece411/mp2.2/hdl/MRESP_delay_untitled.vhd
+Z256 8/home/buris2/ece411/mp2.2/hdl/MRESP_delay_untitled.vhd
+Z257 F/home/buris2/ece411/mp2.2/hdl/MRESP_delay_untitled.vhd
 l0
 L17
 Vbb5X=<D@P^;CZC`ZKBLM61
@@ -2195,22 +2195,22 @@ R18
 !s100 4OiQNKCiE<UR`JW_V0;;E0
 !i10b 1
 Emux2
-Z260 w1392881261
+Z258 w1392881261
 R6
 R7
 R8
 R9
 R10
-Z261 8/home/buris2/ece411/mp2.2/hdl/MUX2_untitled.vhd
-Z262 F/home/buris2/ece411/mp2.2/hdl/MUX2_untitled.vhd
+Z259 8/home/buris2/ece411/mp2.2/hdl/MUX2_untitled.vhd
+Z260 F/home/buris2/ece411/mp2.2/hdl/MUX2_untitled.vhd
 l0
 L17
 VC6D:?<UaoS4ZZE>`m@:ld2
 R13
 33
-Z263 !s108 1392881405.277562
+Z261 !s108 1392881405.277562
 R45
-Z264 !s107 /home/buris2/ece411/mp2.2/hdl/TagArray_untitled.vhd|/home/buris2/ece411/mp2.2/hdl/DataArray_untitled.vhd|/home/buris2/ece411/mp2.2/hdl/tagMux_untitled.vhd|/home/buris2/ece411/mp2.2/hdl/Tag_Compare_untitled.vhd|/home/buris2/ece411/mp2.2/hdl/OWord_split_untitled.vhd|/home/buris2/ece411/mp2.2/hdl/bit_join_untitled.vhd|/home/buris2/ece411/mp2.2/hdl/NAND3_untitled.vhd|/home/buris2/ece411/mp2.2/hdl/Encoder2_untitled.vhd|/home/buris2/ece411/mp2.2/hdl/BitArray_untitled.vhd|/home/buris2/ece411/mp2.2/hdl/OR2_untitled.vhd|/home/buris2/ece411/mp2.2/hdl/MUX2_untitled.vhd|
+Z262 !s107 /home/buris2/ece411/mp2.2/hdl/TagArray_untitled.vhd|/home/buris2/ece411/mp2.2/hdl/DataArray_untitled.vhd|/home/buris2/ece411/mp2.2/hdl/tagMux_untitled.vhd|/home/buris2/ece411/mp2.2/hdl/Tag_Compare_untitled.vhd|/home/buris2/ece411/mp2.2/hdl/OWord_split_untitled.vhd|/home/buris2/ece411/mp2.2/hdl/bit_join_untitled.vhd|/home/buris2/ece411/mp2.2/hdl/NAND3_untitled.vhd|/home/buris2/ece411/mp2.2/hdl/Encoder2_untitled.vhd|/home/buris2/ece411/mp2.2/hdl/BitArray_untitled.vhd|/home/buris2/ece411/mp2.2/hdl/OR2_untitled.vhd|/home/buris2/ece411/mp2.2/hdl/MUX2_untitled.vhd|
 R17
 R18
 !s100 7M?h_Zaf:5^]8^BULDQX_0
@@ -2226,12 +2226,51 @@ L30
 V:mB`SVm`5bD^lzFO68QjG0
 R13
 33
-R263
+R261
 R45
-R264
+R262
 R17
 R18
 !s100 iW5ZkElN51DiFM7Mj_j;A3
+!i10b 1
+Emux2_1
+Z263 w1395294594
+R6
+R7
+R8
+R9
+R26
+Z264 8/home/adalton2/ece411/bound3/mp3/hdl/mux2_1_untitled.vhd
+Z265 F/home/adalton2/ece411/bound3/mp3/hdl/mux2_1_untitled.vhd
+l0
+L17
+V`I9HTUjSaWh[XLGQz:O210
+R13
+32
+Z266 !s108 1395374258.569570
+R113
+Z267 !s107 /home/adalton2/ece411/bound3/mp3/hdl/mp3_cpu_struct.vhd|/home/adalton2/ece411/bound3/mp3/hdl/pipelinedp_struct.vhd|/home/adalton2/ece411/bound3/mp3/hdl/not1_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/mux2_1_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/stage_fetch_struct.vhd|
+R115
+R18
+!s100 DUMRkl?4iXAdS80LE4__V0
+!i10b 1
+Auntitled
+R6
+R7
+R8
+R9
+DEx4 work 6 mux2_1 0 22 `I9HTUjSaWh[XLGQz:O210
+l29
+L28
+VUVo6fnU[MdoNo>OaCkH[g0
+R13
+32
+R266
+R113
+R267
+R115
+R18
+!s100 jY;ndS[OWW>WQl`Fb^Y[A3
 !i10b 1
 Enand2
 R52
@@ -2240,8 +2279,8 @@ R7
 R8
 R9
 R26
-Z265 8/home/adalton2/ece411/bound3/mp3/hdl/NAND2_untitled.vhd
-Z266 F/home/adalton2/ece411/bound3/mp3/hdl/NAND2_untitled.vhd
+Z268 8/home/adalton2/ece411/bound3/mp3/hdl/NAND2_untitled.vhd
+Z269 F/home/adalton2/ece411/bound3/mp3/hdl/NAND2_untitled.vhd
 l0
 L17
 VzdgVW``fjQVC>ocYSJZUb0
@@ -2273,14 +2312,14 @@ R18
 !s100 4:1<BlP0d=Sde8[Vo0^9E3
 !i10b 1
 Enand3
-Z267 w1392877773
+Z270 w1392877773
 R6
 R7
 R8
 R9
 R10
-Z268 8/home/buris2/ece411/mp2.2/hdl/NAND3_untitled.vhd
-Z269 F/home/buris2/ece411/mp2.2/hdl/NAND3_untitled.vhd
+Z271 8/home/buris2/ece411/mp2.2/hdl/NAND3_untitled.vhd
+Z272 F/home/buris2/ece411/mp2.2/hdl/NAND3_untitled.vhd
 l0
 L17
 VelM7cch;IUO1BOlnE3`od0
@@ -2312,22 +2351,22 @@ R18
 !s100 KX`h=oG[KJI>UJETE7JPV3
 !i10b 1
 Enor2
-Z270 w1393477859
+Z273 w1393477859
 R6
 R7
 R8
 R9
 R10
-Z271 8/home/buris2/ece411/mp2.2/hdl/NOR2_untitled.vhd
-Z272 F/home/buris2/ece411/mp2.2/hdl/NOR2_untitled.vhd
+Z274 8/home/buris2/ece411/mp2.2/hdl/NOR2_untitled.vhd
+Z275 F/home/buris2/ece411/mp2.2/hdl/NOR2_untitled.vhd
 l0
 L17
 V1i6jDDQ?T@JdbQKb@zfkY1
 R13
 33
-Z273 !s108 1393478492.348889
+Z276 !s108 1393478492.348889
 R45
-Z274 !s107 /home/buris2/ece411/mp2.2/hdl/NOR2_untitled.vhd|
+Z277 !s107 /home/buris2/ece411/mp2.2/hdl/NOR2_untitled.vhd|
 R17
 R18
 !s100 R;go>Mz_D92:n]9N0^hPe3
@@ -2343,12 +2382,51 @@ L29
 VGkdZ?eZff_K0kkJ:ZUo@d2
 R13
 33
-R273
+R276
 R45
-R274
+R277
 R17
 R18
 !s100 [lF];fj26c2TOo8PQ708I3
+!i10b 1
+Enot1
+Z278 w1395374123
+R6
+R7
+R8
+R9
+R26
+Z279 8/home/adalton2/ece411/bound3/mp3/hdl/not1_untitled.vhd
+Z280 F/home/adalton2/ece411/bound3/mp3/hdl/not1_untitled.vhd
+l0
+L17
+VfA?S[1`UQOYRHcS2iUR_92
+R13
+32
+Z281 !s108 1395374290.714482
+R113
+Z282 !s107 /home/adalton2/ece411/bound3/mp3/hdl/mp3_cpu_struct.vhd|/home/adalton2/ece411/bound3/mp3/hdl/pipelinedp_struct.vhd|/home/adalton2/ece411/bound3/mp3/hdl/not1_untitled.vhd|
+R115
+R18
+!s100 RIbEXG;jVb7:mbHzDDnjm3
+!i10b 1
+Auntitled
+R6
+R7
+R8
+R9
+DEx4 work 4 not1 0 22 fA?S[1`UQOYRHcS2iUR_92
+l27
+L26
+Vf4`1V:7;60=GI5nOcNH]?2
+R13
+32
+R281
+R113
+R282
+R115
+R18
+!s100 jgFXjmo=TO6R0?3f[2eIb3
 !i10b 1
 Enzp
 R52
@@ -2357,8 +2435,8 @@ R7
 R8
 R9
 R26
-Z275 8/home/adalton2/ece411/bound3/mp3/hdl/NZP_untitled.vhd
-Z276 F/home/adalton2/ece411/bound3/mp3/hdl/NZP_untitled.vhd
+Z283 8/home/adalton2/ece411/bound3/mp3/hdl/NZP_untitled.vhd
+Z284 F/home/adalton2/ece411/bound3/mp3/hdl/NZP_untitled.vhd
 l0
 L17
 V@C5G7XE?LVJBKWokOe5k40
@@ -2396,8 +2474,8 @@ R7
 R8
 R9
 R26
-Z277 8/home/adalton2/ece411/bound3/mp3/hdl/NZPsplit_untitled.vhd
-Z278 F/home/adalton2/ece411/bound3/mp3/hdl/NZPsplit_untitled.vhd
+Z285 8/home/adalton2/ece411/bound3/mp3/hdl/NZPsplit_untitled.vhd
+Z286 F/home/adalton2/ece411/bound3/mp3/hdl/NZPsplit_untitled.vhd
 l0
 L17
 VSEkO7W4RZ_7J]2ZE>S[`g2
@@ -2435,16 +2513,16 @@ R7
 R8
 R9
 R26
-Z279 8/home/adalton2/ece411/bound3/mp3/hdl/OR2_untitled.vhd
-Z280 F/home/adalton2/ece411/bound3/mp3/hdl/OR2_untitled.vhd
+Z287 8/home/adalton2/ece411/bound3/mp3/hdl/OR2_untitled.vhd
+Z288 F/home/adalton2/ece411/bound3/mp3/hdl/OR2_untitled.vhd
 l0
 L17
 VHKeXU<KbGOTgSdAeOIUfn0
 R13
 33
-Z281 !s108 1395298017.878536
+Z289 !s108 1395298017.878536
 R15
-Z282 !s107 /home/adalton2/ece411/bound3/mp3/hdl/OR2_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/Reg16_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/WordMux2_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/Plus2_untitled.vhd|
+Z290 !s107 /home/adalton2/ece411/bound3/mp3/hdl/OR2_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/Reg16_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/WordMux2_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/Plus2_untitled.vhd|
 R17
 R18
 !s100 8HGh57kNXzi^1=6?;7BWV1
@@ -2460,9 +2538,9 @@ L29
 V7^;63BmQld2g4g<R42ABn3
 R13
 33
-R281
+R289
 R15
-R282
+R290
 R17
 R18
 !s100 T0BeMncP[cXTNBBC35<]H1
@@ -2474,8 +2552,8 @@ R7
 R8
 R9
 R26
-Z283 8/home/adalton2/ece411/bound3/mp3/hdl/OR3_untitled.vhd
-Z284 F/home/adalton2/ece411/bound3/mp3/hdl/OR3_untitled.vhd
+Z291 8/home/adalton2/ece411/bound3/mp3/hdl/OR3_untitled.vhd
+Z292 F/home/adalton2/ece411/bound3/mp3/hdl/OR3_untitled.vhd
 l0
 L17
 VaU21i_GoQ7;CBbX`8>fY:2
@@ -2507,22 +2585,22 @@ R18
 !s100 0FX_o7XN9nA0Z>[<CK8lU0
 !i10b 1
 Eorinv2
-Z285 w1395288825
+Z293 w1395288825
 R6
 R7
 R8
 R9
 R26
-Z286 8/home/adalton2/ece411/bound3/mp3/hdl/ORINV2_untitled.vhd
-Z287 F/home/adalton2/ece411/bound3/mp3/hdl/ORINV2_untitled.vhd
+Z294 8/home/adalton2/ece411/bound3/mp3/hdl/ORINV2_untitled.vhd
+Z295 F/home/adalton2/ece411/bound3/mp3/hdl/ORINV2_untitled.vhd
 l0
 L17
 VV5>nI42DWXb`E9YzCm<2e0
 R13
 33
-Z288 !s108 1395299158.139776
-Z289 !s90 -work|ece411|-nologo|-2008|-f|/tmp/Files4|
-Z290 !s107 /home/adalton2/ece411/bound3/mp3/hdl/ORINV2_untitled.vhd|
+Z296 !s108 1395299158.139776
+Z297 !s90 -work|ece411|-nologo|-2008|-f|/tmp/Files4|
+Z298 !s107 /home/adalton2/ece411/bound3/mp3/hdl/ORINV2_untitled.vhd|
 R17
 R18
 !s100 479A?1:idk8>SRVCgZIK^2
@@ -2538,22 +2616,22 @@ L29
 V2HRLa4=T5]^=boJHAll]B3
 R13
 33
-R288
-R289
-R290
+R296
+R297
+R298
 R17
 R18
 !s100 BiQ`CgNDJ3aeWl0_=QbJf1
 !i10b 1
 Eoword_split
-Z291 w1392878958
+Z299 w1392878958
 R6
 R7
 R8
 R9
 R10
-Z292 8/home/buris2/ece411/mp2.2/hdl/OWord_split_untitled.vhd
-Z293 F/home/buris2/ece411/mp2.2/hdl/OWord_split_untitled.vhd
+Z300 8/home/buris2/ece411/mp2.2/hdl/OWord_split_untitled.vhd
+Z301 F/home/buris2/ece411/mp2.2/hdl/OWord_split_untitled.vhd
 l0
 L17
 VCYCcP_<mFV_mT]^KnMO_F0
@@ -2585,22 +2663,22 @@ R18
 !s100 Hj;26hhX=Rgg0C^oN8LX01
 !i10b 1
 Eowordmux2
-Z294 w1392364761
+Z302 w1392364761
 R6
 R7
 R8
 R9
 R10
-Z295 8/home/buris2/ece411/mp2.2/hdl/OWordMux2_untitled.vhd
-Z296 F/home/buris2/ece411/mp2.2/hdl/OWordMux2_untitled.vhd
+Z303 8/home/buris2/ece411/mp2.2/hdl/OWordMux2_untitled.vhd
+Z304 F/home/buris2/ece411/mp2.2/hdl/OWordMux2_untitled.vhd
 l0
 L17
 V?@de_4O@gmHdB7XK=@f8P2
 R13
 33
-Z297 !s108 1392881637.000665
-R160
-Z298 !s107 /home/buris2/ece411/mp2.2/hdl/NAND2_untitled.vhd|/home/buris2/ece411/mp2.2/hdl/OWordMux2_untitled.vhd|
+Z305 !s108 1392881637.000665
+R159
+Z306 !s107 /home/buris2/ece411/mp2.2/hdl/NAND2_untitled.vhd|/home/buris2/ece411/mp2.2/hdl/OWordMux2_untitled.vhd|
 R17
 R18
 !s100 ^hlRXI:b7=ddDeGj^85=@0
@@ -2616,30 +2694,30 @@ L30
 V?0WiOj[J6Vi3ORX1?DAoL0
 R13
 33
-R297
-R160
-R298
+R305
+R159
+R306
 R17
 R18
 !s100 kM]:BITcPhWPSk1k4^>N:2
 !i10b 1
 Epcplusoff11
-Z299 w1391751462
+Z307 w1391751462
 R6
 R7
 R8
 R9
 R20
-Z300 8/home/buris2/ece411/mp2/hdl/PCplusoff11_untitled.vhd
-Z301 F/home/buris2/ece411/mp2/hdl/PCplusoff11_untitled.vhd
+Z308 8/home/buris2/ece411/mp2/hdl/PCplusoff11_untitled.vhd
+Z309 F/home/buris2/ece411/mp2/hdl/PCplusoff11_untitled.vhd
 l0
 L17
 V5]mdelHA>24d<Zkk^^Hh11
 R13
 33
-Z302 !s108 1391751593.745572
+Z310 !s108 1391751593.745572
 R45
-Z303 !s107 /home/buris2/ece411/mp2/hdl/PCplusoff11_untitled.vhd|
+Z311 !s107 /home/buris2/ece411/mp2/hdl/PCplusoff11_untitled.vhd|
 R17
 R18
 !s100 fT[PJ`UfUB:AWhU8bn:zD2
@@ -2655,30 +2733,30 @@ L30
 VIcUTz_:0P0L:L9C]P9oBD0
 R13
 33
-R302
+R310
 R45
-R303
+R311
 R17
 R18
 !s100 GkWTZ3:;Ke36U3k[kSN^h1
 !i10b 1
 Ephysical_memory
-Z304 w1392351388
+Z312 w1392351388
 R6
 R7
 R8
 R9
 R10
-Z305 8/home/buris2/ece411/mp2.2/hdl/Physical_Memory_untitled.vhd
-Z306 F/home/buris2/ece411/mp2.2/hdl/Physical_Memory_untitled.vhd
+Z313 8/home/buris2/ece411/mp2.2/hdl/Physical_Memory_untitled.vhd
+Z314 F/home/buris2/ece411/mp2.2/hdl/Physical_Memory_untitled.vhd
 l0
 L16
 VH[cgB8YKCaM=TY[F=`7<P0
 R13
 33
-Z307 !s108 1392881637.469623
-R289
-Z308 !s107 /home/buris2/ece411/mp2.2/hdl/Physical_Memory_untitled.vhd|
+Z315 !s108 1392881637.469623
+R297
+Z316 !s107 /home/buris2/ece411/mp2.2/hdl/Physical_Memory_untitled.vhd|
 R17
 R18
 !s100 4`LF8iF^RIaGN@@RjQofH0
@@ -2694,33 +2772,33 @@ L31
 Vb3gO06ca>_UF@V1Maid5[2
 R13
 33
-R307
-R289
-R308
+R315
+R297
+R316
 R17
 R18
 !s100 dSkzRfg8?XN6:aH]:e;Te2
 !i10b 1
 Epipelinedp
-R251
+R250
 R6
 R7
 R8
 R9
 R26
-Z309 8/home/adalton2/ece411/bound3/mp3/hdl/pipelinedp_struct.vhd
-Z310 F/home/adalton2/ece411/bound3/mp3/hdl/pipelinedp_struct.vhd
+Z317 8/home/adalton2/ece411/bound3/mp3/hdl/pipelinedp_struct.vhd
+Z318 F/home/adalton2/ece411/bound3/mp3/hdl/pipelinedp_struct.vhd
 l0
 L16
-V8BLEEdKIAS;PGNK<<8CmE0
+VB]A88Z3LYf[5olIj[D>iP1
 R13
 32
+R253
+R173
 R254
-R255
-R256
 R115
 R18
-!s100 zeR8d[cIVAXm^b^OBdBIL2
+!s100 @HESdKazH4SjI3@T?nLaA1
 !i10b 1
 Astruct
 DEx6 ece411 15 stage_writeback 0 22 <cE3fil`MoUZoi>LYKYVT3
@@ -2728,25 +2806,25 @@ DEx6 ece411 12 stage_memory 0 22 `Wm^6J6[3AXi71=8:i7i_1
 DEx6 ece411 11 stage_fetch 0 22 ]hgbl=e^T4fIJaaDMGSPl1
 DEx6 ece411 13 stage_execute 0 22 ]][Z^8k4RgLXCDlFd:?543
 DEx6 ece411 12 stage_decode 0 22 B0lao4kWHgZTE]B<b;z`92
+DEx6 ece411 11 reset_delay 0 22 ABmV6IE_BzOAk86z?]Y380
 DEx6 ece411 6 orinv2 0 22 V5>nI42DWXb`E9YzCm<2e0
-R121
-R125
-DEx4 work 10 pipelinedp 0 22 8BLEEdKIAS;PGNK<<8CmE0
+R124
+DEx4 work 10 pipelinedp 0 22 B]A88Z3LYf[5olIj[D>iP1
 R6
 R7
 R8
 R9
 l260
-L55
-V@KH4^Dzd0ONZ=eiQN]E0g2
+L54
+VbaOA5<SO?L83GE=ANiUEL1
 R13
 32
+R253
+R173
 R254
-R255
-R256
 R115
 R18
-!s100 QzbbF:okI[<lU=_3:>]_U2
+!s100 ^;k?D<R<ZE`0o8:Jja`R53
 !i10b 1
 Eplus2
 R52
@@ -2755,16 +2833,16 @@ R7
 R8
 R9
 R26
-Z311 8/home/adalton2/ece411/bound3/mp3/hdl/Plus2_untitled.vhd
-Z312 F/home/adalton2/ece411/bound3/mp3/hdl/Plus2_untitled.vhd
+Z319 8/home/adalton2/ece411/bound3/mp3/hdl/Plus2_untitled.vhd
+Z320 F/home/adalton2/ece411/bound3/mp3/hdl/Plus2_untitled.vhd
 l0
 L17
 V;NU98<B;jTP]Xo772mo1c2
 R13
 33
-R281
+R289
 R15
-R282
+R290
 R17
 R18
 !s100 C<JVLb:[nLYzUZNZJ_KJJ0
@@ -2780,30 +2858,30 @@ L29
 VHAMP^kWVSK@R1eHoZWi[G1
 R13
 33
-R281
+R289
 R15
-R282
+R290
 R17
 R18
 !s100 2F6mcd>zLb58iAmY<LliI0
 !i10b 1
 Ereg1
-Z313 w1395294595
+Z321 w1395294595
 R6
 R7
 R8
 R9
 R26
-Z314 8/home/adalton2/ece411/bound3/mp3/hdl/reg1_untitled.vhd
-Z315 F/home/adalton2/ece411/bound3/mp3/hdl/reg1_untitled.vhd
+Z322 8/home/adalton2/ece411/bound3/mp3/hdl/reg1_untitled.vhd
+Z323 F/home/adalton2/ece411/bound3/mp3/hdl/reg1_untitled.vhd
 l0
 L17
 V3g2R_e>iQWXkanJIK?Ok?1
 R13
 32
-Z316 !s108 1395298018.119792
-Z317 !s90 -work|ece411|-nologo|-f|/tmp/Files2|
-Z318 !s107 /home/adalton2/ece411/bound3/mp3/hdl/stage_fetch_struct.vhd|/home/adalton2/ece411/bound3/mp3/hdl/reg1_untitled.vhd|
+Z324 !s108 1395298018.119792
+Z325 !s90 -work|ece411|-nologo|-f|/tmp/Files2|
+Z326 !s107 /home/adalton2/ece411/bound3/mp3/hdl/stage_fetch_struct.vhd|/home/adalton2/ece411/bound3/mp3/hdl/reg1_untitled.vhd|
 R115
 R18
 !s100 H5MG8h84CO3^[DOaijE=V1
@@ -2819,9 +2897,9 @@ L29
 VYg9`L`7Q@LZ4=[BjAG4Wa1
 R13
 32
-R316
-R317
-R318
+R324
+R325
+R326
 R115
 R18
 !s100 UUKd;ZcIz]GB2Q2WK<9Nj3
@@ -2833,16 +2911,16 @@ R7
 R8
 R9
 R26
-Z319 8/home/adalton2/ece411/bound3/mp3/hdl/Reg16_untitled.vhd
-Z320 F/home/adalton2/ece411/bound3/mp3/hdl/Reg16_untitled.vhd
+Z327 8/home/adalton2/ece411/bound3/mp3/hdl/Reg16_untitled.vhd
+Z328 F/home/adalton2/ece411/bound3/mp3/hdl/Reg16_untitled.vhd
 l0
 L17
 VEGKT41;e_=Xh2k@SWJFGE3
 R13
 33
-R281
+R289
 R15
-R282
+R290
 R17
 R18
 !s100 GRAZ3U_>04@@L_eC?TPf>0
@@ -2858,30 +2936,30 @@ L32
 VX>SMXAC1YVOl0J6?S]dn?2
 R13
 33
-R281
+R289
 R15
-R282
+R290
 R17
 R18
 !s100 YH11jXkUd^hVXIM50YZHS0
 !i10b 1
 Ereg32
-Z321 w1395294165
+Z329 w1395294165
 R6
 R7
 R8
 R9
 R26
-Z322 8/home/adalton2/ece411/bound3/mp3/hdl/REG32_untitled.vhd
-Z323 F/home/adalton2/ece411/bound3/mp3/hdl/REG32_untitled.vhd
+Z330 8/home/adalton2/ece411/bound3/mp3/hdl/REG32_untitled.vhd
+Z331 F/home/adalton2/ece411/bound3/mp3/hdl/REG32_untitled.vhd
 l0
 L17
 VeeWm92X;KYlTC4k=Dn[AH3
 R13
 33
-Z324 !s108 1395298552.969151
+Z332 !s108 1395298552.969151
 R15
-Z325 !s107 /home/adalton2/ece411/bound3/mp3/hdl/REG32_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/IRregsplitter_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/RegMux2_untitled.vhd|
+Z333 !s107 /home/adalton2/ece411/bound3/mp3/hdl/REG32_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/IRregsplitter_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/RegMux2_untitled.vhd|
 R17
 R18
 !s100 7f_RcRHhP^MeUWk]5Hc1K2
@@ -2897,22 +2975,22 @@ L29
 VMA6I^4`_012[VF6A6Xc5:0
 R13
 33
-R324
+R332
 R15
-R325
+R333
 R17
 R18
 !s100 ?@FRCjG;P3^ZIkU`4L;iC2
 !i10b 1
 Eregfile
-Z326 w1391653992
+Z334 w1391653992
 R6
 R7
 R8
 R9
 R20
-Z327 8/home/buris2/ece411/mp2/hdl/RegFile_untitled.vhd
-Z328 F/home/buris2/ece411/mp2/hdl/RegFile_untitled.vhd
+Z335 8/home/buris2/ece411/mp2/hdl/RegFile_untitled.vhd
+Z336 F/home/buris2/ece411/mp2/hdl/RegFile_untitled.vhd
 l0
 L17
 VnhHW=`MVQX:J0?Uez?Sl13
@@ -2944,7 +3022,7 @@ R18
 !s100 ^2iKHCX`=Xo90l>jMMVcQ1
 !i10b 1
 Eregfile_dp
-R313
+R321
 R6
 R7
 R8
@@ -2959,28 +3037,28 @@ R13
 32
 R115
 R18
-R255
+Z337 !s90 -work|ece411|-nologo|-f|/tmp/Files3|
 !s100 =ONj[WOGLBTzNcFGXHmnT0
 !i10b 1
 !s108 1395298344.008376
 !s107 /home/adalton2/ece411/bound3/mp3/hdl/regfile_dp_untitled.vhd|
 Eregmux
-Z329 w1391473207
+Z338 w1391473207
 R6
 R7
 R8
 R9
 R20
-Z330 8/home/buris2/ece411/mp2/hdl/RegMux_untitled.vhd
-Z331 F/home/buris2/ece411/mp2/hdl/RegMux_untitled.vhd
+Z339 8/home/buris2/ece411/mp2/hdl/RegMux_untitled.vhd
+Z340 F/home/buris2/ece411/mp2/hdl/RegMux_untitled.vhd
 l0
 L17
 V@oTSf5DdKkC^fK?Ce]n9M3
 R13
 33
-Z332 !s108 1391473345.261148
+Z341 !s108 1391473345.261148
 R45
-Z333 !s107 /home/buris2/ece411/mp2/hdl/RegMux_untitled.vhd|
+Z342 !s107 /home/buris2/ece411/mp2/hdl/RegMux_untitled.vhd|
 R17
 R18
 !s100 jS_JYn>Dej=IzgiWHa]HO3
@@ -2996,9 +3074,9 @@ L30
 Vb4U<^KKXZ;=o1@3FGBeP00
 R13
 33
-R332
+R341
 R45
-R333
+R342
 R17
 R18
 !s100 S6n7AdLjQ]BhC?Da<H5YX2
@@ -3010,16 +3088,16 @@ R7
 R8
 R9
 R26
-Z334 8/home/adalton2/ece411/bound3/mp3/hdl/RegMux2_untitled.vhd
-Z335 F/home/adalton2/ece411/bound3/mp3/hdl/RegMux2_untitled.vhd
+Z343 8/home/adalton2/ece411/bound3/mp3/hdl/RegMux2_untitled.vhd
+Z344 F/home/adalton2/ece411/bound3/mp3/hdl/RegMux2_untitled.vhd
 l0
 L17
 VOnfH=0NoBU=9XH1N<SUfX1
 R13
 33
-R324
+R332
 R15
-R325
+R333
 R17
 R18
 !s100 lDKcV[5C`hk9;Z1I[JIX=1
@@ -3035,30 +3113,69 @@ L30
 Vaz?XRieN8jAQkjSj^S[D92
 R13
 33
-R324
+R332
 R15
-R325
+R333
 R17
 R18
 !s100 Q^Qn:z5Al:FKJ=@O7]0VO1
 !i10b 1
+Ereset_delay
+Z345 w1395374944
+R6
+R7
+R8
+R9
+R26
+Z346 8/home/adalton2/ece411/bound3/mp3/hdl/RESET_DELAY_untitled.vhd
+Z347 F/home/adalton2/ece411/bound3/mp3/hdl/RESET_DELAY_untitled.vhd
+l0
+L17
+VABmV6IE_BzOAk86z?]Y380
+R13
+33
+Z348 !s108 1395375115.240618
+R45
+Z349 !s107 /home/adalton2/ece411/bound3/mp3/hdl/RESET_DELAY_untitled.vhd|
+R17
+R18
+!s100 _7EK9JAB60^Hhhd9TAeZc0
+!i10b 1
+Auntitled
+R6
+R7
+R8
+R9
+DEx4 work 11 reset_delay 0 22 ABmV6IE_BzOAk86z?]Y380
+l30
+L29
+Vd8C0Dd9kVDU<I_e]CaN<^2
+R13
+33
+R348
+R45
+R349
+R17
+R18
+!s100 Z41CEi7HZSIPSHA<jEGNh3
+!i10b 1
 Erwactivehitdelay
-Z336 w1393537296
+Z350 w1393537296
 R6
 R7
 R8
 R9
 R10
-Z337 8/home/buris2/ece411/mp2.2/hdl/RWactiveHITdelay_untitled.vhd
-Z338 F/home/buris2/ece411/mp2.2/hdl/RWactiveHITdelay_untitled.vhd
+Z351 8/home/buris2/ece411/mp2.2/hdl/RWactiveHITdelay_untitled.vhd
+Z352 F/home/buris2/ece411/mp2.2/hdl/RWactiveHITdelay_untitled.vhd
 l0
 L17
 V5MbaY9YzQkfkCD5oN311j3
 R13
 33
-Z339 !s108 1393537470.828114
+Z353 !s108 1393537470.828114
 R45
-Z340 !s107 /home/buris2/ece411/mp2.2/hdl/eq_v0Delay6ns_untitled.vhd|/home/buris2/ece411/mp2.2/hdl/setDelay_untitled.vhd|/home/buris2/ece411/mp2.2/hdl/RWactiveHITdelay_untitled.vhd|
+Z354 !s107 /home/buris2/ece411/mp2.2/hdl/eq_v0Delay6ns_untitled.vhd|/home/buris2/ece411/mp2.2/hdl/setDelay_untitled.vhd|/home/buris2/ece411/mp2.2/hdl/RWactiveHITdelay_untitled.vhd|
 R17
 R18
 !s100 2DKS6eS9]g_L8>a9]_OZb0
@@ -3074,30 +3191,30 @@ L28
 VCIaCBQl68^9>6zkK2H<oB1
 R13
 33
-R339
+R353
 R45
-R340
+R354
 R17
 R18
 !s100 EzlB:6>mL26<d`VChniS82
 !i10b 1
 Esetdelay
-Z341 w1393554379
+Z355 w1393554379
 R6
 R7
 R8
 R9
 R10
-Z342 8/home/buris2/ece411/mp2.2/hdl/setDelay_untitled.vhd
-Z343 F/home/buris2/ece411/mp2.2/hdl/setDelay_untitled.vhd
+Z356 8/home/buris2/ece411/mp2.2/hdl/setDelay_untitled.vhd
+Z357 F/home/buris2/ece411/mp2.2/hdl/setDelay_untitled.vhd
 l0
 L17
 VB?Y`LaT3H[W4=kXQYY`5g1
 R13
 33
-Z344 !s108 1393554546.152509
+Z358 !s108 1393554546.152509
 R45
-Z345 !s107 /home/buris2/ece411/mp2.2/hdl/setDelay_untitled.vhd|
+Z359 !s107 /home/buris2/ece411/mp2.2/hdl/setDelay_untitled.vhd|
 R17
 R18
 !s100 m=Z^1AFfY:i=cGoaXG=8P2
@@ -3113,9 +3230,9 @@ L28
 V2@md>Ef^4J9R:<fHzIA3R1
 R13
 33
-R344
+R358
 R45
-R345
+R359
 R17
 R18
 !s100 <JNTb:cKcIRTFPcUCNGLH0
@@ -3127,8 +3244,8 @@ R7
 R8
 R9
 R26
-Z346 8/home/adalton2/ece411/bound3/mp3/hdl/SEXT5_untitled.vhd
-Z347 F/home/adalton2/ece411/bound3/mp3/hdl/SEXT5_untitled.vhd
+Z360 8/home/adalton2/ece411/bound3/mp3/hdl/SEXT5_untitled.vhd
+Z361 F/home/adalton2/ece411/bound3/mp3/hdl/SEXT5_untitled.vhd
 l0
 L17
 Vfo:O<ezhP^@>:2OVGgYzg0
@@ -3160,14 +3277,14 @@ R18
 !s100 >71WUDgdSGkgcR:2^D56^2
 !i10b 1
 Esext6
-Z348 w1395289556
+Z362 w1395289556
 R6
 R7
 R8
 R9
 R26
-Z349 8/home/adalton2/ece411/bound3/mp3/hdl/SEXT6_untitled.vhd
-Z350 F/home/adalton2/ece411/bound3/mp3/hdl/SEXT6_untitled.vhd
+Z363 8/home/adalton2/ece411/bound3/mp3/hdl/SEXT6_untitled.vhd
+Z364 F/home/adalton2/ece411/bound3/mp3/hdl/SEXT6_untitled.vhd
 l0
 L17
 VmAB3Z3@9R;gl5KM>G^Q2=1
@@ -3199,14 +3316,14 @@ R18
 !s100 3`[XH^S=6LgdYBMM`25BG2
 !i10b 1
 Esll8_const
-Z351 w1391662724
+Z365 w1391662724
 R6
 R7
 R8
 R9
 R20
-Z352 8/home/buris2/ece411/mp2/hdl/sll8_const_untitled.vhd
-Z353 F/home/buris2/ece411/mp2/hdl/sll8_const_untitled.vhd
+Z366 8/home/buris2/ece411/mp2/hdl/sll8_const_untitled.vhd
+Z367 F/home/buris2/ece411/mp2/hdl/sll8_const_untitled.vhd
 l0
 L17
 VClgF`hJe3mm2?97CCEzVg3
@@ -3238,30 +3355,30 @@ R18
 !s100 6:8>167BCmPJ@;cP]zZ4>2
 !i10b 1
 Estage_data
-Z354 w1395368567
+Z368 w1395368567
 R6
 R7
 R8
 R9
 R26
-Z355 8/home/adalton2/ece411/bound3/mp3/hdl/stage_data_struct.vhd
-Z356 F/home/adalton2/ece411/bound3/mp3/hdl/stage_data_struct.vhd
+Z369 8/home/adalton2/ece411/bound3/mp3/hdl/stage_data_struct.vhd
+Z370 F/home/adalton2/ece411/bound3/mp3/hdl/stage_data_struct.vhd
 l0
 L16
 V5fLOjTO^]M:@2j=jX3;X70
 R13
 32
-Z357 !s108 1395368816.822307
-R174
-Z358 !s107 /home/adalton2/ece411/bound3/mp3/hdl/pipelinedp_struct.vhd|/home/adalton2/ece411/bound3/mp3/hdl/stage_writeback_struct.vhd|/home/adalton2/ece411/bound3/mp3/hdl/stage_memory_struct.vhd|/home/adalton2/ece411/bound3/mp3/hdl/stage_execute_struct.vhd|/home/adalton2/ece411/bound3/mp3/hdl/stage_decode_struct.vhd|/home/adalton2/ece411/bound3/mp3/hdl/stage_data_struct.vhd|
+Z371 !s108 1395368816.822307
+R173
+Z372 !s107 /home/adalton2/ece411/bound3/mp3/hdl/pipelinedp_struct.vhd|/home/adalton2/ece411/bound3/mp3/hdl/stage_writeback_struct.vhd|/home/adalton2/ece411/bound3/mp3/hdl/stage_memory_struct.vhd|/home/adalton2/ece411/bound3/mp3/hdl/stage_execute_struct.vhd|/home/adalton2/ece411/bound3/mp3/hdl/stage_decode_struct.vhd|/home/adalton2/ece411/bound3/mp3/hdl/stage_data_struct.vhd|
 R115
 R18
 !s100 o`>fZfX:`f48L<`G2ga@V1
 !i10b 1
 Astruct
 DEx6 ece411 5 reg32 0 22 eeWm92X;KYlTC4k=Dn[AH3
-Z359 DEx6 mp3lib 5 reg16 0 22 Y5^D[?8WibZah^Ro<[Gg90
-Z360 DEx6 mp3lib 4 reg1 0 22 RZh``8jbYOW?=YoPHJ[DH1
+Z373 DEx6 mp3lib 5 reg16 0 22 Y5^D[?8WibZah^Ro<[Gg90
+Z374 DEx6 mp3lib 4 reg1 0 22 RZh``8jbYOW?=YoPHJ[DH1
 DEx4 work 10 stage_data 0 22 5fLOjTO^]M:@2j=jX3;X70
 R6
 R7
@@ -3272,39 +3389,39 @@ L54
 VRhELbMJNJ>775^anjZii;0
 R13
 32
-R357
-R174
-R358
+R371
+R173
+R372
 R115
 R18
 !s100 ?OOP8[9JBFn?Q@Fi2<?YA3
 !i10b 1
 Estage_decode
-Z361 w1395372556
+Z375 w1395375265
 R6
 R7
 R8
 R9
 R26
-Z362 8/home/adalton2/ece411/bound3/mp3/hdl/stage_decode_struct.vhd
-Z363 F/home/adalton2/ece411/bound3/mp3/hdl/stage_decode_struct.vhd
+Z376 8/home/adalton2/ece411/bound3/mp3/hdl/stage_decode_struct.vhd
+Z377 F/home/adalton2/ece411/bound3/mp3/hdl/stage_decode_struct.vhd
 l0
 L16
 VB0lao4kWHgZTE]B<b;z`92
 R13
 32
-Z364 !s108 1395372716.629604
-R174
-Z365 !s107 /home/adalton2/ece411/bound3/mp3/hdl/stage_execute_struct.vhd|/home/adalton2/ece411/bound3/mp3/hdl/stage_decode_struct.vhd|
+R253
+R173
+R254
 R115
 R18
 !s100 nVhmo8lI>JT4B]9DOHN4j1
 !i10b 1
 Astruct
-Z366 DEx6 ece411 10 stage_data 0 22 5fLOjTO^]M:@2j=jX3;X70
+Z378 DEx6 ece411 10 stage_data 0 22 5fLOjTO^]M:@2j=jX3;X70
 DEx6 ece411 7 regmux2 0 22 OnfH=0NoBU=9XH1N<SUfX1
 DEx6 mp3lib 7 regfile 0 22 m5ejle]mg9ifgR`:_97>P3
-R359
+R373
 DEx6 ece411 3 or3 0 22 aU21i_GoQ7;CBbX`8>fY:2
 DEx6 ece411 8 nzpsplit 0 22 SEkO7W4RZ_7J]2ZE>S[`g2
 DEx6 ece411 13 irregsplitter 0 22 0=f;d38k1Y@;Y_>`:=Rfk2
@@ -3312,8 +3429,8 @@ DEx6 ece411 12 irnzp_ripper 0 22 aQz>:b8?FJTEh3;^ZbHH03
 DEx6 ece411 6 cw_rom 0 22 6nbQjj`9ZSeQ=f?9Q_QS50
 DEx6 ece411 13 cw1sig_ripper 0 22 ?10Fbla>`BY95L?BOlU3[3
 DEx6 ece411 9 branchadd 0 22 Bj0^kEn=lnbTdTG1eOMSa1
+R123
 R124
-R125
 DEx6 ece411 4 adj9 0 22 Oz0;:_Z2:IfC:G86hR2An0
 DEx4 work 12 stage_decode 0 22 B0lao4kWHgZTE]B<b;z`92
 R6
@@ -3325,43 +3442,43 @@ L64
 V6_Qdi>EYgL5dA2O>MVLS:0
 R13
 32
-R364
-R174
-R365
+R253
+R173
+R254
 R115
 R18
 !s100 oVL9?QhkmV6a2PZkebJN20
 !i10b 1
 Estage_execute
-R251
+Z379 w1395372557
 R6
 R7
 R8
 R9
 R26
-Z367 8/home/adalton2/ece411/bound3/mp3/hdl/stage_execute_struct.vhd
-Z368 F/home/adalton2/ece411/bound3/mp3/hdl/stage_execute_struct.vhd
+Z380 8/home/adalton2/ece411/bound3/mp3/hdl/stage_execute_struct.vhd
+Z381 F/home/adalton2/ece411/bound3/mp3/hdl/stage_execute_struct.vhd
 l0
 L16
 V]][Z^8k4RgLXCDlFd:?543
 R13
 32
-R364
-R174
-R365
+Z382 !s108 1395372716.629604
+R173
+Z383 !s107 /home/adalton2/ece411/bound3/mp3/hdl/stage_execute_struct.vhd|/home/adalton2/ece411/bound3/mp3/hdl/stage_decode_struct.vhd|
 R115
 R18
 !s100 8:fL9TNN3k1`<J95:KKC`0
 !i10b 1
 Astruct
-R366
+R378
 DEx6 ece411 7 amp3alu 0 22 QlfmmnU=W>A@b[jdo`EN^1
 DEx6 ece411 5 zext4 0 22 2?CnC@bSNjW8n:@8dXKnH0
 R118
 R119
 DEx6 ece411 5 sext6 0 22 mAB3Z3@9R;gl5KM>G^Q2=1
-R177
-R359
+R176
+R373
 DEx6 ece411 13 ir2sig_ripper 0 22 BgfQQ?9SUg3>VG?0?TK3L3
 DEx6 ece411 13 cw2sig_ripper 0 22 Qohi;0JIBcf19o9>Xj3Em3
 DEx6 ece411 4 adj6 0 22 ^Q@<@k1X^HBF[l6IWFT^h2
@@ -3375,39 +3492,39 @@ L59
 VV>kNz8hZlOGa952]eEYlI3
 R13
 32
-R364
-R174
-R365
+R382
+R173
+R383
 R115
 R18
 !s100 N4V;jELZCni^=E0@3YjKM1
 !i10b 1
 Estage_fetch
-R354
+Z384 w1395374099
 R6
 R7
 R8
 R9
 R26
-Z369 8/home/adalton2/ece411/bound3/mp3/hdl/stage_fetch_struct.vhd
-Z370 F/home/adalton2/ece411/bound3/mp3/hdl/stage_fetch_struct.vhd
+Z385 8/home/adalton2/ece411/bound3/mp3/hdl/stage_fetch_struct.vhd
+Z386 F/home/adalton2/ece411/bound3/mp3/hdl/stage_fetch_struct.vhd
 l0
 L16
 V]hgbl=e^T4fIJaaDMGSPl1
 R13
 32
-Z371 !s108 1395368727.769783
+R266
 R113
-Z372 !s107 /home/adalton2/ece411/bound3/mp3/hdl/stage_fetch_struct.vhd|
+R267
 R115
 R18
 !s100 :hNVR[Si0IVd2<YWSYGMg1
 !i10b 1
 Astruct
 R119
-R359
-R360
-R178
+R373
+R374
+R177
 DEx4 work 11 stage_fetch 0 22 ]hgbl=e^T4fIJaaDMGSPl1
 R6
 R7
@@ -3418,44 +3535,44 @@ L56
 VeRbK=mRXDghN0KVd?VFlg1
 R13
 32
-R371
+R266
 R113
-R372
+R267
 R115
 R18
 !s100 fhzfGB7mj2djKz3;lb^lY2
 !i10b 1
 Estage_memory
-R251
+R379
 R6
 R7
 R8
 R9
 R26
-Z373 8/home/adalton2/ece411/bound3/mp3/hdl/stage_memory_struct.vhd
-Z374 F/home/adalton2/ece411/bound3/mp3/hdl/stage_memory_struct.vhd
+Z387 8/home/adalton2/ece411/bound3/mp3/hdl/stage_memory_struct.vhd
+Z388 F/home/adalton2/ece411/bound3/mp3/hdl/stage_memory_struct.vhd
 l0
 L16
 V`Wm^6J6[3AXi71=8:i7i_1
 R13
 32
-R254
-R255
-R256
+Z389 !s108 1395372717.118824
+R337
+Z390 !s107 /home/adalton2/ece411/bound3/mp3/hdl/mp3_cpu_struct.vhd|/home/adalton2/ece411/bound3/mp3/hdl/pipelinedp_struct.vhd|/home/adalton2/ece411/bound3/mp3/hdl/stage_memory_struct.vhd|
 R115
 R18
 !s100 VbX9aY5ZGCdZcid@83;zE1
 !i10b 1
 Astruct
-R366
+R378
 DEx6 ece411 10 generatecc 0 22 z:]hJC7<BWA?Pnf_`TD^?0
 DEx6 ece411 5 zext8 0 22 a>4`9ai88f`9BEP^GCR2L2
-R176
+R175
 R119
 DEx6 ece411 10 wrbyte_sel 0 22 b9X[DihiH=`8M?7<:`h=P1
-R359
-R179
-R122
+R373
+R178
+R121
 DEx6 ece411 8 memalign 0 22 Z^VV:PR5lWnlHM[Y;PP=D1
 DEx6 ece411 13 cw3sig_ripper 0 22 fobTN:>d:?QQMlJRY^f^@3
 DEx4 work 12 stage_memory 0 22 `Wm^6J6[3AXi71=8:i7i_1
@@ -3468,36 +3585,35 @@ L71
 Vm=<LbbD8M;jCbZA_T5WKd0
 R13
 32
-R254
-R255
-R256
+R389
+R337
+R390
 R115
 R18
 !s100 <X4EdBalV]fGQldRGI87L1
 !i10b 1
 Estage_writeback
-Z375 w1395368569
+Z391 w1395374956
 R6
 R7
 R8
 R9
 R26
-Z376 8/home/adalton2/ece411/bound3/mp3/hdl/stage_writeback_struct.vhd
-Z377 F/home/adalton2/ece411/bound3/mp3/hdl/stage_writeback_struct.vhd
+Z392 8/home/adalton2/ece411/bound3/mp3/hdl/stage_writeback_struct.vhd
+Z393 F/home/adalton2/ece411/bound3/mp3/hdl/stage_writeback_struct.vhd
 l0
 L16
 V<cE3fil`MoUZoi>LYKYVT3
 R13
 32
-R357
-R174
-R358
+Z394 !s108 1395375115.470393
+R173
+Z395 !s107 /home/adalton2/ece411/bound3/mp3/hdl/mp3_cpu_struct.vhd|/home/adalton2/ece411/bound3/mp3/hdl/pipelinedp_struct.vhd|/home/adalton2/ece411/bound3/mp3/hdl/stage_writeback_struct.vhd|
 R115
 R18
 !s100 hU^DAeILGmHI7RZIESnnP0
 !i10b 1
 Astruct
-R366
 R119
 DEx6 ece411 13 irdest_ripper 0 22 gX5OS5e]>KcOJAjAUMWUA0
 DEx6 ece411 13 cw4sig_ripper 0 22 ;GjF]>@ZWGgV_1f@MMcZh2
@@ -3506,35 +3622,35 @@ R6
 R7
 R8
 R9
-l121
+l99
 L57
-Vaa1W<iGPkc0PXmEfIEQMN0
+VLD5PhU81Lai=>7o:AFYA51
 R13
 32
-R357
-R174
-R358
+R394
+R173
+R395
 R115
 R18
-!s100 <WT<=?d3KPJLC[9UIeFF]0
+!s100 `cLVhXB5FSEB:F@5GN97W0
 !i10b 1
 Estoremux
-Z378 w1391474120
+Z396 w1391474120
 R6
 R7
 R8
 R9
 R20
-Z379 8/home/buris2/ece411/mp2/hdl/StoreMux_untitled.vhd
-Z380 F/home/buris2/ece411/mp2/hdl/StoreMux_untitled.vhd
+Z397 8/home/buris2/ece411/mp2/hdl/StoreMux_untitled.vhd
+Z398 F/home/buris2/ece411/mp2/hdl/StoreMux_untitled.vhd
 l0
 L17
 VTKb4`DG3DCcfJB1P?kgJX1
 R13
 33
-Z381 !s108 1391474258.683313
+Z399 !s108 1391474258.683313
 R45
-Z382 !s107 /home/buris2/ece411/mp2/hdl/StoreMux_untitled.vhd|
+Z400 !s107 /home/buris2/ece411/mp2/hdl/StoreMux_untitled.vhd|
 R17
 R18
 !s100 eRU<N=_o^cdB7[9jnY6nG0
@@ -3550,22 +3666,22 @@ L31
 V_PT<26JAIi2Wa_V@CS_=;0
 R13
 33
-R381
+R399
 R45
-R382
+R400
 R17
 R18
 !s100 d<9;Jbme>A@E``nGeFmoK1
 !i10b 1
 Etag_compare
-Z383 w1392361029
+Z401 w1392361029
 R6
 R7
 R8
 R9
 R10
-Z384 8/home/buris2/ece411/mp2.2/hdl/Tag_Compare_untitled.vhd
-Z385 F/home/buris2/ece411/mp2.2/hdl/Tag_Compare_untitled.vhd
+Z402 8/home/buris2/ece411/mp2.2/hdl/Tag_Compare_untitled.vhd
+Z403 F/home/buris2/ece411/mp2.2/hdl/Tag_Compare_untitled.vhd
 l0
 L17
 VZcAl;fJePU;dHGOKHWW5d1
@@ -3597,14 +3713,14 @@ R18
 !s100 ?21;hnQdc=9f`okelmJDi1
 !i10b 1
 Etagarray
-Z386 w1392358944
+Z404 w1392358944
 R6
 R7
 R8
 R9
 R10
-Z387 8/home/buris2/ece411/mp2.2/hdl/TagArray_untitled.vhd
-Z388 F/home/buris2/ece411/mp2.2/hdl/TagArray_untitled.vhd
+Z405 8/home/buris2/ece411/mp2.2/hdl/TagArray_untitled.vhd
+Z406 F/home/buris2/ece411/mp2.2/hdl/TagArray_untitled.vhd
 l0
 L7
 V;N2NzCzzMG71KMFiIi4^z0
@@ -3636,22 +3752,22 @@ R18
 !s100 4g0Mz1o;G79V;@NY@g8PE0
 !i10b 1
 Etagdelay20ns
-Z389 w1393575876
+Z407 w1393575876
 R6
 R7
 R8
 R9
 R10
-Z390 8/home/buris2/ece411/mp2.2/hdl/tagDelay20ns_untitled.vhd
-Z391 F/home/buris2/ece411/mp2.2/hdl/tagDelay20ns_untitled.vhd
+Z408 8/home/buris2/ece411/mp2.2/hdl/tagDelay20ns_untitled.vhd
+Z409 F/home/buris2/ece411/mp2.2/hdl/tagDelay20ns_untitled.vhd
 l0
 L17
 Vd_X^aB6Z=g;EGI1:[iDjA2
 R13
 33
-Z392 !s108 1393576094.273005
+Z410 !s108 1393576094.273005
 R45
-Z393 !s107 /home/buris2/ece411/mp2.2/hdl/clk_delay_untitled.vhd|/home/buris2/ece411/mp2.2/hdl/tagDelay20ns_untitled.vhd|
+Z411 !s107 /home/buris2/ece411/mp2.2/hdl/clk_delay_untitled.vhd|/home/buris2/ece411/mp2.2/hdl/tagDelay20ns_untitled.vhd|
 R17
 R18
 !s100 e[6_IG93LM:UL8Q=Q?U0a3
@@ -3667,22 +3783,22 @@ L28
 VR6TL@L3iUEFF[8cngfL_`1
 R13
 33
-R392
+R410
 R45
-R393
+R411
 R17
 R18
 !s100 8KZ3Tl>jo]JVfB8JQFedo1
 !i10b 1
 Etagmux
-Z394 w1392879498
+Z412 w1392879498
 R6
 R7
 R8
 R9
 R10
-Z395 8/home/buris2/ece411/mp2.2/hdl/tagMux_untitled.vhd
-Z396 F/home/buris2/ece411/mp2.2/hdl/tagMux_untitled.vhd
+Z413 8/home/buris2/ece411/mp2.2/hdl/tagMux_untitled.vhd
+Z414 F/home/buris2/ece411/mp2.2/hdl/tagMux_untitled.vhd
 l0
 L17
 Vk`E=_heBbNj5Un`Rl1VkF0
@@ -3714,22 +3830,22 @@ R18
 !s100 4j51lnIdUGD[[B>X6JfeB0
 !i10b 1
 Evaliddelay
-Z397 w1393526958
+Z415 w1393526958
 R6
 R7
 R8
 R9
 R10
-Z398 8/home/buris2/ece411/mp2.2/hdl/validDelay_untitled.vhd
-Z399 F/home/buris2/ece411/mp2.2/hdl/validDelay_untitled.vhd
+Z416 8/home/buris2/ece411/mp2.2/hdl/validDelay_untitled.vhd
+Z417 F/home/buris2/ece411/mp2.2/hdl/validDelay_untitled.vhd
 l0
 L17
 VmMAg:J>Bhh1R?cIFD8:bN0
 R13
 33
-Z400 !s108 1393527125.581196
+Z418 !s108 1393527125.581196
 R45
-Z401 !s107 /home/buris2/ece411/mp2.2/hdl/validDelay_untitled.vhd|
+Z419 !s107 /home/buris2/ece411/mp2.2/hdl/validDelay_untitled.vhd|
 R17
 R18
 !s100 Woc6K<74Ef9H4Q?HPYYCB0
@@ -3745,9 +3861,9 @@ L28
 V6fLT?NSCU@g3>A2Ea:AJ:1
 R13
 33
-R400
+R418
 R45
-R401
+R419
 R17
 R18
 !s100 jmiiYkmIdQ2<APB6VnDE^1
@@ -3759,8 +3875,8 @@ R7
 R8
 R9
 R10
-Z402 8/home/buris2/ece411/mp2.2/hdl/way_struct.vhd
-Z403 F/home/buris2/ece411/mp2.2/hdl/way_struct.vhd
+Z420 8/home/buris2/ece411/mp2.2/hdl/way_struct.vhd
+Z421 F/home/buris2/ece411/mp2.2/hdl/way_struct.vhd
 l0
 L16
 V9X7o5O0eABdGIHHoN2<JG2
@@ -3796,22 +3912,22 @@ R18
 !s100 P>]H^=QkhzI=jHkLc4gbZ0
 !i10b 1
 Ewordjoin8
-Z404 w1393352480
+Z422 w1393352480
 R6
 R7
 R8
 R9
 R10
-Z405 8/home/buris2/ece411/mp2.2/hdl/WordJoin8_untitled.vhd
-Z406 F/home/buris2/ece411/mp2.2/hdl/WordJoin8_untitled.vhd
+Z423 8/home/buris2/ece411/mp2.2/hdl/WordJoin8_untitled.vhd
+Z424 F/home/buris2/ece411/mp2.2/hdl/WordJoin8_untitled.vhd
 l0
 L17
 V9MZDbj`L?zoD6GJgg[bCF3
 R13
 33
-Z407 !s108 1393353298.367116
-Z408 !s90 -work|ece411|-nologo|-2008|-f|/tmp/Files3|
-Z409 !s107 /home/buris2/ece411/mp2.2/hdl/WordJoin8_untitled.vhd|
+Z425 !s108 1393353298.367116
+Z426 !s90 -work|ece411|-nologo|-2008|-f|/tmp/Files3|
+Z427 !s107 /home/buris2/ece411/mp2.2/hdl/WordJoin8_untitled.vhd|
 R17
 R18
 !s100 dWf5f76zD2Z@9acW<=GPz0
@@ -3827,9 +3943,9 @@ L35
 VAAZ88J;eQXQ0G>G21:UXV1
 R13
 33
-R407
-R408
-R409
+R425
+R426
+R427
 R17
 R18
 !s100 o<Hl0VUN7D0ao0B=boz1d2
@@ -3841,16 +3957,16 @@ R7
 R8
 R9
 R26
-Z410 8/home/adalton2/ece411/bound3/mp3/hdl/WordMux2_untitled.vhd
-Z411 F/home/adalton2/ece411/bound3/mp3/hdl/WordMux2_untitled.vhd
+Z428 8/home/adalton2/ece411/bound3/mp3/hdl/WordMux2_untitled.vhd
+Z429 F/home/adalton2/ece411/bound3/mp3/hdl/WordMux2_untitled.vhd
 l0
 L17
 VchV^DOK@EjF@N=S6RF9oX3
 R13
 33
-R281
+R289
 R15
-R282
+R290
 R17
 R18
 !s100 zRZ@nTf;C`OHMX97mbm6f0
@@ -3866,9 +3982,9 @@ L30
 VO@fZnCoOi0@_Ro:?llFV23
 R13
 33
-R281
+R289
 R15
-R282
+R290
 R17
 R18
 !s100 3d1jC^c^zXHCAXc5SmK;;3
@@ -3880,16 +3996,16 @@ R7
 R8
 R9
 R26
-Z412 8/home/adalton2/ece411/bound3/mp3/hdl/WordMux4_untitled.vhd
-Z413 F/home/adalton2/ece411/bound3/mp3/hdl/WordMux4_untitled.vhd
+Z430 8/home/adalton2/ece411/bound3/mp3/hdl/WordMux4_untitled.vhd
+Z431 F/home/adalton2/ece411/bound3/mp3/hdl/WordMux4_untitled.vhd
 l0
 L17
 VAnF=49S>JKLHFl4n`O7lN2
 R13
 33
-Z414 !s108 1395298880.842947
+Z432 !s108 1395298880.842947
 R45
-Z415 !s107 /home/adalton2/ece411/bound3/mp3/hdl/WRbyte_sel_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/AND_411_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/NAND2_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/OR3_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/ZEXT8_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/NZPsplit_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/NZP_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/MEMalignment_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/IRnzp_ripper_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/generateCC_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/WordMux4_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/CW3sig_ripper_untitled.vhd|
+Z433 !s107 /home/adalton2/ece411/bound3/mp3/hdl/WRbyte_sel_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/AND_411_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/NAND2_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/OR3_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/ZEXT8_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/NZPsplit_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/NZP_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/MEMalignment_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/IRnzp_ripper_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/generateCC_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/WordMux4_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/CW3sig_ripper_untitled.vhd|
 R17
 R18
 !s100 O8NC@miJfL1LBA2[BZm3_0
@@ -3905,30 +4021,30 @@ L32
 V:79dJH3=T@ckA<ABGhJEU3
 R13
 33
-R414
+R432
 R45
-R415
+R433
 R17
 R18
 !s100 @:2AY^C`SS=?o=XYNfk2M3
 !i10b 1
 Ewordmux5
-Z416 w1391481089
+Z434 w1391481089
 R6
 R7
 R8
 R9
 R20
-Z417 8/home/buris2/ece411/mp2/hdl/WordMux6_untitled.vhd
-Z418 F/home/buris2/ece411/mp2/hdl/WordMux6_untitled.vhd
+Z435 8/home/buris2/ece411/mp2/hdl/WordMux6_untitled.vhd
+Z436 F/home/buris2/ece411/mp2/hdl/WordMux6_untitled.vhd
 l0
 L17
 VWYgC]3?_G>?Kg7<PI8Ke31
 R13
 33
-Z419 !s108 1391482220.443076
+Z437 !s108 1391482220.443076
 R45
-Z420 !s107 /home/buris2/ece411/mp2/hdl/WordMux6_untitled.vhd|/home/buris2/ece411/mp2/hdl/IR_untitled.vhd|
+Z438 !s107 /home/buris2/ece411/mp2/hdl/WordMux6_untitled.vhd|/home/buris2/ece411/mp2/hdl/IR_untitled.vhd|
 R17
 R18
 !s100 Lch320=6Xme@ERZJo9;;G0
@@ -3944,9 +4060,9 @@ L33
 VCVWV=:g1d3>UhgdG8k2;:1
 R13
 33
-R419
+R437
 R45
-R420
+R438
 R17
 R18
 !s100 ^UilGnVE[PjREF8TcQG=H2
@@ -3958,16 +4074,16 @@ R7
 R8
 R9
 R26
-Z421 8/home/adalton2/ece411/bound3/mp3/hdl/WordMux8_untitled.vhd
-Z422 F/home/adalton2/ece411/bound3/mp3/hdl/WordMux8_untitled.vhd
+Z439 8/home/adalton2/ece411/bound3/mp3/hdl/WordMux8_untitled.vhd
+Z440 F/home/adalton2/ece411/bound3/mp3/hdl/WordMux8_untitled.vhd
 l0
 L17
 V1JfLn=m82fGaB<_J=dCG41
 R13
 33
-Z423 !s108 1395298767.928510
+Z441 !s108 1395298767.928510
 R45
-Z424 !s107 /home/adalton2/ece411/bound3/mp3/hdl/WordMux8_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/aMP3ALU_untitled.vhd|
+Z442 !s107 /home/adalton2/ece411/bound3/mp3/hdl/WordMux8_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/aMP3ALU_untitled.vhd|
 R17
 R18
 !s100 H_YUOSPJH=1h>N<8AbPlC0
@@ -3983,22 +4099,22 @@ L36
 VdTF]hWM9Ieka4YP[Kie0l0
 R13
 33
-R423
+R441
 R45
-R424
+R442
 R17
 R18
 !s100 A?bgX[2e4f9Rg2FfjGnDG1
 !i10b 1
 Ewordsplit
-Z425 w1393346778
+Z443 w1393346778
 R6
 R7
 R8
 R9
 R10
-Z426 8/home/buris2/ece411/mp2.2/hdl/wordsplit_untitled.vhd
-Z427 F/home/buris2/ece411/mp2.2/hdl/wordsplit_untitled.vhd
+Z444 8/home/buris2/ece411/mp2.2/hdl/wordsplit_untitled.vhd
+Z445 F/home/buris2/ece411/mp2.2/hdl/wordsplit_untitled.vhd
 l0
 L17
 VjQ5l49^1>]]THIoPZ19PU2
@@ -4036,8 +4152,8 @@ R7
 R8
 R9
 R10
-Z428 8/home/buris2/ece411/mp2.2/hdl/wordwrite_struct.vhd
-Z429 F/home/buris2/ece411/mp2.2/hdl/wordwrite_struct.vhd
+Z446 8/home/buris2/ece411/mp2.2/hdl/wordwrite_struct.vhd
+Z447 F/home/buris2/ece411/mp2.2/hdl/wordwrite_struct.vhd
 l0
 L16
 VM6m^in;:eUjhKaC;oM[1h1
@@ -4073,22 +4189,22 @@ R18
 !s100 ]om_6]HogOKh_kPW^>1IB0
 !i10b 1
 Ewrbyte_sel
-R151
+R150
 R6
 R7
 R8
 R9
 R26
-Z430 8/home/adalton2/ece411/bound3/mp3/hdl/WRbyte_sel_untitled.vhd
-Z431 F/home/adalton2/ece411/bound3/mp3/hdl/WRbyte_sel_untitled.vhd
+Z448 8/home/adalton2/ece411/bound3/mp3/hdl/WRbyte_sel_untitled.vhd
+Z449 F/home/adalton2/ece411/bound3/mp3/hdl/WRbyte_sel_untitled.vhd
 l0
 L17
 Vb9X[DihiH=`8M?7<:`h=P1
 R13
 33
-R154
+R153
 R45
-R155
+R154
 R17
 R18
 !s100 Vj0006dWmlU522QCM`E_k0
@@ -4104,9 +4220,9 @@ L31
 V1^GW?:7TO;aQXJBT4UN:e2
 R13
 33
-R154
+R153
 R45
-R155
+R154
 R17
 R18
 !s100 Db3J2<n1YfV;Jd64zS^8C2
@@ -4118,8 +4234,8 @@ R7
 R8
 R9
 R10
-Z432 8/home/buris2/ece411/mp2.2/hdl/wrtoword_struct.vhd
-Z433 F/home/buris2/ece411/mp2.2/hdl/wrtoword_struct.vhd
+Z450 8/home/buris2/ece411/mp2.2/hdl/wrtoword_struct.vhd
+Z451 F/home/buris2/ece411/mp2.2/hdl/wrtoword_struct.vhd
 l0
 L16
 VWBihjM3d]J<b>3OCW_jU82
@@ -4136,7 +4252,7 @@ Astruct
 DEx6 ece411 9 wordsplit 0 22 jQ5l49^1>]]THIoPZ19PU2
 DEx6 ece411 8 bytemux2 0 22 hXd8W<GezECfdLPId`iFd1
 DEx6 ece411 8 bytejoin 0 22 N]F9ZQE;F3la39S8Z4;Ca2
-R123
+R122
 DEx4 work 8 wrtoword 0 22 WBihjM3d]J<b>3OCW_jU82
 R6
 R7
@@ -4155,14 +4271,14 @@ R18
 !s100 VM>NH7mM_SQl2JRCLR4lH0
 !i10b 1
 Ezext4
-Z434 w1395289508
+Z452 w1395289508
 R6
 R7
 R8
 R9
 R26
-Z435 8/home/adalton2/ece411/bound3/mp3/hdl/ZEXT4_untitled.vhd
-Z436 F/home/adalton2/ece411/bound3/mp3/hdl/ZEXT4_untitled.vhd
+Z453 8/home/adalton2/ece411/bound3/mp3/hdl/ZEXT4_untitled.vhd
+Z454 F/home/adalton2/ece411/bound3/mp3/hdl/ZEXT4_untitled.vhd
 l0
 L17
 V2?CnC@bSNjW8n:@8dXKnH0
@@ -4200,16 +4316,16 @@ R7
 R8
 R9
 R26
-Z437 8/home/adalton2/ece411/bound3/mp3/hdl/ZEXT8_untitled.vhd
-Z438 F/home/adalton2/ece411/bound3/mp3/hdl/ZEXT8_untitled.vhd
+Z455 8/home/adalton2/ece411/bound3/mp3/hdl/ZEXT8_untitled.vhd
+Z456 F/home/adalton2/ece411/bound3/mp3/hdl/ZEXT8_untitled.vhd
 l0
 L17
 Va>4`9ai88f`9BEP^GCR2L2
 R13
 33
-R154
+R153
 R45
-R155
+R154
 R17
 R18
 !s100 ]hR@zY3>U4kgWN8z5f<iU1
@@ -4225,9 +4341,9 @@ L28
 VK;<iaAbe`H9U:jG7WXokX1
 R13
 33
-R154
+R153
 R45
-R155
+R154
 R17
 R18
 !s100 RDfQ0RVC4GF4]<FMR^T@a2

@@ -31,41 +31,41 @@ BEGIN
   controlROM : PROCESS(OPCODE)
   VARIABLE cword_out : lc3b_dword;
     BEGIN
-        CASE OPCODE is
-          when "0000" =>
-            cword_out := x"00000000";
-          when "0001" =>
-            cword_out := x"00000000";
-          when "0010" =>
-            cword_out := x"00000000";
-          when "0011" =>
-            cword_out := x"00000000";
-          when "0100" =>
-            cword_out := x"00000000";
-          when "0101" =>
-            cword_out := x"00000000";
-          when "0110" =>
-            cword_out := x"00000000";
-          when "0111" =>
-            cword_out := x"00000000";
-          when "1000" =>
-            cword_out := x"00000000";
-          when "1001" =>
-            cword_out := x"00000000";
-          when "1010" =>
-            cword_out := x"00000000";
-          when "1011" =>
-            cword_out := x"00000000";
-          when "1100" =>
-            cword_out := x"00000000";
-          when "1101" =>
-            cword_out := x"00000000";
-          when "1110" =>
-            cword_out := x"00000000";
-          when "1111" =>
-            cword_out := x"00000000";
+        CASE OPCODE is  --X     X   XXX XXX 0   X   0   0   XX  00  X   0   X   0   XXXXXXXXXXX = do nothing. NOP = branch with nzp = 000.
+          when OP_ADD =>--31    30  29  26  23  22  21  20  19  17  15  14  13  12  11
+            cword_out := "100000000010XX000100XXXXXXXXXXX";
+          when OP_AND =>
+            cword_out := "100010000010XX000100XXXXXXXXXXX";
+          when OP_NOT =>
+            cword_out := "100100000010XX000100XXXXXXXXXXX";
+          when OP_BR =>
+            cword_out := "XXXXXXXX0X00XX00X0X1XXXXXXXXXXX";
+          when OP_JSR =>
+            cword_out := x"XXXXXXXX";
+          when OP_JMP =>
+            cword_out := x"XXXXXXXX";
+          when OP_LDR =>
+            cword_out := "11000001111000000110XXXXXXXXXXX";
+          when OP_LDB =>
+            cword_out := x"XXXXXXXX";
+          when OP_LDI =>
+            cword_out := x"XXXXXXXX";
+          when OP_LEA =>
+            cword_out := x"XXXXXXXX";
+          when OP_RTI =>
+            cword_out := x"XXXXXXXX";
+          when OP_SHF =>
+            cword_out := x"XXXXXXXX";
+          when OP_STR =>
+            cword_out := "11000001010000110110XXXXXXXXXXX";
+          when OP_STB =>
+            cword_out := x"XXXXXXXX";
+          when OP_STI =>
+            cword_out := x"XXXXXXXX";
+          when OP_TRAP =>
+            cword_out := x"XXXXXXXX";
           when others =>
-            NULL;   
+            cword_out := "XXXXXXXX0X00XX00X0X0XXXXXXXXXXX";   
         end CASE;
         CW1out <= cword_out after DELAY_ROM;
   END PROCESS;
