@@ -177,25 +177,103 @@ R11
 R12
 R17
 R8
-Ereg1
+Enor2
 Z26 w1395281183
-Z27 DPx6 ece411 10 lc3b_types 0 22 Y^MG3gn[4FARO_W4L60_<3
+Z27 DPx6 ece411 10 lc3b_types 0 22 `5nK;HlWBS=5idE:WATN62
 Z28 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
 Z29 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
 Z30 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
 Z31 d/home/adalton2/ece411/bound3/mp3/mp3lib/compile
-Z32 8/home/adalton2/ece411/bound3/mp3/mp3lib/hdl/reg1_untitled.vhd
-Z33 F/home/adalton2/ece411/bound3/mp3/mp3lib/hdl/reg1_untitled.vhd
+Z32 8/home/adalton2/ece411/bound3/mp3/mp3lib/hdl/nor2_untitled.vhd
+Z33 F/home/adalton2/ece411/bound3/mp3/mp3lib/hdl/nor2_untitled.vhd
+l0
+L17
+VU2b;366?jjX^6TJhOA>XL2
+Z34 OE;C;10.1d;51
+32
+Z35 !s108 1396498514.928125
+Z36 !s90 -work|mp3lib|-nologo|-f|/tmp/Files16|
+Z37 !s107 /home/adalton2/ece411/bound3/mp3/mp3lib/hdl/reg1_untitled.vhd|/home/adalton2/ece411/bound3/mp3/mp3lib/hdl/reg16_untitled.vhd|/home/adalton2/ece411/bound3/mp3/mp3lib/hdl/nor2_untitled.vhd|/home/adalton2/ece411/bound3/mp3/mp3lib/hdl/not1_untitled.vhd|
+Z38 o-work mp3lib -nologo
+R8
+!s100 GjWXM[la:>DVfll6ihXWI3
+!i10b 1
+Auntitled
+R27
+R28
+R29
+R30
+DEx4 work 4 nor2 0 22 U2b;366?jjX^6TJhOA>XL2
+l28
+L27
+VcJ>C^h;9JEIOeiPdL>8lY2
+R34
+32
+R35
+R36
+R37
+R38
+R8
+!s100 0AAF0:h[nBYfZJiY^Jfia3
+!i10b 1
+Enot1
+R26
+R27
+R28
+R29
+R30
+R31
+Z39 8/home/adalton2/ece411/bound3/mp3/mp3lib/hdl/not1_untitled.vhd
+Z40 F/home/adalton2/ece411/bound3/mp3/mp3lib/hdl/not1_untitled.vhd
+l0
+L17
+VI]CoP]JP94gOnicG?LBLa3
+Z41 !s100 RIbEXG;jVb7:mbHzDDnjm3
+R34
+32
+R35
+R36
+R37
+R38
+R8
+!i10b 1
+Auntitled
+R27
+R28
+R29
+R30
+DEx4 work 4 not1 0 22 I]CoP]JP94gOnicG?LBLa3
+l27
+L26
+V]@3jkUia6di<]f>GjeAP91
+R34
+32
+R35
+R36
+R37
+R38
+R8
+!s100 T>0K[TizDmf=RNlH3IB1o3
+!i10b 1
+Ereg1
+R26
+R27
+R28
+R29
+R30
+R31
+Z42 8/home/adalton2/ece411/bound3/mp3/mp3lib/hdl/reg1_untitled.vhd
+Z43 F/home/adalton2/ece411/bound3/mp3/mp3lib/hdl/reg1_untitled.vhd
 l0
 L17
 VRZh``8jbYOW?=YoPHJ[DH1
-Z34 !s100 H5MG8h84CO3^[DOaijE=V1
-Z35 OE;C;10.1d;51
+Z44 !s100 H5MG8h84CO3^[DOaijE=V1
+R34
 32
-Z36 !s108 1395298343.345573
-Z37 !s90 -work|mp3lib|-nologo|-f|/tmp/Files0|
-Z38 !s107 /home/adalton2/ece411/bound3/mp3/mp3lib/hdl/reg1_untitled.vhd|/home/adalton2/ece411/bound3/mp3/mp3lib/hdl/reg16_untitled.vhd|
-Z39 o-work mp3lib -nologo
+R35
+R36
+R37
+R38
 R8
 !i10b 1
 Auntitled
@@ -207,13 +285,13 @@ DEx4 work 4 reg1 0 22 RZh``8jbYOW?=YoPHJ[DH1
 l30
 L29
 V;:A_`N7h4T8QHSJQzz;gI2
-Z40 !s100 UUKd;ZcIz]GB2Q2WK<9Nj3
-R35
+Z45 !s100 UUKd;ZcIz]GB2Q2WK<9Nj3
+R34
 32
+R35
 R36
 R37
 R38
-R39
 R8
 !i10b 1
 Ereg16
@@ -223,17 +301,17 @@ R28
 R29
 R30
 R31
-Z41 8/home/adalton2/ece411/bound3/mp3/mp3lib/hdl/reg16_untitled.vhd
-Z42 F/home/adalton2/ece411/bound3/mp3/mp3lib/hdl/reg16_untitled.vhd
+Z46 8/home/adalton2/ece411/bound3/mp3/mp3lib/hdl/reg16_untitled.vhd
+Z47 F/home/adalton2/ece411/bound3/mp3/mp3lib/hdl/reg16_untitled.vhd
 l0
 L17
 VY5^D[?8WibZah^Ro<[Gg90
-R35
+R34
 32
+R35
 R36
 R37
 R38
-R39
 R8
 !s100 SP]KfY5Se?e0:zTz2VF<A3
 !i10b 1
@@ -246,14 +324,14 @@ DEx4 work 5 reg16 0 22 Y5^D[?8WibZah^Ro<[Gg90
 l30
 L29
 V`H>mD31X`hjzWe?3M:81c0
-R35
+!s100 _4M]mj8z5zz22_DUkRb<C0
+R34
 32
+R35
 R36
 R37
 R38
-R39
 R8
-!s100 _4M]mj8z5zz22_DUkRb<C0
 !i10b 1
 Eregfile
 R26
@@ -262,35 +340,35 @@ R28
 R29
 R30
 R31
-Z43 8/home/adalton2/ece411/bound3/mp3/mp3lib/hdl/regfile_untitled.vhd
-Z44 F/home/adalton2/ece411/bound3/mp3/mp3lib/hdl/regfile_untitled.vhd
+Z48 8/home/adalton2/ece411/bound3/mp3/mp3lib/hdl/regfile_untitled.vhd
+Z49 F/home/adalton2/ece411/bound3/mp3/mp3lib/hdl/regfile_untitled.vhd
 l0
 L17
 Vm5ejle]mg9ifgR`:_97>P3
-!s100 8dfD=g_cK13cizOE0Q52R1
-R35
+Z50 !s100 8dfD=g_cK13cizOE0Q52R1
+R34
 32
 !i10b 1
-Z45 !s108 1395298552.768124
-R37
-Z46 !s107 /home/adalton2/ece411/bound3/mp3/mp3lib/hdl/regfile_untitled.vhd|
-R39
+Z51 !s108 1396498515.988049
+Z52 !s90 -work|mp3lib|-nologo|-f|/tmp/Files19|
+Z53 !s107 /home/adalton2/ece411/bound3/mp3/mp3lib/hdl/regfile_untitled.vhd|
+R38
 R8
 Auntitled
 R27
 R28
 R29
 R30
-DEx4 work 7 regfile 0 22 m5ejle]mg9ifgR`:_97>P3
+Z54 DEx4 work 7 regfile 0 22 m5ejle]mg9ifgR`:_97>P3
 l36
 L33
-VVIWSKk^RJh:SV28YSR0750
-!s100 XBAWRU>9MjcMo0YDZOBiE3
-R35
+Z55 VVIWSKk^RJh:SV28YSR0750
+Z56 !s100 XBAWRU>9MjcMo0YDZOBiE3
+R34
 32
 !i10b 1
-R45
-R37
-R46
-R39
+R51
+R52
+R53
+R38
 R8

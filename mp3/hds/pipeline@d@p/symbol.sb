@@ -177,6 +177,7 @@ n "I_MRESP_H"
 t "std_logic"
 o 4
 suid 48,0
+i "'0'"
 )
 )
 uid 367,0
@@ -188,6 +189,7 @@ n "D_MRESP_H"
 t "std_logic"
 o 2
 suid 49,0
+i "'0'"
 )
 )
 uid 369,0
@@ -611,19 +613,19 @@ value "/home/adalton2/ece411/bound3/mp3/hds/pipelineDP"
 )
 (vvPair
 variable "date"
-value "03/20/14"
+value "04/02/14"
 )
 (vvPair
 variable "day"
-value "Thu"
+value "Wed"
 )
 (vvPair
 variable "day_long"
-value "Thursday"
+value "Wednesday"
 )
 (vvPair
 variable "dd"
-value "20"
+value "02"
 )
 (vvPair
 variable "entity_name"
@@ -651,7 +653,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "gelib-057-16.ews.illinois.edu"
+value "siebl-0220-12.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -667,7 +669,7 @@ value "$HDS_PROJECT_DIR/compile"
 )
 (vvPair
 variable "mm"
-value "03"
+value "04"
 )
 (vvPair
 variable "module_name"
@@ -675,11 +677,11 @@ value "pipelineDP"
 )
 (vvPair
 variable "month"
-value "Mar"
+value "Apr"
 )
 (vvPair
 variable "month_long"
-value "March"
+value "April"
 )
 (vvPair
 variable "p"
@@ -743,7 +745,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "22:40:19"
+value "23:28:25"
 )
 (vvPair
 variable "unit"
@@ -1222,14 +1224,23 @@ st "I_MRESP_H"
 blo "16000,11250"
 tm "CptPortNameMgr"
 )
+t (Text
+va (VaSet
+font "courier,8,0"
+)
+xt "16000,11450,17700,12350"
+st "'0'"
+blo "16000,12150"
+tm "InitValueDelayMgr"
+)
 )
 dt (MLText
 uid 378,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,4500,60000,5400"
-st "I_MRESP_H : IN     std_logic  ;
+xt "44000,4500,63700,5400"
+st "I_MRESP_H : IN     std_logic  := '0' ;
 "
 )
 thePort (LogicalPort
@@ -1238,6 +1249,7 @@ n "I_MRESP_H"
 t "std_logic"
 o 4
 suid 48,0
+i "'0'"
 )
 )
 )
@@ -1267,14 +1279,23 @@ st "D_MRESP_H"
 blo "16000,12250"
 tm "CptPortNameMgr"
 )
+t (Text
+va (VaSet
+font "courier,8,0"
+)
+xt "16000,12450,17700,13350"
+st "'0'"
+blo "16000,13150"
+tm "InitValueDelayMgr"
+)
 )
 dt (MLText
 uid 383,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,2700,60000,3600"
-st "D_MRESP_H : IN     std_logic  ;
+xt "44000,2700,63700,3600"
+st "D_MRESP_H : IN     std_logic  := '0' ;
 "
 )
 thePort (LogicalPort
@@ -1283,6 +1304,7 @@ n "D_MRESP_H"
 t "std_logic"
 o 2
 suid 49,0
+i "'0'"
 )
 )
 )
@@ -2085,6 +2107,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 1527,0
+lastUid 1550,0
 activeModelName "Symbol"
 )

@@ -417,19 +417,19 @@ value "/home/adalton2/ece411/bound3/mp3/hds/mp3_CPU"
 )
 (vvPair
 variable "date"
-value "03/20/14"
+value "04/02/14"
 )
 (vvPair
 variable "day"
-value "Thu"
+value "Wed"
 )
 (vvPair
 variable "day_long"
-value "Thursday"
+value "Wednesday"
 )
 (vvPair
 variable "dd"
-value "20"
+value "02"
 )
 (vvPair
 variable "entity_name"
@@ -457,7 +457,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "gelib-057-16.ews.illinois.edu"
+value "siebl-0220-12.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -468,12 +468,16 @@ variable "library"
 value "ece411"
 )
 (vvPair
+variable "library_downstream_HdsLintPlugin"
+value "$HDS_PROJECT_DIR/ece411/designcheck"
+)
+(vvPair
 variable "library_downstream_ModelSimCompiler"
 value "$HDS_PROJECT_DIR/compile"
 )
 (vvPair
 variable "mm"
-value "03"
+value "04"
 )
 (vvPair
 variable "module_name"
@@ -481,11 +485,11 @@ value "mp3_CPU"
 )
 (vvPair
 variable "month"
-value "Mar"
+value "Apr"
 )
 (vvPair
 variable "month_long"
-value "March"
+value "April"
 )
 (vvPair
 variable "p"
@@ -549,7 +553,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "22:42:35"
+value "23:26:05"
 )
 (vvPair
 variable "unit"
@@ -913,7 +917,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "courier,8,0"
 )
-xt "53200,46050,58700,46950"
+xt "53200,46050,56200,46950"
 st "
 %project_name
 "
@@ -1380,6 +1384,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 227,0
+lastUid 296,0
 activeModelName "Symbol"
 )
