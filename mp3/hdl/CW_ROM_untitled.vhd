@@ -45,7 +45,7 @@ BEGIN
           when OP_JMP =>
             cword_out := x"XXXXXXXX";
           when OP_LDR =>
-            cword_out := "11000001111000000110XXXXXXXXXXXX";
+            cword_out := "11000001111100000110XXXXXXXXXXXX";
           when OP_LDB =>
             cword_out := x"XXXXXXXX";
           when OP_LDI =>
@@ -57,7 +57,7 @@ BEGIN
           when OP_SHF =>
             cword_out := x"XXXXXXXX";
           when OP_STR =>
-            cword_out := "11000001010000110010XXXXXXXXXXXX";
+            cword_out := "11000001010100110010XXXXXXXXXXXX";
           when OP_STB =>
             cword_out := x"XXXXXXXX";
           when OP_STI =>
