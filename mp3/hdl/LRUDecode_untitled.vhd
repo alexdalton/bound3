@@ -32,10 +32,10 @@ END LRUDecode ;
 --
 ARCHITECTURE untitled OF LRUDecode IS
 BEGIN
-  Way0Write <= '1' when (LRUOut = '0' and LD_Cache = '1') else '0' after delay_decode3;
-  Way1Write <= '1' when (LRUOut = '1' and LD_Cache = '1') else '0' after delay_decode3;
-  LRUIn <= '1' when TagAND0 = '1' and TagAND1 = '0' else
-           '0' when TagAND0 = '0' and TagAND1 = '1' else
+  Way0Write <= '1' after delay_decode3 when (LRUOut = '0' and LD_Cache = '1') else '0' after delay_decode3;
+  Way1Write <= '1' after delay_decode3 when (LRUOut = '1' and LD_Cache = '1') else '0' after delay_decode3;
+  LRUIn <= '1' after delay_decode3 when TagAND0 = '1' and TagAND1 = '0' else
+           '0' after delay_decode3 when TagAND0 = '0' and TagAND1 = '1' else
            '0' after delay_decode3;
 END ARCHITECTURE untitled;
 

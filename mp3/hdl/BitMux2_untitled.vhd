@@ -40,7 +40,7 @@ BEGIN
       when others =>
         state := '0';
     end case;
-    C <= state after (delay_MUX2 + delay_MUX2 + delay_MUX2 + DELAY_256B);
+    C <= state after delay_MUX2; --+ delay_MUX2 + delay_MUX2 + DELAY_256B);
   END PROCESS;
 END ARCHITECTURE untitled;
 

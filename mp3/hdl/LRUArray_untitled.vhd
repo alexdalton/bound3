@@ -11,6 +11,7 @@ ENTITY LRUArray IS
   PORT(
     RESET_L : IN std_logic;
     LRUWrite : IN std_logic;
+    CLK      : IN std_logic;
     Index : IN LC3b_c_index;
     LRUIn : IN std_logic;
     LRUOut : OUT std_logic
@@ -31,7 +32,7 @@ BEGIN
     LRUOut <= LRU(LRUIndex) after DELAY_256B;
   END PROCESS ReadFromLRUArray;
   --------------------------------------------------------------
-  WriteToLRUArray : PROCESS (RESET_L, Index, LRUWrite, LRUIn)
+  WriteToLRUArray : PROCESS (RESET_L, Index, LRUWrite, LRUIn, CLK)
   --------------------------------------------------------------
   VARIABLE LRUIndex : integer;
   BEGIN
@@ -46,7 +47,7 @@ BEGIN
       LRU(6) <= '0';
       LRU(7) <= '0';
     END IF;
-    IF (LRUWrite = '1') THEN
+    IF (LRUWrite = '1' and rising_edge(clk)) THEN
       LRU(LRUIndex) <= LRUIn;
     END IF;
   END PROCESS WriteToLRUArray;

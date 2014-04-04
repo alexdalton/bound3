@@ -103,19 +103,19 @@ value "/home/adalton2/ece411/bound3/mp3/hds/Memory"
 )
 (vvPair
 variable "date"
-value "04/02/14"
+value "04/03/14"
 )
 (vvPair
 variable "day"
-value "Wed"
+value "Thu"
 )
 (vvPair
 variable "day_long"
-value "Wednesday"
+value "Thursday"
 )
 (vvPair
 variable "dd"
-value "02"
+value "03"
 )
 (vvPair
 variable "entity_name"
@@ -143,7 +143,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "siebl-0220-12.ews.illinois.edu"
+value "siebl-0218-19.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -239,7 +239,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "23:22:27"
+value "19:57:07"
 )
 (vvPair
 variable "unit"
@@ -451,7 +451,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "courier,8,0"
 )
-xt "53200,46050,56200,46950"
+xt "53200,46050,58700,46950"
 st "
 %project_name
 "
@@ -663,9 +663,8 @@ uid 148,0
 va (VaSet
 font "courier,8,0"
 )
-xt "32000,-700,44000,200"
-st "RESET_L     : std_logic
-"
+xt "27000,-84600,39000,-83700"
+st "RESET_L     : std_logic"
 )
 )
 *14 (PortIoIn
@@ -727,9 +726,8 @@ uid 162,0
 va (VaSet
 font "courier,8,0"
 )
-xt "32000,-7900,44000,-7000"
-st "CLK         : std_logic
-"
+xt "27000,-91800,39000,-90900"
+st "CLK         : std_logic"
 )
 )
 *16 (PortIoIn
@@ -791,9 +789,8 @@ uid 176,0
 va (VaSet
 font "courier,8,0"
 )
-xt "32000,-1600,44000,-700"
-st "I_MREAD_L   : std_logic
-"
+xt "27000,-85500,39000,-84600"
+st "I_MREAD_L   : std_logic"
 )
 )
 *18 (PortIoIn
@@ -855,9 +852,8 @@ uid 190,0
 va (VaSet
 font "courier,8,0"
 )
-xt "32000,-2500,44000,-1600"
-st "I_ADDRESS   : lc3b_word
-"
+xt "27000,-86400,39000,-85500"
+st "I_ADDRESS   : lc3b_word"
 )
 )
 *20 (PortIoOut
@@ -919,9 +915,8 @@ uid 204,0
 va (VaSet
 font "courier,8,0"
 )
-xt "32000,2900,47700,3800"
-st "I_MRESP_H   : std_logic := '0'
-"
+xt "27000,-81000,42700,-80100"
+st "I_MRESP_H   : std_logic := '0'"
 )
 )
 *22 (PortIoOut
@@ -982,9 +977,8 @@ uid 218,0
 va (VaSet
 font "courier,8,0"
 )
-xt "32000,2000,44000,2900"
-st "I_DATAIN    : lc3b_word
-"
+xt "27000,-81900,39000,-81000"
+st "I_DATAIN    : lc3b_word"
 )
 )
 *24 (PortIoIn
@@ -1046,9 +1040,8 @@ uid 232,0
 va (VaSet
 font "courier,8,0"
 )
-xt "32000,-5200,44000,-4300"
-st "D_MREAD_L   : std_logic
-"
+xt "27000,-89100,39000,-88200"
+st "D_MREAD_L   : std_logic"
 )
 )
 *26 (PortIoIn
@@ -1110,9 +1103,8 @@ uid 246,0
 va (VaSet
 font "courier,8,0"
 )
-xt "32000,-4300,44000,-3400"
-st "D_MWRITEH_L : std_logic
-"
+xt "27000,-88200,39000,-87300"
+st "D_MWRITEH_L : std_logic"
 )
 )
 *28 (PortIoIn
@@ -1174,9 +1166,8 @@ uid 260,0
 va (VaSet
 font "courier,8,0"
 )
-xt "32000,-3400,44000,-2500"
-st "D_MWRITEL_L : std_logic
-"
+xt "27000,-87300,39000,-86400"
+st "D_MWRITEL_L : std_logic"
 )
 )
 *30 (PortIoIn
@@ -1238,9 +1229,8 @@ uid 274,0
 va (VaSet
 font "courier,8,0"
 )
-xt "32000,-7000,44000,-6100"
-st "D_ADDRESS   : lc3b_word
-"
+xt "27000,-90900,39000,-90000"
+st "D_ADDRESS   : lc3b_word"
 )
 )
 *32 (PortIoIn
@@ -1302,9 +1292,8 @@ uid 288,0
 va (VaSet
 font "courier,8,0"
 )
-xt "32000,-6100,44000,-5200"
-st "D_DATAOUT   : lc3b_word
-"
+xt "27000,-90000,39000,-89100"
+st "D_DATAOUT   : lc3b_word"
 )
 )
 *34 (PortIoOut
@@ -1365,9 +1354,8 @@ uid 302,0
 va (VaSet
 font "courier,8,0"
 )
-xt "32000,200,44000,1100"
-st "D_DATAIN    : lc3b_word
-"
+xt "27000,-83700,39000,-82800"
+st "D_DATAIN    : lc3b_word"
 )
 )
 *36 (PortIoOut
@@ -1429,9 +1417,8 @@ uid 316,0
 va (VaSet
 font "courier,8,0"
 )
-xt "32000,1100,47700,2000"
-st "D_MRESP_H   : std_logic := '0'
-"
+xt "27000,-82800,42700,-81900"
+st "D_MRESP_H   : std_logic := '0'"
 )
 )
 *38 (SaComponent
@@ -3049,9 +3036,8 @@ uid 629,0
 va (VaSet
 font "courier,8,0"
 )
-xt "32000,7400,48000,8300"
-st "SIGNAL PMDATAIN    : LC3B_OWORD
-"
+xt "27000,-76500,43000,-75600"
+st "SIGNAL PMDATAIN    : LC3B_OWORD"
 )
 )
 *89 (Net
@@ -3067,9 +3053,8 @@ uid 635,0
 va (VaSet
 font "courier,8,0"
 )
-xt "32000,10100,47500,11000"
-st "SIGNAL PMRESP_H    : STD_LOGIC
-"
+xt "27000,-73800,42500,-72900"
+st "SIGNAL PMRESP_H    : STD_LOGIC"
 )
 )
 *90 (Net
@@ -3085,9 +3070,8 @@ uid 657,0
 va (VaSet
 font "courier,8,0"
 )
-xt "32000,6500,47500,7400"
-st "SIGNAL PMADDRESS   : LC3B_WORD
-"
+xt "27000,-77400,42500,-76500"
+st "SIGNAL PMADDRESS   : LC3B_WORD"
 )
 )
 *91 (Net
@@ -3103,9 +3087,8 @@ uid 663,0
 va (VaSet
 font "courier,8,0"
 )
-xt "32000,8300,48000,9200"
-st "SIGNAL PMDATAOUT   : LC3B_OWORD
-"
+xt "27000,-75600,43000,-74700"
+st "SIGNAL PMDATAOUT   : LC3B_OWORD"
 )
 )
 *92 (Net
@@ -3121,9 +3104,8 @@ uid 669,0
 va (VaSet
 font "courier,8,0"
 )
-xt "32000,9200,47500,10100"
-st "SIGNAL PMREAD_L    : std_logic
-"
+xt "27000,-74700,42500,-73800"
+st "SIGNAL PMREAD_L    : std_logic"
 )
 )
 *93 (Net
@@ -3139,9 +3121,8 @@ uid 675,0
 va (VaSet
 font "courier,8,0"
 )
-xt "32000,11000,47500,11900"
-st "SIGNAL PMWRITE_L   : std_logic
-"
+xt "27000,-72900,42500,-72000"
+st "SIGNAL PMWRITE_L   : std_logic"
 )
 )
 *94 (Net
@@ -3157,9 +3138,8 @@ uid 689,0
 va (VaSet
 font "courier,8,0"
 )
-xt "32000,4700,47500,5600"
-st "SIGNAL MWRITEH_L   : std_logic
-"
+xt "27000,-79200,42500,-78300"
+st "SIGNAL MWRITEH_L   : std_logic"
 )
 )
 *95 (Net
@@ -3175,9 +3155,8 @@ uid 697,0
 va (VaSet
 font "courier,8,0"
 )
-xt "32000,5600,47500,6500"
-st "SIGNAL MWRITEL_L   : std_logic
-"
+xt "27000,-78300,42500,-77400"
+st "SIGNAL MWRITEL_L   : std_logic"
 )
 )
 *96 (HdlText
@@ -4479,12 +4458,12 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-6,27,1914,1179"
-viewArea "-15700,-4808,75938,48166"
-cachedDiagramExtent "-16000,-9700,72000,51000"
+windowSize "-6,27,1914,1059"
+viewArea "5131,507,95072,46139"
+cachedDiagramExtent "-16000,-93600,72000,51000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-69000,-51000"
-lastUid 752,0
+lastUid 787,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -5479,18 +5458,18 @@ uid 2,0
 va (VaSet
 font "courier,8,1"
 )
-xt "30000,-9700,36500,-8800"
+xt "25000,-93600,31500,-92700"
 st "Declarations"
-blo "30000,-9000"
+blo "25000,-92900"
 )
 portLabel (Text
 uid 3,0
 va (VaSet
 font "courier,8,1"
 )
-xt "30000,-8800,33000,-7900"
+xt "25000,-92700,28000,-91800"
 st "Ports:"
-blo "30000,-8100"
+blo "25000,-92000"
 )
 preUserLabel (Text
 uid 4,0
@@ -5498,9 +5477,9 @@ va (VaSet
 isHidden 1
 font "courier,8,1"
 )
-xt "30000,-9700,34500,-8800"
+xt "25000,-93600,29500,-92700"
 st "Pre User:"
-blo "30000,-9000"
+blo "25000,-92900"
 )
 preUserText (MLText
 uid 5,0
@@ -5508,7 +5487,7 @@ va (VaSet
 isHidden 1
 font "courier,8,0"
 )
-xt "30000,-9700,30000,-9700"
+xt "25000,-93600,25000,-93600"
 tm "BdDeclarativeTextMgr"
 )
 diagSignalLabel (Text
@@ -5516,9 +5495,9 @@ uid 6,0
 va (VaSet
 font "courier,8,1"
 )
-xt "30000,3800,38500,4700"
+xt "25000,-80100,33500,-79200"
 st "Diagram Signals:"
-blo "30000,4500"
+blo "25000,-79400"
 )
 postUserLabel (Text
 uid 7,0
@@ -5526,9 +5505,9 @@ va (VaSet
 isHidden 1
 font "courier,8,1"
 )
-xt "30000,-9700,35500,-8800"
+xt "25000,-93600,30500,-92700"
 st "Post User:"
-blo "30000,-9000"
+blo "25000,-92900"
 )
 postUserText (MLText
 uid 8,0
@@ -5536,7 +5515,7 @@ va (VaSet
 isHidden 1
 font "courier,8,0"
 )
-xt "30000,-9700,30000,-9700"
+xt "25000,-93600,25000,-93600"
 tm "BdDeclarativeTextMgr"
 )
 )
@@ -6240,5 +6219,5 @@ vaOverrides [
 uid 82,0
 type 1
 )
-activeModelName "BlockDiag:CDM"
+activeModelName "BlockDiag"
 )
