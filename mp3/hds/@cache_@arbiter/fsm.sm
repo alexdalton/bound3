@@ -38,23 +38,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "/home/adalton2/ece411/bound3/mp3/hdl"
+value "/home/lis2/ece411/git/bound3/mp3/hdl"
 )
 (vvPair
 variable "HDSDir"
-value "/home/adalton2/ece411/bound3/mp3/hds"
+value "/home/lis2/ece411/git/bound3/mp3/hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "/home/adalton2/ece411/bound3/mp3/hds/@cache_@arbiter/fsm.sm.info"
+value "/home/lis2/ece411/git/bound3/mp3/hds/@cache_@arbiter/fsm.sm.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "/home/adalton2/ece411/bound3/mp3/hds/@cache_@arbiter/fsm.sm.user"
+value "/home/lis2/ece411/git/bound3/mp3/hds/@cache_@arbiter/fsm.sm.user"
 )
 (vvPair
 variable "SourceDir"
-value "/home/adalton2/ece411/bound3/mp3/hds"
+value "/home/lis2/ece411/git/bound3/mp3/hds"
 )
 (vvPair
 variable "appl"
@@ -70,11 +70,11 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "/home/adalton2/ece411/bound3/mp3/hds/@cache_@arbiter"
+value "/home/lis2/ece411/git/bound3/mp3/hds/@cache_@arbiter"
 )
 (vvPair
 variable "d_logical"
-value "/home/adalton2/ece411/bound3/mp3/hds/Cache_Arbiter"
+value "/home/lis2/ece411/git/bound3/mp3/hds/Cache_Arbiter"
 )
 (vvPair
 variable "date"
@@ -118,7 +118,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "siebl-0218-19.ews.illinois.edu"
+value "siebl-0218-20.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -150,11 +150,11 @@ value "April"
 )
 (vvPair
 variable "p"
-value "/home/adalton2/ece411/bound3/mp3/hds/@cache_@arbiter/fsm.sm"
+value "/home/lis2/ece411/git/bound3/mp3/hds/@cache_@arbiter/fsm.sm"
 )
 (vvPair
 variable "p_logical"
-value "/home/adalton2/ece411/bound3/mp3/hds/Cache_Arbiter/fsm.sm"
+value "/home/lis2/ece411/git/bound3/mp3/hds/Cache_Arbiter/fsm.sm"
 )
 (vvPair
 variable "package_name"
@@ -210,7 +210,7 @@ value "fsm"
 )
 (vvPair
 variable "time"
-value "21:16:23"
+value "22:58:50"
 )
 (vvPair
 variable "unit"
@@ -218,7 +218,7 @@ value "Cache_Arbiter"
 )
 (vvPair
 variable "user"
-value "adalton2"
+value "lis2"
 )
 (vvPair
 variable "version"
@@ -794,7 +794,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "courier,8,0"
 )
-xt "32200,48050,45700,48950"
+xt "32200,48050,43700,48950"
 st "
 by %user on %dd %month %year
 "
@@ -1170,7 +1170,7 @@ lineColor "39936,56832,65280"
 lineWidth -1
 fillStyle 1
 )
-xt "52163,28571,64863,31471"
+xt "52163,28121,64863,31921"
 )
 autoResize 1
 tline (Line
@@ -1181,10 +1181,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "52263,28471,64763,28471"
+xt "52263,28021,64763,28021"
 pts [
-"52263,28471"
-"64763,28471"
+"52263,28021"
+"64763,28021"
 ]
 )
 bline (Line
@@ -1195,10 +1195,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "52263,29196,64763,29196"
+xt "52263,29421,64763,29421"
 pts [
-"52263,29196"
-"64763,29196"
+"52263,29421"
+"64763,29421"
 ]
 )
 ttri (Triangle
@@ -1212,7 +1212,7 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "51813,28096,52163,28446"
+xt "51813,27646,52163,27996"
 )
 btri (Triangle
 uid 244,0
@@ -1232,7 +1232,7 @@ uid 245,0
 va (VaSet
 font "courier,8,0"
 )
-xt "52263,28271,52263,28271"
+xt "52263,27821,52263,27821"
 tm "Actions"
 )
 inActions (MLText
@@ -1240,10 +1240,11 @@ uid 246,0
 va (VaSet
 font "courier,8,0"
 )
-xt "52263,28671,64763,31371"
+xt "52263,28221,64763,31821"
 st "IC_RESP_H <= PMRESP_H;
 PMADDRESS <= IC_ADDRESS;
-PMREAD_L <= IC_MREAD_L;"
+PMREAD_L <= IC_MREAD_L;
+DC_BLOCK_L <= '0';"
 tm "Actions"
 )
 exitActions (MLText
@@ -2095,7 +2096,7 @@ tm "SmCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "-6,27,1914,1059"
-viewArea "7775,-7457,120908,49943"
+viewArea "-12500,-2300,70653,39889"
 cachedDiagramExtent "0,-1000,77000,49000"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,-2000"
@@ -2385,13 +2386,14 @@ uid 32,0
 va (VaSet
 font "courier,8,0"
 )
-xt "40500,-100,62200,5300"
-st "SIGNAL     MODE    DEFAULT  RESET  SCHEME 
-DC_RESP_H  OUT     '0'             COMB   
-IC_RESP_H  OUT     '0'             COMB   
-PMADDRESS  OUT                     COMB   
-PMREAD_L   OUT     '1'             COMB   
-PMWRITE_L  OUT     '1'             COMB   
+xt "40500,-100,62700,6200"
+st "SIGNAL      MODE    DEFAULT  RESET  SCHEME 
+DC_RESP_H   OUT     '0'             COMB   
+IC_RESP_H   OUT     '0'             COMB   
+PMADDRESS   OUT                     COMB   
+PMREAD_L    OUT     '1'             COMB   
+PMWRITE_L   OUT     '1'             COMB   
+DC_BLOCK_L  OUT     '1'             COMB   
 "
 tm "SmSignalsGenStatusTextMgr"
 )
@@ -2491,7 +2493,7 @@ stateOrder [
 name "csm"
 )
 ]
-lastUid 769,0
+lastUid 858,0
 commonDM (CommonDM
 ldm (LogicalDM
 emptyRow *55 (LEmptyRow
@@ -2703,6 +2705,19 @@ uid 334,0
 scheme 0
 defVal "'1'"
 )
+*87 (LeafLogPort
+port (LogicalPort
+m 1
+decl (Decl
+n "DC_BLOCK_L"
+t "std_logic"
+o 14
+)
+)
+uid 799,0
+scheme 0
+defVal "'1'"
+)
 ]
 )
 pdm (PhysicalDM
@@ -2710,7 +2725,7 @@ displayShortBounds 1
 editShortBounds 1
 uid 183,0
 optionalChildren [
-*87 (Sheet
+*88 (Sheet
 sheetRow (SheetRow
 headerVa (MVa
 cellColor "49152,49152,49152"
@@ -2727,109 +2742,115 @@ cellColor "39936,56832,65280"
 fontColor "0,0,0"
 font "courier,10,0"
 )
-emptyMRCItem *88 (MRCItem
+emptyMRCItem *89 (MRCItem
 litem &55
-pos 13
+pos 14
 dimension 20
 )
 uid 185,0
 optionalChildren [
-*89 (MRCItem
+*90 (MRCItem
 litem &56
 pos 0
 dimension 20
 uid 186,0
 )
-*90 (MRCItem
+*91 (MRCItem
 litem &57
 pos 1
 dimension 23
 uid 187,0
 )
-*91 (MRCItem
+*92 (MRCItem
 litem &58
 pos 2
 hidden 1
 dimension 20
 uid 188,0
 )
-*92 (MRCItem
+*93 (MRCItem
 litem &74
 pos 0
 dimension 20
 uid 159,0
 )
-*93 (MRCItem
+*94 (MRCItem
 litem &75
 pos 12
 dimension 20
 uid 161,0
 )
-*94 (MRCItem
+*95 (MRCItem
 litem &76
 pos 1
 dimension 20
 uid 307,0
 )
-*95 (MRCItem
+*96 (MRCItem
 litem &77
 pos 2
 dimension 20
 uid 309,0
 )
-*96 (MRCItem
+*97 (MRCItem
 litem &78
 pos 3
 dimension 20
 uid 311,0
 )
-*97 (MRCItem
+*98 (MRCItem
 litem &79
 pos 4
 dimension 20
 uid 313,0
 )
-*98 (MRCItem
+*99 (MRCItem
 litem &80
 pos 5
 dimension 20
 uid 317,0
 )
-*99 (MRCItem
+*100 (MRCItem
 litem &81
 pos 6
 dimension 20
 uid 319,0
 )
-*100 (MRCItem
+*101 (MRCItem
 litem &82
 pos 7
 dimension 20
 uid 323,0
 )
-*101 (MRCItem
+*102 (MRCItem
 litem &83
 pos 8
 dimension 20
 uid 325,0
 )
-*102 (MRCItem
+*103 (MRCItem
 litem &84
 pos 9
 dimension 20
 uid 329,0
 )
-*103 (MRCItem
+*104 (MRCItem
 litem &85
 pos 10
 dimension 20
 uid 331,0
 )
-*104 (MRCItem
+*105 (MRCItem
 litem &86
 pos 11
 dimension 20
 uid 333,0
+)
+*106 (MRCItem
+litem &87
+pos 13
+dimension 20
+uid 800,0
 )
 ]
 )
@@ -2842,85 +2863,85 @@ textAngle 90
 )
 uid 189,0
 optionalChildren [
-*105 (MRCItem
+*107 (MRCItem
 litem &59
 pos 0
 dimension 20
 uid 190,0
 )
-*106 (MRCItem
+*108 (MRCItem
 litem &61
 pos 1
 dimension 50
 uid 191,0
 )
-*107 (MRCItem
+*109 (MRCItem
 litem &62
 pos 2
 dimension 70
 uid 192,0
 )
-*108 (MRCItem
+*110 (MRCItem
 litem &63
 pos 3
 dimension 50
 uid 193,0
 )
-*109 (MRCItem
+*111 (MRCItem
 litem &64
 pos 4
 dimension 80
 uid 194,0
 )
-*110 (MRCItem
+*112 (MRCItem
 litem &65
 pos 5
 dimension 80
 uid 195,0
 )
-*111 (MRCItem
+*113 (MRCItem
 litem &66
 pos 6
 dimension 40
 uid 196,0
 )
-*112 (MRCItem
+*114 (MRCItem
 litem &67
 pos 7
 dimension 100
 uid 197,0
 )
-*113 (MRCItem
+*115 (MRCItem
 litem &68
 pos 8
 dimension 60
 uid 198,0
 )
-*114 (MRCItem
+*116 (MRCItem
 litem &69
 pos 9
 dimension 130
 uid 199,0
 )
-*115 (MRCItem
+*117 (MRCItem
 litem &70
 pos 10
 dimension 56
 uid 200,0
 )
-*116 (MRCItem
+*118 (MRCItem
 litem &71
 pos 11
 dimension 50
 uid 201,0
 )
-*117 (MRCItem
+*119 (MRCItem
 litem &72
 pos 12
 dimension 50
 uid 202,0
 )
-*118 (MRCItem
+*120 (MRCItem
 litem &73
 pos 13
 dimension 80
@@ -2942,38 +2963,38 @@ uid 163,0
 cdmCsm &1
 genericsCommonDM (CommonDM
 ldm (LogicalDM
-emptyRow *119 (LEmptyRow
+emptyRow *121 (LEmptyRow
 )
 uid 205,0
 optionalChildren [
-*120 (RefLabelRowHdr
+*122 (RefLabelRowHdr
 )
-*121 (TitleRowHdr
+*123 (TitleRowHdr
 )
-*122 (FilterRowHdr
+*124 (FilterRowHdr
 )
-*123 (RefLabelColHdr
+*125 (RefLabelColHdr
 tm "RefLabelColHdrMgr"
 )
-*124 (RowExpandColHdr
+*126 (RowExpandColHdr
 tm "RowExpandColHdrMgr"
 )
-*125 (GroupColHdr
+*127 (GroupColHdr
 tm "GroupColHdrMgr"
 )
-*126 (NameColHdr
+*128 (NameColHdr
 tm "GenericNameColHdrMgr"
 )
-*127 (TypeColHdr
+*129 (TypeColHdr
 tm "GenericTypeColHdrMgr"
 )
-*128 (InitColHdr
+*130 (InitColHdr
 tm "GenericValueColHdrMgr"
 )
-*129 (PragmaColHdr
+*131 (PragmaColHdr
 tm "GenericPragmaColHdrMgr"
 )
-*130 (EolColHdr
+*132 (EolColHdr
 tm "GenericEolColHdrMgr"
 )
 ]
@@ -2983,7 +3004,7 @@ displayShortBounds 1
 editShortBounds 1
 uid 217,0
 optionalChildren [
-*131 (Sheet
+*133 (Sheet
 sheetRow (SheetRow
 headerVa (MVa
 cellColor "49152,49152,49152"
@@ -3000,27 +3021,27 @@ cellColor "39936,56832,65280"
 fontColor "0,0,0"
 font "courier,10,0"
 )
-emptyMRCItem *132 (MRCItem
-litem &119
+emptyMRCItem *134 (MRCItem
+litem &121
 pos 0
 dimension 20
 )
 uid 219,0
 optionalChildren [
-*133 (MRCItem
-litem &120
+*135 (MRCItem
+litem &122
 pos 0
 dimension 20
 uid 220,0
 )
-*134 (MRCItem
-litem &121
+*136 (MRCItem
+litem &123
 pos 1
 dimension 23
 uid 221,0
 )
-*135 (MRCItem
-litem &122
+*137 (MRCItem
+litem &124
 pos 2
 hidden 1
 dimension 20
@@ -3037,44 +3058,44 @@ textAngle 90
 )
 uid 223,0
 optionalChildren [
-*136 (MRCItem
-litem &123
+*138 (MRCItem
+litem &125
 pos 0
 dimension 20
 uid 224,0
 )
-*137 (MRCItem
-litem &125
+*139 (MRCItem
+litem &127
 pos 1
 dimension 50
 uid 225,0
 )
-*138 (MRCItem
-litem &126
+*140 (MRCItem
+litem &128
 pos 2
 dimension 100
 uid 226,0
 )
-*139 (MRCItem
-litem &127
+*141 (MRCItem
+litem &129
 pos 3
 dimension 100
 uid 227,0
 )
-*140 (MRCItem
-litem &128
+*142 (MRCItem
+litem &130
 pos 4
 dimension 50
 uid 228,0
 )
-*141 (MRCItem
-litem &129
+*143 (MRCItem
+litem &131
 pos 5
 dimension 50
 uid 229,0
 )
-*142 (MRCItem
-litem &130
+*144 (MRCItem
+litem &132
 pos 6
 dimension 80
 uid 230,0

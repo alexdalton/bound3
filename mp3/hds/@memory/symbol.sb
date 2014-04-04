@@ -25,7 +25,7 @@ appVersion "2012.1 (Build 6)"
 model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
-suid 13,0
+suid 15,0
 usingSuid 1
 emptyRow *1 (LEmptyRow
 )
@@ -207,11 +207,10 @@ decl (Decl
 n "D_MRESP_H"
 t "std_logic"
 o 11
-suid 13,0
-i "'0'"
+suid 15,0
 )
 )
-uid 133,0
+uid 899,0
 )
 ]
 )
@@ -339,7 +338,7 @@ uid 130,0
 litem &26
 pos 12
 dimension 20
-uid 132,0
+uid 898,0
 )
 ]
 )
@@ -570,23 +569,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "/home/adalton2/ece411/bound3/mp3/hdl"
+value "/home/lis2/ece411/git/bound3/mp3/hdl"
 )
 (vvPair
 variable "HDSDir"
-value "/home/adalton2/ece411/bound3/mp3/hds"
+value "/home/lis2/ece411/git/bound3/mp3/hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "/home/adalton2/ece411/bound3/mp3/hds/@memory/symbol.sb.info"
+value "/home/lis2/ece411/git/bound3/mp3/hds/@memory/symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "/home/adalton2/ece411/bound3/mp3/hds/@memory/symbol.sb.user"
+value "/home/lis2/ece411/git/bound3/mp3/hds/@memory/symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "/home/adalton2/ece411/bound3/mp3/hds"
+value "/home/lis2/ece411/git/bound3/mp3/hds"
 )
 (vvPair
 variable "appl"
@@ -602,11 +601,11 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "/home/adalton2/ece411/bound3/mp3/hds/@memory"
+value "/home/lis2/ece411/git/bound3/mp3/hds/@memory"
 )
 (vvPair
 variable "d_logical"
-value "/home/adalton2/ece411/bound3/mp3/hds/Memory"
+value "/home/lis2/ece411/git/bound3/mp3/hds/Memory"
 )
 (vvPair
 variable "date"
@@ -650,7 +649,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "siebl-0218-19.ews.illinois.edu"
+value "siebl-0218-20.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -686,11 +685,11 @@ value "April"
 )
 (vvPair
 variable "p"
-value "/home/adalton2/ece411/bound3/mp3/hds/@memory/symbol.sb"
+value "/home/lis2/ece411/git/bound3/mp3/hds/@memory/symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "/home/adalton2/ece411/bound3/mp3/hds/Memory/symbol.sb"
+value "/home/lis2/ece411/git/bound3/mp3/hds/Memory/symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -746,7 +745,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "21:14:51"
+value "22:55:27"
 )
 (vvPair
 variable "unit"
@@ -754,7 +753,7 @@ value "Memory"
 )
 (vvPair
 variable "user"
-value "adalton2"
+value "lis2"
 )
 (vvPair
 variable "version"
@@ -1327,51 +1326,40 @@ suid 12,0
 )
 )
 *90 (CptPort
-uid 194,0
+uid 900,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 195,0
+uid 901,0
 ro 90
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "39000,9625,39750,10375"
+xt "39000,10625,39750,11375"
 )
 tg (CPTG
-uid 196,0
+uid 902,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 197,0
+uid 903,0
 va (VaSet
 font "courier,8,0"
 )
-xt "33500,9550,38000,10450"
+xt "33500,10550,38000,11450"
 st "D_MRESP_H"
 ju 2
-blo "38000,10250"
+blo "38000,11250"
 tm "CptPortNameMgr"
-)
-t (Text
-uid 614,0
-va (VaSet
-font "courier,8,0"
-)
-xt "36300,10450,38000,11350"
-st "'0'"
-ju 2
-blo "38000,11150"
-tm "InitValueDelayMgr"
 )
 )
 dt (MLText
-uid 198,0
+uid 904,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,10800,64700,11700"
-st "D_MRESP_H   : OUT    std_logic  := '0' ;"
+xt "44000,10800,61000,11700"
+st "D_MRESP_H   : OUT    std_logic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -1379,8 +1367,7 @@ decl (Decl
 n "D_MRESP_H"
 t "std_logic"
 o 11
-suid 13,0
-i "'0'"
+suid 15,0
 )
 )
 )
@@ -1467,7 +1454,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "courier,8,0"
 )
-xt "32200,50050,45700,50950"
+xt "32200,50050,43700,50950"
 st "
 by %user on %dd %month %year
 "
@@ -2092,6 +2079,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 844,0
+lastUid 927,0
 activeModelName "Symbol:CDM"
 )
