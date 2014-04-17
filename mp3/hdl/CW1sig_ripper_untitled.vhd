@@ -20,6 +20,7 @@ ENTITY CW1sig_ripper IS
       clk     : IN     std_logic;
       srcAsel : OUT    std_logic;
       srcBsel : OUT    std_logic;
+      uncondJMP : OUT std_logic;
       branch  : OUT    std_logic
    );
 
@@ -33,5 +34,6 @@ BEGIN
   srcAsel <= CW1out(31);
   srcBsel <= CW1out(30);
   branch <= CW1out(12);
+  uncondJMP <= CW1out(11);
 END ARCHITECTURE untitled;
 

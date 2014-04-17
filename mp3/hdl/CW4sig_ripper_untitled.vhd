@@ -19,7 +19,7 @@ ENTITY CW4sig_ripper IS
       CW4out       : IN     lc3b_dword;
       clk          : IN     std_logic;
       RegDataInSel : OUT    std_logic;
-      RegWrite5    : OUT    std_logic;
+      RegWrite    : OUT    std_logic;
       destsel5     : OUT    std_logic
    );
 
@@ -31,7 +31,7 @@ END CW4sig_ripper ;
 ARCHITECTURE untitled OF CW4sig_ripper IS
 BEGIN
   destsel5 <= CW4out(15);
-  RegWrite5 <= CW4out(14);
+  RegWrite <= CW4out(14);
   RegDataInSel <= CW4out(13);
 END ARCHITECTURE untitled;
 

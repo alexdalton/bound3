@@ -17,6 +17,7 @@ USE ece411.LC3b_types.all;
 ENTITY CW_ROM IS
    PORT( 
       OPCODE : IN     LC3B_OPCODE;
+      IR5_4  : IN   LC3B_SHFTOP;
       clk    : IN     std_logic;
       CW1out : OUT    LC3B_DWORD
    );
@@ -28,44 +29,53 @@ END CW_ROM ;
 --
 ARCHITECTURE untitled OF CW_ROM IS
 BEGIN
-  controlROM : PROCESS(OPCODE)
+  controlROM : PROCESS(OPCODE, IR5_4)
   VARIABLE cword_out : lc3b_dword;
     BEGIN
         CASE OPCODE is  --X     X   XXX XXX 0   X   0   0   XX  00  X   0   X   0   XXXXXXXXXXX = do nothing. NOP = branch with nzp = 000.
           when OP_ADD =>--31    30  29  26  23  22  21  20  19  17  15  14  13  12  11
-            cword_out := "100000000010XX000100XXXXXXXXXXXX";
+            cword_out := "10000000001000000100000000000000";
           when OP_AND =>
-            cword_out := "100010000010XX000100XXXXXXXXXXXX";
+            cword_out := "10001000001000000100000000000000";
           when OP_NOT =>
-            cword_out := "100100000010XX000100XXXXXXXXXXXX";
+            cword_out := "10010000001000000100000000000000";
           when OP_BR =>
-            cword_out := "XXXXXXXX0X00XX00X0X1XXXXXXXXXXXX";
+            cword_out := "00000000000000000001000000000000";
           when OP_JSR =>
-            cword_out := x"XXXXXXXX";
+            cword_out := "10000000000000000000100000000000";
           when OP_JMP =>
-            cword_out := x"XXXXXXXX";
+            cword_out := "10000000000000000000100000000000";
           when OP_LDR =>
-            cword_out := "11000001111100000110XXXXXXXXXXXX";
+            cword_out := "11000001111100000110000000000000";
           when OP_LDB =>
-            cword_out := x"XXXXXXXX";
+            cword_out := "00000000000000000000000000000000";
           when OP_LDI =>
-            cword_out := x"XXXXXXXX";
+            cword_out := "00000000000000000000000000000000";
           when OP_LEA =>
-            cword_out := x"XXXXXXXX";
+            cword_out := "00000000000000000000000000000000";
           when OP_RTI =>
-            cword_out := x"XXXXXXXX";
+            cword_out := "00000000000000000000000000000000";
           when OP_SHF =>
-            cword_out := x"XXXXXXXX";
+            CASE IR5_4 is
+              when SHFT_SLL =>
+                cword_out := "10100010001000000100000000000000";
+              when SHFT_SRL =>
+                cword_out := "10110010001000000100000000000000";
+              when SHFT_SRA =>
+                cword_out := "10111010001000000100000000000000";
+              when others =>
+                cword_out := "10100010001000000100000000000000";
+            end case;
           when OP_STR =>
-            cword_out := "11000001010100110010XXXXXXXXXXXX";
+            cword_out := "11000001010100110010000000000000";
           when OP_STB =>
-            cword_out := x"XXXXXXXX";
+            cword_out := "00000000000000000000000000000000";
           when OP_STI =>
-            cword_out := x"XXXXXXXX";
+            cword_out := "00000000000000000000000000000000";
           when OP_TRAP =>
-            cword_out := x"XXXXXXXX";
+            cword_out := "00000000000000000000000000000000";
           when others =>
-            cword_out := "XXXXXXXX0X00XX00X0X0XXXXXXXXXXXX";   
+            cword_out := "00000000000000000000000000000000";   
         end CASE;
         CW1out <= cword_out after DELAY_ROM;
   END PROCESS;

@@ -32,6 +32,7 @@ BEGIN
 
     PROCESS(regA2out, sourceB, ALUop)
         variable temp : LC3b_word;
+        VARIABLE count : INTEGER;
     BEGIN
         case ALUop is
             when alu_add =>
@@ -42,6 +43,18 @@ BEGIN
                 temp := NOT regA2out;
             when alu_pass =>
                 temp := regA2out;
+			      when alu_sll =>
+			          temp := LC3B_WORD("sll"(unsigned(regA2out), to_integer(unsigned(sourceB))));
+			      when alu_srl =>
+			          temp := LC3B_WORD("srl"(unsigned(regA2out), to_integer(unsigned(sourceB))));
+			      when alu_sra =>
+			          count := to_integer(unsigned(sourceB(3 downto 0)));
+			          if (sourceB(3 downto 0) = "0000") then
+			               temp := regA2out;
+			          else
+			               temp(15 - count downto 0) := regA2out(15 downto count);
+			               temp(15 downto (15 - count + 1)) := (others => regA2out(15));
+			          end if;                
             when others =>
                 temp := (OTHERS => 'X');
         end case;

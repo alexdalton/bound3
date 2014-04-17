@@ -19,7 +19,7 @@ ENTITY BranchAdd IS
       ADJ9out : IN     LC3b_word;
       PC1out  : IN     lc3b_word;
       clk     : IN     std_logic;
-      calcPC  : OUT    lc3b_word
+      BranchAddout  : OUT    lc3b_word
    );
 
 -- Declarations
@@ -29,6 +29,6 @@ END BranchAdd ;
 --
 ARCHITECTURE untitled OF BranchAdd IS
 BEGIN
-  calcPC <= std_logic_vector(unsigned(ADJ9out) + unsigned(PC1out));
+  BranchAddout <= std_logic_vector(unsigned(ADJ9out) + unsigned(PC1out)) after DELAY_ADDER;
 END ARCHITECTURE untitled;
 
