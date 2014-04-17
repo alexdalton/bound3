@@ -106,7 +106,7 @@ value "/home/adalton2/ece411/bound3/mp3/hds/stage_data"
 )
 (vvPair
 variable "date"
-value "03/20/14"
+value "04/17/14"
 )
 (vvPair
 variable "day"
@@ -118,7 +118,7 @@ value "Thursday"
 )
 (vvPair
 variable "dd"
-value "20"
+value "17"
 )
 (vvPair
 variable "entity_name"
@@ -146,7 +146,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "gelib-057-16.ews.illinois.edu"
+value "gelib-057-40.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -166,7 +166,7 @@ value "$HDS_PROJECT_DIR/compile"
 )
 (vvPair
 variable "mm"
-value "03"
+value "04"
 )
 (vvPair
 variable "module_name"
@@ -174,11 +174,11 @@ value "stage_data"
 )
 (vvPair
 variable "month"
-value "Mar"
+value "Apr"
 )
 (vvPair
 variable "month_long"
-value "March"
+value "April"
 )
 (vvPair
 variable "p"
@@ -242,7 +242,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "21:19:30"
+value "01:13:32"
 )
 (vvPair
 variable "unit"
@@ -534,7 +534,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "courier,8,0"
 )
-xt "47200,46050,50200,46950"
+xt "47200,46050,52700,46950"
 st "
 %project_name
 "
@@ -1603,8 +1603,9 @@ vasetType 1
 fg "49152,49152,49152"
 )
 xt "4250,15250,5750,16750"
-iconName "UnknownFile.png"
-iconMaskName "UnknownFile.msk"
+iconName "VhdlFileViewIcon.png"
+iconMaskName "VhdlFileViewIcon.msk"
+ftype 10
 )
 ordering 1
 sed 1
@@ -1981,8 +1982,9 @@ vasetType 1
 fg "49152,49152,49152"
 )
 xt "4250,27250,5750,28750"
-iconName "UnknownFile.png"
-iconMaskName "UnknownFile.msk"
+iconName "VhdlFileViewIcon.png"
+iconMaskName "VhdlFileViewIcon.msk"
+ftype 10
 )
 ordering 1
 sed 1
@@ -2362,8 +2364,9 @@ vasetType 1
 fg "49152,49152,49152"
 )
 xt "4250,39250,5750,40750"
-iconName "UnknownFile.png"
-iconMaskName "UnknownFile.msk"
+iconName "VhdlFileViewIcon.png"
+iconMaskName "VhdlFileViewIcon.msk"
+ftype 10
 )
 ordering 1
 sed 1
@@ -3797,11 +3800,11 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "1914,27,3846,1059"
-viewArea "-29500,1500,62786,49506"
+viewArea "-24757,-11658,62402,32253"
 cachedDiagramExtent "-6500,-300,63000,55300"
 hasePageBreakOrigin 1
 pageBreakOrigin "-75000,-51000"
-lastUid 1076,0
+lastUid 1131,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

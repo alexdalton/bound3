@@ -23617,3 +23617,1626 @@ restart -f; do mp3-trap.do; run 4000
 #    Time: 20 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag1Compare
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 #    Time: 1500 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Tag1Compare
+# hds_restart 
+restart -force
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading /software/mentor/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.lc3b_types(body)
+# Loading work.mp3_cpu(struct)#1
+# Loading work.clkgen(untitled)#1
+# Loading work.memory(struct)#1
+# Loading work.and2(untitled)#1
+# Loading work.and4(untitled)#1
+# Loading work.cache_arbiter(fsm)#1
+# Loading work.or2(untitled)#1
+# Loading work.physical_memory(untitled)#1
+# Loading work.cache(struct)#1
+# Loading work.cache_controller(fsm)#1
+# Loading work.cache_datapath(struct)#1
+# Loading work.addressjoin(untitled)#1
+# Loading work.addresssplit(untitled)#1
+# Loading work.bitmux2(untitled)#1
+# Loading work.data16mux(untitled)#1
+# Loading work.decode2(untitled)#1
+# Loading work.dirtymux(untitled)#1
+# Loading work.lruarray(untitled)#1
+# Loading work.lrudecode(untitled)#1
+# Loading work.not1(untitled)#1
+# Loading work.owordmux2(untitled)#1
+# Loading work.tagcompare(untitled)#1
+# Loading work.tagmux(untitled)#1
+# Loading work.twobitmux2(untitled)#1
+# Loading work.waymux(untitled)#1
+# Loading work.wordmux2(untitled)#1
+# Loading work.writelogic(untitled)#1
+# Loading work.way(struct)#1
+# Loading work.dataarray(untitled)#1
+# Loading work.dirtyarray(untitled)#1
+# Loading work.tagarray(untitled)#1
+# Loading work.validarray(untitled)#1
+# Loading work.pipelinedp(struct)#1
+# Loading work.mux2(untitled)#1
+# Loading work.orinv2(untitled)#1
+# Loading work.reset_delay(untitled)#1
+# Loading work.stage_decode(struct)#1
+# Loading work.adj11(untitled)#1
+# Loading work.adj9(untitled)#1
+# Loading work.branchadd(untitled)#1
+# Loading work.cw1sig_ripper(untitled)#1
+# Loading work.cw_rom(untitled)#1
+# Loading work.irnzp_ripper(untitled)#1
+# Loading work.irregsplitter(untitled)#1
+# Loading work.jsradd(untitled)#1
+# Loading work.nor3(untitled)#1
+# Loading work.nzpsplit(untitled)#1
+# Loading work.or3(untitled)#1
+# Loading work.regmux2(untitled)#1
+# Loading work.stage_data(struct)#1
+# Loading work.reg32(untitled)#1
+# Loading mp3lib.reg1(untitled)#1
+# Loading mp3lib.reg16(untitled)#1
+# Loading mp3lib.regfile(untitled)#1
+# Loading work.stage_execute(struct)#1
+# Loading work.adj6(untitled)#1
+# Loading work.cw2sig_ripper(untitled)#1
+# Loading work.dwordmux2(untitled)#1
+# Loading work.ir2sig_ripper(untitled)#1
+# Loading work.sext5(untitled)#1
+# Loading work.sext6(untitled)#1
+# Loading work.wordmux8(untitled)#1
+# Loading work.zext4(untitled)#1
+# Loading work.amp3alu(untitled)#1
+# Loading mp3lib.not1(untitled)#1
+# Loading work.stage_fetch(struct)#1
+# Loading work.plus2(untitled)#1
+# Loading work.reset_hold(untitled)#1
+# Loading mp3lib.nor2(untitled)#1
+# Loading work.stage_memory(struct)#1
+# Loading work.cw3sig_ripper(untitled)#1
+# Loading work.ldb_align(untitled)#1
+# Loading work.ldistirom(untitled)#1
+# Loading work.lshft_8(untitled)#1
+# Loading work.memalign(untitled)#1
+# Loading work.nand2(untitled)#1
+# Loading work.nzp(untitled)#1
+# Loading work.wrbyte_sel(untitled)#1
+# Loading work.wordmux4(untitled)#1
+# Loading work.zext8(untitled)#1
+# Loading work.zexttrap(untitled)#1
+# Loading work.generatecc(untitled)#1
+# Loading work.stage_writeback(struct)#1
+# Loading work.cw4sig_ripper(untitled)#1
+# Loading work.irdest_ripper(untitled)#1
+# Loading mp3lib.and2(untitled)#1
+# Loading mp3lib.and3(untitled)#1
+restart -f; do mp3-stildi.do; run 4000
+# Loading /software/mentor/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll
+# --- Executing initialization force file for ../testcode/mp3-stildi.asm --- 
+# Resetting processor for 5 ns. 
+# Initializing the processor. 
+# Done initializing processor, loading ../testcode/mp3-stildi.asm program code. 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/DATAPATH/stage2/aREGFILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/DATAPATH/stage2/aREGFILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/DATAPATH/stage2/aREGFILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Tag2Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Tag2Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag2Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag2Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/PMEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/DATAPATH/stage2/aREGFILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/PMEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/DATAPATH/stage2/aREGFILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/DATAPATH/stage2/aREGFILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/DATAPATH/stage2/aREGFILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/DATAPATH/stage2/aREGFILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/DATAPATH/stage2/aREGFILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag2Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag2Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/PMEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/DATAPATH/stage2/aREGFILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/DATAPATH/stage2/aREGFILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/DATAPATH/stage2/aREGFILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Tag2Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 6 ns  Iteration: 0  Instance: /mp3_cpu/DATAPATH/stage2/aREGFILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 6 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 8 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 8 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 9 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 9 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag2Compare
+# Done loading ../testcode/mp3-stildi.asm program code. 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Tag2Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag2Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1700 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1704 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2984 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag2Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3004 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag1Compare
+run 10000
+# hds_restart 
+restart -force
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading /software/mentor/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.lc3b_types(body)
+# Loading work.mp3_cpu(struct)#1
+# Loading work.clkgen(untitled)#1
+# Loading work.memory(struct)#1
+# Loading work.and2(untitled)#1
+# Loading work.and4(untitled)#1
+# Loading work.cache_arbiter(fsm)#1
+# Loading work.or2(untitled)#1
+# Loading work.physical_memory(untitled)#1
+# Loading work.cache(struct)#1
+# Loading work.cache_controller(fsm)#1
+# Loading work.cache_datapath(struct)#1
+# Loading work.addressjoin(untitled)#1
+# Loading work.addresssplit(untitled)#1
+# Loading work.bitmux2(untitled)#1
+# Loading work.data16mux(untitled)#1
+# Loading work.decode2(untitled)#1
+# Loading work.dirtymux(untitled)#1
+# Loading work.lruarray(untitled)#1
+# Loading work.lrudecode(untitled)#1
+# Loading work.not1(untitled)#1
+# Loading work.owordmux2(untitled)#1
+# Loading work.tagcompare(untitled)#1
+# Loading work.tagmux(untitled)#1
+# Loading work.twobitmux2(untitled)#1
+# Loading work.waymux(untitled)#1
+# Loading work.wordmux2(untitled)#1
+# Loading work.writelogic(untitled)#1
+# Loading work.way(struct)#1
+# Loading work.dataarray(untitled)#1
+# Loading work.dirtyarray(untitled)#1
+# Loading work.tagarray(untitled)#1
+# Loading work.validarray(untitled)#1
+# Loading work.pipelinedp(struct)#1
+# Loading work.mux2(untitled)#1
+# Loading work.orinv2(untitled)#1
+# Loading work.reset_delay(untitled)#1
+# Loading work.stage_decode(struct)#1
+# Loading work.adj11(untitled)#1
+# Loading work.adj9(untitled)#1
+# Loading work.branchadd(untitled)#1
+# Loading work.cw1sig_ripper(untitled)#1
+# Loading work.cw_rom(untitled)#1
+# Loading work.irnzp_ripper(untitled)#1
+# Loading work.irregsplitter(untitled)#1
+# Loading work.jsradd(untitled)#1
+# Loading work.nor3(untitled)#1
+# Loading work.nzpsplit(untitled)#1
+# Loading work.or3(untitled)#1
+# Loading work.regmux2(untitled)#1
+# Loading work.stage_data(struct)#1
+# Loading work.reg32(untitled)#1
+# Loading mp3lib.reg1(untitled)#1
+# Loading mp3lib.reg16(untitled)#1
+# Loading mp3lib.regfile(untitled)#1
+# Loading work.stage_execute(struct)#1
+# Loading work.adj6(untitled)#1
+# Loading work.cw2sig_ripper(untitled)#1
+# Loading work.dwordmux2(untitled)#1
+# Loading work.ir2sig_ripper(untitled)#1
+# Loading work.sext5(untitled)#1
+# Loading work.sext6(untitled)#1
+# Loading work.wordmux8(untitled)#1
+# Loading work.zext4(untitled)#1
+# Loading work.amp3alu(untitled)#1
+# Loading mp3lib.not1(untitled)#1
+# Loading work.stage_fetch(struct)#1
+# Loading work.plus2(untitled)#1
+# Loading work.reset_hold(untitled)#1
+# Loading mp3lib.nor2(untitled)#1
+# Loading work.stage_memory(struct)#1
+# Loading work.cw3sig_ripper(untitled)#1
+# Loading work.ldb_align(untitled)#1
+# Loading work.ldistirom(untitled)#1
+# Loading work.lshft_8(untitled)#1
+# Loading work.memalign(untitled)#1
+# Loading work.nand2(untitled)#1
+# Loading work.nzp(untitled)#1
+# Loading work.wrbyte_sel(untitled)#1
+# Loading work.wordmux4(untitled)#1
+# Loading work.zext8(untitled)#1
+# Loading work.zexttrap(untitled)#1
+# Loading work.generatecc(untitled)#1
+# Loading work.stage_writeback(struct)#1
+# Loading work.cw4sig_ripper(untitled)#1
+# Loading work.irdest_ripper(untitled)#1
+# Loading mp3lib.and2(untitled)#1
+# Loading mp3lib.and3(untitled)#1
+restart -f; do mp3-stildi.do; run 14000
+# Loading /software/mentor/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll
+# --- Executing initialization force file for ../testcode/mp3-stildi.asm --- 
+# Resetting processor for 5 ns. 
+# Initializing the processor. 
+# Done initializing processor, loading ../testcode/mp3-stildi.asm program code. 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/DATAPATH/stage2/aREGFILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/DATAPATH/stage2/aREGFILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/DATAPATH/stage2/aREGFILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Tag2Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Tag2Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag2Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag2Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/PMEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/DATAPATH/stage2/aREGFILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/PMEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/DATAPATH/stage2/aREGFILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/DATAPATH/stage2/aREGFILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/DATAPATH/stage2/aREGFILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/DATAPATH/stage2/aREGFILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/DATAPATH/stage2/aREGFILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag2Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag2Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/PMEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/DATAPATH/stage2/aREGFILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/DATAPATH/stage2/aREGFILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/DATAPATH/stage2/aREGFILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Tag2Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 6 ns  Iteration: 0  Instance: /mp3_cpu/DATAPATH/stage2/aREGFILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 6 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 8 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 8 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 9 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 9 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag2Compare
+# Done loading ../testcode/mp3-stildi.asm program code. 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Tag2Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag2Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1700 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1704 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2904 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3904 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4750 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5584 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag2Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5604 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5634 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5634 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag2Compare
+add wave -position 27  sim:/mp3_cpu/DATAPATH/stage3/CW3out
+add wave -position 26  sim:/mp3_cpu/DATAPATH/stage2/CW2out
+add wave -position 29  sim:/mp3_cpu/DATAPATH/stage4/CW4out
+restart -f; do mp3-stildi.do; run 14000
+# Loading /software/mentor/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll
+# --- Executing initialization force file for ../testcode/mp3-stildi.asm --- 
+# Resetting processor for 5 ns. 
+# Initializing the processor. 
+# Done initializing processor, loading ../testcode/mp3-stildi.asm program code. 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/DATAPATH/stage2/aREGFILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/DATAPATH/stage2/aREGFILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/DATAPATH/stage2/aREGFILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Tag2Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Tag2Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag2Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag2Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/PMEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/DATAPATH/stage2/aREGFILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/PMEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/DATAPATH/stage2/aREGFILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/DATAPATH/stage2/aREGFILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/DATAPATH/stage2/aREGFILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/DATAPATH/stage2/aREGFILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/DATAPATH/stage2/aREGFILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag2Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag2Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/PMEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/DATAPATH/stage2/aREGFILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/DATAPATH/stage2/aREGFILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/DATAPATH/stage2/aREGFILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Tag2Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 6 ns  Iteration: 0  Instance: /mp3_cpu/DATAPATH/stage2/aREGFILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 6 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 8 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 8 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 9 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 9 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag2Compare
+# Done loading ../testcode/mp3-stildi.asm program code. 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Tag2Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag2Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1700 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1704 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2904 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3904 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4750 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5584 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag2Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5604 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5634 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5634 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag2Compare
+add wave -position 30  sim:/mp3_cpu/DATAPATH/stage3/ALU3out
+restart -f; do mp3-stildi.do; run 14000
+# Loading /software/mentor/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll
+# --- Executing initialization force file for ../testcode/mp3-stildi.asm --- 
+# Resetting processor for 5 ns. 
+# Initializing the processor. 
+# Done initializing processor, loading ../testcode/mp3-stildi.asm program code. 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/DATAPATH/stage2/aREGFILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/DATAPATH/stage2/aREGFILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/DATAPATH/stage2/aREGFILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Tag2Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Tag2Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag2Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag2Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/PMEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/DATAPATH/stage2/aREGFILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp3_cpu/aMemory/PMEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/DATAPATH/stage2/aREGFILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp3_cpu/DATAPATH/stage2/aREGFILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/DATAPATH/stage2/aREGFILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/DATAPATH/stage2/aREGFILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 0  Instance: /mp3_cpu/DATAPATH/stage2/aREGFILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag2Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag2Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/PMEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way0/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayData
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayTag
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Way1/WayValid
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/DATAPATH/stage2/aREGFILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/DATAPATH/stage2/aREGFILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp3_cpu/DATAPATH/stage2/aREGFILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Tag2Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 6 ns  Iteration: 0  Instance: /mp3_cpu/DATAPATH/stage2/aREGFILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 6 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/aLRUArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 8 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way0/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 8 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Way1/WayDirty
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 9 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 9 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag2Compare
+# Done loading ../testcode/mp3-stildi.asm program code. 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Tag2Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag2Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1654 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1700 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3154 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4100 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/iL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5034 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag2Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5054 ns  Iteration: 0  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5084 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag1Compare
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5084 ns  Iteration: 2  Instance: /mp3_cpu/aMemory/dL1Cache/Cache_DP/Tag2Compare
