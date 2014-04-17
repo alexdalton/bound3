@@ -18,7 +18,8 @@ ENTITY CW2sig_ripper IS
    PORT( 
       CW2out       : IN     lc3b_dword;
       ALUop        : OUT    lc3b_aluop;
-      SRCB_MUX_SEL : OUT    lc3b_8mux_sel
+      SRCB_MUX_SEL : OUT    lc3b_8mux_sel;
+      LEA_INST     : OUT    std_logic
    );
 
 -- Declarations
@@ -30,5 +31,6 @@ ARCHITECTURE untitled OF CW2sig_ripper IS
 BEGIN
   ALUop <= CW2out(29 downto 27);
   SRCB_MUX_SEL <= CW2out(26 downto 24);
+  LEA_INST <= CW2out(8);
 END ARCHITECTURE untitled;
 

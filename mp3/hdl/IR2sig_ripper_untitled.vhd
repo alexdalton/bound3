@@ -20,6 +20,7 @@ ENTITY IR2sig_ripper IS
       IR2_5  : OUT    std_logic;
       imm4   : OUT    lc3b_nibble;
       imm5   : OUT    LC3b_imm5;
+      offset9 : OUT LC3B_OFFSET9;
       index6 : OUT    LC3b_index6
    );
 
@@ -34,5 +35,6 @@ BEGIN
   imm4 <= IR2out(3 downto 0);
   imm5 <= IR2out(4 downto 0);
   index6 <= IR2out(5 downto 0);
+  offset9 <= IR2out(8 downto 0);
 END ARCHITECTURE untitled;
 
