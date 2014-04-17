@@ -104,7 +104,7 @@ port (LogicalPort
 decl (Decl
 n "clearValid4"
 t "std_logic"
-o 9
+o 8
 suid 4,0
 )
 )
@@ -115,7 +115,7 @@ port (LogicalPort
 decl (Decl
 n "clk"
 t "std_logic"
-o 10
+o 9
 suid 5,0
 )
 )
@@ -266,7 +266,7 @@ port (LogicalPort
 decl (Decl
 n "regA3out"
 t "lc3b_word"
-o 11
+o 10
 suid 18,0
 )
 )
@@ -289,7 +289,7 @@ port (LogicalPort
 decl (Decl
 n "regB3out"
 t "lc3b_word"
-o 12
+o 11
 suid 20,0
 )
 )
@@ -332,9 +332,9 @@ uid 220,0
 *37 (LogPort
 port (LogicalPort
 decl (Decl
-n "Valid3out"
+n "valid3out"
 t "std_logic"
-o 8
+o 12
 suid 24,0
 )
 )
@@ -1138,7 +1138,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "01:13:48"
+value "01:37:17"
 )
 (vvPair
 variable "unit"
@@ -1340,14 +1340,14 @@ uid 70,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,9000,63500,9900"
+xt "44000,8100,63500,9000"
 st "clearValid4      : IN     std_logic  ;"
 )
 thePort (LogicalPort
 decl (Decl
 n "clearValid4"
 t "std_logic"
-o 9
+o 8
 suid 4,0
 )
 )
@@ -1384,14 +1384,14 @@ uid 75,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,9900,63500,10800"
+xt "44000,9000,63500,9900"
 st "clk              : IN     std_logic  ;"
 )
 thePort (LogicalPort
 decl (Decl
 n "clk"
 t "std_logic"
-o 10
+o 9
 suid 5,0
 )
 )
@@ -1972,14 +1972,14 @@ uid 140,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,10800,63500,11700"
+xt "44000,9900,63500,10800"
 st "regA3out         : IN     lc3b_word  ;"
 )
 thePort (LogicalPort
 decl (Decl
 n "regA3out"
 t "lc3b_word"
-o 11
+o 10
 suid 18,0
 )
 )
@@ -2062,14 +2062,14 @@ uid 150,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,11700,63500,12600"
+xt "44000,10800,63500,11700"
 st "regB3out         : IN     lc3b_word  ;"
 )
 thePort (LogicalPort
 decl (Decl
 n "regB3out"
 t "lc3b_word"
-o 12
+o 11
 suid 20,0
 )
 )
@@ -2230,7 +2230,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "16000,9550,20500,10450"
-st "Valid3out"
+st "valid3out"
 blo "16000,10250"
 tm "CptPortNameMgr"
 )
@@ -2240,14 +2240,14 @@ uid 170,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,8100,63500,9000"
-st "Valid3out        : IN     std_logic  ;"
+xt "44000,11700,63500,12600"
+st "valid3out        : IN     std_logic  ;"
 )
 thePort (LogicalPort
 decl (Decl
-n "Valid3out"
+n "valid3out"
 t "std_logic"
-o 8
+o 12
 suid 24,0
 )
 )
@@ -3470,6 +3470,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 3573,0
+lastUid 3849,0
 activeModelName "Symbol:CDM"
 )

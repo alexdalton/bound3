@@ -17,7 +17,7 @@ USE ece411.LC3b_types.all;
 ENTITY WRbyte_sel IS
    PORT( 
       M_align   : IN     std_logic;
-      Valid3out : IN     std_logic;
+      valid3out : IN     std_logic;
       writeType : IN     std_logic_vector (1 DOWNTO 0);
       MWRITEH_L : OUT    std_logic;
       MWRITEL_L : OUT    std_logic
