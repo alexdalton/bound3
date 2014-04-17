@@ -23,6 +23,7 @@ ENTITY CW3sig_ripper IS
       memoryOP     : OUT    std_logic;
       readOP       : OUT    std_logic;
       byteOP      : OUT    std_logic;
+      trap        : OUT     std_logic;
       writeType    : OUT    std_logic_vector (1 DOWNTO 0)
    );
 
@@ -39,6 +40,7 @@ BEGIN
   memoryOP <= CW3out(20);
   ADDRESS2_SEL <= CW3out(19 downto 18);
   writeType <= CW3out(17 downto 16);
+  trap <= CW3out(7);
   byteOP <= CW3out(10);
 END ARCHITECTURE untitled;
 

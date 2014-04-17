@@ -19,7 +19,8 @@ ENTITY CW2sig_ripper IS
       CW2out       : IN     lc3b_dword;
       ALUop        : OUT    lc3b_aluop;
       SRCB_MUX_SEL : OUT    lc3b_8mux_sel;
-      LEA_INST     : OUT    std_logic
+      LEA_INST     : OUT    std_logic;
+      trap         : OUT    std_logic
    );
 
 -- Declarations
@@ -32,5 +33,6 @@ BEGIN
   ALUop <= CW2out(29 downto 27);
   SRCB_MUX_SEL <= CW2out(26 downto 24);
   LEA_INST <= CW2out(8);
+  trap <= CW2out(7);
 END ARCHITECTURE untitled;
 
