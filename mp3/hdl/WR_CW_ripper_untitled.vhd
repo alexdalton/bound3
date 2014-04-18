@@ -17,6 +17,7 @@ USE ece411.LC3b_types.all;
 ENTITY WR_CW_ripper IS
    PORT( 
       WR_CW     : IN     lc3b_dword;
+      WR_R7     : OUT     std_logic;
       dest_used : OUT    std_logic
    );
 
@@ -28,5 +29,6 @@ END WR_CW_ripper ;
 ARCHITECTURE untitled OF WR_CW_ripper IS
 BEGIN
   dest_used <= WR_CW(14); -- dest used if regwrite
+  WR_R7 <= WR_CW(3);
 END ARCHITECTURE untitled;
 

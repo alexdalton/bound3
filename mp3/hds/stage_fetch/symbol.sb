@@ -25,7 +25,7 @@ appVersion "2012.1 (Build 6)"
 model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
-suid 19,0
+suid 20,0
 usingSuid 1
 emptyRow *1 (LEmptyRow
 )
@@ -762,7 +762,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "00:33:15"
+value "02:30:37"
 )
 (vvPair
 variable "unit"
@@ -829,7 +829,8 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,2700,60500,3600"
-st "RESET_L    : IN     std_logic  ;"
+st "RESET_L    : IN     std_logic  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
@@ -873,7 +874,8 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,7200,60500,8100"
-st "clk        : IN     std_logic  ;"
+st "clk        : IN     std_logic  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
@@ -917,7 +919,8 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,3600,60500,4500"
-st "STALL_L    : IN     std_logic  ;"
+st "STALL_L    : IN     std_logic  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
@@ -961,7 +964,8 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,5400,60500,6300"
-st "calcPC     : IN     LC3b_word  ;"
+st "calcPC     : IN     LC3b_word  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1006,7 +1010,8 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,9900,60500,10800"
-st "ADDRESS1   : OUT    lc3b_word  ;"
+st "ADDRESS1   : OUT    lc3b_word  ;
+"
 )
 thePort (LogicalPort
 m 1
@@ -1052,7 +1057,8 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,11700,60500,12600"
-st "MREADI_L   : OUT    std_logic  ;"
+st "MREADI_L   : OUT    std_logic  ;
+"
 )
 thePort (LogicalPort
 m 1
@@ -1098,7 +1104,8 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,10800,60500,11700"
-st "IR1out     : OUT    lc3b_word  ;"
+st "IR1out     : OUT    lc3b_word  ;
+"
 )
 thePort (LogicalPort
 m 1
@@ -1143,7 +1150,8 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,6300,60500,7200"
-st "clearValid : IN     std_logic  ;"
+st "clearValid : IN     std_logic  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1188,7 +1196,8 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,13500,59500,14400"
-st "Valid1out  : OUT    std_logic "
+st "Valid1out  : OUT    std_logic 
+"
 )
 thePort (LogicalPort
 m 1
@@ -1234,7 +1243,8 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,12600,60500,13500"
-st "PC1out     : OUT    lc3b_word  ;"
+st "PC1out     : OUT    lc3b_word  ;
+"
 )
 thePort (LogicalPort
 m 1
@@ -1279,7 +1289,8 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,1800,60500,2700"
-st "DataIn1    : IN     lc3b_word  ;"
+st "DataIn1    : IN     lc3b_word  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1323,7 +1334,8 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,4500,60500,5400"
-st "branch     : IN     std_logic  ;"
+st "branch     : IN     std_logic  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1367,7 +1379,8 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,8100,60500,9000"
-st "trap       : IN     std_logic  ;"
+st "trap       : IN     std_logic  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1411,7 +1424,8 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,9000,60500,9900"
-st "trapPC     : IN     LC3b_word  ;"
+st "trapPC     : IN     LC3b_word  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
@@ -2131,7 +2145,7 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 1597,0
+lastUid 1673,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol:CDM"

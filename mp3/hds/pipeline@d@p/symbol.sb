@@ -189,7 +189,6 @@ n "D_MRESP_H"
 t "std_logic"
 o 2
 suid 49,0
-i "'0'"
 )
 )
 uid 369,0
@@ -613,19 +612,19 @@ value "/home/adalton2/ece411/bound3/mp3/hds/pipelineDP"
 )
 (vvPair
 variable "date"
-value "04/02/14"
+value "04/18/14"
 )
 (vvPair
 variable "day"
-value "Wed"
+value "Fri"
 )
 (vvPair
 variable "day_long"
-value "Wednesday"
+value "Friday"
 )
 (vvPair
 variable "dd"
-value "02"
+value "18"
 )
 (vvPair
 variable "entity_name"
@@ -653,7 +652,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "siebl-0220-12.ews.illinois.edu"
+value "gelib-057-33.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -745,7 +744,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "23:28:25"
+value "03:20:37"
 )
 (vvPair
 variable "unit"
@@ -1225,6 +1224,7 @@ blo "16000,11250"
 tm "CptPortNameMgr"
 )
 t (Text
+uid 1574,0
 va (VaSet
 font "courier,8,0"
 )
@@ -1279,23 +1279,14 @@ st "D_MRESP_H"
 blo "16000,12250"
 tm "CptPortNameMgr"
 )
-t (Text
-va (VaSet
-font "courier,8,0"
-)
-xt "16000,12450,17700,13350"
-st "'0'"
-blo "16000,13150"
-tm "InitValueDelayMgr"
-)
 )
 dt (MLText
 uid 383,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,2700,63700,3600"
-st "D_MRESP_H : IN     std_logic  := '0' ;
+xt "44000,2700,60000,3600"
+st "D_MRESP_H : IN     std_logic  ;
 "
 )
 thePort (LogicalPort
@@ -1304,7 +1295,6 @@ n "D_MRESP_H"
 t "std_logic"
 o 2
 suid 49,0
-i "'0'"
 )
 )
 )
@@ -2107,6 +2097,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 1550,0
+lastUid 1575,0
 activeModelName "Symbol"
 )

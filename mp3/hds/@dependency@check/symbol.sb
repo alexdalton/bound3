@@ -585,23 +585,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "/home/buris2/ece411/bound3/mp3/hdl"
+value "/home/adalton2/ece411/bound3/mp3/hdl"
 )
 (vvPair
 variable "HDSDir"
-value "/home/buris2/ece411/bound3/mp3/hds"
+value "/home/adalton2/ece411/bound3/mp3/hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "/home/buris2/ece411/bound3/mp3/hds/@dependency@check/symbol.sb.info"
+value "/home/adalton2/ece411/bound3/mp3/hds/@dependency@check/symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "/home/buris2/ece411/bound3/mp3/hds/@dependency@check/symbol.sb.user"
+value "/home/adalton2/ece411/bound3/mp3/hds/@dependency@check/symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "/home/buris2/ece411/bound3/mp3/hds"
+value "/home/adalton2/ece411/bound3/mp3/hds"
 )
 (vvPair
 variable "appl"
@@ -617,27 +617,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "/home/buris2/ece411/bound3/mp3/hds/@dependency@check"
+value "/home/adalton2/ece411/bound3/mp3/hds/@dependency@check"
 )
 (vvPair
 variable "d_logical"
-value "/home/buris2/ece411/bound3/mp3/hds/DependencyCheck"
+value "/home/adalton2/ece411/bound3/mp3/hds/DependencyCheck"
 )
 (vvPair
 variable "date"
-value "04/17/14"
+value "04/18/14"
 )
 (vvPair
 variable "day"
-value "Thu"
+value "Fri"
 )
 (vvPair
 variable "day_long"
-value "Thursday"
+value "Friday"
 )
 (vvPair
 variable "dd"
-value "17"
+value "18"
 )
 (vvPair
 variable "entity_name"
@@ -665,7 +665,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "gelib-057-26.ews.illinois.edu"
+value "gelib-057-33.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -697,11 +697,11 @@ value "April"
 )
 (vvPair
 variable "p"
-value "/home/buris2/ece411/bound3/mp3/hds/@dependency@check/symbol.sb"
+value "/home/adalton2/ece411/bound3/mp3/hds/@dependency@check/symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "/home/buris2/ece411/bound3/mp3/hds/DependencyCheck/symbol.sb"
+value "/home/adalton2/ece411/bound3/mp3/hds/DependencyCheck/symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -725,7 +725,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_ModelSimPath"
-value "/software/mentor/ModelSim-SE-10.1d/modeltech/bin"
+value "<TBD>"
 )
 (vvPair
 variable "task_NC-SimPath"
@@ -733,7 +733,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_PrecisionRTLPath"
-value "/software/mentor/PS2012b/Mgc_home/bin"
+value "<TBD>"
 )
 (vvPair
 variable "task_QuestaSimPath"
@@ -757,7 +757,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "00:12:23"
+value "03:45:43"
 )
 (vvPair
 variable "unit"
@@ -765,7 +765,7 @@ value "DependencyCheck"
 )
 (vvPair
 variable "user"
-value "buris2"
+value "adalton2"
 )
 (vvPair
 variable "version"
@@ -2123,7 +2123,7 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 281,0
+lastUid 304,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol"

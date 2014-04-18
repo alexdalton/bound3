@@ -25,7 +25,7 @@ appVersion "2012.1 (Build 6)"
 model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
-suid 45,0
+suid 46,0
 usingSuid 1
 emptyRow *1 (LEmptyRow
 )
@@ -1138,7 +1138,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "00:21:04"
+value "03:23:32"
 )
 (vvPair
 variable "unit"
@@ -3470,6 +3470,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 4355,0
+lastUid 4500,0
 activeModelName "Symbol:CDM"
 )
