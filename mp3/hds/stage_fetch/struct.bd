@@ -166,19 +166,19 @@ value "/home/adalton2/ece411/bound3/mp3/hds/stage_fetch"
 )
 (vvPair
 variable "date"
-value "04/16/14"
+value "04/17/14"
 )
 (vvPair
 variable "day"
-value "Wed"
+value "Thu"
 )
 (vvPair
 variable "day_long"
-value "Wednesday"
+value "Thursday"
 )
 (vvPair
 variable "dd"
-value "16"
+value "17"
 )
 (vvPair
 variable "entity_name"
@@ -206,7 +206,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "gelib-057-40.ews.illinois.edu"
+value "gelib-057-33.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -302,7 +302,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "22:47:38"
+value "23:28:45"
 )
 (vvPair
 variable "unit"
@@ -1680,16 +1680,16 @@ optionalChildren [
 uid 710,0
 sl 0
 ro 270
-xt "38000,40625,39500,41375"
+xt "46000,40625,47500,41375"
 )
 (Line
 uid 711,0
 sl 0
 ro 270
-xt "39500,41000,40000,41000"
+xt "47500,41000,48000,41000"
 pts [
-"39500,41000"
-"40000,41000"
+"47500,41000"
+"48000,41000"
 ]
 )
 ]
@@ -1705,10 +1705,10 @@ uid 713,0
 va (VaSet
 font "courier,8,0"
 )
-xt "35500,41550,41000,42450"
+xt "43500,41550,49000,42450"
 st "clearValid"
 ju 2
-blo "41000,42250"
+blo "49000,42250"
 tm "WireNameMgr"
 )
 )
@@ -1726,16 +1726,16 @@ optionalChildren [
 uid 726,0
 sl 0
 ro 270
-xt "59500,39625,61000,40375"
+xt "67500,39625,69000,40375"
 )
 (Line
 uid 727,0
 sl 0
 ro 270
-xt "59000,40000,59500,40000"
+xt "67000,40000,67500,40000"
 pts [
-"59000,40000"
-"59500,40000"
+"67000,40000"
+"67500,40000"
 ]
 )
 ]
@@ -1751,9 +1751,9 @@ uid 729,0
 va (VaSet
 font "courier,8,0"
 )
-xt "62000,39550,66500,40450"
+xt "70000,39550,74500,40450"
 st "Valid1out"
-blo "62000,40250"
+blo "70000,40250"
 tm "WireNameMgr"
 )
 )
@@ -2677,7 +2677,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "44250,38625,45000,39375"
+xt "52250,38625,53000,39375"
 )
 tg (CPTG
 uid 1421,0
@@ -2688,17 +2688,17 @@ uid 1422,0
 sl 0
 va (VaSet
 )
-xt "46000,38550,50200,39550"
+xt "54000,38550,58200,39550"
 st "RESET_L"
-blo "46000,39350"
+blo "54000,39350"
 )
 s (Text
 uid 1455,0
 sl 0
 va (VaSet
 )
-xt "46000,39550,46000,39550"
-blo "46000,39550"
+xt "54000,39550,54000,39550"
+blo "54000,39550"
 )
 )
 thePort (LogicalPort
@@ -2720,7 +2720,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "44250,40625,45000,41375"
+xt "52250,40625,53000,41375"
 )
 tg (CPTG
 uid 1425,0
@@ -2731,17 +2731,17 @@ uid 1426,0
 sl 0
 va (VaSet
 )
-xt "46000,40450,46600,41450"
+xt "54000,40450,54600,41450"
 st "A"
-blo "46000,41250"
+blo "54000,41250"
 )
 s (Text
 uid 1456,0
 sl 0
 va (VaSet
 )
-xt "46000,41450,46000,41450"
-blo "46000,41450"
+xt "54000,41450,54000,41450"
+blo "54000,41450"
 )
 )
 thePort (LogicalPort
@@ -2763,7 +2763,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "44250,34625,45000,35375"
+xt "52250,34625,53000,35375"
 )
 tg (CPTG
 uid 1429,0
@@ -2774,17 +2774,17 @@ uid 1430,0
 sl 0
 va (VaSet
 )
-xt "46000,34450,47200,35450"
+xt "54000,34450,55200,35450"
 st "EN"
-blo "46000,35250"
+blo "54000,35250"
 )
 s (Text
 uid 1457,0
 sl 0
 va (VaSet
 )
-xt "46000,35450,46000,35450"
-blo "46000,35450"
+xt "54000,35450,54000,35450"
+blo "54000,35450"
 )
 )
 thePort (LogicalPort
@@ -2801,9 +2801,9 @@ uid 1431,0
 optionalChildren [
 *84 (FFT
 pts [
-"45750,37000"
-"45000,37375"
-"45000,36625"
+"53750,37000"
+"53000,37375"
+"53000,36625"
 ]
 uid 1435,0
 ro 90
@@ -2811,7 +2811,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "45000,36625,45750,37375"
+xt "53000,36625,53750,37375"
 )
 ]
 ps "OnEdgeStrategy"
@@ -2822,7 +2822,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "44250,36625,45000,37375"
+xt "52250,36625,53000,37375"
 )
 tg (CPTG
 uid 1433,0
@@ -2833,17 +2833,17 @@ uid 1434,0
 sl 0
 va (VaSet
 )
-xt "46000,36450,47800,37450"
+xt "54000,36450,55800,37450"
 st "CLK"
-blo "46000,37250"
+blo "54000,37250"
 )
 s (Text
 uid 1458,0
 sl 0
 va (VaSet
 )
-xt "46000,37450,46000,37450"
-blo "46000,37450"
+xt "54000,37450,54000,37450"
+blo "54000,37450"
 )
 )
 thePort (LogicalPort
@@ -2865,7 +2865,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "53000,39625,53750,40375"
+xt "61000,39625,61750,40375"
 )
 tg (CPTG
 uid 1438,0
@@ -2876,19 +2876,19 @@ uid 1439,0
 sl 0
 va (VaSet
 )
-xt "51400,39450,52000,40450"
+xt "59400,39450,60000,40450"
 st "F"
 ju 2
-blo "52000,40250"
+blo "60000,40250"
 )
 s (Text
 uid 1459,0
 sl 0
 va (VaSet
 )
-xt "52000,40450,52000,40450"
+xt "60000,40450,60000,40450"
 ju 2
-blo "52000,40450"
+blo "60000,40450"
 )
 )
 thePort (LogicalPort
@@ -2905,11 +2905,11 @@ suid 5,0
 uid 1440,0
 shape (CustomPolygon
 pts [
-"45000,34000"
 "53000,34000"
+"61000,34000"
+"61000,43000"
 "53000,43000"
-"45000,43000"
-"45000,34000"
+"53000,34000"
 ]
 uid 1441,0
 layer 8
@@ -2918,7 +2918,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "45000,34000,53000,43000"
+xt "53000,34000,61000,43000"
 )
 oxt "2000,12000,10000,21000"
 )
@@ -2934,7 +2934,7 @@ transparent 1
 fg "65280,65280,46080"
 lineColor "0,0,32768"
 )
-xt "49000,41000,53000,43000"
+xt "57000,41000,61000,43000"
 )
 oxt "6000,19000,10000,21000"
 text (MLText
@@ -2944,7 +2944,7 @@ va (VaSet
 fg "65535,0,0"
 font "courier,12,0"
 )
-xt "49200,41200,52700,42500"
+xt "57200,41200,60700,42500"
 st "
 1 bit
 "
@@ -2963,7 +2963,7 @@ transparent 1
 lineColor "26368,26368,26368"
 lineStyle 2
 )
-xt "45000,34000,53000,43000"
+xt "53000,34000,61000,43000"
 fos 1
 )
 oxt "2000,12000,10000,21000"
@@ -2977,9 +2977,9 @@ uid 1448,0
 va (VaSet
 isHidden 1
 )
-xt "53000,55300,56600,56300"
+xt "61000,55300,64600,56300"
 st "mp3lib"
-blo "53000,56100"
+blo "61000,56100"
 tm "BdLibraryNameMgr"
 )
 *89 (Text
@@ -2987,9 +2987,9 @@ uid 1449,0
 va (VaSet
 isHidden 1
 )
-xt "53000,56200,55400,57200"
+xt "61000,56200,63400,57200"
 st "REG1"
-blo "53000,57000"
+blo "61000,57000"
 tm "CptNameMgr"
 )
 *90 (Text
@@ -2997,9 +2997,9 @@ uid 1450,0
 va (VaSet
 isHidden 1
 )
-xt "53000,56300,54800,57300"
+xt "61000,56300,62800,57300"
 st "U_6"
-blo "53000,57100"
+blo "61000,57100"
 tm "InstanceNameMgr"
 )
 ]
@@ -3013,7 +3013,7 @@ text (MLText
 uid 1453,0
 va (VaSet
 )
-xt "30000,40000,30000,40000"
+xt "38000,40000,38000,40000"
 )
 header ""
 )
@@ -3027,7 +3027,7 @@ va (VaSet
 vasetType 1
 fg "49152,49152,49152"
 )
-xt "45250,41250,46750,42750"
+xt "53250,41250,54750,42750"
 iconName "VhdlFileViewIcon.png"
 iconMaskName "VhdlFileViewIcon.msk"
 ftype 10
@@ -5074,10 +5074,10 @@ uid 731,0
 va (VaSet
 vasetType 3
 )
-xt "39000,35000,44250,35000"
+xt "47000,35000,52250,35000"
 pts [
-"39000,35000"
-"44250,35000"
+"47000,35000"
+"52250,35000"
 ]
 )
 end &82
@@ -5095,9 +5095,9 @@ uid 737,0
 va (VaSet
 font "courier,8,0"
 )
-xt "40000,34100,43500,35000"
+xt "48000,34100,51500,35000"
 st "STALL_L"
-blo "40000,34800"
+blo "48000,34800"
 tm "WireNameMgr"
 )
 )
@@ -5111,10 +5111,10 @@ va (VaSet
 vasetType 3
 lineWidth 2
 )
-xt "53750,40000,59000,40000"
+xt "61750,40000,67000,40000"
 pts [
-"53750,40000"
-"59000,40000"
+"61750,40000"
+"67000,40000"
 ]
 )
 start &85
@@ -5134,9 +5134,9 @@ uid 743,0
 va (VaSet
 font "courier,8,0"
 )
-xt "54000,39100,58500,40000"
+xt "62000,39100,66500,40000"
 st "Valid1out"
-blo "54000,39800"
+blo "62000,39800"
 tm "WireNameMgr"
 )
 )
@@ -5149,10 +5149,10 @@ uid 745,0
 va (VaSet
 vasetType 3
 )
-xt "39000,37000,44250,37000"
+xt "47000,37000,52250,37000"
 pts [
-"39000,37000"
-"44250,37000"
+"47000,37000"
+"52250,37000"
 ]
 )
 end &83
@@ -5170,9 +5170,9 @@ uid 751,0
 va (VaSet
 font "courier,8,0"
 )
-xt "41000,36100,42500,37000"
+xt "49000,36100,50500,37000"
 st "clk"
-blo "41000,36800"
+blo "49000,36800"
 tm "WireNameMgr"
 )
 )
@@ -5185,10 +5185,10 @@ uid 753,0
 va (VaSet
 vasetType 3
 )
-xt "39000,39000,44250,39000"
+xt "47000,39000,52250,39000"
 pts [
-"39000,39000"
-"44250,39000"
+"47000,39000"
+"52250,39000"
 ]
 )
 end &80
@@ -5206,9 +5206,9 @@ uid 759,0
 va (VaSet
 font "courier,8,0"
 )
-xt "40000,38100,43500,39000"
+xt "48000,38100,51500,39000"
 st "RESET_L"
-blo "40000,38800"
+blo "48000,38800"
 tm "WireNameMgr"
 )
 )
@@ -5222,10 +5222,10 @@ va (VaSet
 vasetType 3
 lineWidth 2
 )
-xt "40000,41000,44250,41000"
+xt "48000,41000,52250,41000"
 pts [
-"40000,41000"
-"44250,41000"
+"48000,41000"
+"52250,41000"
 ]
 )
 start &48
@@ -5248,9 +5248,9 @@ va (VaSet
 isHidden 1
 font "courier,8,0"
 )
-xt "40000,40100,45500,41000"
+xt "48000,40100,53500,41000"
 st "clearValid"
-blo "40000,40800"
+blo "48000,40800"
 tm "WireNameMgr"
 )
 )
@@ -5945,11 +5945,11 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "1914,27,3846,1059"
-viewArea "-6195,-3310,53620,26825"
-cachedDiagramExtent "-29400,0,69000,57300"
+viewArea "9524,18064,77884,52504"
+cachedDiagramExtent "-29400,0,74500,57300"
 hasePageBreakOrigin 1
 pageBreakOrigin "-69000,0"
-lastUid 2743,0
+lastUid 2810,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
