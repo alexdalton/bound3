@@ -1,0 +1,64 @@
+--
+-- VHDL Architecture ece411.MUX8_1.untitled
+--
+-- Created:
+--          by - lis2.ews (gelib-057-16.ews.illinois.edu)
+--          at - 22:26:03 04/17/14
+--
+-- using Mentor Graphics HDL Designer(TM) 2012.1 (Build 6)
+--
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.NUMERIC_STD.all;
+
+LIBRARY ece411;
+USE ece411.LC3b_types.all;
+
+ENTITY MUX8_1 IS
+   PORT( 
+      A      : IN     std_logic;
+      B      : IN     std_logic;
+      C      : IN     std_logic;
+      D      : IN     std_logic;
+      E      : IN     std_logic;
+      F      : IN     std_logic;
+      G      : IN     std_logic;
+      H      : IN     std_logic;
+      Result : OUT    std_logic;
+      sel    : IN    lc3b_8mux_sel
+   );
+
+-- Declarations
+
+END MUX8_1 ;
+
+--
+ARCHITECTURE untitled OF MUX8_1 IS
+BEGIN
+  PROCESS (A, B, C, D, E, F, G, H, sel)
+    variable state : std_logic;
+  BEGIN
+    case sel is 
+      when "000" =>
+        state := A;
+      when "001" =>
+        state := B;
+      when "010" =>
+        state := C;
+      when "011" =>
+        state := D;
+      when "100" =>
+        state := E;
+      when "101" =>
+        state := F;
+      when "110" =>
+        state := G;
+      when "111" =>
+        state := H;
+      when others =>
+        state := 'X';
+      end case;
+    Result <= state after delay_MUX8; 
+  END PROCESS;
+END ARCHITECTURE untitled;
+
