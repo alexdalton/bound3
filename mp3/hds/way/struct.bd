@@ -78,23 +78,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "/home/adalton2/ece411/bound3/mp3/hdl"
+value "/home/lis2/ece411/git/postcp3/bound3/mp3/hdl"
 )
 (vvPair
 variable "HDSDir"
-value "/home/adalton2/ece411/bound3/mp3/hds"
+value "/home/lis2/ece411/git/postcp3/bound3/mp3/hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "/home/adalton2/ece411/bound3/mp3/hds/way/struct.bd.info"
+value "/home/lis2/ece411/git/postcp3/bound3/mp3/hds/way/struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "/home/adalton2/ece411/bound3/mp3/hds/way/struct.bd.user"
+value "/home/lis2/ece411/git/postcp3/bound3/mp3/hds/way/struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "/home/adalton2/ece411/bound3/mp3/hds"
+value "/home/lis2/ece411/git/postcp3/bound3/mp3/hds"
 )
 (vvPair
 variable "appl"
@@ -110,27 +110,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "/home/adalton2/ece411/bound3/mp3/hds/way"
+value "/home/lis2/ece411/git/postcp3/bound3/mp3/hds/way"
 )
 (vvPair
 variable "d_logical"
-value "/home/adalton2/ece411/bound3/mp3/hds/way"
+value "/home/lis2/ece411/git/postcp3/bound3/mp3/hds/way"
 )
 (vvPair
 variable "date"
-value "04/02/14"
+value "04/29/14"
 )
 (vvPair
 variable "day"
-value "Wed"
+value "Tue"
 )
 (vvPair
 variable "day_long"
-value "Wednesday"
+value "Tuesday"
 )
 (vvPair
 variable "dd"
-value "02"
+value "29"
 )
 (vvPair
 variable "entity_name"
@@ -158,7 +158,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "siebl-0220-12.ews.illinois.edu"
+value "siebl-0218-26.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -194,11 +194,11 @@ value "April"
 )
 (vvPair
 variable "p"
-value "/home/adalton2/ece411/bound3/mp3/hds/way/struct.bd"
+value "/home/lis2/ece411/git/postcp3/bound3/mp3/hds/way/struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "/home/adalton2/ece411/bound3/mp3/hds/way/struct.bd"
+value "/home/lis2/ece411/git/postcp3/bound3/mp3/hds/way/struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -206,7 +206,7 @@ value "<Undefined Variable>"
 )
 (vvPair
 variable "project_name"
-value "ece411"
+value "ece411_mp3"
 )
 (vvPair
 variable "series"
@@ -254,7 +254,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "22:12:52"
+value "18:33:16"
 )
 (vvPair
 variable "unit"
@@ -262,7 +262,7 @@ value "way"
 )
 (vvPair
 variable "user"
-value "adalton2"
+value "lis2"
 )
 (vvPair
 variable "version"
@@ -283,6 +283,7 @@ value "14"
 ]
 )
 LanguageMgr "VhdlLangMgr"
+uid 532,0
 optionalChildren [
 *1 (PortIoIn
 uid 9,0
@@ -345,8 +346,7 @@ isHidden 1
 font "courier,8,0"
 )
 xt "19000,18800,30500,19700"
-st "CacheWrite : std_logic
-"
+st "CacheWrite : std_logic"
 )
 )
 *3 (PortIoIn
@@ -410,8 +410,7 @@ isHidden 1
 font "courier,8,0"
 )
 xt "19000,19700,31000,20600"
-st "DataIn     : LC3b_oword
-"
+st "DataIn     : LC3b_oword"
 )
 )
 *5 (PortIoIn
@@ -452,10 +451,10 @@ uid 42,0
 va (VaSet
 font "courier,8,0"
 )
-xt "19500,-500,23000,400"
+xt "20500,-1450,24000,-550"
 st "DirtyIn"
 ju 2
-blo "23000,200"
+blo "24000,-750"
 tm "WireNameMgr"
 )
 )
@@ -475,8 +474,7 @@ isHidden 1
 font "courier,8,0"
 )
 xt "19000,20600,30500,21500"
-st "DirtyIn    : std_logic
-"
+st "DirtyIn    : std_logic"
 )
 )
 *7 (PortIoIn
@@ -540,8 +538,7 @@ isHidden 1
 font "courier,8,0"
 )
 xt "19000,21500,30500,22400"
-st "DirtyWrite : std_logic
-"
+st "DirtyWrite : std_logic"
 )
 )
 *9 (PortIoIn
@@ -605,8 +602,7 @@ isHidden 1
 font "courier,8,0"
 )
 xt "19000,22400,32000,23300"
-st "Index      : LC3b_c_index
-"
+st "Index      : LC3b_c_index"
 )
 )
 *11 (PortIoIn
@@ -670,8 +666,7 @@ isHidden 1
 font "courier,8,0"
 )
 xt "19000,23300,30500,24200"
-st "RESET_L    : std_logic
-"
+st "RESET_L    : std_logic"
 )
 )
 *13 (PortIoIn
@@ -735,8 +730,7 @@ isHidden 1
 font "courier,8,0"
 )
 xt "19000,24200,31000,25100"
-st "TagIn      : LC3B_C_TAG
-"
+st "TagIn      : LC3B_C_TAG"
 )
 )
 *15 (PortIoOut
@@ -777,9 +771,9 @@ uid 112,0
 va (VaSet
 font "courier,8,0"
 )
-xt "21000,-500,24500,400"
+xt "20000,-450,23500,450"
 st "DataOut"
-blo "21000,200"
+blo "20000,250"
 tm "WireNameMgr"
 )
 )
@@ -799,8 +793,7 @@ isHidden 1
 font "courier,8,0"
 )
 xt "19000,25100,31000,26000"
-st "DataOut    : LC3b_oword
-"
+st "DataOut    : LC3b_oword"
 )
 )
 *17 (PortIoOut
@@ -841,9 +834,9 @@ uid 126,0
 va (VaSet
 font "courier,8,0"
 )
-xt "43000,-500,47000,400"
+xt "42000,-1450,46000,-550"
 st "DirtyOut"
-blo "43000,200"
+blo "42000,-750"
 tm "WireNameMgr"
 )
 )
@@ -863,8 +856,7 @@ isHidden 1
 font "courier,8,0"
 )
 xt "19000,26000,30500,26900"
-st "DirtyOut   : std_logic
-"
+st "DirtyOut   : std_logic"
 )
 )
 *19 (PortIoOut
@@ -927,8 +919,7 @@ isHidden 1
 font "courier,8,0"
 )
 xt "19000,26900,31000,27800"
-st "TagOut     : LC3B_C_TAG
-"
+st "TagOut     : LC3B_C_TAG"
 )
 )
 *21 (PortIoOut
@@ -991,8 +982,7 @@ isHidden 1
 font "courier,8,0"
 )
 xt "19000,27800,30500,28700"
-st "ValidOut   : std_logic
-"
+st "ValidOut   : std_logic"
 )
 )
 *23 (SaComponent
@@ -3078,8 +3068,7 @@ USE ieee.std_logic_1164.all;
 USE ieee.NUMERIC_STD.all;
 
 LIBRARY ece411;
-USE ece411.LC3b_types.all;
-"
+USE ece411.LC3b_types.all;"
 tm "PackageList"
 )
 ]
@@ -3160,11 +3149,12 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "0,0,1015,690"
-viewArea "-10500,-1000,92000,12000"
-cachedDiagramExtent "0,0,0,0"
-pageBreakOrigin "0,0"
-lastUid 531,0
+windowSize "-8,27,1928,1063"
+viewArea "-21300,-12305,94102,47855"
+cachedDiagramExtent "-10500,-1450,92000,37700"
+hasePageBreakOrigin 1
+pageBreakOrigin "-11000,-2000"
+lastUid 604,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -4226,8 +4216,7 @@ st "---- Optional embedded configurations
 --FOR ALL : DirtyArray USE ENTITY ece411.DirtyArray;
 --FOR ALL : TagArray USE ENTITY ece411.TagArray;
 --FOR ALL : ValidArray USE ENTITY ece411.ValidArray;
---   -- pragma synthesis_on
-"
+--   -- pragma synthesis_on"
 tm "BdDeclarativeTextMgr"
 )
 )
@@ -4238,6 +4227,7 @@ suid 11,0
 usingSuid 1
 emptyRow *118 (LEmptyRow
 )
+uid 534,0
 optionalChildren [
 *119 (RefLabelRowHdr
 )
@@ -4402,6 +4392,7 @@ uid 519,0
 pdm (PhysicalDM
 displayShortBounds 1
 editShortBounds 1
+uid 547,0
 optionalChildren [
 *142 (Sheet
 sheetRow (SheetRow
@@ -4422,25 +4413,29 @@ font "courier,10,0"
 )
 emptyMRCItem *143 (MRCItem
 litem &118
-pos 3
+pos 11
 dimension 20
 )
+uid 549,0
 optionalChildren [
 *144 (MRCItem
 litem &119
 pos 0
 dimension 20
+uid 550,0
 )
 *145 (MRCItem
 litem &120
 pos 1
 dimension 23
+uid 551,0
 )
 *146 (MRCItem
 litem &121
 pos 2
 hidden 1
 dimension 20
+uid 552,0
 )
 *147 (MRCItem
 litem &131
@@ -4517,62 +4512,74 @@ fontColor "0,0,0"
 font "courier,10,0"
 textAngle 90
 )
+uid 553,0
 optionalChildren [
 *158 (MRCItem
 litem &122
 pos 0
 dimension 20
+uid 554,0
 )
 *159 (MRCItem
 litem &124
 pos 1
 dimension 50
+uid 555,0
 )
 *160 (MRCItem
 litem &125
 pos 2
 dimension 100
+uid 556,0
 )
 *161 (MRCItem
 litem &126
 pos 3
 dimension 50
+uid 557,0
 )
 *162 (MRCItem
 litem &127
 pos 4
 dimension 100
+uid 558,0
 )
 *163 (MRCItem
 litem &128
 pos 5
 dimension 100
+uid 559,0
 )
 *164 (MRCItem
 litem &129
 pos 6
 dimension 50
+uid 560,0
 )
 *165 (MRCItem
 litem &130
 pos 7
 dimension 80
+uid 561,0
 )
 ]
 )
 fixedCol 4
 fixedRow 2
 name "Ports"
+uid 548,0
 vaOverrides [
 ]
 )
 ]
 )
+uid 533,0
 )
 genericsCommonDM (CommonDM
 ldm (LogicalDM
 emptyRow *166 (LEmptyRow
 )
+uid 563,0
 optionalChildren [
 *167 (RefLabelRowHdr
 )
@@ -4609,6 +4616,7 @@ tm "GenericEolColHdrMgr"
 pdm (PhysicalDM
 displayShortBounds 1
 editShortBounds 1
+uid 575,0
 optionalChildren [
 *178 (Sheet
 sheetRow (SheetRow
@@ -4629,25 +4637,29 @@ font "courier,10,0"
 )
 emptyMRCItem *179 (MRCItem
 litem &166
-pos 3
+pos 0
 dimension 20
 )
+uid 577,0
 optionalChildren [
 *180 (MRCItem
 litem &167
 pos 0
 dimension 20
+uid 578,0
 )
 *181 (MRCItem
 litem &168
 pos 1
 dimension 23
+uid 579,0
 )
 *182 (MRCItem
 litem &169
 pos 2
 hidden 1
 dimension 20
+uid 580,0
 )
 ]
 )
@@ -4658,52 +4670,63 @@ fontColor "0,0,0"
 font "courier,10,0"
 textAngle 90
 )
+uid 581,0
 optionalChildren [
 *183 (MRCItem
 litem &170
 pos 0
 dimension 20
+uid 582,0
 )
 *184 (MRCItem
 litem &172
 pos 1
 dimension 50
+uid 583,0
 )
 *185 (MRCItem
 litem &173
 pos 2
 dimension 100
+uid 584,0
 )
 *186 (MRCItem
 litem &174
 pos 3
 dimension 100
+uid 585,0
 )
 *187 (MRCItem
 litem &175
 pos 4
 dimension 50
+uid 586,0
 )
 *188 (MRCItem
 litem &176
 pos 5
 dimension 50
+uid 587,0
 )
 *189 (MRCItem
 litem &177
 pos 6
 dimension 80
+uid 588,0
 )
 ]
 )
 fixedCol 3
 fixedRow 2
 name "Ports"
+uid 576,0
 vaOverrides [
 ]
 )
 ]
 )
+uid 562,0
 type 1
 )
+activeModelName "BlockDiag"
 )

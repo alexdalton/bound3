@@ -5,7 +5,7 @@ cModel Technology
 Z0 d/home/engr/glazesk1/class/ece411/mp1/ece411/ece411_given/mp3lib/compile
 Eand2
 Z1 w1398807856
-Z2 DPx6 ece411 10 lc3b_types 0 22 `5nK;HlWBS=5idE:WATN62
+Z2 DPx6 ece411 10 lc3b_types 0 22 7RP7fYCQAOBI3j@lW_?SV0
 Z3 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
 Z4 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
 Z5 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
@@ -19,9 +19,9 @@ V3@X38[^SS<iTf@DH=N6JF1
 Z9 OE;C;10.1d;51
 32
 !i10b 1
-Z10 !s108 1398808951.303313
-Z11 !s90 -work|mp3lib|-nologo|-f|/tmp/Files36|
-Z12 !s107 /home/lis2/ece411/git/postcp3/bound3/mp3/mp3lib/hdl/and2_untitled.vhd|/home/lis2/ece411/git/postcp3/bound3/mp3/mp3lib/hdl/and3_untitled.vhd|
+Z10 !s108 1398812226.073616
+Z11 !s90 -work|mp3lib|-nologo|-f|/tmp/Files31|
+Z12 !s107 /home/lis2/ece411/git/postcp3/bound3/mp3/mp3lib/hdl/and2_untitled.vhd|/home/lis2/ece411/git/postcp3/bound3/mp3/mp3lib/hdl/or2_untitled.vhd|/home/lis2/ece411/git/postcp3/bound3/mp3/mp3lib/hdl/and3_untitled.vhd|
 Z13 o-work mp3lib -nologo
 Z14 tExplicit 1
 Auntitled
@@ -256,25 +256,25 @@ R33
 R38
 R14
 Emux2_8
-Z47 w1396643184
+R1
 R2
 R3
 R4
 R5
-Z48 d/home/adalton2/ece411/bound3/mp3/mp3lib/compile
-Z49 8/home/adalton2/ece411/bound3/mp3/mp3lib/hdl/mux2_8_untitled.vhd
-Z50 F/home/adalton2/ece411/bound3/mp3/mp3lib/hdl/mux2_8_untitled.vhd
+R6
+Z47 8/home/lis2/ece411/git/postcp3/bound3/mp3/mp3lib/hdl/mux2_8_untitled.vhd
+Z48 F/home/lis2/ece411/git/postcp3/bound3/mp3/mp3lib/hdl/mux2_8_untitled.vhd
 l0
 L17
 V0a4z[<aelSgni;T55W@4h2
+Z49 !s100 W@@Rz=1aW=V^?1<KIA<Aj2
 R9
 32
-Z51 !s108 1397810511.811833
-Z52 !s90 -work|mp3lib|-nologo|-f|/tmp/Files1|
-Z53 !s107 /home/adalton2/ece411/bound3/mp3/mp3lib/hdl/mux2_8_untitled.vhd|
+Z50 !s108 1398812219.283934
+Z51 !s90 -work|mp3lib|-nologo|-f|/tmp/Files11|
+Z52 !s107 /home/lis2/ece411/git/postcp3/bound3/mp3/mp3lib/hdl/mux2_8_untitled.vhd|
 R13
 R14
-!s100 W@@Rz=1aW=V^?1<KIA<Aj2
 !i10b 1
 Auntitled
 R2
@@ -285,38 +285,38 @@ DEx4 work 6 mux2_8 0 22 0a4z[<aelSgni;T55W@4h2
 l29
 L28
 Vn5meJ_GU4I8UH0k`4Xk0]1
+Z53 !s100 cLFGEC0[O;XhDiNmhcaMi3
 R9
 32
+R50
 R51
 R52
-R53
 R13
 R14
-!s100 cLFGEC0[O;XhDiNmhcaMi3
 !i10b 1
 Enand3
-R47
-R2
+Z54 w1396643184
+Z55 DPx6 ece411 10 lc3b_types 0 22 `5nK;HlWBS=5idE:WATN62
 R3
 R4
 R5
-R48
-Z54 8/home/adalton2/ece411/bound3/mp3/mp3lib/hdl/nand3_untitled.vhd
-Z55 F/home/adalton2/ece411/bound3/mp3/mp3lib/hdl/nand3_untitled.vhd
+Z56 d/home/adalton2/ece411/bound3/mp3/mp3lib/compile
+Z57 8/home/adalton2/ece411/bound3/mp3/mp3lib/hdl/nand3_untitled.vhd
+Z58 F/home/adalton2/ece411/bound3/mp3/mp3lib/hdl/nand3_untitled.vhd
 l0
 L17
 Voz<Raik]>Hl]gndIZn@>T2
 R9
 32
-Z56 !s108 1397708684.807316
-Z57 !s90 -work|mp3lib|-nologo|-f|/tmp/Files6|
-Z58 !s107 /home/adalton2/ece411/bound3/mp3/mp3lib/hdl/nand3_untitled.vhd|
+Z59 !s108 1397708684.807316
+Z60 !s90 -work|mp3lib|-nologo|-f|/tmp/Files6|
+Z61 !s107 /home/adalton2/ece411/bound3/mp3/mp3lib/hdl/nand3_untitled.vhd|
 R13
 R14
 !s100 3i:GgR:j9fSl;kEAD:7SM1
 !i10b 1
 Auntitled
-R2
+R55
 R3
 R4
 R5
@@ -326,30 +326,30 @@ L28
 VekL>oeBS?3d6:DYd27GO12
 R9
 32
-R56
-R57
-R58
+R59
+R60
+R61
 R13
 R14
 !s100 a8=df`eQEY[jIQX86M<HY2
 !i10b 1
 Enor2
-R47
+R1
 R2
 R3
 R4
 R5
-R48
-Z59 8/home/adalton2/ece411/bound3/mp3/mp3lib/hdl/nor2_untitled.vhd
-Z60 F/home/adalton2/ece411/bound3/mp3/mp3lib/hdl/nor2_untitled.vhd
+R6
+Z62 8/home/lis2/ece411/git/postcp3/bound3/mp3/mp3lib/hdl/nor2_untitled.vhd
+Z63 F/home/lis2/ece411/git/postcp3/bound3/mp3/mp3lib/hdl/nor2_untitled.vhd
 l0
 L17
 VU2b;366?jjX^6TJhOA>XL2
 R9
 32
-Z61 !s108 1396643395.114110
-Z62 !s90 -work|mp3lib|-nologo|-f|/tmp/Files18|
-Z63 !s107 /home/adalton2/ece411/bound3/mp3/mp3lib/hdl/reg1_untitled.vhd|/home/adalton2/ece411/bound3/mp3/mp3lib/hdl/reg16_untitled.vhd|/home/adalton2/ece411/bound3/mp3/mp3lib/hdl/nor2_untitled.vhd|/home/adalton2/ece411/bound3/mp3/mp3lib/hdl/not1_untitled.vhd|
+Z64 !s108 1398812220.576243
+Z65 !s90 -work|mp3lib|-nologo|-f|/tmp/Files16|
+Z66 !s107 /home/lis2/ece411/git/postcp3/bound3/mp3/mp3lib/hdl/reg1_untitled.vhd|/home/lis2/ece411/git/postcp3/bound3/mp3/mp3lib/hdl/reg16_untitled.vhd|/home/lis2/ece411/git/postcp3/bound3/mp3/mp3lib/hdl/nor2_untitled.vhd|/home/lis2/ece411/git/postcp3/bound3/mp3/mp3lib/hdl/not1_untitled.vhd|
 R13
 R14
 !s100 GjWXM[la:>DVfll6ihXWI3
@@ -365,31 +365,31 @@ L27
 VcJ>C^h;9JEIOeiPdL>8lY2
 R9
 32
-R61
-R62
-R63
+R64
+R65
+R66
 R13
 R14
 !s100 0AAF0:h[nBYfZJiY^Jfia3
 !i10b 1
 Enot1
-R47
+R1
 R2
 R3
 R4
 R5
-R48
-Z64 8/home/adalton2/ece411/bound3/mp3/mp3lib/hdl/not1_untitled.vhd
-Z65 F/home/adalton2/ece411/bound3/mp3/mp3lib/hdl/not1_untitled.vhd
+R6
+Z67 8/home/lis2/ece411/git/postcp3/bound3/mp3/mp3lib/hdl/not1_untitled.vhd
+Z68 F/home/lis2/ece411/git/postcp3/bound3/mp3/mp3lib/hdl/not1_untitled.vhd
 l0
 L17
 VI]CoP]JP94gOnicG?LBLa3
-Z66 !s100 RIbEXG;jVb7:mbHzDDnjm3
+Z69 !s100 RIbEXG;jVb7:mbHzDDnjm3
 R9
 32
-R61
-R62
-R63
+R64
+R65
+R66
 R13
 R14
 !i10b 1
@@ -404,70 +404,70 @@ L26
 V]@3jkUia6di<]f>GjeAP91
 R9
 32
-R61
-R62
-R63
+R64
+R65
+R66
 R13
 R14
 !s100 T>0K[TizDmf=RNlH3IB1o3
 !i10b 1
 Eor2
-R47
+R1
 R2
 R3
 R4
 R5
-R48
-Z67 8/home/adalton2/ece411/bound3/mp3/mp3lib/hdl/or2_untitled.vhd
-Z68 F/home/adalton2/ece411/bound3/mp3/mp3lib/hdl/or2_untitled.vhd
+R6
+Z70 8/home/lis2/ece411/git/postcp3/bound3/mp3/mp3lib/hdl/or2_untitled.vhd
+Z71 F/home/lis2/ece411/git/postcp3/bound3/mp3/mp3lib/hdl/or2_untitled.vhd
 l0
 L17
 V89zggZ=GYSNbceLM[G]_K0
+!s100 ZSXM5RA[7@S5`0X<cZO473
 R9
 32
-Z69 !s108 1397807091.973353
-R52
-Z70 !s107 /home/adalton2/ece411/bound3/mp3/mp3lib/hdl/or2_untitled.vhd|
+!i10b 1
+R10
+R11
+R12
 R13
 R14
-!s100 ZSXM5RA[7@S5`0X<cZO473
-!i10b 1
 Auntitled
 R2
 R3
 R4
 R5
-DEx4 work 3 or2 0 22 89zggZ=GYSNbceLM[G]_K0
+Z72 DEx4 work 3 or2 0 22 89zggZ=GYSNbceLM[G]_K0
 l28
 L27
-VcMjhL^SC5fjeRLcC_4VB31
+Z73 VcMjhL^SC5fjeRLcC_4VB31
+Z74 !s100 YhAJD@7=_SZ[FFzSSZC[L1
 R9
 32
-R69
-R52
-R70
+!i10b 1
+R10
+R11
+R12
 R13
 R14
-!s100 YhAJD@7=_SZ[FFzSSZC[L1
-!i10b 1
 Ereg1
-R47
+R1
 R2
 R3
 R4
 R5
-R48
-Z71 8/home/adalton2/ece411/bound3/mp3/mp3lib/hdl/reg1_untitled.vhd
-Z72 F/home/adalton2/ece411/bound3/mp3/mp3lib/hdl/reg1_untitled.vhd
+R6
+Z75 8/home/lis2/ece411/git/postcp3/bound3/mp3/mp3lib/hdl/reg1_untitled.vhd
+Z76 F/home/lis2/ece411/git/postcp3/bound3/mp3/mp3lib/hdl/reg1_untitled.vhd
 l0
 L17
 VRZh``8jbYOW?=YoPHJ[DH1
-Z73 !s100 H5MG8h84CO3^[DOaijE=V1
+Z77 !s100 H5MG8h84CO3^[DOaijE=V1
 R9
 32
-R61
-R62
-R63
+R64
+R65
+R66
 R13
 R14
 !i10b 1
@@ -480,32 +480,32 @@ DEx4 work 4 reg1 0 22 RZh``8jbYOW?=YoPHJ[DH1
 l30
 L29
 V;:A_`N7h4T8QHSJQzz;gI2
-Z74 !s100 UUKd;ZcIz]GB2Q2WK<9Nj3
+Z78 !s100 UUKd;ZcIz]GB2Q2WK<9Nj3
 R9
 32
-R61
-R62
-R63
+R64
+R65
+R66
 R13
 R14
 !i10b 1
 Ereg16
-R47
+R1
 R2
 R3
 R4
 R5
-R48
-Z75 8/home/adalton2/ece411/bound3/mp3/mp3lib/hdl/reg16_untitled.vhd
-Z76 F/home/adalton2/ece411/bound3/mp3/mp3lib/hdl/reg16_untitled.vhd
+R6
+Z79 8/home/lis2/ece411/git/postcp3/bound3/mp3/mp3lib/hdl/reg16_untitled.vhd
+Z80 F/home/lis2/ece411/git/postcp3/bound3/mp3/mp3lib/hdl/reg16_untitled.vhd
 l0
 L17
 VY5^D[?8WibZah^Ro<[Gg90
 R9
 32
-R61
-R62
-R63
+R64
+R65
+R66
 R13
 R14
 !s100 SP]KfY5Se?e0:zTz2VF<A3
@@ -521,31 +521,31 @@ L29
 V`H>mD31X`hjzWe?3M:81c0
 R9
 32
-R61
-R62
-R63
+R64
+R65
+R66
 R13
 R14
 !s100 _4M]mj8z5zz22_DUkRb<C0
 !i10b 1
 Eregfile
-R47
+R1
 R2
 R3
 R4
 R5
-R48
-Z77 8/home/adalton2/ece411/bound3/mp3/mp3lib/hdl/regfile_untitled.vhd
-Z78 F/home/adalton2/ece411/bound3/mp3/mp3lib/hdl/regfile_untitled.vhd
+R6
+Z81 8/home/lis2/ece411/git/postcp3/bound3/mp3/mp3lib/hdl/regfile_untitled.vhd
+Z82 F/home/lis2/ece411/git/postcp3/bound3/mp3/mp3lib/hdl/regfile_untitled.vhd
 l0
 L17
 Vm5ejle]mg9ifgR`:_97>P3
-Z79 !s100 8dfD=g_cK13cizOE0Q52R1
+Z83 !s100 8dfD=g_cK13cizOE0Q52R1
 R9
 32
-Z80 !s108 1396643395.892918
-Z81 !s90 -work|mp3lib|-nologo|-f|/tmp/Files21|
-Z82 !s107 /home/adalton2/ece411/bound3/mp3/mp3lib/hdl/regfile_untitled.vhd|
+Z84 !s108 1398812221.942234
+Z85 !s90 -work|mp3lib|-nologo|-f|/tmp/Files19|
+Z86 !s107 /home/lis2/ece411/git/postcp3/bound3/mp3/mp3lib/hdl/regfile_untitled.vhd|
 R13
 R14
 !i10b 1
@@ -558,12 +558,12 @@ DEx4 work 7 regfile 0 22 m5ejle]mg9ifgR`:_97>P3
 l36
 L33
 VVIWSKk^RJh:SV28YSR0750
-Z83 !s100 XBAWRU>9MjcMo0YDZOBiE3
+Z87 !s100 XBAWRU>9MjcMo0YDZOBiE3
 R9
 32
-R80
-R81
-R82
+R84
+R85
+R86
 R13
 R14
 !i10b 1

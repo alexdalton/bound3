@@ -1,0 +1,125 @@
+-- VHDL Entity ece411.l2way.untitled
+--
+-- Created:
+--          by - lis2.ews (siebl-0218-26.ews.illinois.edu)
+--          at - 18:00:38 04/29/14
+--
+-- using Mentor Graphics HDL Designer(TM) 2012.1 (Build 6)
+--
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.NUMERIC_STD.all;
+
+LIBRARY ece411;
+USE ece411.LC3b_types.all;
+
+ENTITY l2way IS
+   PORT (
+      CacheWrite : IN     std_logic;
+      DataIn     : IN     LC3b_oword;
+      DataOut    : OUT    LC3b_oword;
+      DirtyIn    : IN     std_logic;
+      DirtyOut   : OUT    std_logic;
+      DirtyWrite : IN     std_logic;
+      Index      : IN     LC3b_c_index;
+      RESET_L    : IN     std_logic;
+      TagIn      : IN     LC3B_C_TAG;
+      TagOut     : OUT    LC3B_C_TAG;
+      ValidOut   : OUT    std_logic
+   );
+END l2way;
+
+--
+
+
+ARCHITECTURE struct OF l2way IS
+BEGIN
+
+   -- Architecture declarations
+
+   -- Internal signal declarations
+
+
+   -- Component Declarations
+   COMPONENT L2DataArray
+      map PORT (
+      DataIn    : IN     LC3b_oword;
+      DataWrite : IN     std_logic;
+      Index     : IN     LC3b_c_index;
+      RESET_L   : IN     std_logic;
+      DataOut   : OUT    LC3b_oword
+   );
+   END COMPONENT;
+   COMPONENT L2DirtyArray
+   PORT (
+      DirtyIn    : IN     std_logic;
+      DirtyWrite : IN     std_logic;
+      Index      : IN     LC3b_c_index;
+      RESET_L    : IN     std_logic;
+      DirtyOut   : OUT    std_logic
+   );
+   END COMPONENT;
+   COMPONENT L2TagArray
+   PORT (
+      Index    : IN     LC3b_c_index;
+      RESET_L  : IN     std_logic;
+      TagIn    : IN     LC3B_C_TAG;
+      TagWrite : IN     std_logic;
+      TagOut   : OUT    LC3B_C_TAG
+   );
+   END COMPONENT;
+   COMPONENT L2ValidArray
+   PORT (
+      Index      : IN     LC3b_c_index;
+      RESET_L    : IN     std_logic;
+      ValidWrite : IN     std_logic;
+      ValidOut   : OUT    std_logic
+   );
+   END COMPONENT;
+
+   -- Optional embedded configurations
+   -- pragma synthesis_off
+   FOR ALL : L2DataArray USE ENTITY ece411.L2DataArray;
+   FOR ALL : L2DirtyArray USE ENTITY ece411.L2DirtyArray;
+   FOR ALL : L2TagArray USE ENTITY ece411.L2TagArray;
+   FOR ALL : L2ValidArray USE ENTITY ece411.L2ValidArray;
+   -- pragma synthesis_on
+
+
+BEGIN
+
+   -- Instance port mappings.
+   WayData : DataArray
+      PORT MAP (
+         RESET_L   => RESET_L,
+         DataWrite => CacheWrite,
+         Index     => Index,
+         DataIn    => DataIn,
+         DataOut   => DataOut
+      );
+   WayDirty : DirtyArray
+      PORT MAP (
+         RESET_L    => RESET_L,
+         DirtyWrite => DirtyWrite,
+         Index      => Index,
+         DirtyIn    => DirtyIn,
+         DirtyOut   => DirtyOut
+      );
+   WayTag : TagArray
+      PORT MAP (
+         RESET_L  => RESET_L,
+         TagWrite => CacheWrite,
+         Index    => Index,
+         TagIn    => TagIn,
+         TagOut   => TagOut
+      );
+   WayValid : ValidArray
+      PORT MAP (
+         RESET_L    => RESET_L,
+         ValidWrite => CacheWrite,
+         Index      => Index,
+         ValidOut   => ValidOut
+      );
+
+END ARCHITECTURE struct;
+

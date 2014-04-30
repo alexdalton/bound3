@@ -36,8 +36,9 @@ ARCHITECTURE untitled OF Encoder8to3 IS
 SIGNAL TEMP : LC3B_8MUX_SEL;
 BEGIN
 	PROCESS(In0, In1, In2, In3, In4, In5, In6, In7)
-	variable incombined: std_logic_vector(7 downto 0) := In7 & In6 & In5 & In4 & In3 & In2 & In1 & In0;
+variable incombined: std_logic_vector(7 downto 0);
 	BEGIN
+		incombined := In7 & In6 & In5 & In4 & In3 & In2 & In1 & In0;
 		CASE incombined IS
 		WHEN "00000001" =>
 			TEMP <= "000";
@@ -59,6 +60,6 @@ BEGIN
 			TEMP <= (OTHERS => 'X');
 		END CASE;
 	END PROCESS;
-	F <= TEMP AFTER DELAY_DECODE3;
+	F <= TEMP AFTER DELAY_LOGIC4;
 END ARCHITECTURE untitled;
 

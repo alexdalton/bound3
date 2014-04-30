@@ -17,7 +17,7 @@ unitName "LC3b_types"
 ]
 instances [
 (Instance
-name "U_0"
+name "aArray"
 duLibraryName "ece411"
 duName "TRUE8LRUArray"
 elements [
@@ -26,7 +26,7 @@ mwi 0
 uid 567,0
 )
 (Instance
-name "U_1"
+name "HitEncoder"
 duLibraryName "ece411"
 duName "Encoder8to3"
 elements [
@@ -107,7 +107,7 @@ mwi 0
 uid 1059,0
 )
 (Instance
-name "U_10"
+name "spotEncoder"
 duLibraryName "ece411"
 duName "Encoder8to3"
 elements [
@@ -455,7 +455,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "17:19:51"
+value "18:49:03"
 )
 (vvPair
 variable "unit"
@@ -1321,8 +1321,8 @@ uid 572,0
 va (VaSet
 font "courier,8,1"
 )
-xt "31000,13800,32500,14700"
-st "U_0"
+xt "31000,13800,34000,14700"
+st "aArray"
 blo "31000,14500"
 tm "InstanceNameMgr"
 )
@@ -1767,8 +1767,8 @@ uid 676,0
 va (VaSet
 font "courier,8,1"
 )
-xt "16000,44800,17500,45700"
-st "U_1"
+xt "16000,44800,21500,45700"
+st "HitEncoder"
 blo "16000,45500"
 tm "InstanceNameMgr"
 )
@@ -4420,8 +4420,8 @@ uid 1124,0
 va (VaSet
 font "courier,8,1"
 )
-xt "63000,14800,65000,15700"
-st "U_10"
+xt "63000,14800,69000,15700"
+st "spotEncoder"
 blo "63000,15500"
 tm "InstanceNameMgr"
 )
@@ -12899,11 +12899,11 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "-6,27,1914,1059"
-viewArea "-25084,-2097,121685,74790"
+viewArea "-25100,-2100,112357,69909"
 cachedDiagramExtent "-23000,0,119250,70000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-69000,0"
-lastUid 3254,0
+lastUid 3375,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
