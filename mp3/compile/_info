@@ -74,6 +74,14 @@ R1
 R2
 n@_opt8
 R3
+R4
+T_opt9
+VSD6jZmHjc_PcUml>Nco]J2
+R1
+=1-8851fb58da89-53637dcb-ccefd-76c5
+R2
+n@_opt9
+R3
 Eaddr_split
 Z5 w1392404901
 Z6 DPx6 ece411 10 lc3b_types 0 22 Y^MG3gn[4FARO_W4L60_<3
@@ -1671,22 +1679,22 @@ R18
 !s100 <e_L87ozf:J59D>_f@c_03
 !i10b 1
 Ecomp3
-Z194 w1399005126
+R19
 R20
 R7
 R8
 R9
-Z195 d/home/adalton2/ece411/bound3/mp3/compile
-Z196 8/home/adalton2/ece411/bound3/mp3/hdl/COMP3_untitled.vhd
-Z197 F/home/adalton2/ece411/bound3/mp3/hdl/COMP3_untitled.vhd
+R21
+Z194 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/COMP3_untitled.vhd
+Z195 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/COMP3_untitled.vhd
 l0
 L17
 V6Njd^B]0Ce^5LU>2O;;<M3
 R13
 32
-Z198 !s108 1399005940.761577
-Z199 !s90 -work|ece411|-nologo|-f|/tmp/Files2|
-Z200 !s107 /home/adalton2/ece411/bound3/mp3/hdl/true8lru_struct.vhd|/home/adalton2/ece411/bound3/mp3/hdl/COMP3_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/OR4_untitled.vhd|
+Z196 !s108 1399029186.089241
+R118
+Z197 !s107 /home/lis2/ece411/git/BTB/bound3/mp3/hdl/MUX8_9_untitled.vhd|/home/lis2/ece411/git/BTB/bound3/mp3/hdl/oWordMux8_untitled.vhd|/home/lis2/ece411/git/BTB/bound3/mp3/hdl/mux2_8_untitled.vhd|/home/lis2/ece411/git/BTB/bound3/mp3/hdl/MUX8_1_untitled.vhd|/home/lis2/ece411/git/BTB/bound3/mp3/hdl/true8lru_struct.vhd|/home/lis2/ece411/git/BTB/bound3/mp3/hdl/COMP3_untitled.vhd|/home/lis2/ece411/git/BTB/bound3/mp3/hdl/MUX8_3_untitled.vhd|/home/lis2/ece411/git/BTB/bound3/mp3/hdl/mux2_3_untitled.vhd|/home/lis2/ece411/git/BTB/bound3/mp3/hdl/TRUE8LRUArray_untitled.vhd|/home/lis2/ece411/git/BTB/bound3/mp3/hdl/Encoder8to3_untitled.vhd|/home/lis2/ece411/git/BTB/bound3/mp3/hdl/l2_controller_fsm.vhd|
 R64
 R18
 !s100 z<I2Gk;=c3Fj`T?f0^JfM0
@@ -1702,30 +1710,30 @@ L29
 VP273J3X7X1FNk^U=hRaSR0
 R13
 32
-R198
-R199
-R200
+R196
+R118
+R197
 R64
 R18
 !s100 nJ1N9ZjfPBeJn<6Q@6HoM1
 !i10b 1
 Econtrol
-Z201 w1392350502
+Z198 w1392350502
 R6
 R7
 R8
 R9
 R10
-Z202 8/home/buris2/ece411/mp2.2/hdl/control_fsm.vhd
-Z203 F/home/buris2/ece411/mp2.2/hdl/control_fsm.vhd
+Z199 8/home/buris2/ece411/mp2.2/hdl/control_fsm.vhd
+Z200 F/home/buris2/ece411/mp2.2/hdl/control_fsm.vhd
 l0
 L16
 VF_:KI5TgjFVT25UWo2=>`2
 R13
 32
-Z204 !s108 1392350627.184217
+Z201 !s108 1392350627.184217
 R118
-Z205 !s107 /home/buris2/ece411/mp2.2/hdl/mp2_cpu_struct.vhd|/home/buris2/ece411/mp2.2/hdl/control_fsm.vhd|
+Z202 !s107 /home/buris2/ece411/mp2.2/hdl/mp2_cpu_struct.vhd|/home/buris2/ece411/mp2.2/hdl/control_fsm.vhd|
 R64
 R18
 !s100 VMa5?SZ0XgoTM9H1CXO=E0
@@ -1741,9 +1749,9 @@ L72
 VaQ]dj:K2SJ:<F]GhCiXo;2
 R13
 32
-R204
+R201
 R118
-R205
+R202
 R64
 R18
 !s100 cMjTR8PK?T?XVEfMhmM=<2
@@ -1759,13 +1767,13 @@ L68
 V3_dQl_KiIJ]HeRVMiFZj[2
 R13
 32
-Z206 !s108 1391375589.236584
+Z203 !s108 1391375589.236584
 R118
-Z207 !s107 /home/buris2/ece411/mp2/hdl/mp1_cpu_struct.vhd|/home/buris2/ece411/mp2/hdl/control_struct.vhd|
+Z204 !s107 /home/buris2/ece411/mp2/hdl/mp1_cpu_struct.vhd|/home/buris2/ece411/mp2/hdl/control_struct.vhd|
 R64
 R18
 F/home/buris2/ece411/mp2/hdl/control_struct.vhd
-Z208 w1391375481
+Z205 w1391375481
 8/home/buris2/ece411/mp2/hdl/control_struct.vhd
 R39
 !s100 5>U@W`SWSF^SA5ZfWP7gQ1
@@ -1777,16 +1785,16 @@ R7
 R8
 R9
 R21
-Z209 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/CW1sig_ripper_untitled.vhd
-Z210 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/CW1sig_ripper_untitled.vhd
+Z206 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/CW1sig_ripper_untitled.vhd
+Z207 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/CW1sig_ripper_untitled.vhd
 l0
 L17
 VR;f<Aho6iXTHcHG7fZ[f@1
 R13
 33
-Z211 !s108 1399021082.904021
-Z212 !s90 -work|ece411|-nologo|-2008|-f|/tmp/Files30|
-Z213 !s107 /home/lis2/ece411/git/BTB/bound3/mp3/hdl/CW_ROM_untitled.vhd|/home/lis2/ece411/git/BTB/bound3/mp3/hdl/CW1sig_ripper_untitled.vhd|
+Z208 !s108 1399021082.904021
+Z209 !s90 -work|ece411|-nologo|-2008|-f|/tmp/Files30|
+Z210 !s107 /home/lis2/ece411/git/BTB/bound3/mp3/hdl/CW_ROM_untitled.vhd|/home/lis2/ece411/git/BTB/bound3/mp3/hdl/CW1sig_ripper_untitled.vhd|
 R17
 R18
 !s100 RCW?WV_P]DXLc3D96@22@1
@@ -1802,9 +1810,9 @@ L33
 V8NkAN6jQ5g7_XgE3:f8_:1
 R13
 33
-R211
-R212
-R213
+R208
+R209
+R210
 R17
 R18
 !s100 L[_ZobkTaK4iz3?=cA7=]3
@@ -1816,8 +1824,8 @@ R7
 R8
 R9
 R21
-Z214 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/CW2sig_ripper_untitled.vhd
-Z215 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/CW2sig_ripper_untitled.vhd
+Z211 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/CW2sig_ripper_untitled.vhd
+Z212 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/CW2sig_ripper_untitled.vhd
 l0
 L17
 VTLozAdDZ2b11hicJBd<il0
@@ -1855,8 +1863,8 @@ R7
 R8
 R9
 R21
-Z216 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/CW3sig_ripper_untitled.vhd
-Z217 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/CW3sig_ripper_untitled.vhd
+Z213 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/CW3sig_ripper_untitled.vhd
+Z214 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/CW3sig_ripper_untitled.vhd
 l0
 L17
 Vo;8Ll5PjN[F]Gok0[dkg80
@@ -1894,16 +1902,16 @@ R7
 R8
 R9
 R21
-Z218 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/CW4sig_ripper_untitled.vhd
-Z219 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/CW4sig_ripper_untitled.vhd
+Z215 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/CW4sig_ripper_untitled.vhd
+Z216 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/CW4sig_ripper_untitled.vhd
 l0
 L17
 V`Q98U0S7ZAaXNO3^25NQJ3
 R13
 33
-Z220 !s108 1399021087.234564
-Z221 !s90 -work|ece411|-nologo|-2008|-f|/tmp/Files40|
-Z222 !s107 /home/lis2/ece411/git/BTB/bound3/mp3/hdl/IRdest_ripper_untitled.vhd|/home/lis2/ece411/git/BTB/bound3/mp3/hdl/CW4sig_ripper_untitled.vhd|
+Z217 !s108 1399021087.234564
+Z218 !s90 -work|ece411|-nologo|-2008|-f|/tmp/Files40|
+Z219 !s107 /home/lis2/ece411/git/BTB/bound3/mp3/hdl/IRdest_ripper_untitled.vhd|/home/lis2/ece411/git/BTB/bound3/mp3/hdl/CW4sig_ripper_untitled.vhd|
 R17
 R18
 !s100 4N6_jFe_^d`AGFcLGKS=_2
@@ -1919,9 +1927,9 @@ L32
 VQWo0bE5UgGK]X7iWO@eN63
 R13
 33
-R220
-R221
-R222
+R217
+R218
+R219
 R17
 R18
 !s100 b3Ph@n=5BTfj<;LJEbVN41
@@ -1933,16 +1941,16 @@ R7
 R8
 R9
 R21
-Z223 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/CW_ROM_untitled.vhd
-Z224 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/CW_ROM_untitled.vhd
+Z220 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/CW_ROM_untitled.vhd
+Z221 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/CW_ROM_untitled.vhd
 l0
 L17
 V0Go>^8e5A>`KRb:Nc?ni:3
 R13
 33
-R211
-R212
-R213
+R208
+R209
+R210
 R17
 R18
 !s100 `8YKNh1LURE71ADV:?z7i1
@@ -1958,9 +1966,9 @@ L32
 VM2IN6SjP6BGBI>2IT8EKF3
 R13
 33
-R211
-R212
-R213
+R208
+R209
+R210
 R17
 R18
 !s100 XVS6NlT=FfdUlg7RU0@cC3
@@ -1972,16 +1980,16 @@ R7
 R8
 R9
 R21
-Z225 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/Data16Mux_untitled.vhd
-Z226 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/Data16Mux_untitled.vhd
+Z222 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/Data16Mux_untitled.vhd
+Z223 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/Data16Mux_untitled.vhd
 l0
 L17
 Vd=^^@5BOHMho61C]IYlVT0
 R13
 32
-Z227 !s108 1399021073.506993
-R199
-Z228 !s107 /home/lis2/ece411/git/BTB/bound3/mp3/hdl/Data16Mux_untitled.vhd|
+Z224 !s108 1399021073.506993
+Z225 !s90 -work|ece411|-nologo|-f|/tmp/Files2|
+Z226 !s107 /home/lis2/ece411/git/BTB/bound3/mp3/hdl/Data16Mux_untitled.vhd|
 R64
 R18
 !s100 bCi=Lg^YMl=a_zPMZWhX^1
@@ -1997,9 +2005,9 @@ L29
 Vli:3Tz4J5Yj9aMF0a<UjR0
 R13
 32
-R227
-R199
-R228
+R224
+R225
+R226
 R64
 R18
 !s100 HNZHCJ58a[[HS5Qd76nC62
@@ -2011,8 +2019,8 @@ R7
 R8
 R9
 R21
-Z229 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/DataArray_untilted.vhd
-Z230 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/DataArray_untilted.vhd
+Z227 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/DataArray_untilted.vhd
+Z228 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/DataArray_untilted.vhd
 l0
 L12
 VmKf=kPI:6V5`d@Q@gCR;02
@@ -2044,22 +2052,22 @@ R18
 !s100 D`QV^Tg07l15LBN9aIBa>2
 !i10b 1
 Edatapath
-Z231 w1391763488
+Z229 w1391763488
 R6
 R7
 R8
 R9
 R39
-Z232 8/home/buris2/ece411/mp2/hdl/datapath_struct.vhd
-Z233 F/home/buris2/ece411/mp2/hdl/datapath_struct.vhd
+Z230 8/home/buris2/ece411/mp2/hdl/datapath_struct.vhd
+Z231 F/home/buris2/ece411/mp2/hdl/datapath_struct.vhd
 l0
 L16
 VRQd1a3UB;F7XaPPWGQDnl2
 R13
 32
-Z234 !s108 1391763608.984293
-Z235 !s90 -work|ece411|-nologo|-f|/tmp/Files1|
-Z236 !s107 /home/buris2/ece411/mp2/hdl/mp2_cpu_struct.vhd|/home/buris2/ece411/mp2/hdl/datapath_struct.vhd|
+Z232 !s108 1391763608.984293
+Z233 !s90 -work|ece411|-nologo|-f|/tmp/Files1|
+Z234 !s107 /home/buris2/ece411/mp2/hdl/mp2_cpu_struct.vhd|/home/buris2/ece411/mp2/hdl/datapath_struct.vhd|
 R64
 R18
 !s100 GSSkJ6Ecbbfi:5aVDbi<10
@@ -2068,15 +2076,15 @@ Astruct
 DEx6 ece411 10 sll8_const 0 22 ClgF`hJe3mm2?97CCEzVg3
 DEx6 ece411 10 byteselect 0 22 LA>^]1^]7M1E[]87k@<KU2
 DEx6 ece411 8 wordmux5 0 22 WYgC]3?_G>?Kg7<PI8Ke31
-Z237 DEx6 ece411 8 wordmux4 0 22 AnF=49S>JKLHFl4n`O7lN2
+Z235 DEx6 ece411 8 wordmux4 0 22 AnF=49S>JKLHFl4n`O7lN2
 R176
 DEx6 ece411 8 storemux 0 22 TKb4`DG3DCcfJB1P?kgJX1
 DEx6 ece411 5 sext6 0 22 kPQ]aiFXRTEc_dbWXHP4?2
-Z238 DEx6 ece411 5 sext5 0 22 fo:O<ezhP^@>:2OVGgYzg0
+Z236 DEx6 ece411 5 sext5 0 22 fo:O<ezhP^@>:2OVGgYzg0
 DEx6 ece411 6 regmux 0 22 @oTSf5DdKkC^fK?Ce]n9M3
 DEx6 ece411 7 regfile 0 22 nhHW=`MVQX:J0?Uez?Sl13
 DEx6 ece411 5 reg16 0 22 EGKT41;e_=Xh2k@SWJFGE3
-Z239 DEx6 ece411 5 plus2 0 22 ;NU98<B;jTP]Xo772mo1c2
+Z237 DEx6 ece411 5 plus2 0 22 ;NU98<B;jTP]Xo772mo1c2
 DEx6 ece411 11 pcplusoff11 0 22 5]mdelHA>24d<Zkk^^Hh11
 DEx6 ece411 8 nzpsplit 0 22 3oCM7^7`7ii5[XGc7KR9_1
 DEx6 ece411 3 nzp 0 22 @C5G7XE?LVJBKWokOe5k40
@@ -2099,9 +2107,9 @@ L71
 V9R9Lb2ToTIa[Bo6@<dDDC0
 R13
 32
+R232
+R233
 R234
-R235
-R236
 R64
 R18
 !s100 `957^z9dnNhfidnhd98Ef3
@@ -2113,8 +2121,8 @@ R7
 R8
 R9
 R21
-Z240 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/Decode2_untitled.vhd
-Z241 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/Decode2_untitled.vhd
+Z238 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/Decode2_untitled.vhd
+Z239 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/Decode2_untitled.vhd
 l0
 L17
 ViJig^GmQ_z0R_A5SkDIRG2
@@ -2146,14 +2154,14 @@ R18
 !s100 :GVRbR4c?VflckIY1]<?51
 !i10b 1
 Edecode2_4
-Z242 w1399018139
+Z240 w1399018139
 R20
 R7
 R8
 R9
 R21
-Z243 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/DECODE2_4_untitled.vhd
-Z244 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/DECODE2_4_untitled.vhd
+Z241 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/DECODE2_4_untitled.vhd
+Z242 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/DECODE2_4_untitled.vhd
 l0
 L17
 V38I>l@aH8=la5cQ7?[cl53
@@ -2185,22 +2193,22 @@ R18
 !s100 S@<ESBjb0H7c=5SDb6De20
 !i10b 1
 Edecoder2
-Z245 w1393492915
+Z243 w1393492915
 R6
 R7
 R8
 R9
 R10
-Z246 8/home/buris2/ece411/mp2.2/hdl/Decoder2_untitled.vhd
-Z247 F/home/buris2/ece411/mp2.2/hdl/Decoder2_untitled.vhd
+Z244 8/home/buris2/ece411/mp2.2/hdl/Decoder2_untitled.vhd
+Z245 F/home/buris2/ece411/mp2.2/hdl/Decoder2_untitled.vhd
 l0
 L17
 V8QmmYX0f7zJdaWR@3ImEj2
 R13
 33
-Z248 !s108 1393493121.885759
+Z246 !s108 1393493121.885759
 R50
-Z249 !s107 /home/buris2/ece411/mp2.2/hdl/Decoder2_untitled.vhd|
+Z247 !s107 /home/buris2/ece411/mp2.2/hdl/Decoder2_untitled.vhd|
 R17
 R18
 !s100 Ni?CDi2W^:Rn^?dk`[8S[2
@@ -2216,30 +2224,30 @@ L29
 VFb^D7?GfKic52=KPQO8kE2
 R13
 33
-R248
+R246
 R50
-R249
+R247
 R17
 R18
 !s100 D_FZ9g2dEVNolzY1eC^AX1
 !i10b 1
 Edecoder3
-R194
+R19
 R20
 R7
 R8
 R9
-R195
-Z250 8/home/adalton2/ece411/bound3/mp3/hdl/Decoder3_untitled.vhd
-Z251 F/home/adalton2/ece411/bound3/mp3/hdl/Decoder3_untitled.vhd
+R21
+Z248 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/Decoder3_untitled.vhd
+Z249 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/Decoder3_untitled.vhd
 l0
 L17
 VVkZd7Ub[lFE=RRcac]D1b1
 R13
 33
-Z252 !s108 1399005942.693655
-Z253 !s90 -work|ece411|-nologo|-2008|-f|/tmp/Files7|
-Z254 !s107 /home/adalton2/ece411/bound3/mp3/hdl/Decoder3_untitled.vhd|
+Z250 !s108 1399029187.202173
+R15
+Z251 !s107 /home/lis2/ece411/git/BTB/bound3/mp3/hdl/L2ValidArray_untitled.vhd|/home/lis2/ece411/git/BTB/bound3/mp3/hdl/L2TagArray_untitled.vhd|/home/lis2/ece411/git/BTB/bound3/mp3/hdl/L2DirtyArray_untitled.vhd|/home/lis2/ece411/git/BTB/bound3/mp3/hdl/L2DataArray_untitled.vhd|/home/lis2/ece411/git/BTB/bound3/mp3/hdl/Decoder3_untitled.vhd|
 R17
 R18
 !s100 ]OcaSN@[KdI44R3@HI>7M0
@@ -2255,9 +2263,9 @@ L35
 V`iccPe7K8o@WWezZ@B3lG3
 R13
 33
-R252
-R253
-R254
+R250
+R15
+R251
 R17
 R18
 !s100 ViKj^IUJ1R]Ah;eG_S[^i2
@@ -2269,16 +2277,16 @@ R7
 R8
 R9
 R21
-Z255 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/delay1_untitled.vhd
-Z256 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/delay1_untitled.vhd
+Z252 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/delay1_untitled.vhd
+Z253 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/delay1_untitled.vhd
 l0
 L17
 V8CoV5g;mX8meRB4@XT@h62
 R13
 33
-Z257 !s108 1399021077.915046
-Z258 !s90 -work|ece411|-nologo|-2008|-f|/tmp/Files17|
-Z259 !s107 /home/lis2/ece411/git/BTB/bound3/mp3/hdl/delay2_untitled.vhd|/home/lis2/ece411/git/BTB/bound3/mp3/hdl/delay1_untitled.vhd|/home/lis2/ece411/git/BTB/bound3/mp3/hdl/RESET_DELAY_untitled.vhd|
+Z254 !s108 1399021077.915046
+Z255 !s90 -work|ece411|-nologo|-2008|-f|/tmp/Files17|
+Z256 !s107 /home/lis2/ece411/git/BTB/bound3/mp3/hdl/delay2_untitled.vhd|/home/lis2/ece411/git/BTB/bound3/mp3/hdl/delay1_untitled.vhd|/home/lis2/ece411/git/BTB/bound3/mp3/hdl/RESET_DELAY_untitled.vhd|
 R17
 R18
 !s100 zA]WLUY08mQgGTVN9XlK<1
@@ -2294,9 +2302,9 @@ L29
 V0UEnYT=L<l1XiRoVDJ5hV1
 R13
 33
-R257
-R258
-R259
+R254
+R255
+R256
 R17
 R18
 !s100 25AAI^o<91Fm@2z^I5`XF3
@@ -2308,16 +2316,16 @@ R7
 R8
 R9
 R21
-Z260 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/delay2_untitled.vhd
-Z261 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/delay2_untitled.vhd
+Z257 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/delay2_untitled.vhd
+Z258 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/delay2_untitled.vhd
 l0
 L17
 V6Y=J^ebjdhP4fW54OlPji0
 R13
 33
-R257
-R258
-R259
+R254
+R255
+R256
 R17
 R18
 !s100 :9X<meYbee3lIA7059;L;1
@@ -2333,9 +2341,9 @@ L29
 V[;2HUj]dc87zNZ]oUUK3a2
 R13
 33
-R257
-R258
-R259
+R254
+R255
+R256
 R17
 R18
 !s100 1_[h`:ZIif37oWf0Kj<LR3
@@ -2347,16 +2355,16 @@ R7
 R8
 R9
 R21
-Z262 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/delay_6ns_untitled.vhd
-Z263 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/delay_6ns_untitled.vhd
+Z259 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/delay_6ns_untitled.vhd
+Z260 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/delay_6ns_untitled.vhd
 l0
 L17
 VGRXY[cDEz0_J4oHO4n9EW2
 R13
 33
-Z264 !s108 1399021078.915156
-Z265 !s90 -work|ece411|-nologo|-2008|-f|/tmp/Files20|
-Z266 !s107 /home/lis2/ece411/git/BTB/bound3/mp3/hdl/delay_6ns_untitled.vhd|
+Z261 !s108 1399021078.915156
+Z262 !s90 -work|ece411|-nologo|-2008|-f|/tmp/Files20|
+Z263 !s107 /home/lis2/ece411/git/BTB/bound3/mp3/hdl/delay_6ns_untitled.vhd|
 R17
 R18
 !s100 hfnc4@];`jfARd4RFMidn1
@@ -2372,9 +2380,9 @@ L28
 V<RQRNT72bM_h5n`>GGl:>3
 R13
 33
-R264
-R265
-R266
+R261
+R262
+R263
 R17
 R18
 !s100 mDP8K;I1DgkVEGekRVDQZ3
@@ -2386,16 +2394,16 @@ R7
 R8
 R9
 R21
-Z267 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/DeMUX3_8_untitled.vhd
-Z268 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/DeMUX3_8_untitled.vhd
+Z264 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/DeMUX3_8_untitled.vhd
+Z265 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/DeMUX3_8_untitled.vhd
 l0
 L17
 V?0AIoU9gl0IMibzKY6NeH2
 R13
 32
-Z269 !s108 1399021078.523673
-Z270 !s90 -work|ece411|-nologo|-f|/tmp/Files19|
-Z271 !s107 /home/lis2/ece411/git/BTB/bound3/mp3/hdl/DeMUX3_8_untitled.vhd|/home/lis2/ece411/git/BTB/bound3/mp3/hdl/RD_IR_ripper_untitled.vhd|/home/lis2/ece411/git/BTB/bound3/mp3/hdl/RD_CW_ripper_untitled.vhd|
+Z266 !s108 1399021078.523673
+Z267 !s90 -work|ece411|-nologo|-f|/tmp/Files19|
+Z268 !s107 /home/lis2/ece411/git/BTB/bound3/mp3/hdl/DeMUX3_8_untitled.vhd|/home/lis2/ece411/git/BTB/bound3/mp3/hdl/RD_IR_ripper_untitled.vhd|/home/lis2/ece411/git/BTB/bound3/mp3/hdl/RD_CW_ripper_untitled.vhd|
 R64
 R18
 !s100 LDe^LkhD;m<:dN;bi?omG3
@@ -2411,22 +2419,22 @@ L29
 VZlQ1?3`8n[8:<X8?IQ3`e2
 R13
 32
-R269
-R270
-R271
+R266
+R267
+R268
 R64
 R18
 !s100 N6I3II1JKA3PiFFgF9o^?3
 !i10b 1
 Edependencycheck
-Z272 w1399020863
+Z269 w1399020863
 R20
 R7
 R8
 R9
 R21
-Z273 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/dependencycheck_struct.vhd
-Z274 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/dependencycheck_struct.vhd
+Z270 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/dependencycheck_struct.vhd
+Z271 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/dependencycheck_struct.vhd
 l0
 L16
 V8Ig`O@FNYHO5:h0Y[I8z_3
@@ -2442,13 +2450,13 @@ R18
 Astruct
 DEx6 ece411 14 srcregmux_calc 0 22 b0?Ui=_R6_Gl2kzA>L:hm0
 DEx6 ece411 13 mem_op_ripper 0 22 `Kfnm`m5EdHQ`6W`NbYT20
-Z275 DEx6 ece411 23 mask_intersection_check 0 22 olfiST7cY[3LD0CbU:G5Z3
+Z272 DEx6 ece411 23 mask_intersection_check 0 22 olfiST7cY[3LD0CbU:G5Z3
 DEx6 ece411 15 srcreg_maskcalc 0 22 c[cZm17BIeAO>9MJQazU=1
-Z276 DEx6 ece411 8 or3_byte 0 22 >3d]Od6j?o5I=zcYYJZR_2
+Z273 DEx6 ece411 8 or3_byte 0 22 >3d]Od6j?o5I=zcYYJZR_2
 R179
-Z277 DEx6 ece411 4 nor2 0 22 1i6jDDQ?T@JdbQKb@zfkY1
+Z274 DEx6 ece411 4 nor2 0 22 1i6jDDQ?T@JdbQKb@zfkY1
 DEx6 ece411 16 destreg_maskcalc 0 22 CjWc]kzW@cS4eQU7O9Ulf1
-Z278 DEx6 ece411 7 andinv2 0 22 USV:XU:i=b70<KLlQCSdf0
+Z275 DEx6 ece411 7 andinv2 0 22 USV:XU:i=b70<KLlQCSdf0
 R121
 DEx4 work 15 dependencycheck 0 22 8Ig`O@FNYHO5:h0Y[I8z_3
 R20
@@ -2474,8 +2482,8 @@ R7
 R8
 R9
 R21
-Z279 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/destreg_maskcalc_struct.vhd
-Z280 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/destreg_maskcalc_struct.vhd
+Z276 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/destreg_maskcalc_struct.vhd
+Z277 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/destreg_maskcalc_struct.vhd
 l0
 L16
 VCjWc]kzW@cS4eQU7O9Ulf1
@@ -2489,13 +2497,13 @@ R18
 !s100 C?5=NRlUaocIAm32]3[o<0
 !i10b 1
 Astruct
-Z281 DEx6 ece411 9 delay_6ns 0 22 GRXY[cDEz0_J4oHO4n9EW2
-Z282 DEx6 ece411 11 bit_to_byte 0 22 ECIRW]4kM55]ckl@=PUKH3
+Z278 DEx6 ece411 9 delay_6ns 0 22 GRXY[cDEz0_J4oHO4n9EW2
+Z279 DEx6 ece411 11 bit_to_byte 0 22 ECIRW]4kM55]ckl@=PUKH3
 DEx6 ece411 12 wr_ir_ripper 0 22 JgOLNgUomm0`@na1EW;oE1
 DEx6 ece411 12 wr_cw_ripper 0 22 @BGm:oHhVP]hT1o7aQX1T2
-Z283 DEx6 mp3lib 6 mux2_8 0 22 0a4z[<aelSgni;T55W@4h2
-Z284 DEx6 ece411 8 demux3_8 0 22 ?0AIoU9gl0IMibzKY6NeH2
-Z285 DEx6 ece411 9 and2_byte 0 22 HH0an<:QWYPfCH8b<XAgV3
+Z280 DEx6 mp3lib 6 mux2_8 0 22 0a4z[<aelSgni;T55W@4h2
+Z281 DEx6 ece411 8 demux3_8 0 22 ?0AIoU9gl0IMibzKY6NeH2
+Z282 DEx6 ece411 9 and2_byte 0 22 HH0an<:QWYPfCH8b<XAgV3
 DEx4 work 16 destreg_maskcalc 0 22 CjWc]kzW@cS4eQU7O9Ulf1
 R20
 R7
@@ -2514,22 +2522,22 @@ R18
 !s100 I9OO_e>YacY:EoXz[>HU12
 !i10b 1
 Edirty_delay
-Z286 w1393579249
+Z283 w1393579249
 R6
 R7
 R8
 R9
 R10
-Z287 8/home/buris2/ece411/mp2.2/hdl/dirty_delay_untitled.vhd
-Z288 F/home/buris2/ece411/mp2.2/hdl/dirty_delay_untitled.vhd
+Z284 8/home/buris2/ece411/mp2.2/hdl/dirty_delay_untitled.vhd
+Z285 F/home/buris2/ece411/mp2.2/hdl/dirty_delay_untitled.vhd
 l0
 L17
 VmlzgCmfaGM8RU`S^c4AGb0
 R13
 33
-Z289 !s108 1393579398.602565
+Z286 !s108 1393579398.602565
 R50
-Z290 !s107 /home/buris2/ece411/mp2.2/hdl/dirty_delay_untitled.vhd|
+Z287 !s107 /home/buris2/ece411/mp2.2/hdl/dirty_delay_untitled.vhd|
 R17
 R18
 !s100 NCf?BT:9ibo86XUmG_:Ml0
@@ -2545,9 +2553,9 @@ L28
 VjGIeA5PKz?NgFl2AbBTmn1
 R13
 33
-R289
+R286
 R50
-R290
+R287
 R17
 R18
 !s100 ^9[k@cIFH;T5]bn[^i]3I3
@@ -2559,8 +2567,8 @@ R7
 R8
 R9
 R21
-Z291 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/DirtyArray_untitled.vhd
-Z292 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/DirtyArray_untitled.vhd
+Z288 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/DirtyArray_untitled.vhd
+Z289 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/DirtyArray_untitled.vhd
 l0
 L10
 V?kij39RFX;gEakGgkQbWY1
@@ -2598,16 +2606,16 @@ R7
 R8
 R9
 R21
-Z293 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/DirtyMUX_untitled.vhd
-Z294 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/DirtyMUX_untitled.vhd
+Z290 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/DirtyMUX_untitled.vhd
+Z291 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/DirtyMUX_untitled.vhd
 l0
 L17
 V9YC4go7O>bjz25fWbSgiW1
 R13
 32
-Z295 !s108 1399021074.006243
-Z296 !s90 -work|ece411|-nologo|-f|/tmp/Files4|
-Z297 !s107 /home/lis2/ece411/git/BTB/bound3/mp3/hdl/DirtyMUX_untitled.vhd|
+Z292 !s108 1399021074.006243
+Z293 !s90 -work|ece411|-nologo|-f|/tmp/Files4|
+Z294 !s107 /home/lis2/ece411/git/BTB/bound3/mp3/hdl/DirtyMUX_untitled.vhd|
 R64
 R18
 !s100 ^OO>:HNjc]YD_Z7;AmTo=1
@@ -2623,30 +2631,30 @@ L27
 V5EJY2<U=D20WD8b7lmf=i1
 R13
 32
-R295
-R296
-R297
+R292
+R293
+R294
 R64
 R18
 !s100 W^E;^SI6:h>WzAIE:[9P]3
 !i10b 1
 Edram16_dp
-Z298 w1396491390
+Z295 w1396491390
 R6
 R7
 R8
 R9
-R195
-Z299 8/home/adalton2/ece411/bound3/mp3/hdl/DRAM16_DP_UNTITLED.vhd
-Z300 F/home/adalton2/ece411/bound3/mp3/hdl/DRAM16_DP_UNTITLED.vhd
+Z296 d/home/adalton2/ece411/bound3/mp3/compile
+Z297 8/home/adalton2/ece411/bound3/mp3/hdl/DRAM16_DP_UNTITLED.vhd
+Z298 F/home/adalton2/ece411/bound3/mp3/hdl/DRAM16_DP_UNTITLED.vhd
 l0
 L7
 VZZbHHi2F5zBQ=h[7FmZXf0
 R13
 33
-Z301 !s108 1396491637.426242
+Z299 !s108 1396491637.426242
 R15
-Z302 !s107 /home/adalton2/ece411/bound3/mp3/hdl/DRAM16_DP_UNTITLED.vhd|
+Z300 !s107 /home/adalton2/ece411/bound3/mp3/hdl/DRAM16_DP_UNTITLED.vhd|
 R17
 R18
 !s100 T95S3mEzomJoL2Zd53;QL3
@@ -2662,30 +2670,30 @@ L25
 VR0KI0[BQJUFkK>J[VWBbF3
 R13
 33
-R301
+R299
 R15
-R302
+R300
 R17
 R18
 !s100 S>zb7H3VzJR7Y:b4LDTM00
 !i10b 1
 Edramauditor
-Z303 w1391378761
+Z301 w1391378761
 R6
 R7
 R8
 R9
 R39
-Z304 8/home/buris2/ece411/mp2/hdl/DRAMAuditor_untitled.vhd
-Z305 F/home/buris2/ece411/mp2/hdl/DRAMAuditor_untitled.vhd
+Z302 8/home/buris2/ece411/mp2/hdl/DRAMAuditor_untitled.vhd
+Z303 F/home/buris2/ece411/mp2/hdl/DRAMAuditor_untitled.vhd
 l0
 L16
 VB_GefgQA4F]TD]0aI0c1@0
 R13
 33
-Z306 !s108 1391398488.146423
+Z304 !s108 1391398488.146423
 R15
-Z307 !s107 /home/buris2/ece411/mp2/hdl/WordMux4_untitled.vhd|/home/buris2/ece411/mp2/hdl/SEXT5_untitled.vhd|/home/buris2/ece411/mp2/hdl/IR_untitled.vhd|/home/buris2/ece411/mp2/hdl/ALU_untitled.vhd|/home/buris2/ece411/mp2/hdl/DRAMAuditor_untitled.vhd|
+Z305 !s107 /home/buris2/ece411/mp2/hdl/WordMux4_untitled.vhd|/home/buris2/ece411/mp2/hdl/SEXT5_untitled.vhd|/home/buris2/ece411/mp2/hdl/IR_untitled.vhd|/home/buris2/ece411/mp2/hdl/ALU_untitled.vhd|/home/buris2/ece411/mp2/hdl/DRAMAuditor_untitled.vhd|
 R17
 R18
 !s100 :B_W_cU<iGkEc9iO3f]Bj3
@@ -2701,9 +2709,9 @@ L30
 VVf<=6fK^9PJLRL^Oo9AY=0
 R13
 33
-R306
+R304
 R15
-R307
+R305
 R17
 R18
 !s100 zoHUIU@fE3z=A^3a^OPUI0
@@ -2715,8 +2723,8 @@ R7
 R8
 R9
 R21
-Z308 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/DWordMux2_untitled.vhd
-Z309 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/DWordMux2_untitled.vhd
+Z306 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/DWordMux2_untitled.vhd
+Z307 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/DWordMux2_untitled.vhd
 l0
 L17
 V@XEm>]X<<m:;2YGnEDj^f0
@@ -2748,14 +2756,14 @@ R18
 !s100 9ZnN@032:>B5P_0l]l:N63
 !i10b 1
 Eencoder4to2
-Z310 w1399012949
+Z308 w1399012949
 R20
 R7
 R8
 R9
 R21
-Z311 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/encoder4to2_struct.vhd
-Z312 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/encoder4to2_struct.vhd
+Z309 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/encoder4to2_struct.vhd
+Z310 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/encoder4to2_struct.vhd
 l0
 L16
 V9AA4OSaY;oQCIR[LZgA=V2
@@ -2788,22 +2796,22 @@ R18
 !s100 SgDKlYeB7Dae1bBNf;O532
 !i10b 1
 Eencoder8to3
-R194
+R19
 R20
 R7
 R8
 R9
-R195
-Z313 8/home/adalton2/ece411/bound3/mp3/hdl/Encoder8to3_untitled.vhd
-Z314 F/home/adalton2/ece411/bound3/mp3/hdl/Encoder8to3_untitled.vhd
+R21
+Z311 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/Encoder8to3_untitled.vhd
+Z312 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/Encoder8to3_untitled.vhd
 l0
 L17
 V^HSC4^07=e_N46:zK;AH93
 R13
 32
-Z315 !s108 1399005939.691548
+R196
 R118
-Z316 !s107 /home/adalton2/ece411/bound3/mp3/hdl/MUX8_3_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/mux2_3_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/TRUE8LRUArray_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/Encoder8to3_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/l2_controller_fsm.vhd|/home/adalton2/ece411/bound3/mp3/hdl/ece411package.vhd|
+R197
 R64
 R18
 !s100 >AIUT>ZiD^?`3CaiFgGn03
@@ -2819,30 +2827,30 @@ L35
 V]FDNOZV60iFDC5zE6j3l<0
 R13
 32
-R315
+R196
 R118
-R316
+R197
 R64
 R18
 !s100 hFANz19H]M1VMnS3adnEN3
 !i10b 1
 Eeq_v0delay
-Z317 w1393553662
+Z313 w1393553662
 R6
 R7
 R8
 R9
 R10
-Z318 8/home/buris2/ece411/mp2.2/hdl/eq_v0Delay6ns_untitled.vhd
-Z319 F/home/buris2/ece411/mp2.2/hdl/eq_v0Delay6ns_untitled.vhd
+Z314 8/home/buris2/ece411/mp2.2/hdl/eq_v0Delay6ns_untitled.vhd
+Z315 F/home/buris2/ece411/mp2.2/hdl/eq_v0Delay6ns_untitled.vhd
 l0
 L17
 VWOl;SfMiX2Y3XO?JBmjhL1
 R13
 33
-Z320 !s108 1393553821.164598
+Z316 !s108 1393553821.164598
 R50
-Z321 !s107 /home/buris2/ece411/mp2.2/hdl/eq_v0Delay6ns_untitled.vhd|
+Z317 !s107 /home/buris2/ece411/mp2.2/hdl/eq_v0Delay6ns_untitled.vhd|
 R17
 R18
 !s100 <4X3PdC=AX@lB@O>]19NP0
@@ -2858,30 +2866,30 @@ L28
 VK0l4951I:hZlCOUT=66>?0
 R13
 33
-R320
+R316
 R50
-R321
+R317
 R17
 R18
 !s100 5ZV4QUj@=7HJZVzg2W=A70
 !i10b 1
 Eeq_v0delay3ns
-Z322 w1393535221
+Z318 w1393535221
 R6
 R7
 R8
 R9
 R10
-R318
-R319
+R314
+R315
 l0
 L17
 VWfIAeXGOY3<`l`;Ki2Qao3
 R13
 33
-Z323 !s108 1393535407.284256
+Z319 !s108 1393535407.284256
 R50
-R321
+R317
 R17
 R18
 !s100 e3G<<J6XRn3e:NG1=CX^50
@@ -2897,30 +2905,30 @@ L28
 VX>o>DoYcdM:2M8XZ8_>0=3
 R13
 33
-R323
+R319
 R50
-R321
+R317
 R17
 R18
 !s100 ;7eQIHa=ChK:ZQF?Y4>`f3
 !i10b 1
 Eeq_v0delay6ns
-Z324 w1393529411
+Z320 w1393529411
 R6
 R7
 R8
 R9
 R10
-R318
-R319
+R314
+R315
 l0
 L17
 V^Cgnb9aU6R`j<Ie>C;YW:2
 R13
 33
-Z325 !s108 1393529584.851188
+Z321 !s108 1393529584.851188
 R50
-R321
+R317
 R17
 R18
 !s100 g0dhDBBJ6;9doGV1bW9RK2
@@ -2936,30 +2944,30 @@ L28
 Va>zcJL[9VnW1:kIamz8@P2
 R13
 33
-R325
-R50
 R321
+R50
+R317
 R17
 R18
 !s100 Zk;k?UfLo_9U[`0__D69]3
 !i10b 1
 Egencc
-Z326 w1391383609
+Z322 w1391383609
 R6
 R7
 R8
 R9
 R39
-Z327 8/home/buris2/ece411/mp2/hdl/GenCC_untitled.vhd
-Z328 F/home/buris2/ece411/mp2/hdl/GenCC_untitled.vhd
+Z323 8/home/buris2/ece411/mp2/hdl/GenCC_untitled.vhd
+Z324 F/home/buris2/ece411/mp2/hdl/GenCC_untitled.vhd
 l0
 L17
 V@[<=Dk2FJSBZ0[_dOHb1I2
 R13
 33
-Z329 !s108 1391383756.238294
+Z325 !s108 1391383756.238294
 R50
-Z330 !s107 /home/buris2/ece411/mp2/hdl/StoreMux_untitled.vhd|/home/buris2/ece411/mp2/hdl/RegFile_untitled.vhd|/home/buris2/ece411/mp2/hdl/Plus2_untitled.vhd|/home/buris2/ece411/mp2/hdl/NZPsplit_untitled.vhd|/home/buris2/ece411/mp2/hdl/NZP_untitled.vhd|/home/buris2/ece411/mp2/hdl/IR_untitled.vhd|/home/buris2/ece411/mp2/hdl/GenCC_untitled.vhd|
+Z326 !s107 /home/buris2/ece411/mp2/hdl/StoreMux_untitled.vhd|/home/buris2/ece411/mp2/hdl/RegFile_untitled.vhd|/home/buris2/ece411/mp2/hdl/Plus2_untitled.vhd|/home/buris2/ece411/mp2/hdl/NZPsplit_untitled.vhd|/home/buris2/ece411/mp2/hdl/NZP_untitled.vhd|/home/buris2/ece411/mp2/hdl/IR_untitled.vhd|/home/buris2/ece411/mp2/hdl/GenCC_untitled.vhd|
 R17
 R18
 !s100 ne5KT<N;mhz0:0cjO<^@81
@@ -2975,9 +2983,9 @@ L29
 VIg5l829Hg^3[N8SNS8EHa0
 R13
 33
-R329
+R325
 R50
-R330
+R326
 R17
 R18
 !s100 P]18A1UPkQZ4]ULBIiak52
@@ -2989,8 +2997,8 @@ R7
 R8
 R9
 R21
-Z331 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/generateCC_untitled.vhd
-Z332 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/generateCC_untitled.vhd
+Z327 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/generateCC_untitled.vhd
+Z328 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/generateCC_untitled.vhd
 l0
 L17
 Vz:]hJC7<BWA?Pnf_`TD^?0
@@ -3022,14 +3030,14 @@ R18
 !s100 lNdaHC7bEdX620Y`9O4la0
 !i10b 1
 Eir
-Z333 w1391660761
+Z329 w1391660761
 R6
 R7
 R8
 R9
 R39
-Z334 8/home/buris2/ece411/mp2/hdl/IR_untitled.vhd
-Z335 F/home/buris2/ece411/mp2/hdl/IR_untitled.vhd
+Z330 8/home/buris2/ece411/mp2/hdl/IR_untitled.vhd
+Z331 F/home/buris2/ece411/mp2/hdl/IR_untitled.vhd
 l0
 L17
 VzlDgQP[DVka38Ljojnaj=1
@@ -3067,8 +3075,8 @@ R7
 R8
 R9
 R21
-Z336 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/IR2sig_ripper_untitled.vhd
-Z337 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/IR2sig_ripper_untitled.vhd
+Z332 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/IR2sig_ripper_untitled.vhd
+Z333 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/IR2sig_ripper_untitled.vhd
 l0
 L17
 Vf_2>U?hVWI=CU>2?XUOYQ3
@@ -3106,8 +3114,8 @@ R7
 R8
 R9
 R21
-Z338 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/IR3sigripper_untitled.vhd
-Z339 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/IR3sigripper_untitled.vhd
+Z334 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/IR3sigripper_untitled.vhd
+Z335 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/IR3sigripper_untitled.vhd
 l0
 L17
 VojEQ]VPlHD3nW4kj]03e70
@@ -3145,16 +3153,16 @@ R7
 R8
 R9
 R21
-Z340 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/IRdest_ripper_untitled.vhd
-Z341 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/IRdest_ripper_untitled.vhd
+Z336 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/IRdest_ripper_untitled.vhd
+Z337 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/IRdest_ripper_untitled.vhd
 l0
 L17
 VgX5OS5e]>KcOJAjAUMWUA0
 R13
 33
-R220
-R221
-R222
+R217
+R218
+R219
 R17
 R18
 !s100 >JPbFFaP]V2:Y6BT9eToJ3
@@ -3170,9 +3178,9 @@ L29
 VI_]T<z4hN0R]a[W1:`h^63
 R13
 33
-R220
-R221
-R222
+R217
+R218
+R219
 R17
 R18
 !s100 g24OR:NV;SgSL_aeK[FB]1
@@ -3184,8 +3192,8 @@ R7
 R8
 R9
 R21
-Z342 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/IRnzp_ripper_untitled.vhd
-Z343 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/IRnzp_ripper_untitled.vhd
+Z338 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/IRnzp_ripper_untitled.vhd
+Z339 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/IRnzp_ripper_untitled.vhd
 l0
 L17
 VaQz>:b8?FJTEh3;^ZbHH03
@@ -3223,16 +3231,16 @@ R7
 R8
 R9
 R21
-Z344 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/IRregsplitter_untitled.vhd
-Z345 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/IRregsplitter_untitled.vhd
+Z340 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/IRregsplitter_untitled.vhd
+Z341 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/IRregsplitter_untitled.vhd
 l0
 L17
 VJQJbVRVzh^D[MTRWEciO`0
 R13
 33
-Z346 !s108 1399021083.435094
-Z347 !s90 -work|ece411|-nologo|-2008|-f|/tmp/Files32|
-Z348 !s107 /home/lis2/ece411/git/BTB/bound3/mp3/hdl/REG32_untitled.vhd|/home/lis2/ece411/git/BTB/bound3/mp3/hdl/WordMux4_untitled.vhd|/home/lis2/ece411/git/BTB/bound3/mp3/hdl/IRregsplitter_untitled.vhd|/home/lis2/ece411/git/BTB/bound3/mp3/hdl/RegMux2_untitled.vhd|
+Z342 !s108 1399021083.435094
+Z343 !s90 -work|ece411|-nologo|-2008|-f|/tmp/Files32|
+Z344 !s107 /home/lis2/ece411/git/BTB/bound3/mp3/hdl/REG32_untitled.vhd|/home/lis2/ece411/git/BTB/bound3/mp3/hdl/WordMux4_untitled.vhd|/home/lis2/ece411/git/BTB/bound3/mp3/hdl/IRregsplitter_untitled.vhd|/home/lis2/ece411/git/BTB/bound3/mp3/hdl/RegMux2_untitled.vhd|
 R17
 R18
 !s100 L`[<62BD[<4^_OP6fXAW<1
@@ -3248,9 +3256,9 @@ L38
 VVh0YX1HJ=Pc^O2QAN@hFm2
 R13
 33
-R346
-R347
-R348
+R342
+R343
+R344
 R17
 R18
 !s100 9c=1SX7F@W9MMoWVVGC5e2
@@ -3262,8 +3270,8 @@ R7
 R8
 R9
 R21
-Z349 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/JSRAdd_untitled.vhd
-Z350 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/JSRAdd_untitled.vhd
+Z345 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/JSRAdd_untitled.vhd
+Z346 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/JSRAdd_untitled.vhd
 l0
 L17
 VLJUDa^SSQoEU^g7>91W]o1
@@ -3295,22 +3303,22 @@ R18
 !s100 A;l<2I>E5bhJ4gfRX0oKn0
 !i10b 1
 El2_controller
-Z351 w1399005727
+Z347 w1399028978
 R20
 R7
 R8
 R9
-R195
-Z352 8/home/adalton2/ece411/bound3/mp3/hdl/l2_controller_fsm.vhd
-Z353 F/home/adalton2/ece411/bound3/mp3/hdl/l2_controller_fsm.vhd
+R21
+Z348 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/l2_controller_fsm.vhd
+Z349 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/l2_controller_fsm.vhd
 l0
 L16
 VgPh5nn@lRgZJ_[OGTWR[B0
 R13
 32
-R315
+R196
 R118
-R316
+R197
 R64
 R18
 !s100 H];lB:::Hi310iH;EQ_j>0
@@ -3326,30 +3334,30 @@ L58
 V3>DF6<Gn^7L4Z8j]NYJ0P3
 R13
 32
-R315
+R196
 R118
-R316
+R197
 R64
 R18
 !s100 zajQlDd6XElEe7^OliH;13
 !i10b 1
 El2_datapath
-Z354 w1399005728
+Z350 w1399028979
 R20
 R7
 R8
 R9
-R195
-Z355 8/home/adalton2/ece411/bound3/mp3/hdl/l2_datapath_struct.vhd
-Z356 F/home/adalton2/ece411/bound3/mp3/hdl/l2_datapath_struct.vhd
+R21
+Z351 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/l2_datapath_struct.vhd
+Z352 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/l2_datapath_struct.vhd
 l0
 L16
 V1o7zaON800YU1loCiJECZ3
 R13
 32
-Z357 !s108 1399005943.782869
-Z358 !s90 -work|ece411|-nologo|-f|/tmp/Files10|
-Z359 !s107 /home/adalton2/ece411/bound3/mp3/hdl/cache_controller_fsm.vhd|/home/adalton2/ece411/bound3/mp3/hdl/cache_arbiter_fsm.vhd|/home/adalton2/ece411/bound3/mp3/hdl/l2cache_struct.vhd|/home/adalton2/ece411/bound3/mp3/hdl/l2_datapath_struct.vhd|/home/adalton2/ece411/bound3/mp3/hdl/l2way_struct.vhd|
+Z353 !s108 1399029187.781556
+R225
+Z354 !s107 /home/lis2/ece411/git/BTB/bound3/mp3/hdl/mp3_cpu_struct.vhd|/home/lis2/ece411/git/BTB/bound3/mp3/hdl/memory_struct.vhd|/home/lis2/ece411/git/BTB/bound3/mp3/hdl/l2cache_struct.vhd|/home/lis2/ece411/git/BTB/bound3/mp3/hdl/l2_datapath_struct.vhd|/home/lis2/ece411/git/BTB/bound3/mp3/hdl/l2way_struct.vhd|
 R64
 R18
 !s100 f?lHZK;Gh8dH?b>]9P8a00
@@ -3368,8 +3376,8 @@ R180
 DEx6 ece411 6 mux8_9 0 22 m=A]ZIjNnS0]5U1]gM?O^2
 DEx6 ece411 6 mux8_1 0 22 UGfk0>@J7:M0Q?CzDAH3f2
 DEx6 ece411 6 mux2_8 0 22 m6BdBOz@[_c3>2h2^HHBX0
-Z360 DEx6 ece411 11 encoder8to3 0 22 ^HSC4^07=e_N46:zK;AH93
-Z361 DEx6 ece411 8 decoder3 0 22 VkZd7Ub[lFE=RRcac]D1b1
+Z355 DEx6 ece411 11 encoder8to3 0 22 ^HSC4^07=e_N46:zK;AH93
+Z356 DEx6 ece411 8 decoder3 0 22 VkZd7Ub[lFE=RRcac]D1b1
 R181
 R121
 DEx4 work 11 l2_datapath 0 22 1o7zaON800YU1loCiJECZ3
@@ -3379,33 +3387,33 @@ R8
 R9
 l420
 L65
-V=<j@5HPOKQ@3UhJGB4h`d1
+VL?LC7?AJjG0PP1doPFoT41
 R13
 32
-R357
-R358
-R359
+R353
+R225
+R354
 R64
 R18
-!s100 Y:9OnSlQ3j@cQ:WTo>=>T3
+!s100 Ag^=7mEM>63MmLbAFn8>D3
 !i10b 1
 El2cache
-R354
+R350
 R20
 R7
 R8
 R9
-R195
-Z362 8/home/adalton2/ece411/bound3/mp3/hdl/l2cache_struct.vhd
-Z363 F/home/adalton2/ece411/bound3/mp3/hdl/l2cache_struct.vhd
+R21
+Z357 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/l2cache_struct.vhd
+Z358 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/l2cache_struct.vhd
 l0
 L16
 VNzoQ6L48@D>lHeJ93BZLN1
 R13
 32
-R357
-R358
-R359
+R353
+R225
+R354
 R64
 R18
 !s100 UGB4VH]fND8hKz4nHKME;3
@@ -3421,32 +3429,32 @@ R9
 l134
 L55
 VzmF5PFD3]Pbm3hKMf?hIB1
+!s100 ==1z:58T>=DOVkBT^bEoG1
 R13
 32
-R357
-R358
-R359
+R353
+R225
+R354
 R64
 R18
-!s100 ==1z:58T>=DOVkBT^bEoG1
 !i10b 1
 El2dataarray
-R194
+R19
 R20
 R7
 R8
 R9
-R195
-Z364 8/home/adalton2/ece411/bound3/mp3/hdl/L2DataArray_untitled.vhd
-Z365 F/home/adalton2/ece411/bound3/mp3/hdl/L2DataArray_untitled.vhd
+R21
+Z359 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/L2DataArray_untitled.vhd
+Z360 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/L2DataArray_untitled.vhd
 l0
 L17
 VFKXGWhRSbmoMoKHPSE9:K3
 R13
 33
-Z366 !s108 1399005943.231628
-R57
-Z367 !s107 /home/adalton2/ece411/bound3/mp3/hdl/L2ValidArray_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/L2TagArray_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/L2DirtyArray_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/L2DataArray_untitled.vhd|
+R250
+R15
+R251
 R17
 R18
 !s100 08k`[X`b6?K5h`eBMPcQB1
@@ -3462,30 +3470,30 @@ L27
 Vdb3Q6S^WDVU8297^]BG8Q2
 R13
 33
-R366
-R57
-R367
+R250
+R15
+R251
 R17
 R18
 !s100 NQ5DYSTLD4<RgmbaIR;HB1
 !i10b 1
 El2dirtyarray
-R194
+R19
 R20
 R7
 R8
 R9
-R195
-Z368 8/home/adalton2/ece411/bound3/mp3/hdl/L2DirtyArray_untitled.vhd
-Z369 F/home/adalton2/ece411/bound3/mp3/hdl/L2DirtyArray_untitled.vhd
+R21
+Z361 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/L2DirtyArray_untitled.vhd
+Z362 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/L2DirtyArray_untitled.vhd
 l0
 L17
 V`k_oiH7hJ6k94=IU01off0
 R13
 33
-R366
-R57
-R367
+R250
+R15
+R251
 R17
 R18
 !s100 ^^gS]D^`1cRV4Ge5>F1NI1
@@ -3501,30 +3509,30 @@ L29
 V:IY;K_EGFemz_PYC@z1;21
 R13
 33
-R366
-R57
-R367
+R250
+R15
+R251
 R17
 R18
 !s100 5HBQXUS@UWD;4YU?<<_aP2
 !i10b 1
 El2tagarray
-R194
+R19
 R20
 R7
 R8
 R9
-R195
-Z370 8/home/adalton2/ece411/bound3/mp3/hdl/L2TagArray_untitled.vhd
-Z371 F/home/adalton2/ece411/bound3/mp3/hdl/L2TagArray_untitled.vhd
+R21
+Z363 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/L2TagArray_untitled.vhd
+Z364 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/L2TagArray_untitled.vhd
 l0
 L17
 V^F]g:b]6N0RNC<SE`7[M]0
 R13
 33
-R366
-R57
-R367
+R250
+R15
+R251
 R17
 R18
 !s100 [?]GDd2;_`7EDYC3;7a;72
@@ -3540,30 +3548,30 @@ L29
 VT_o0RFJ[:58SDC@Q1R?bA2
 R13
 33
-R366
-R57
-R367
+R250
+R15
+R251
 R17
 R18
 !s100 jN8B8bZHfLoYcD;UebYZ:2
 !i10b 1
 El2validarray
-R194
+R19
 R20
 R7
 R8
 R9
-R195
-Z372 8/home/adalton2/ece411/bound3/mp3/hdl/L2ValidArray_untitled.vhd
-Z373 F/home/adalton2/ece411/bound3/mp3/hdl/L2ValidArray_untitled.vhd
+R21
+Z365 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/L2ValidArray_untitled.vhd
+Z366 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/L2ValidArray_untitled.vhd
 l0
 L17
 VlIC]]6e0G`BiI0<oKAagm1
 R13
 33
-R366
-R57
-R367
+R250
+R15
+R251
 R17
 R18
 !s100 bVDN;GRFSiQLGBYcTdKmO1
@@ -3579,30 +3587,30 @@ L28
 VfY`a<[lXQL;Vk1J<1LFiP3
 R13
 33
-R366
-R57
-R367
+R250
+R15
+R251
 R17
 R18
 !s100 5e>]=adT]7FmHc>0T649O3
 !i10b 1
 El2way
-R351
+R347
 R20
 R7
 R8
 R9
-R195
-Z374 8/home/adalton2/ece411/bound3/mp3/hdl/l2way_struct.vhd
-Z375 F/home/adalton2/ece411/bound3/mp3/hdl/l2way_struct.vhd
+R21
+Z367 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/l2way_struct.vhd
+Z368 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/l2way_struct.vhd
 l0
 L16
 VdSQEm@P_<i5@e0MP_>BfI2
 R13
 32
-R357
-R358
-R359
+R353
+R225
+R354
 R64
 R18
 !s100 Dd]TD`k`5<cNPH7XzMz8k0
@@ -3620,22 +3628,22 @@ R9
 l105
 L52
 V0b4nPn:>[9UEbgWI3@jY:2
+!s100 C`?aEjPho`;=V[9hP=ld=2
 R13
 32
-R357
-R358
-R359
+R353
+R225
+R354
 R64
 R18
-!s100 C`?aEjPho`;=V[9hP=ld=2
 !i10b 1
 Plc3b_types
 R8
 R9
 R19
 R21
-Z376 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/ece411package.vhd
-Z377 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/ece411package.vhd
+Z369 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/ece411package.vhd
+Z370 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/ece411package.vhd
 l0
 L12
 Va]]S?=h[S5bkmY`camhAX0
@@ -3673,8 +3681,8 @@ R7
 R8
 R9
 R21
-Z378 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/LDB_align_untitled.vhd
-Z379 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/LDB_align_untitled.vhd
+Z371 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/LDB_align_untitled.vhd
+Z372 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/LDB_align_untitled.vhd
 l0
 L17
 V5U;>G2`fYzgT@m5f]6o`01
@@ -3712,8 +3720,8 @@ R7
 R8
 R9
 R21
-Z380 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/LDISTIROM_untitled.vhd
-Z381 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/LDISTIROM_untitled.vhd
+Z373 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/LDISTIROM_untitled.vhd
+Z374 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/LDISTIROM_untitled.vhd
 l0
 L17
 V[<QcERU5CAo=J>:IoYJ];0
@@ -3751,16 +3759,16 @@ R7
 R8
 R9
 R21
-Z382 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/LRUArray_untitled.vhd
-Z383 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/LRUArray_untitled.vhd
+Z375 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/LRUArray_untitled.vhd
+Z376 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/LRUArray_untitled.vhd
 l0
 L10
 VWGoeMP4TUhTcj7JBEKd0K1
 R13
 33
-Z384 !s108 1399021074.273273
-Z385 !s90 -work|ece411|-nologo|-2008|-f|/tmp/Files5|
-Z386 !s107 /home/lis2/ece411/git/BTB/bound3/mp3/hdl/LRUDecode_untitled.vhd|/home/lis2/ece411/git/BTB/bound3/mp3/hdl/LRUArray_untitled.vhd|
+Z377 !s108 1399021074.273273
+Z378 !s90 -work|ece411|-nologo|-2008|-f|/tmp/Files5|
+Z379 !s107 /home/lis2/ece411/git/BTB/bound3/mp3/hdl/LRUDecode_untitled.vhd|/home/lis2/ece411/git/BTB/bound3/mp3/hdl/LRUArray_untitled.vhd|
 R17
 R18
 !s100 MVR@b5DfO20`kfziXADC51
@@ -3776,9 +3784,9 @@ L23
 VbY^:_ZCXZiSE7hmi@QE_]2
 R13
 33
-R384
-R385
-R386
+R377
+R378
+R379
 R17
 R18
 !s100 ZMlE09bi0o4N5n`Yzm@k32
@@ -3790,16 +3798,16 @@ R7
 R8
 R9
 R21
-Z387 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/LRUDecode_untitled.vhd
-Z388 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/LRUDecode_untitled.vhd
+Z380 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/LRUDecode_untitled.vhd
+Z381 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/LRUDecode_untitled.vhd
 l0
 L17
 VQVNPP2VY^CRE<cZmNDF:n2
 R13
 33
-R384
-R385
-R386
+R377
+R378
+R379
 R17
 R18
 !s100 6[]D6z6flaMHm^a@9E_ko1
@@ -3815,9 +3823,9 @@ L33
 VmZY9WfCXjg:QQDcEXC9TR1
 R13
 33
-R384
-R385
-R386
+R377
+R378
+R379
 R17
 R18
 !s100 ]kzT<z4;lR=WQ4EK:hJD=2
@@ -3829,8 +3837,8 @@ R7
 R8
 R9
 R21
-Z389 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/LSHFT_8_untitled.vhd
-Z390 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/LSHFT_8_untitled.vhd
+Z382 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/LSHFT_8_untitled.vhd
+Z383 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/LSHFT_8_untitled.vhd
 l0
 L17
 VckLk7>]PKnd4:cl5]noK@1
@@ -3868,8 +3876,8 @@ R7
 R8
 R9
 R21
-Z391 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/mask_intersection_check_struct.vhd
-Z392 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/mask_intersection_check_struct.vhd
+Z384 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/mask_intersection_check_struct.vhd
+Z385 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/mask_intersection_check_struct.vhd
 l0
 L16
 VolfiST7cY[3LD0CbU:G5Z3
@@ -3886,8 +3894,8 @@ Astruct
 DEx6 ece411 13 byte_splitter 0 22 Bkj0INQQ8l@7YlY;<[T[O1
 R120
 R179
-R277
-R285
+R274
+R282
 DEx4 work 23 mask_intersection_check 0 22 olfiST7cY[3LD0CbU:G5Z3
 R20
 R7
@@ -3912,16 +3920,16 @@ R7
 R8
 R9
 R21
-Z393 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/mem_op_ripper_untitled.vhd
-Z394 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/mem_op_ripper_untitled.vhd
+Z386 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/mem_op_ripper_untitled.vhd
+Z387 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/mem_op_ripper_untitled.vhd
 l0
 L17
 V`Kfnm`m5EdHQ`6W`NbYT20
 R13
 33
-Z395 !s108 1399021079.826723
-Z396 !s90 -work|ece411|-nologo|-2008|-f|/tmp/Files22|
-Z397 !s107 /home/lis2/ece411/git/BTB/bound3/mp3/hdl/NOR2_untitled.vhd|/home/lis2/ece411/git/BTB/bound3/mp3/hdl/mem_op_ripper_untitled.vhd|
+Z388 !s108 1399021079.826723
+Z389 !s90 -work|ece411|-nologo|-2008|-f|/tmp/Files22|
+Z390 !s107 /home/lis2/ece411/git/BTB/bound3/mp3/hdl/NOR2_untitled.vhd|/home/lis2/ece411/git/BTB/bound3/mp3/hdl/mem_op_ripper_untitled.vhd|
 R17
 R18
 !s100 c]GAaI5ZnOn681BdCgDZ83
@@ -3937,9 +3945,9 @@ L28
 VmcAT^l1V8_f6_nZ2eoL141
 R13
 33
-R395
-R396
-R397
+R388
+R389
+R390
 R17
 R18
 !s100 3jM;l<Mb[jQiJkoin0gi:2
@@ -3951,8 +3959,8 @@ R7
 R8
 R9
 R21
-Z398 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/MEMalignment_untitled.vhd
-Z399 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/MEMalignment_untitled.vhd
+Z391 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/MEMalignment_untitled.vhd
+Z392 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/MEMalignment_untitled.vhd
 l0
 L17
 VZ^VV:PR5lWnlHM[Y;PP=D1
@@ -3984,22 +3992,22 @@ R18
 !s100 9nY`J`TYBgf]`Di?TN1dO0
 !i10b 1
 Ememory
-R161
+R350
 R20
 R7
 R8
 R9
 R21
-Z400 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/memory_struct.vhd
-Z401 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/memory_struct.vhd
+Z393 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/memory_struct.vhd
+Z394 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/memory_struct.vhd
 l0
 L16
 VBZ][cIZL^OQ6:lSH?9`1G1
 R13
 32
-Z402 !s108 1399021077.664439
-Z403 !s90 -work|ece411|-nologo|-f|/tmp/Files16|
-Z404 !s107 /home/lis2/ece411/git/BTB/bound3/mp3/hdl/memory_struct.vhd|
+R353
+R225
+R354
 R64
 R18
 !s100 @gVe>]G;lZJbgiKgCe?JO0
@@ -4008,6 +4016,7 @@ Astruct
 DEx6 ece411 5 cache 0 22 af;4fVnbYb`mDNPh3:CZ21
 DEx6 ece411 15 physical_memory 0 22 _0i8MB6QEChzkF3ME]D0o2
 R179
+DEx6 ece411 7 l2cache 0 22 NzoQ6L48@D>lHeJ93BZLN1
 DEx6 ece411 13 cache_arbiter 0 22 RA3k^<]DZL>cIVN3S<FCd0
 DEx6 ece411 4 and4 0 22 L<CkC8K?[iQZGVNkR0nHX3
 R121
@@ -4016,17 +4025,17 @@ R20
 R7
 R8
 R9
-l168
+l193
 L54
-V;Wzb4J_5GC7H@oB^iogF;2
+Vgzz1fi?_@h]nb@NFG?LbF3
 R13
 32
-R402
-R403
-R404
+R353
+R225
+R354
 R64
 R18
-!s100 2mnCaTH7F:zBLS>i2gFzX0
+!s100 Jkl4QM0TR`Gm46=?GiE6B0
 !i10b 1
 Auntitled
 R6
@@ -4051,22 +4060,22 @@ w1391376478
 !s100 SREOiK10`:g`8>K0m^3iB3
 !i10b 1
 Emp1_cpu
-R208
+R205
 R6
 R7
 R8
 R9
 R39
-Z405 8/home/buris2/ece411/mp2/hdl/mp1_cpu_struct.vhd
-Z406 F/home/buris2/ece411/mp2/hdl/mp1_cpu_struct.vhd
+Z395 8/home/buris2/ece411/mp2/hdl/mp1_cpu_struct.vhd
+Z396 F/home/buris2/ece411/mp2/hdl/mp1_cpu_struct.vhd
 l0
 L16
 V82MkZ<XOVKIK8ei^f5e;80
 R13
 32
-R206
+R203
 R118
-R207
+R204
 R64
 R18
 !s100 HSh17g_?fI5Q8Tf@RkVa_2
@@ -4075,7 +4084,7 @@ Astruct
 DEx6 ece411 6 memory 0 22 <=Q7P8Do8=J[DKo^U_ZOP3
 DEx6 ece411 8 datapath 0 22 jd>e4_`:FH03L<cQ?Ffok2
 DEx6 ece411 7 control 0 22 :bVIm11eBAd3g0RzoM^k60
-Z407 DEx6 ece411 6 clkgen 0 22 KQk8Pa[5d4oZeGAJ9LdXP0
+Z397 DEx6 ece411 6 clkgen 0 22 KQk8Pa[5d4oZeGAJ9LdXP0
 DEx4 work 7 mp1_cpu 0 22 82MkZ<XOVKIK8ei^f5e;80
 R6
 R7
@@ -4086,30 +4095,30 @@ L43
 VlQcWIMdgTK95W2`Rge5^90
 R13
 32
-R206
+R203
 R118
-R207
+R204
 R64
 R18
 !s100 >K87@^E3D>2A>HBmIESOW1
 !i10b 1
 Emp2_cpu
-Z408 w1393621683
+Z398 w1393621683
 R6
 R7
 R8
 R9
 R10
-Z409 8/home/buris2/ece411/mp2.2/hdl/mp2_cpu_struct.vhd
-Z410 F/home/buris2/ece411/mp2.2/hdl/mp2_cpu_struct.vhd
+Z399 8/home/buris2/ece411/mp2.2/hdl/mp2_cpu_struct.vhd
+Z400 F/home/buris2/ece411/mp2.2/hdl/mp2_cpu_struct.vhd
 l0
 L16
 V0_Bfm=QF`X=ReJg6glE1E2
 R13
 32
-Z411 !s108 1393621824.360895
+Z401 !s108 1393621824.360895
 R118
-Z412 !s107 /home/buris2/ece411/mp2.2/hdl/mp2_cpu_struct.vhd|/home/buris2/ece411/mp2.2/hdl/memory_struct.vhd|/home/buris2/ece411/mp2.2/hdl/cache_datapath_struct.vhd|/home/buris2/ece411/mp2.2/hdl/way_struct.vhd|/home/buris2/ece411/mp2.2/hdl/wordwrite_struct.vhd|/home/buris2/ece411/mp2.2/hdl/wrtoword_struct.vhd|/home/buris2/ece411/mp2.2/hdl/cache_controller_fsm.vhd|
+Z402 !s107 /home/buris2/ece411/mp2.2/hdl/mp2_cpu_struct.vhd|/home/buris2/ece411/mp2.2/hdl/memory_struct.vhd|/home/buris2/ece411/mp2.2/hdl/cache_datapath_struct.vhd|/home/buris2/ece411/mp2.2/hdl/way_struct.vhd|/home/buris2/ece411/mp2.2/hdl/wordwrite_struct.vhd|/home/buris2/ece411/mp2.2/hdl/wrtoword_struct.vhd|/home/buris2/ece411/mp2.2/hdl/cache_controller_fsm.vhd|
 R64
 R18
 !s100 `7i`i9;YJKIUZ5:`3=koY0
@@ -4119,7 +4128,7 @@ DEx6 ece411 6 memory 0 22 MKHRb>5ZZoVJ2MF@F`:812
 DEx6 ece411 8 datapath 0 22 RQd1a3UB;F7XaPPWGQDnl2
 DEx6 ece411 11 dramauditor 0 22 B_GefgQA4F]TD]0aI0c1@0
 DEx6 ece411 7 control 0 22 F_:KI5TgjFVT25UWo2=>`2
-R407
+R397
 DEx4 work 7 mp2_cpu 0 22 0_Bfm=QF`X=ReJg6glE1E2
 R6
 R7
@@ -4130,30 +4139,30 @@ L43
 ViO<oRDb:7;B6=DlWFlo130
 R13
 32
-R411
+R401
 R118
-R412
+R402
 R64
 R18
 !s100 JHj[f`MSao_aX7X;1;=EH1
 !i10b 1
 Emp3_cpu
-Z413 w1399028432
+R350
 R20
 R7
 R8
 R9
-R195
-Z414 8/home/adalton2/ece411/bound3/mp3/hdl/mp3_cpu_struct.vhd
-Z415 F/home/adalton2/ece411/bound3/mp3/hdl/mp3_cpu_struct.vhd
+R21
+Z403 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/mp3_cpu_struct.vhd
+Z404 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/mp3_cpu_struct.vhd
 l0
 L16
 VZ1O^ZL<7N^hX`QT;SHWH72
 R13
 32
-Z416 !s108 1399028638.660540
-R118
-Z417 !s107 /home/adalton2/ece411/bound3/mp3/hdl/mp3_cpu_struct.vhd|/home/adalton2/ece411/bound3/mp3/hdl/pipelinedp_struct.vhd|
+R353
+R225
+R354
 R64
 R18
 !s100 WlLa3GZXon89_Az^_n9`i1
@@ -4161,7 +4170,7 @@ R18
 Astruct
 DEx6 ece411 10 pipelinedp 0 22 T2TVYWk1Y94Yk_?^WNVB=0
 DEx6 ece411 6 memory 0 22 BZ][cIZL^OQ6:lSH?9`1G1
-R407
+R397
 DEx4 work 7 mp3_cpu 0 22 Z1O^ZL<7N^hX`QT;SHWH72
 R20
 R7
@@ -4170,24 +4179,24 @@ R9
 l111
 L43
 V2]?Da`kEC_<0OG>Qz:7zR1
+!s100 L8cezTH=3LbL[FM6;DMmm1
 R13
 32
-R416
-R118
-R417
+R353
+R225
+R354
 R64
 R18
-!s100 L8cezTH=3LbL[FM6;DMmm1
 !i10b 1
 Emresp_delay
-Z418 w1393570082
+Z405 w1393570082
 R6
 R7
 R8
 R9
 R10
-Z419 8/home/buris2/ece411/mp2.2/hdl/MRESP_delay_untitled.vhd
-Z420 F/home/buris2/ece411/mp2.2/hdl/MRESP_delay_untitled.vhd
+Z406 8/home/buris2/ece411/mp2.2/hdl/MRESP_delay_untitled.vhd
+Z407 F/home/buris2/ece411/mp2.2/hdl/MRESP_delay_untitled.vhd
 l0
 L17
 Vbb5X=<D@P^;CZC`ZKBLM61
@@ -4225,16 +4234,16 @@ R7
 R8
 R9
 R21
-Z421 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/MUX2_untitled.vhd
-Z422 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/MUX2_untitled.vhd
+Z408 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/MUX2_untitled.vhd
+Z409 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/MUX2_untitled.vhd
 l0
 L17
 VC6D:?<UaoS4ZZE>`m@:ld2
 R13
 33
-Z423 !s108 1399021087.724782
-Z424 !s90 -work|ece411|-nologo|-2008|-f|/tmp/Files42|
-Z425 !s107 /home/lis2/ece411/git/BTB/bound3/mp3/hdl/MUX2_untitled.vhd|/home/lis2/ece411/git/BTB/bound3/mp3/hdl/ORINV2_untitled.vhd|
+Z410 !s108 1399021087.724782
+Z411 !s90 -work|ece411|-nologo|-2008|-f|/tmp/Files42|
+Z412 !s107 /home/lis2/ece411/git/BTB/bound3/mp3/hdl/MUX2_untitled.vhd|/home/lis2/ece411/git/BTB/bound3/mp3/hdl/ORINV2_untitled.vhd|
 R17
 R18
 !s100 7M?h_Zaf:5^]8^BULDQX_0
@@ -4250,30 +4259,30 @@ L30
 V:mB`SVm`5bD^lzFO68QjG0
 R13
 33
-R423
-R424
-R425
+R410
+R411
+R412
 R17
 R18
 !s100 iW5ZkElN51DiFM7Mj_j;A3
 !i10b 1
 Emux2_1
-Z426 w1395294594
+Z413 w1395294594
 R6
 R7
 R8
 R9
-R195
-Z427 8/home/adalton2/ece411/bound3/mp3/hdl/mux2_1_untitled.vhd
-Z428 F/home/adalton2/ece411/bound3/mp3/hdl/mux2_1_untitled.vhd
+R296
+Z414 8/home/adalton2/ece411/bound3/mp3/hdl/mux2_1_untitled.vhd
+Z415 F/home/adalton2/ece411/bound3/mp3/hdl/mux2_1_untitled.vhd
 l0
 L17
 V`I9HTUjSaWh[XLGQz:O210
 R13
 32
-Z429 !s108 1395374258.569570
+Z416 !s108 1395374258.569570
 R118
-Z430 !s107 /home/adalton2/ece411/bound3/mp3/hdl/mp3_cpu_struct.vhd|/home/adalton2/ece411/bound3/mp3/hdl/pipelinedp_struct.vhd|/home/adalton2/ece411/bound3/mp3/hdl/not1_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/mux2_1_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/stage_fetch_struct.vhd|
+Z417 !s107 /home/adalton2/ece411/bound3/mp3/hdl/mp3_cpu_struct.vhd|/home/adalton2/ece411/bound3/mp3/hdl/pipelinedp_struct.vhd|/home/adalton2/ece411/bound3/mp3/hdl/not1_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/mux2_1_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/stage_fetch_struct.vhd|
 R64
 R18
 !s100 DUMRkl?4iXAdS80LE4__V0
@@ -4289,9 +4298,9 @@ L28
 VUVo6fnU[MdoNo>OaCkH[g0
 R13
 32
-R429
+R416
 R118
-R430
+R417
 R64
 R18
 !s100 jY;ndS[OWW>WQl`Fb^Y[A3
@@ -4303,8 +4312,8 @@ R7
 R8
 R9
 R21
-Z431 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/mux2_2_untitled.vhd
-Z432 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/mux2_2_untitled.vhd
+Z418 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/mux2_2_untitled.vhd
+Z419 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/mux2_2_untitled.vhd
 l0
 L17
 V_R[JYK8aH?MBWz[W@0b`N2
@@ -4336,22 +4345,22 @@ R18
 !s100 NPmGm1K8Jg8Y^3Y10bO0V1
 !i10b 1
 Emux2_3
-Z433 w1399005127
+R19
 R20
 R7
 R8
 R9
-R195
-Z434 8/home/adalton2/ece411/bound3/mp3/hdl/mux2_3_untitled.vhd
-Z435 F/home/adalton2/ece411/bound3/mp3/hdl/mux2_3_untitled.vhd
+R21
+Z420 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/mux2_3_untitled.vhd
+Z421 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/mux2_3_untitled.vhd
 l0
 L17
 VFHg]2[FPJoVVn1i58dBUT1
 R13
 32
-R315
+R196
 R118
-R316
+R197
 R64
 R18
 !s100 7Wd38cAnSd2PfbRTT5caV0
@@ -4367,30 +4376,30 @@ L28
 Vcn18<_iD5oc`E2nA5_G;R2
 R13
 32
-R315
+R196
 R118
-R316
+R197
 R64
 R18
 !s100 O^0QBK6YWn;JKd<DozEMP1
 !i10b 1
 Emux2_8
-R433
+R19
 R20
 R7
 R8
 R9
-R195
-Z436 8/home/adalton2/ece411/bound3/mp3/hdl/mux2_8_untitled.vhd
-Z437 F/home/adalton2/ece411/bound3/mp3/hdl/mux2_8_untitled.vhd
+R21
+Z422 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/mux2_8_untitled.vhd
+Z423 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/mux2_8_untitled.vhd
 l0
 L17
 Vm6BdBOz@[_c3>2h2^HHBX0
 R13
 32
-Z438 !s108 1399005941.523292
-R296
-Z439 !s107 /home/adalton2/ece411/bound3/mp3/hdl/TagCompare_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/oWordMux8_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/BitMux2_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/mux2_8_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/MUX8_1_untitled.vhd|
+R196
+R118
+R197
 R64
 R18
 !s100 W@@Rz=1aW=V^?1<KIA<Aj2
@@ -4406,9 +4415,9 @@ L28
 VA`CMBO46?K3B;mCLd_5V60
 R13
 32
-R438
-R296
-R439
+R196
+R118
+R197
 R64
 R18
 !s100 cLFGEC0[O;XhDiNmhcaMi3
@@ -4420,8 +4429,8 @@ R7
 R8
 R9
 R21
-Z440 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/mux4_1_untitled.vhd
-Z441 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/mux4_1_untitled.vhd
+Z424 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/mux4_1_untitled.vhd
+Z425 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/mux4_1_untitled.vhd
 l0
 L17
 V_Qil_:[a@4o_]o`06@VV50
@@ -4459,8 +4468,8 @@ R7
 R8
 R9
 R21
-Z442 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/mux4_16_untitled.vhd
-Z443 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/mux4_16_untitled.vhd
+Z426 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/mux4_16_untitled.vhd
+Z427 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/mux4_16_untitled.vhd
 l0
 L17
 VAGf_2WRkHJemd3674g=7X2
@@ -4498,8 +4507,8 @@ R7
 R8
 R9
 R21
-Z444 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/mux4_2_untitled.vhd
-Z445 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/mux4_2_untitled.vhd
+Z428 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/mux4_2_untitled.vhd
+Z429 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/mux4_2_untitled.vhd
 l0
 L17
 V[S@E]Zh8bID?XhL85<1WQ1
@@ -4531,22 +4540,22 @@ R18
 !s100 fL]^i1^IEmRHoWU5o496[2
 !i10b 1
 Emux8_1
-R194
+R19
 R20
 R7
 R8
 R9
-R195
-Z446 8/home/adalton2/ece411/bound3/mp3/hdl/MUX8_1_untitled.vhd
-Z447 F/home/adalton2/ece411/bound3/mp3/hdl/MUX8_1_untitled.vhd
+R21
+Z430 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/MUX8_1_untitled.vhd
+Z431 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/MUX8_1_untitled.vhd
 l0
 L17
 VUGfk0>@J7:M0Q?CzDAH3f2
 R13
 32
-R438
-R296
-R439
+R196
+R118
+R197
 R64
 R18
 !s100 ]71Md?[8AhBM0:1`zW46K3
@@ -4562,30 +4571,30 @@ L36
 V>KBW@EK1UFcOOVHRbgDf;0
 R13
 32
-R438
-R296
-R439
+R196
+R118
+R197
 R64
 R18
 !s100 ZZ4RaJf;L88=YO>f1aJdP0
 !i10b 1
 Emux8_3
-R194
+R19
 R20
 R7
 R8
 R9
-R195
-Z448 8/home/adalton2/ece411/bound3/mp3/hdl/MUX8_3_untitled.vhd
-Z449 F/home/adalton2/ece411/bound3/mp3/hdl/MUX8_3_untitled.vhd
+R21
+Z432 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/MUX8_3_untitled.vhd
+Z433 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/MUX8_3_untitled.vhd
 l0
 L17
 V]VaFmTRG4Un:nbFZSehVC1
 R13
 32
-R315
+R196
 R118
-R316
+R197
 R64
 R18
 !s100 EeYCn_CbA_UN60C=7bE^E2
@@ -4601,30 +4610,30 @@ L36
 VAAY^e]_5IYQFSV6MokFiW3
 R13
 32
-R315
+R196
 R118
-R316
+R197
 R64
 R18
 !s100 N:DmJ49LGLZ^_9H3]?[<e0
 !i10b 1
 Emux8_9
-R194
+R19
 R20
 R7
 R8
 R9
-R195
-Z450 8/home/adalton2/ece411/bound3/mp3/hdl/MUX8_9_untitled.vhd
-Z451 F/home/adalton2/ece411/bound3/mp3/hdl/MUX8_9_untitled.vhd
+R21
+Z434 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/MUX8_9_untitled.vhd
+Z435 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/MUX8_9_untitled.vhd
 l0
 L17
 Vm=A]ZIjNnS0]5U1]gM?O^2
 R13
 32
-Z452 !s108 1399005942.411667
-Z453 !s90 -work|ece411|-nologo|-f|/tmp/Files6|
-Z454 !s107 /home/adalton2/ece411/bound3/mp3/hdl/MUX8_9_untitled.vhd|
+R196
+R118
+R197
 R64
 R18
 !s100 O<Xa]U4N1>T@a^bA6He>Y3
@@ -4640,9 +4649,9 @@ L36
 VUkYaD@a;TQX^fJ3@9WBm;1
 R13
 32
-R452
-R453
-R454
+R196
+R118
+R197
 R64
 R18
 !s100 6SFN18BQ^=ndol]d@WN3m3
@@ -4654,8 +4663,8 @@ R7
 R8
 R9
 R21
-Z455 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/NAND2_untitled.vhd
-Z456 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/NAND2_untitled.vhd
+Z436 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/NAND2_untitled.vhd
+Z437 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/NAND2_untitled.vhd
 l0
 L17
 VzdgVW``fjQVC>ocYSJZUb0
@@ -4687,14 +4696,14 @@ R18
 !s100 4:1<BlP0d=Sde8[Vo0^9E3
 !i10b 1
 Enand3
-Z457 w1392877773
+Z438 w1392877773
 R6
 R7
 R8
 R9
 R10
-Z458 8/home/buris2/ece411/mp2.2/hdl/NAND3_untitled.vhd
-Z459 F/home/buris2/ece411/mp2.2/hdl/NAND3_untitled.vhd
+Z439 8/home/buris2/ece411/mp2.2/hdl/NAND3_untitled.vhd
+Z440 F/home/buris2/ece411/mp2.2/hdl/NAND3_untitled.vhd
 l0
 L17
 VelM7cch;IUO1BOlnE3`od0
@@ -4732,16 +4741,16 @@ R7
 R8
 R9
 R21
-Z460 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/NOR2_untitled.vhd
-Z461 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/NOR2_untitled.vhd
+Z441 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/NOR2_untitled.vhd
+Z442 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/NOR2_untitled.vhd
 l0
 L17
 V1i6jDDQ?T@JdbQKb@zfkY1
 R13
 33
-R395
-R396
-R397
+R388
+R389
+R390
 R17
 R18
 !s100 R;go>Mz_D92:n]9N0^hPe3
@@ -4757,30 +4766,30 @@ L29
 VGkdZ?eZff_K0kkJ:ZUo@d2
 R13
 33
-R395
-R396
-R397
+R388
+R389
+R390
 R17
 R18
 !s100 [lF];fj26c2TOo8PQ708I3
 !i10b 1
 Enor3
-R433
+Z443 w1399005127
 R20
 R7
 R8
 R9
-R195
-Z462 8/home/adalton2/ece411/bound3/mp3/hdl/nor3_untitled.vhd
-Z463 F/home/adalton2/ece411/bound3/mp3/hdl/nor3_untitled.vhd
+R296
+Z444 8/home/adalton2/ece411/bound3/mp3/hdl/nor3_untitled.vhd
+Z445 F/home/adalton2/ece411/bound3/mp3/hdl/nor3_untitled.vhd
 l0
 L17
 VQB`DW4lE3_I[7cS`N@6:z2
 R13
 32
-Z464 !s108 1399005952.419966
-Z465 !s90 -work|ece411|-nologo|-f|/tmp/Files30|
-Z466 !s107 /home/adalton2/ece411/bound3/mp3/hdl/nor3_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/stage_data_struct.vhd|
+Z446 !s108 1399005952.419966
+Z447 !s90 -work|ece411|-nologo|-f|/tmp/Files30|
+Z448 !s107 /home/adalton2/ece411/bound3/mp3/hdl/nor3_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/stage_data_struct.vhd|
 R64
 R18
 !s100 kV]>?KiB[d3niYX?=oEjV3
@@ -4796,30 +4805,30 @@ L28
 Vele5n2TD_e]kJ[A0lVFD_3
 R13
 32
-R464
-R465
-R466
+R446
+R447
+R448
 R64
 R18
 !s100 ZH<m>=C2aK_jakjGIjYfI0
 !i10b 1
 Enot1
-Z467 w1399018336
+Z449 w1399018336
 R20
 R7
 R8
 R9
 R21
-Z468 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/not1_untitled.vhd
-Z469 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/not1_untitled.vhd
+Z450 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/not1_untitled.vhd
+Z451 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/not1_untitled.vhd
 l0
 L17
 VfA?S[1`UQOYRHcS2iUR_92
 R13
 32
-Z470 !s108 1399021076.214937
-Z471 !s90 -work|ece411|-nologo|-f|/tmp/Files12|
-Z472 !s107 /home/lis2/ece411/git/BTB/bound3/mp3/hdl/not1_untitled.vhd|
+Z452 !s108 1399021076.214937
+Z453 !s90 -work|ece411|-nologo|-f|/tmp/Files12|
+Z454 !s107 /home/lis2/ece411/git/BTB/bound3/mp3/hdl/not1_untitled.vhd|
 R64
 R18
 !s100 RIbEXG;jVb7:mbHzDDnjm3
@@ -4835,9 +4844,9 @@ L26
 Vf4`1V:7;60=GI5nOcNH]?2
 R13
 32
-R470
-R471
-R472
+R452
+R453
+R454
 R64
 R18
 !s100 jgFXjmo=TO6R0?3f[2eIb3
@@ -4849,8 +4858,8 @@ R7
 R8
 R9
 R21
-Z473 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/NZP_untitled.vhd
-Z474 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/NZP_untitled.vhd
+Z455 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/NZP_untitled.vhd
+Z456 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/NZP_untitled.vhd
 l0
 L17
 VellCZzTkE5ODo@c;?=aGO2
@@ -4888,8 +4897,8 @@ R7
 R8
 R9
 R21
-Z475 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/NZPsplit_untitled.vhd
-Z476 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/NZPsplit_untitled.vhd
+Z457 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/NZPsplit_untitled.vhd
+Z458 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/NZPsplit_untitled.vhd
 l0
 L17
 VSEkO7W4RZ_7J]2ZE>S[`g2
@@ -4927,16 +4936,16 @@ R7
 R8
 R9
 R21
-Z477 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/OR2_untitled.vhd
-Z478 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/OR2_untitled.vhd
+Z459 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/OR2_untitled.vhd
+Z460 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/OR2_untitled.vhd
 l0
 L17
 VHKeXU<KbGOTgSdAeOIUfn0
 R13
 33
-Z479 !s108 1399021075.976676
-Z480 !s90 -work|ece411|-nologo|-2008|-f|/tmp/Files11|
-Z481 !s107 /home/lis2/ece411/git/BTB/bound3/mp3/hdl/OR2_untitled.vhd|
+Z461 !s108 1399021075.976676
+Z462 !s90 -work|ece411|-nologo|-2008|-f|/tmp/Files11|
+Z463 !s107 /home/lis2/ece411/git/BTB/bound3/mp3/hdl/OR2_untitled.vhd|
 R17
 R18
 !s100 8HGh57kNXzi^1=6?;7BWV1
@@ -4952,9 +4961,9 @@ L29
 V7^;63BmQld2g4g<R42ABn3
 R13
 33
-R479
-R480
-R481
+R461
+R462
+R463
 R17
 R18
 !s100 T0BeMncP[cXTNBBC35<]H1
@@ -4966,8 +4975,8 @@ R7
 R8
 R9
 R21
-Z482 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/OR3_untitled.vhd
-Z483 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/OR3_untitled.vhd
+Z464 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/OR3_untitled.vhd
+Z465 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/OR3_untitled.vhd
 l0
 L17
 VaU21i_GoQ7;CBbX`8>fY:2
@@ -5005,8 +5014,8 @@ R7
 R8
 R9
 R21
-Z484 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/OR3_byte_untitled.vhd
-Z485 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/OR3_byte_untitled.vhd
+Z466 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/OR3_byte_untitled.vhd
+Z467 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/OR3_byte_untitled.vhd
 l0
 L17
 V>3d]Od6j?o5I=zcYYJZR_2
@@ -5044,8 +5053,8 @@ R7
 R8
 R9
 R21
-Z486 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/OR4_untitled.vhd
-Z487 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/OR4_untitled.vhd
+Z468 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/OR4_untitled.vhd
+Z469 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/OR4_untitled.vhd
 l0
 L17
 V@ZL`7l5H?b1<6>]7zJ0QQ0
@@ -5083,16 +5092,16 @@ R7
 R8
 R9
 R21
-Z488 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/ORINV2_untitled.vhd
-Z489 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/ORINV2_untitled.vhd
+Z470 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/ORINV2_untitled.vhd
+Z471 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/ORINV2_untitled.vhd
 l0
 L17
 VV5>nI42DWXb`E9YzCm<2e0
 R13
 33
-R423
-R424
-R425
+R410
+R411
+R412
 R17
 R18
 !s100 479A?1:idk8>SRVCgZIK^2
@@ -5108,22 +5117,22 @@ L29
 V2HRLa4=T5]^=boJHAll]B3
 R13
 33
-R423
-R424
-R425
+R410
+R411
+R412
 R17
 R18
 !s100 BiQ`CgNDJ3aeWl0_=QbJf1
 !i10b 1
 Eoword_split
-Z490 w1392878958
+Z472 w1392878958
 R6
 R7
 R8
 R9
 R10
-Z491 8/home/buris2/ece411/mp2.2/hdl/OWord_split_untitled.vhd
-Z492 F/home/buris2/ece411/mp2.2/hdl/OWord_split_untitled.vhd
+Z473 8/home/buris2/ece411/mp2.2/hdl/OWord_split_untitled.vhd
+Z474 F/home/buris2/ece411/mp2.2/hdl/OWord_split_untitled.vhd
 l0
 L17
 VCYCcP_<mFV_mT]^KnMO_F0
@@ -5161,16 +5170,16 @@ R7
 R8
 R9
 R21
-Z493 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/OWordMux2_untitled.vhd
-Z494 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/OWordMux2_untitled.vhd
+Z475 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/OWordMux2_untitled.vhd
+Z476 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/OWordMux2_untitled.vhd
 l0
 L17
 V?@de_4O@gmHdB7XK=@f8P2
 R13
 33
-Z495 !s108 1399021074.905478
-R253
-Z496 !s107 /home/lis2/ece411/git/BTB/bound3/mp3/hdl/OWordMux2_untitled.vhd|/home/lis2/ece411/git/BTB/bound3/mp3/hdl/WriteLogic_untitled.vhd|
+Z477 !s108 1399021074.905478
+Z478 !s90 -work|ece411|-nologo|-2008|-f|/tmp/Files7|
+Z479 !s107 /home/lis2/ece411/git/BTB/bound3/mp3/hdl/OWordMux2_untitled.vhd|/home/lis2/ece411/git/BTB/bound3/mp3/hdl/WriteLogic_untitled.vhd|
 R17
 R18
 !s100 ^hlRXI:b7=ddDeGj^85=@0
@@ -5186,30 +5195,30 @@ L30
 V?0WiOj[J6Vi3ORX1?DAoL0
 R13
 33
-R495
-R253
-R496
+R477
+R478
+R479
 R17
 R18
 !s100 kM]:BITcPhWPSk1k4^>N:2
 !i10b 1
 Eowordmux8
-R433
+R449
 R20
 R7
 R8
 R9
-R195
-Z497 8/home/adalton2/ece411/bound3/mp3/hdl/oWordMux8_untitled.vhd
-Z498 F/home/adalton2/ece411/bound3/mp3/hdl/oWordMux8_untitled.vhd
+R21
+Z480 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/oWordMux8_untitled.vhd
+Z481 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/oWordMux8_untitled.vhd
 l0
 L17
 VSDG2QOK?hLMc28ZzzHbXo0
 R13
 32
-R438
-R296
-R439
+R196
+R118
+R197
 R64
 R18
 !s100 CXBWBm]aS13=FRaC<=;8C2
@@ -5225,30 +5234,30 @@ L36
 VD7CG;QEo>?oQBSS70;To22
 R13
 32
-R438
-R296
-R439
+R196
+R118
+R197
 R64
 R18
 !s100 Mb_E61B1M1_A42KA7h@2k1
 !i10b 1
 Epcplusoff11
-Z499 w1391751462
+Z482 w1391751462
 R6
 R7
 R8
 R9
 R39
-Z500 8/home/buris2/ece411/mp2/hdl/PCplusoff11_untitled.vhd
-Z501 F/home/buris2/ece411/mp2/hdl/PCplusoff11_untitled.vhd
+Z483 8/home/buris2/ece411/mp2/hdl/PCplusoff11_untitled.vhd
+Z484 F/home/buris2/ece411/mp2/hdl/PCplusoff11_untitled.vhd
 l0
 L17
 V5]mdelHA>24d<Zkk^^Hh11
 R13
 33
-Z502 !s108 1391751593.745572
+Z485 !s108 1391751593.745572
 R50
-Z503 !s107 /home/buris2/ece411/mp2/hdl/PCplusoff11_untitled.vhd|
+Z486 !s107 /home/buris2/ece411/mp2/hdl/PCplusoff11_untitled.vhd|
 R17
 R18
 !s100 fT[PJ`UfUB:AWhU8bn:zD2
@@ -5264,9 +5273,9 @@ L30
 VIcUTz_:0P0L:L9C]P9oBD0
 R13
 33
-R502
+R485
 R50
-R503
+R486
 R17
 R18
 !s100 GkWTZ3:;Ke36U3k[kSN^h1
@@ -5278,8 +5287,8 @@ R7
 R8
 R9
 R21
-Z504 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/Physical_Memory_untitled.vhd
-Z505 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/Physical_Memory_untitled.vhd
+Z487 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/Physical_Memory_untitled.vhd
+Z488 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/Physical_Memory_untitled.vhd
 l0
 L16
 V_0i8MB6QEChzkF3ME]D0o2
@@ -5311,22 +5320,22 @@ R18
 !s100 dSkzRfg8?XN6:aH]:e;Te2
 !i10b 1
 Epipelinedp
-R413
+Z489 w1399028432
 R20
 R7
 R8
 R9
-R195
-Z506 8/home/adalton2/ece411/bound3/mp3/hdl/pipelinedp_struct.vhd
-Z507 F/home/adalton2/ece411/bound3/mp3/hdl/pipelinedp_struct.vhd
+R296
+Z490 8/home/adalton2/ece411/bound3/mp3/hdl/pipelinedp_struct.vhd
+Z491 F/home/adalton2/ece411/bound3/mp3/hdl/pipelinedp_struct.vhd
 l0
 L16
 VT2TVYWk1Y94Yk_?^WNVB=0
 R13
 32
-R416
+Z492 !s108 1399028638.660540
 R118
-R417
+Z493 !s107 /home/adalton2/ece411/bound3/mp3/hdl/mp3_cpu_struct.vhd|/home/adalton2/ece411/bound3/mp3/hdl/pipelinedp_struct.vhd|
 R64
 R18
 !s100 n]WeZ55X`nhWcTC8<5dC02
@@ -5344,13 +5353,13 @@ DEx6 ece411 12 stage_decode 0 22 ]8ES28?n3>5;_PooFMgBl2
 DEx6 ece411 6 delay2 0 22 6Y=J^ebjdhP4fW54OlPji0
 DEx6 ece411 6 delay1 0 22 8CoV5g;mX8meRB4@XT@h62
 DEx6 ece411 11 reset_delay 0 22 ABmV6IE_BzOAk86z?]Y380
-Z508 DEx6 mp3lib 4 reg1 0 22 RZh``8jbYOW?=YoPHJ[DH1
+Z494 DEx6 mp3lib 4 reg1 0 22 RZh``8jbYOW?=YoPHJ[DH1
 DEx6 ece411 6 orinv2 0 22 V5>nI42DWXb`E9YzCm<2e0
-Z509 DEx6 ece411 3 or3 0 22 aU21i_GoQ7;CBbX`8>fY:2
-Z510 DEx6 mp3lib 4 not1 0 22 I]CoP]JP94gOnicG?LBLa3
+Z495 DEx6 ece411 3 or3 0 22 aU21i_GoQ7;CBbX`8>fY:2
+Z496 DEx6 mp3lib 4 not1 0 22 I]CoP]JP94gOnicG?LBLa3
 DEx6 ece411 4 mux2 0 22 C6D:?<UaoS4ZZE>`m@:ld2
 DEx6 ece411 15 dependencycheck 0 22 8Ig`O@FNYHO5:h0Y[I8z_3
-Z511 DEx6 ece411 4 and3 0 22 I]ieMc2hOIf?_XnQ816Y43
+Z497 DEx6 ece411 4 and3 0 22 I]ieMc2hOIf?_XnQ816Y43
 DEx4 work 10 pipelinedp 0 22 T2TVYWk1Y94Yk_?^WNVB=0
 R20
 R7
@@ -5361,9 +5370,9 @@ L55
 V1Qhnm5foiI]m6HAKobH=W0
 R13
 32
-R416
+R492
 R118
-R417
+R493
 R64
 R18
 !s100 f9M=BiYOHRL:0aeG9K3kf0
@@ -5375,16 +5384,16 @@ R7
 R8
 R9
 R21
-Z512 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/Plus2_untitled.vhd
-Z513 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/Plus2_untitled.vhd
+Z498 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/Plus2_untitled.vhd
+Z499 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/Plus2_untitled.vhd
 l0
 L17
 V;NU98<B;jTP]Xo772mo1c2
 R13
 33
-Z514 !s108 1399021081.987852
-Z515 !s90 -work|ece411|-nologo|-2008|-f|/tmp/Files27|
-Z516 !s107 /home/lis2/ece411/git/BTB/bound3/mp3/hdl/Plus2_untitled.vhd|/home/lis2/ece411/git/BTB/bound3/mp3/hdl/RESET_HOLD_untitled.vhd|
+Z500 !s108 1399021081.987852
+Z501 !s90 -work|ece411|-nologo|-2008|-f|/tmp/Files27|
+Z502 !s107 /home/lis2/ece411/git/BTB/bound3/mp3/hdl/Plus2_untitled.vhd|/home/lis2/ece411/git/BTB/bound3/mp3/hdl/RESET_HOLD_untitled.vhd|
 R17
 R18
 !s100 C<JVLb:[nLYzUZNZJ_KJJ0
@@ -5400,9 +5409,9 @@ L29
 VHAMP^kWVSK@R1eHoZWi[G1
 R13
 33
-R514
-R515
-R516
+R500
+R501
+R502
 R17
 R18
 !s100 2F6mcd>zLb58iAmY<LliI0
@@ -5414,16 +5423,16 @@ R7
 R8
 R9
 R21
-Z517 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/RD_CW_ripper_untitled.vhd
-Z518 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/RD_CW_ripper_untitled.vhd
+Z503 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/RD_CW_ripper_untitled.vhd
+Z504 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/RD_CW_ripper_untitled.vhd
 l0
 L17
 VX7cOLJn>mKC3MnkkC8QNR1
 R13
 32
-R269
-R270
-R271
+R266
+R267
+R268
 R64
 R18
 !s100 ^nWz0geRK^o>KVARb1YRG2
@@ -5439,9 +5448,9 @@ L32
 VOQ@^[=jHHVC8g2BNRkk5P1
 R13
 32
-R269
-R270
-R271
+R266
+R267
+R268
 R64
 R18
 !s100 D3[dPNN8MWcbj_lKcgczW0
@@ -5453,16 +5462,16 @@ R7
 R8
 R9
 R21
-Z519 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/RD_IR_ripper_untitled.vhd
-Z520 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/RD_IR_ripper_untitled.vhd
+Z505 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/RD_IR_ripper_untitled.vhd
+Z506 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/RD_IR_ripper_untitled.vhd
 l0
 L17
 V@<KCC4N9lz`R:U@INcJ>I2
 R13
 32
-R269
-R270
-R271
+R266
+R267
+R268
 R64
 R18
 !s100 :<Dg<LmX[>aT5cLm1D@zD0
@@ -5478,30 +5487,30 @@ L30
 VG1Dm:LdjZ`W4hZ=eG30Qj1
 R13
 32
-R269
-R270
-R271
+R266
+R267
+R268
 R64
 R18
 !s100 H0SjcZ>24jcEj2VPV[RBV1
 !i10b 1
 Ereg1
-Z521 w1395294595
+Z507 w1395294595
 R6
 R7
 R8
 R9
-R195
-Z522 8/home/adalton2/ece411/bound3/mp3/hdl/reg1_untitled.vhd
-Z523 F/home/adalton2/ece411/bound3/mp3/hdl/reg1_untitled.vhd
+R296
+Z508 8/home/adalton2/ece411/bound3/mp3/hdl/reg1_untitled.vhd
+Z509 F/home/adalton2/ece411/bound3/mp3/hdl/reg1_untitled.vhd
 l0
 L17
 V3g2R_e>iQWXkanJIK?Ok?1
 R13
 32
-Z524 !s108 1395298018.119792
-R199
-Z525 !s107 /home/adalton2/ece411/bound3/mp3/hdl/stage_fetch_struct.vhd|/home/adalton2/ece411/bound3/mp3/hdl/reg1_untitled.vhd|
+Z510 !s108 1395298018.119792
+R225
+Z511 !s107 /home/adalton2/ece411/bound3/mp3/hdl/stage_fetch_struct.vhd|/home/adalton2/ece411/bound3/mp3/hdl/reg1_untitled.vhd|
 R64
 R18
 !s100 H5MG8h84CO3^[DOaijE=V1
@@ -5517,30 +5526,30 @@ L29
 VYg9`L`7Q@LZ4=[BjAG4Wa1
 R13
 32
-R524
-R199
-R525
+R510
+R225
+R511
 R64
 R18
 !s100 UUKd;ZcIz]GB2Q2WK<9Nj3
 !i10b 1
 Ereg16
-Z526 w1395281180
+Z512 w1395281180
 R6
 R7
 R8
 R9
-R195
-Z527 8/home/adalton2/ece411/bound3/mp3/hdl/Reg16_untitled.vhd
-Z528 F/home/adalton2/ece411/bound3/mp3/hdl/Reg16_untitled.vhd
+R296
+Z513 8/home/adalton2/ece411/bound3/mp3/hdl/Reg16_untitled.vhd
+Z514 F/home/adalton2/ece411/bound3/mp3/hdl/Reg16_untitled.vhd
 l0
 L17
 VEGKT41;e_=Xh2k@SWJFGE3
 R13
 33
-Z529 !s108 1395298017.878536
+Z515 !s108 1395298017.878536
 R15
-Z530 !s107 /home/adalton2/ece411/bound3/mp3/hdl/OR2_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/Reg16_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/WordMux2_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/Plus2_untitled.vhd|
+Z516 !s107 /home/adalton2/ece411/bound3/mp3/hdl/OR2_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/Reg16_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/WordMux2_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/Plus2_untitled.vhd|
 R17
 R18
 !s100 GRAZ3U_>04@@L_eC?TPf>0
@@ -5556,9 +5565,9 @@ L32
 VX>SMXAC1YVOl0J6?S]dn?2
 R13
 33
-R529
+R515
 R15
-R530
+R516
 R17
 R18
 !s100 YH11jXkUd^hVXIM50YZHS0
@@ -5570,16 +5579,16 @@ R7
 R8
 R9
 R21
-Z531 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/REG32_untitled.vhd
-Z532 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/REG32_untitled.vhd
+Z517 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/REG32_untitled.vhd
+Z518 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/REG32_untitled.vhd
 l0
 L17
 VeeWm92X;KYlTC4k=Dn[AH3
 R13
 33
-R346
-R347
-R348
+R342
+R343
+R344
 R17
 R18
 !s100 7f_RcRHhP^MeUWk]5Hc1K2
@@ -5595,30 +5604,30 @@ L29
 VMA6I^4`_012[VF6A6Xc5:0
 R13
 33
-R346
-R347
-R348
+R342
+R343
+R344
 R17
 R18
 !s100 ?@FRCjG;P3^ZIkU`4L;iC2
 !i10b 1
 Eregfile
-R521
+R507
 R6
 R7
 R8
 R9
-R195
-Z533 8/home/adalton2/ece411/bound3/mp3/hdl/regfile_untitled.vhd
-Z534 F/home/adalton2/ece411/bound3/mp3/hdl/regfile_untitled.vhd
+R296
+Z519 8/home/adalton2/ece411/bound3/mp3/hdl/regfile_untitled.vhd
+Z520 F/home/adalton2/ece411/bound3/mp3/hdl/regfile_untitled.vhd
 l0
 L17
 V7B2h49doT[D6Rmlnl3X0<1
 R13
 32
-Z535 !s108 1396491637.227173
+Z521 !s108 1396491637.227173
 R118
-Z536 !s107 /home/adalton2/ece411/bound3/mp3/hdl/regfile_untitled.vhd|
+Z522 !s107 /home/adalton2/ece411/bound3/mp3/hdl/regfile_untitled.vhd|
 R64
 R18
 !s100 8dfD=g_cK13cizOE0Q52R1
@@ -5634,20 +5643,20 @@ L33
 V741D`WK7ZZdhcR<13e5na3
 R13
 32
-R535
+R521
 R118
-R536
+R522
 R64
 R18
 !s100 XBAWRU>9MjcMo0YDZOBiE3
 !i10b 1
 Eregfile_dp
-R521
+R507
 R6
 R7
 R8
 R9
-R195
+R296
 8/home/adalton2/ece411/bound3/mp3/hdl/regfile_dp_untitled.vhd
 F/home/adalton2/ece411/bound3/mp3/hdl/regfile_dp_untitled.vhd
 l0
@@ -5663,22 +5672,22 @@ R18
 !s108 1395298344.008376
 !s107 /home/adalton2/ece411/bound3/mp3/hdl/regfile_dp_untitled.vhd|
 Eregmux
-Z537 w1391473207
+Z523 w1391473207
 R6
 R7
 R8
 R9
 R39
-Z538 8/home/buris2/ece411/mp2/hdl/RegMux_untitled.vhd
-Z539 F/home/buris2/ece411/mp2/hdl/RegMux_untitled.vhd
+Z524 8/home/buris2/ece411/mp2/hdl/RegMux_untitled.vhd
+Z525 F/home/buris2/ece411/mp2/hdl/RegMux_untitled.vhd
 l0
 L17
 V@oTSf5DdKkC^fK?Ce]n9M3
 R13
 33
-Z540 !s108 1391473345.261148
+Z526 !s108 1391473345.261148
 R50
-Z541 !s107 /home/buris2/ece411/mp2/hdl/RegMux_untitled.vhd|
+Z527 !s107 /home/buris2/ece411/mp2/hdl/RegMux_untitled.vhd|
 R17
 R18
 !s100 jS_JYn>Dej=IzgiWHa]HO3
@@ -5694,9 +5703,9 @@ L30
 Vb4U<^KKXZ;=o1@3FGBeP00
 R13
 33
-R540
+R526
 R50
-R541
+R527
 R17
 R18
 !s100 S6n7AdLjQ]BhC?Da<H5YX2
@@ -5708,16 +5717,16 @@ R7
 R8
 R9
 R21
-Z542 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/RegMux2_untitled.vhd
-Z543 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/RegMux2_untitled.vhd
+Z528 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/RegMux2_untitled.vhd
+Z529 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/RegMux2_untitled.vhd
 l0
 L17
 VOnfH=0NoBU=9XH1N<SUfX1
 R13
 33
-R346
-R347
-R348
+R342
+R343
+R344
 R17
 R18
 !s100 lDKcV[5C`hk9;Z1I[JIX=1
@@ -5733,9 +5742,9 @@ L30
 Vaz?XRieN8jAQkjSj^S[D92
 R13
 33
-R346
-R347
-R348
+R342
+R343
+R344
 R17
 R18
 !s100 Q^Qn:z5Al:FKJ=@O7]0VO1
@@ -5747,16 +5756,16 @@ R7
 R8
 R9
 R21
-Z544 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/RESET_DELAY_untitled.vhd
-Z545 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/RESET_DELAY_untitled.vhd
+Z530 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/RESET_DELAY_untitled.vhd
+Z531 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/RESET_DELAY_untitled.vhd
 l0
 L17
 VABmV6IE_BzOAk86z?]Y380
 R13
 33
-R257
-R258
-R259
+R254
+R255
+R256
 R17
 R18
 !s100 _7EK9JAB60^Hhhd9TAeZc0
@@ -5772,9 +5781,9 @@ L29
 Vd8C0Dd9kVDU<I_e]CaN<^2
 R13
 33
-R257
-R258
-R259
+R254
+R255
+R256
 R17
 R18
 !s100 Z41CEi7HZSIPSHA<jEGNh3
@@ -5786,16 +5795,16 @@ R7
 R8
 R9
 R21
-Z546 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/RESET_HOLD_untitled.vhd
-Z547 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/RESET_HOLD_untitled.vhd
+Z532 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/RESET_HOLD_untitled.vhd
+Z533 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/RESET_HOLD_untitled.vhd
 l0
 L17
 Vc]BYllhUe8XU175?A]`<42
 R13
 33
-R514
-R515
-R516
+R500
+R501
+R502
 R17
 R18
 !s100 a`]S^_ge@9BHSLX>be7?h1
@@ -5811,30 +5820,30 @@ L28
 V0cUCe=hQm1Y]OSgIVXTE93
 R13
 33
-R514
-R515
-R516
+R500
+R501
+R502
 R17
 R18
 !s100 AO9Sm;bC92<1EoMIi^EEd1
 !i10b 1
 Erwactivehitdelay
-Z548 w1393537296
+Z534 w1393537296
 R6
 R7
 R8
 R9
 R10
-Z549 8/home/buris2/ece411/mp2.2/hdl/RWactiveHITdelay_untitled.vhd
-Z550 F/home/buris2/ece411/mp2.2/hdl/RWactiveHITdelay_untitled.vhd
+Z535 8/home/buris2/ece411/mp2.2/hdl/RWactiveHITdelay_untitled.vhd
+Z536 F/home/buris2/ece411/mp2.2/hdl/RWactiveHITdelay_untitled.vhd
 l0
 L17
 V5MbaY9YzQkfkCD5oN311j3
 R13
 33
-Z551 !s108 1393537470.828114
+Z537 !s108 1393537470.828114
 R50
-Z552 !s107 /home/buris2/ece411/mp2.2/hdl/eq_v0Delay6ns_untitled.vhd|/home/buris2/ece411/mp2.2/hdl/setDelay_untitled.vhd|/home/buris2/ece411/mp2.2/hdl/RWactiveHITdelay_untitled.vhd|
+Z538 !s107 /home/buris2/ece411/mp2.2/hdl/eq_v0Delay6ns_untitled.vhd|/home/buris2/ece411/mp2.2/hdl/setDelay_untitled.vhd|/home/buris2/ece411/mp2.2/hdl/RWactiveHITdelay_untitled.vhd|
 R17
 R18
 !s100 2DKS6eS9]g_L8>a9]_OZb0
@@ -5850,30 +5859,30 @@ L28
 VCIaCBQl68^9>6zkK2H<oB1
 R13
 33
-R551
+R537
 R50
-R552
+R538
 R17
 R18
 !s100 EzlB:6>mL26<d`VChniS82
 !i10b 1
 Esetdelay
-Z553 w1393554379
+Z539 w1393554379
 R6
 R7
 R8
 R9
 R10
-Z554 8/home/buris2/ece411/mp2.2/hdl/setDelay_untitled.vhd
-Z555 F/home/buris2/ece411/mp2.2/hdl/setDelay_untitled.vhd
+Z540 8/home/buris2/ece411/mp2.2/hdl/setDelay_untitled.vhd
+Z541 F/home/buris2/ece411/mp2.2/hdl/setDelay_untitled.vhd
 l0
 L17
 VB?Y`LaT3H[W4=kXQYY`5g1
 R13
 33
-Z556 !s108 1393554546.152509
+Z542 !s108 1393554546.152509
 R50
-Z557 !s107 /home/buris2/ece411/mp2.2/hdl/setDelay_untitled.vhd|
+Z543 !s107 /home/buris2/ece411/mp2.2/hdl/setDelay_untitled.vhd|
 R17
 R18
 !s100 m=Z^1AFfY:i=cGoaXG=8P2
@@ -5889,9 +5898,9 @@ L28
 V2@md>Ef^4J9R:<fHzIA3R1
 R13
 33
-R556
+R542
 R50
-R557
+R543
 R17
 R18
 !s100 <JNTb:cKcIRTFPcUCNGLH0
@@ -5903,8 +5912,8 @@ R7
 R8
 R9
 R21
-Z558 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/SEXT5_untitled.vhd
-Z559 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/SEXT5_untitled.vhd
+Z544 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/SEXT5_untitled.vhd
+Z545 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/SEXT5_untitled.vhd
 l0
 L17
 Vfo:O<ezhP^@>:2OVGgYzg0
@@ -5942,8 +5951,8 @@ R7
 R8
 R9
 R21
-Z560 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/SEXT6_untitled.vhd
-Z561 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/SEXT6_untitled.vhd
+Z546 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/SEXT6_untitled.vhd
+Z547 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/SEXT6_untitled.vhd
 l0
 L17
 VmAB3Z3@9R;gl5KM>G^Q2=1
@@ -5975,14 +5984,14 @@ R18
 !s100 3`[XH^S=6LgdYBMM`25BG2
 !i10b 1
 Esll8_const
-Z562 w1391662724
+Z548 w1391662724
 R6
 R7
 R8
 R9
 R39
-Z563 8/home/buris2/ece411/mp2/hdl/sll8_const_untitled.vhd
-Z564 F/home/buris2/ece411/mp2/hdl/sll8_const_untitled.vhd
+Z549 8/home/buris2/ece411/mp2/hdl/sll8_const_untitled.vhd
+Z550 F/home/buris2/ece411/mp2/hdl/sll8_const_untitled.vhd
 l0
 L17
 VClgF`hJe3mm2?97CCEzVg3
@@ -6020,8 +6029,8 @@ R7
 R8
 R9
 R21
-Z565 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/srcreg_maskcalc_struct.vhd
-Z566 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/srcreg_maskcalc_struct.vhd
+Z551 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/srcreg_maskcalc_struct.vhd
+Z552 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/srcreg_maskcalc_struct.vhd
 l0
 L16
 Vc[cZm17BIeAO>9MJQazU=1
@@ -6035,14 +6044,14 @@ R18
 !s100 GWTLi816BM`UEIll;8Ebi1
 !i10b 1
 Astruct
-R281
-R282
+R278
+R279
 DEx6 ece411 12 rd_ir_ripper 0 22 @<KCC4N9lz`R:U@INcJ>I2
 DEx6 ece411 12 rd_cw_ripper 0 22 X7cOLJn>mKC3MnkkC8QNR1
-R276
-R283
-R284
-R285
+R273
+R280
+R281
+R282
 DEx4 work 15 srcreg_maskcalc 0 22 c[cZm17BIeAO>9MJQazU=1
 R20
 R7
@@ -6061,14 +6070,14 @@ R18
 !s100 hP_CGLXKFccbRI^7zMC210
 !i10b 1
 Esrcregmux_calc
-R272
+R269
 R20
 R7
 R8
 R9
 R21
-Z567 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/srcregmux_calc_struct.vhd
-Z568 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/srcregmux_calc_struct.vhd
+Z553 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/srcregmux_calc_struct.vhd
+Z554 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/srcregmux_calc_struct.vhd
 l0
 L16
 Vb0?Ui=_R6_Gl2kzA>L:hm0
@@ -6082,9 +6091,9 @@ R18
 !s100 N<b51[>1M0ELO6mTMOHU41
 !i10b 1
 Astruct
-R275
+R272
 DEx6 mp3lib 6 mux2_2 0 22 IP]mM73=SVV6@ZSN_UheD1
-R278
+R275
 R121
 DEx4 work 14 srcregmux_calc 0 22 b0?Ui=_R6_Gl2kzA>L:hm0
 R20
@@ -6104,30 +6113,30 @@ R18
 !s100 In3[VcJm9iSf6Dn7^@j?B2
 !i10b 1
 Estage_data
-Z569 w1399020864
+Z555 w1399020864
 R20
 R7
 R8
 R9
 R21
-Z570 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/stage_data_struct.vhd
-Z571 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/stage_data_struct.vhd
+Z556 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/stage_data_struct.vhd
+Z557 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/stage_data_struct.vhd
 l0
 L16
 V5fLOjTO^]M:@2j=jX3;X70
 R13
 32
-Z572 !s108 1399021083.865919
-Z573 !s90 -work|ece411|-nologo|-f|/tmp/Files33|
-Z574 !s107 /home/lis2/ece411/git/BTB/bound3/mp3/hdl/stage_decode_struct.vhd|/home/lis2/ece411/git/BTB/bound3/mp3/hdl/stage_data_struct.vhd|
+Z558 !s108 1399021083.865919
+Z559 !s90 -work|ece411|-nologo|-f|/tmp/Files33|
+Z560 !s107 /home/lis2/ece411/git/BTB/bound3/mp3/hdl/stage_decode_struct.vhd|/home/lis2/ece411/git/BTB/bound3/mp3/hdl/stage_data_struct.vhd|
 R64
 R18
 !s100 o`>fZfX:`f48L<`G2ga@V1
 !i10b 1
 Astruct
-Z575 DEx6 ece411 5 reg32 0 22 eeWm92X;KYlTC4k=Dn[AH3
-Z576 DEx6 mp3lib 5 reg16 0 22 Y5^D[?8WibZah^Ro<[Gg90
-R508
+Z561 DEx6 ece411 5 reg32 0 22 eeWm92X;KYlTC4k=Dn[AH3
+Z562 DEx6 mp3lib 5 reg16 0 22 Y5^D[?8WibZah^Ro<[Gg90
+R494
 R121
 DEx4 work 10 stage_data 0 22 5fLOjTO^]M:@2j=jX3;X70
 R20
@@ -6139,40 +6148,40 @@ L54
 V;W[UPgHl^X_GlBKz>WP@P0
 R13
 32
-R572
-R573
-R574
+R558
+R559
+R560
 R64
 R18
 !s100 49jib<gD`A3hH?JCF3YSh3
 !i10b 1
 Estage_decode
-R569
+R555
 R20
 R7
 R8
 R9
 R21
-Z577 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/stage_decode_struct.vhd
-Z578 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/stage_decode_struct.vhd
+Z563 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/stage_decode_struct.vhd
+Z564 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/stage_decode_struct.vhd
 l0
 L16
 V]8ES28?n3>5;_PooFMgBl2
 R13
 32
-R572
-R573
-R574
+R558
+R559
+R560
 R64
 R18
 !s100 Qe:HdeYT]ga?GJMlBBhbL1
 !i10b 1
 Astruct
-Z579 DEx6 ece411 10 stage_data 0 22 5fLOjTO^]M:@2j=jX3;X70
-R237
+Z565 DEx6 ece411 10 stage_data 0 22 5fLOjTO^]M:@2j=jX3;X70
+R235
 DEx6 ece411 7 regmux2 0 22 OnfH=0NoBU=9XH1N<SUfX1
 DEx6 mp3lib 7 regfile 0 22 m5ejle]mg9ifgR`:_97>P3
-R576
+R562
 DEx6 ece411 13 irregsplitter 0 22 JQJbVRVzh^D[MTRWEciO`0
 DEx6 ece411 6 cw_rom 0 22 0Go>^8e5A>`KRb:Nc?ni:3
 DEx6 ece411 13 cw1sig_ripper 0 22 R;f<Aho6iXTHcHG7fZ[f@1
@@ -6186,49 +6195,49 @@ L65
 VoBEE3]RJhVg]IWde0eUBU3
 R13
 32
-R572
-R573
-R574
+R558
+R559
+R560
 R64
 R18
 !s100 <?n`bhoEHV_`PaWoG>n3[1
 !i10b 1
 Estage_execute
-Z580 w1399020865
+Z566 w1399020865
 R20
 R7
 R8
 R9
 R21
-Z581 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/stage_execute_struct.vhd
-Z582 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/stage_execute_struct.vhd
+Z567 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/stage_execute_struct.vhd
+Z568 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/stage_execute_struct.vhd
 l0
 L16
 VWj3_?:fD407c4H3zje^6X0
 R13
 32
-Z583 !s108 1399021085.082714
-Z584 !s90 -work|ece411|-nologo|-f|/tmp/Files35|
-Z585 !s107 /home/lis2/ece411/git/BTB/bound3/mp3/hdl/stage_execute_struct.vhd|
+Z569 !s108 1399021085.082714
+Z570 !s90 -work|ece411|-nologo|-f|/tmp/Files35|
+Z571 !s107 /home/lis2/ece411/git/BTB/bound3/mp3/hdl/stage_execute_struct.vhd|
 R64
 R18
 !s100 UK2hh4QEfU723UISz5m_U2
 !i10b 1
 Astruct
-R579
+R565
 DEx6 ece411 7 amp3alu 0 22 L3N4?<jaj<gb]nj0>FA^32
 DEx6 ece411 5 zext4 0 22 2?CnC@bSNjW8n:@8dXKnH0
 DEx6 ece411 8 wordmux8 0 22 1JfLn=m82fGaB<_J=dCG41
 R176
 DEx6 ece411 5 sext6 0 22 mAB3Z3@9R;gl5KM>G^Q2=1
-R238
-R575
-R576
-Z586 DEx6 ece411 5 nand2 0 22 zdgVW``fjQVC>ocYSJZUb0
+R236
+R561
+R562
+Z572 DEx6 ece411 5 nand2 0 22 zdgVW``fjQVC>ocYSJZUb0
 DEx6 ece411 13 ir2sig_ripper 0 22 f_2>U?hVWI=CU>2?XUOYQ3
 DEx6 ece411 9 dwordmux2 0 22 @XEm>]X<<m:;2YGnEDj^f0
 DEx6 ece411 13 cw2sig_ripper 0 22 TLozAdDZ2b11hicJBd<il0
-Z587 DEx6 ece411 4 adj9 0 22 Oz0;:_Z2:IfC:G86hR2An0
+Z573 DEx6 ece411 4 adj9 0 22 Oz0;:_Z2:IfC:G86hR2An0
 DEx6 ece411 4 adj6 0 22 ^Q@<@k1X^HBF[l6IWFT^h2
 DEx4 work 13 stage_execute 0 22 Wj3_?:fD407c4H3zje^6X0
 R20
@@ -6240,9 +6249,9 @@ L65
 V4?ka7VE`>S468MOP8@k4Y3
 R13
 32
-R583
-R584
-R585
+R569
+R570
+R571
 R64
 R18
 !s100 ]ld>Gi;Wj?IXDN93a_OJZ1
@@ -6254,8 +6263,8 @@ R7
 R8
 R9
 R21
-Z588 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/stage_fetch_struct.vhd
-Z589 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/stage_fetch_struct.vhd
+Z574 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/stage_fetch_struct.vhd
+Z575 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/stage_fetch_struct.vhd
 l0
 L16
 VWIB7YQFKKeb09Sd0OYTeD1
@@ -6271,10 +6280,10 @@ R18
 Astruct
 R176
 DEx6 ece411 10 reset_hold 0 22 c]BYllhUe8XU175?A]`<42
-R576
-R508
-R239
-R510
+R562
+R494
+R237
+R496
 DEx6 mp3lib 4 nor2 0 22 U2b;366?jjX^6TJhOA>XL2
 DEx6 ece411 3 btb 0 22 KbLX8>H]DCjFld]j`a=7N2
 DEx4 work 11 stage_fetch 0 22 WIB7YQFKKeb09Sd0OYTeD1
@@ -6295,41 +6304,41 @@ R18
 !s100 Hc0K@M38cMmheScl5Dm5X0
 !i10b 1
 Estage_memory
-Z590 w1399024614
+Z576 w1399024614
 R20
 R7
 R8
 R9
-R195
-Z591 8/home/adalton2/ece411/bound3/mp3/hdl/stage_memory_struct.vhd
-Z592 F/home/adalton2/ece411/bound3/mp3/hdl/stage_memory_struct.vhd
+R296
+Z577 8/home/adalton2/ece411/bound3/mp3/hdl/stage_memory_struct.vhd
+Z578 F/home/adalton2/ece411/bound3/mp3/hdl/stage_memory_struct.vhd
 l0
 L16
 VW5eeJZ4dSVV3ZlmPIIN<[3
 R13
 32
-Z593 !s108 1399024820.871230
+Z579 !s108 1399024820.871230
 R118
-Z594 !s107 /home/adalton2/ece411/bound3/mp3/hdl/mp3_cpu_struct.vhd|/home/adalton2/ece411/bound3/mp3/hdl/pipelinedp_struct.vhd|/home/adalton2/ece411/bound3/mp3/hdl/stage_memory_struct.vhd|
+Z580 !s107 /home/adalton2/ece411/bound3/mp3/hdl/mp3_cpu_struct.vhd|/home/adalton2/ece411/bound3/mp3/hdl/pipelinedp_struct.vhd|/home/adalton2/ece411/bound3/mp3/hdl/stage_memory_struct.vhd|
 R64
 R18
 !s100 oR6o1Q^bGS?:fhJfYmYaR2
 !i10b 1
 Astruct
-R579
+R565
 DEx6 ece411 10 generatecc 0 22 z:]hJC7<BWA?Pnf_`TD^?0
 DEx6 ece411 8 zexttrap 0 22 mJ]Y>D7iLK;SeHC=AZl5g3
 DEx6 ece411 5 zext8 0 22 a>4`9ai88f`9BEP^GCR2L2
-R237
+R235
 R176
 DEx6 ece411 10 wrbyte_sel 0 22 <YA=b19B2>SA1nIm0AJ5K3
-R576
-R239
-R509
+R562
+R237
+R495
 R179
 DEx6 ece411 8 nzpsplit 0 22 SEkO7W4RZ_7J]2ZE>S[`g2
 DEx6 ece411 3 nzp 0 22 ellCZzTkE5ODo@c;?=aGO2
-R586
+R572
 DEx6 ece411 8 memalign 0 22 Z^VV:PR5lWnlHM[Y;PP=D1
 DEx6 ece411 7 lshft_8 0 22 ckLk7>]PKnd4:cl5]noK@1
 DEx6 ece411 9 ldistirom 0 22 [<QcERU5CAo=J>:IoYJ];0
@@ -6340,10 +6349,10 @@ DEx6 ece411 12 ir3sigripper 0 22 ojEQ]VPlHD3nW4kj]03e70
 DEx6 ece411 13 cw3sig_ripper 0 22 o;8Ll5PjN[F]Gok0[dkg80
 DEx6 mp3lib 6 comp16 0 22 RDjaj1XONl4RSZde@b^n]0
 DEx6 ece411 9 branchadd 0 22 [nClGNDgPdz:dS:K0hG>G1
-R278
-R511
+R275
+R497
 R121
-R587
+R573
 DEx6 ece411 5 adj11 0 22 gWi>R`9EaoBlK85dB^kOF3
 DEx4 work 12 stage_memory 0 22 W5eeJZ4dSVV3ZlmPIIN<[3
 R20
@@ -6355,38 +6364,38 @@ L76
 VUUSUOeQZ@4SV>e`2eB<TS1
 R13
 32
-R593
+R579
 R118
-R594
+R580
 R64
 R18
 !s100 U:LFje5HU2Vf7GW<C<oR;0
 !i10b 1
 Estage_writeback
-Z595 w1399026405
+Z581 w1399026405
 R20
 R7
 R8
 R9
-R195
-Z596 8/home/adalton2/ece411/bound3/mp3/hdl/stage_writeback_struct.vhd
-Z597 F/home/adalton2/ece411/bound3/mp3/hdl/stage_writeback_struct.vhd
+R296
+Z582 8/home/adalton2/ece411/bound3/mp3/hdl/stage_writeback_struct.vhd
+Z583 F/home/adalton2/ece411/bound3/mp3/hdl/stage_writeback_struct.vhd
 l0
 L16
 V<cE3fil`MoUZoi>LYKYVT3
 R13
 32
-Z598 !s108 1399026612.500423
+Z584 !s108 1399026612.500423
 R118
-Z599 !s107 /home/adalton2/ece411/bound3/mp3/hdl/mp3_cpu_struct.vhd|/home/adalton2/ece411/bound3/mp3/hdl/pipelinedp_struct.vhd|/home/adalton2/ece411/bound3/mp3/hdl/stage_writeback_struct.vhd|
+Z585 !s107 /home/adalton2/ece411/bound3/mp3/hdl/mp3_cpu_struct.vhd|/home/adalton2/ece411/bound3/mp3/hdl/pipelinedp_struct.vhd|/home/adalton2/ece411/bound3/mp3/hdl/stage_writeback_struct.vhd|
 R64
 R18
 !s100 hU^DAeILGmHI7RZIESnnP0
 !i10b 1
 Astruct
 R176
-R576
-R239
+R562
+R237
 DEx6 ece411 13 irdest_ripper 0 22 gX5OS5e]>KcOJAjAUMWUA0
 DEx6 ece411 13 cw4sig_ripper 0 22 `Q98U0S7ZAaXNO3^25NQJ3
 R121
@@ -6400,30 +6409,30 @@ L58
 VUEoD9fG]k[W`3Po47NU^H3
 R13
 32
-R598
+R584
 R118
-R599
+R585
 R64
 R18
 !s100 JZjWGT^WDTHi9>zM>i]kk2
 !i10b 1
 Estoremux
-Z600 w1391474120
+Z586 w1391474120
 R6
 R7
 R8
 R9
 R39
-Z601 8/home/buris2/ece411/mp2/hdl/StoreMux_untitled.vhd
-Z602 F/home/buris2/ece411/mp2/hdl/StoreMux_untitled.vhd
+Z587 8/home/buris2/ece411/mp2/hdl/StoreMux_untitled.vhd
+Z588 F/home/buris2/ece411/mp2/hdl/StoreMux_untitled.vhd
 l0
 L17
 VTKb4`DG3DCcfJB1P?kgJX1
 R13
 33
-Z603 !s108 1391474258.683313
+Z589 !s108 1391474258.683313
 R50
-Z604 !s107 /home/buris2/ece411/mp2/hdl/StoreMux_untitled.vhd|
+Z590 !s107 /home/buris2/ece411/mp2/hdl/StoreMux_untitled.vhd|
 R17
 R18
 !s100 eRU<N=_o^cdB7[9jnY6nG0
@@ -6439,22 +6448,22 @@ L31
 V_PT<26JAIi2Wa_V@CS_=;0
 R13
 33
-R603
+R589
 R50
-R604
+R590
 R17
 R18
 !s100 d<9;Jbme>A@E``nGeFmoK1
 !i10b 1
 Etag_compare
-Z605 w1392361029
+Z591 w1392361029
 R6
 R7
 R8
 R9
 R10
-Z606 8/home/buris2/ece411/mp2.2/hdl/Tag_Compare_untitled.vhd
-Z607 F/home/buris2/ece411/mp2.2/hdl/Tag_Compare_untitled.vhd
+Z592 8/home/buris2/ece411/mp2.2/hdl/Tag_Compare_untitled.vhd
+Z593 F/home/buris2/ece411/mp2.2/hdl/Tag_Compare_untitled.vhd
 l0
 L17
 VZcAl;fJePU;dHGOKHWW5d1
@@ -6492,8 +6501,8 @@ R7
 R8
 R9
 R21
-Z608 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/TagArray_untitled.vhd
-Z609 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/TagArray_untitled.vhd
+Z594 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/TagArray_untitled.vhd
+Z595 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/TagArray_untitled.vhd
 l0
 L10
 V1T=IHgcMlYXXg<7gWEkf=2
@@ -6531,16 +6540,16 @@ R7
 R8
 R9
 R21
-Z610 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/TagCompare_untitled.vhd
-Z611 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/TagCompare_untitled.vhd
+Z596 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/TagCompare_untitled.vhd
+Z597 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/TagCompare_untitled.vhd
 l0
 L17
 V3]<f?:1j;]zhdZ<jfmc3N1
 R13
 32
-Z612 !s108 1399021075.726270
-R358
-Z613 !s107 /home/lis2/ece411/git/BTB/bound3/mp3/hdl/TagCompare_untitled.vhd|
+Z598 !s108 1399021075.726270
+Z599 !s90 -work|ece411|-nologo|-f|/tmp/Files10|
+Z600 !s107 /home/lis2/ece411/git/BTB/bound3/mp3/hdl/TagCompare_untitled.vhd|
 R64
 R18
 !s100 3hDA^cckF;B@=NK=4XY^80
@@ -6556,30 +6565,30 @@ L26
 VcW4[c@6^:?g=Y=7c2c7AD3
 R13
 32
-R612
-R358
-R613
+R598
+R599
+R600
 R64
 R18
 !s100 ;YI0n2i615^We0lnC:k;82
 !i10b 1
 Etagdelay20ns
-Z614 w1393575876
+Z601 w1393575876
 R6
 R7
 R8
 R9
 R10
-Z615 8/home/buris2/ece411/mp2.2/hdl/tagDelay20ns_untitled.vhd
-Z616 F/home/buris2/ece411/mp2.2/hdl/tagDelay20ns_untitled.vhd
+Z602 8/home/buris2/ece411/mp2.2/hdl/tagDelay20ns_untitled.vhd
+Z603 F/home/buris2/ece411/mp2.2/hdl/tagDelay20ns_untitled.vhd
 l0
 L17
 Vd_X^aB6Z=g;EGI1:[iDjA2
 R13
 33
-Z617 !s108 1393576094.273005
+Z604 !s108 1393576094.273005
 R50
-Z618 !s107 /home/buris2/ece411/mp2.2/hdl/clk_delay_untitled.vhd|/home/buris2/ece411/mp2.2/hdl/tagDelay20ns_untitled.vhd|
+Z605 !s107 /home/buris2/ece411/mp2.2/hdl/clk_delay_untitled.vhd|/home/buris2/ece411/mp2.2/hdl/tagDelay20ns_untitled.vhd|
 R17
 R18
 !s100 e[6_IG93LM:UL8Q=Q?U0a3
@@ -6595,9 +6604,9 @@ L28
 VR6TL@L3iUEFF[8cngfL_`1
 R13
 33
-R617
+R604
 R50
-R618
+R605
 R17
 R18
 !s100 8KZ3Tl>jo]JVfB8JQFedo1
@@ -6609,16 +6618,16 @@ R7
 R8
 R9
 R21
-Z619 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/TagMux_untitled.vhd
-Z620 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/TagMux_untitled.vhd
+Z606 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/TagMux_untitled.vhd
+Z607 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/TagMux_untitled.vhd
 l0
 L17
 V1[P8oC=T1]5K]BND:4djP3
 R13
 32
-Z621 !s108 1399021074.585508
-R453
-Z622 !s107 /home/lis2/ece411/git/BTB/bound3/mp3/hdl/WayMux_untitled.vhd|/home/lis2/ece411/git/BTB/bound3/mp3/hdl/TagMux_untitled.vhd|
+Z608 !s108 1399021074.585508
+Z609 !s90 -work|ece411|-nologo|-f|/tmp/Files6|
+Z610 !s107 /home/lis2/ece411/git/BTB/bound3/mp3/hdl/WayMux_untitled.vhd|/home/lis2/ece411/git/BTB/bound3/mp3/hdl/TagMux_untitled.vhd|
 R64
 R18
 !s100 cYZz4`_7fCcTTlSXGIQe:1
@@ -6634,30 +6643,30 @@ L30
 VD[Cbf]g=Pk]nl9Hjm7Qin3
 R13
 32
-R621
-R453
-R622
+R608
+R609
+R610
 R64
 R18
 !s100 =SC1HGH]V0Sbh2B_K2jRn1
 !i10b 1
 Etrue8lru
-R351
+R347
 R20
 R7
 R8
 R9
-R195
-Z623 8/home/adalton2/ece411/bound3/mp3/hdl/true8lru_struct.vhd
-Z624 F/home/adalton2/ece411/bound3/mp3/hdl/true8lru_struct.vhd
+R21
+Z611 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/true8lru_struct.vhd
+Z612 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/true8lru_struct.vhd
 l0
 L16
 V><Bh[>b_=EPo0ldJ`d^lB1
 R13
 32
-R198
-R199
-R200
+R196
+R118
+R197
 R64
 R18
 !s100 AV:IJ5B<ANVh`[<RPTNoS3
@@ -6665,11 +6674,11 @@ R18
 Astruct
 DEx6 ece411 13 true8lruarray 0 22 2L`@ikn7`EmOkkm7[0i3T3
 R120
-R509
+R495
 R179
 DEx6 ece411 6 mux8_3 0 22 ]VaFmTRG4Un:nbFZSehVC1
 DEx6 ece411 6 mux2_3 0 22 FHg]2[FPJoVVn1i58dBUT1
-R360
+R355
 DEx6 ece411 5 comp3 0 22 6Njd^B]0Ce^5LU>2O;;<M3
 DEx4 work 8 true8lru 0 22 ><Bh[>b_=EPo0ldJ`d^lB1
 R20
@@ -6681,30 +6690,30 @@ L54
 V;O5fLb3f1?_mG8W8Dhm]W1
 R13
 32
-R198
-R199
-R200
+R196
+R118
+R197
 R64
 R18
 !s100 3Z4?@dPjbod9fPSVGm?463
 !i10b 1
 Etrue8lruarray
-R194
+R19
 R20
 R7
 R8
 R9
-R195
-Z625 8/home/adalton2/ece411/bound3/mp3/hdl/TRUE8LRUArray_untitled.vhd
-Z626 F/home/adalton2/ece411/bound3/mp3/hdl/TRUE8LRUArray_untitled.vhd
+R21
+Z613 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/TRUE8LRUArray_untitled.vhd
+Z614 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/TRUE8LRUArray_untitled.vhd
 l0
 L17
 V2L`@ikn7`EmOkkm7[0i3T3
 R13
 32
-R315
+R196
 R118
-R316
+R197
 R64
 R18
 !s100 JPOU8zIZ1^XJd72[6K5;U0
@@ -6720,9 +6729,9 @@ L30
 V3DU;7AU:?BMJ0F1D5o=Y<2
 R13
 32
-R315
+R196
 R118
-R316
+R197
 R64
 R18
 !s100 5PmC<^_eccFoPf9Yd7>Db3
@@ -6734,16 +6743,16 @@ R7
 R8
 R9
 R21
-Z627 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/TwoBitMux2_untitled.vhd
-Z628 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/TwoBitMux2_untitled.vhd
+Z615 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/TwoBitMux2_untitled.vhd
+Z616 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/TwoBitMux2_untitled.vhd
 l0
 L17
 VWSI_:8lXTjSHAI<6=`g6G3
 R13
 33
-Z629 !s108 1399021076.466236
-Z630 !s90 -work|ece411|-nologo|-2008|-f|/tmp/Files13|
-Z631 !s107 /home/lis2/ece411/git/BTB/bound3/mp3/hdl/TwoBitMux2_untitled.vhd|
+Z617 !s108 1399021076.466236
+Z618 !s90 -work|ece411|-nologo|-2008|-f|/tmp/Files13|
+Z619 !s107 /home/lis2/ece411/git/BTB/bound3/mp3/hdl/TwoBitMux2_untitled.vhd|
 R17
 R18
 !s100 ^WIOG7TCNKSZf8f]Q`]nR2
@@ -6759,36 +6768,36 @@ L33
 VaY;V:<nY0aKIhT?2TLBS:3
 R13
 33
-R629
-R630
-R631
+R617
+R618
+R619
 R17
 R18
 !s100 DUfk7Loe8AW;9Wb@QHJBC3
 !i10b 1
 Evalid_delay_4ns
-Z632 w1397710125
-Z633 DPx6 ece411 10 lc3b_types 0 22 `5nK;HlWBS=5idE:WATN62
+Z620 w1397710125
+Z621 DPx6 ece411 10 lc3b_types 0 22 `5nK;HlWBS=5idE:WATN62
 R7
 R8
 R9
-R195
-Z634 8/home/adalton2/ece411/bound3/mp3/hdl/valid_delay_4ns_untitled.vhd
-Z635 F/home/adalton2/ece411/bound3/mp3/hdl/valid_delay_4ns_untitled.vhd
+R296
+Z622 8/home/adalton2/ece411/bound3/mp3/hdl/valid_delay_4ns_untitled.vhd
+Z623 F/home/adalton2/ece411/bound3/mp3/hdl/valid_delay_4ns_untitled.vhd
 l0
 L17
 V`[QDblHT_Ub]OAR=`@gdO0
 R13
 32
-Z636 !s108 1397800492.130325
+Z624 !s108 1397800492.130325
 R118
-Z637 !s107 /home/adalton2/ece411/bound3/mp3/hdl/stage_fetch_struct.vhd|/home/adalton2/ece411/bound3/mp3/hdl/dependencycheck_struct.vhd|/home/adalton2/ece411/bound3/mp3/hdl/byte_splitter_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/OR4_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/destreg_maskcalc_struct.vhd|/home/adalton2/ece411/bound3/mp3/hdl/valid_delay_4ns_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/WR_IR_ripper_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/WR_CW_ripper_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/srcreg_maskcalc_struct.vhd|/home/adalton2/ece411/bound3/mp3/hdl/bit_to_byte_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/AND2_byte_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/OR3_byte_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/valid_delay_6ns_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/DeMUX3_8_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/RD_IR_ripper_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/RD_CW_ripper_untitled.vhd|
+Z625 !s107 /home/adalton2/ece411/bound3/mp3/hdl/stage_fetch_struct.vhd|/home/adalton2/ece411/bound3/mp3/hdl/dependencycheck_struct.vhd|/home/adalton2/ece411/bound3/mp3/hdl/byte_splitter_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/OR4_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/destreg_maskcalc_struct.vhd|/home/adalton2/ece411/bound3/mp3/hdl/valid_delay_4ns_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/WR_IR_ripper_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/WR_CW_ripper_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/srcreg_maskcalc_struct.vhd|/home/adalton2/ece411/bound3/mp3/hdl/bit_to_byte_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/AND2_byte_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/OR3_byte_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/valid_delay_6ns_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/DeMUX3_8_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/RD_IR_ripper_untitled.vhd|/home/adalton2/ece411/bound3/mp3/hdl/RD_CW_ripper_untitled.vhd|
 R64
 R18
 !s100 FafC4kZ[O0gF>:a:l4;Vz3
 !i10b 1
 Auntitled
-R633
+R621
 R7
 R8
 R9
@@ -6798,36 +6807,36 @@ L28
 V7:hVfVP@=UE8EbYkMQ7^?1
 R13
 32
-R636
+R624
 R118
-R637
+R625
 R64
 R18
 !s100 3Pl7cATDBcVNVL:[j01kO2
 !i10b 1
 Evalid_delay_6ns
-Z638 w1397710247
-R633
+Z626 w1397710247
+R621
 R7
 R8
 R9
-R195
-Z639 8/home/adalton2/ece411/bound3/mp3/hdl/valid_delay_6ns_untitled.vhd
-Z640 F/home/adalton2/ece411/bound3/mp3/hdl/valid_delay_6ns_untitled.vhd
+R296
+Z627 8/home/adalton2/ece411/bound3/mp3/hdl/valid_delay_6ns_untitled.vhd
+Z628 F/home/adalton2/ece411/bound3/mp3/hdl/valid_delay_6ns_untitled.vhd
 l0
 L17
 V[U`X8?R`PgKY?mWnVgd1U1
 R13
 32
-R636
+R624
 R118
-R637
+R625
 R64
 R18
 !s100 Ac9;NnQ5L2^`W2>B50_860
 !i10b 1
 Auntitled
-R633
+R621
 R7
 R8
 R9
@@ -6837,9 +6846,9 @@ L28
 VIMg:kUmF=nVzZL[I>KNUP1
 R13
 32
-R636
+R624
 R118
-R637
+R625
 R64
 R18
 !s100 ;^QcN@J98H:YaH8V53flG3
@@ -6851,8 +6860,8 @@ R7
 R8
 R9
 R21
-Z641 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/ValidArray_untitled.vhd
-Z642 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/ValidArray_untitled.vhd
+Z629 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/ValidArray_untitled.vhd
+Z630 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/ValidArray_untitled.vhd
 l0
 L10
 V^YjoWiI<Lhf5=ZPE0Za;E2
@@ -6884,22 +6893,22 @@ R18
 !s100 FeNOhAcO;cmnF]c=@]zGV2
 !i10b 1
 Evaliddelay
-Z643 w1393526958
+Z631 w1393526958
 R6
 R7
 R8
 R9
 R10
-Z644 8/home/buris2/ece411/mp2.2/hdl/validDelay_untitled.vhd
-Z645 F/home/buris2/ece411/mp2.2/hdl/validDelay_untitled.vhd
+Z632 8/home/buris2/ece411/mp2.2/hdl/validDelay_untitled.vhd
+Z633 F/home/buris2/ece411/mp2.2/hdl/validDelay_untitled.vhd
 l0
 L17
 VmMAg:J>Bhh1R?cIFD8:bN0
 R13
 33
-Z646 !s108 1393527125.581196
+Z634 !s108 1393527125.581196
 R50
-Z647 !s107 /home/buris2/ece411/mp2.2/hdl/validDelay_untitled.vhd|
+Z635 !s107 /home/buris2/ece411/mp2.2/hdl/validDelay_untitled.vhd|
 R17
 R18
 !s100 Woc6K<74Ef9H4Q?HPYYCB0
@@ -6915,22 +6924,22 @@ L28
 V6fLT?NSCU@g3>A2Ea:AJ:1
 R13
 33
-R646
+R634
 R50
-R647
+R635
 R17
 R18
 !s100 jmiiYkmIdQ2<APB6VnDE^1
 !i10b 1
 Eway
-R467
+R449
 R20
 R7
 R8
 R9
 R21
-Z648 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/way_struct.vhd
-Z649 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/way_struct.vhd
+Z636 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/way_struct.vhd
+Z637 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/way_struct.vhd
 l0
 L16
 VTlV?zH6b1ZIk0?hW^cHhd3
@@ -6972,16 +6981,16 @@ R7
 R8
 R9
 R21
-Z650 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/WayMux_untitled.vhd
-Z651 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/WayMux_untitled.vhd
+Z638 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/WayMux_untitled.vhd
+Z639 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/WayMux_untitled.vhd
 l0
 L17
 Vzg5=P8XG1RHef_n1=faB[0
 R13
 32
-R621
-R453
-R622
+R608
+R609
+R610
 R64
 R18
 !s100 kj<MO?187W6O3GJA4LBbe0
@@ -6997,30 +7006,30 @@ L39
 Ve6>UKRgoRDV9R<e0R1VSW3
 R13
 32
-R621
-R453
-R622
+R608
+R609
+R610
 R64
 R18
 !s100 MTT:Ug9RVb15m=9o4XP^j2
 !i10b 1
 Ewaymux8
-Z652 w1398810700
+Z640 w1398810700
 R20
 R7
 R8
 R9
-Z653 d/team/ece411/G21/bound33/mp3/compile
-Z654 8/team/ece411/G21/bound33/mp3/hdl/WayMux8_untitled.vhd
-Z655 F/team/ece411/G21/bound33/mp3/hdl/WayMux8_untitled.vhd
+Z641 d/team/ece411/G21/bound33/mp3/compile
+Z642 8/team/ece411/G21/bound33/mp3/hdl/WayMux8_untitled.vhd
+Z643 F/team/ece411/G21/bound33/mp3/hdl/WayMux8_untitled.vhd
 l0
 L17
 VF>B8LOR:HW=aRd>FW<kPj1
 R13
 32
-Z656 !s108 1399001693.975886
+Z644 !s108 1399001693.975886
 R118
-Z657 !s107 /team/ece411/G21/bound33/mp3/hdl/WayMux8_untitled.vhd|/team/ece411/G21/bound33/mp3/hdl/true8lru_struct.vhd|/team/ece411/G21/bound33/mp3/hdl/COMP3_untitled.vhd|
+Z645 !s107 /team/ece411/G21/bound33/mp3/hdl/WayMux8_untitled.vhd|/team/ece411/G21/bound33/mp3/hdl/true8lru_struct.vhd|/team/ece411/G21/bound33/mp3/hdl/COMP3_untitled.vhd|
 R64
 R18
 !s100 Hi[Gb0K0^]39JIomTJ1c40
@@ -7036,30 +7045,30 @@ L54
 V`n^`Aa4AJ8i1K3?MlK[U92
 R13
 32
-R656
+R644
 R118
-R657
+R645
 R64
 R18
 !s100 YW^46Z7OEeolZB3dNh3SY1
 !i10b 1
 Ewordjoin8
-Z658 w1393352480
+Z646 w1393352480
 R6
 R7
 R8
 R9
 R10
-Z659 8/home/buris2/ece411/mp2.2/hdl/WordJoin8_untitled.vhd
-Z660 F/home/buris2/ece411/mp2.2/hdl/WordJoin8_untitled.vhd
+Z647 8/home/buris2/ece411/mp2.2/hdl/WordJoin8_untitled.vhd
+Z648 F/home/buris2/ece411/mp2.2/hdl/WordJoin8_untitled.vhd
 l0
 L17
 V9MZDbj`L?zoD6GJgg[bCF3
 R13
 33
-Z661 !s108 1393353298.367116
-Z662 !s90 -work|ece411|-nologo|-2008|-f|/tmp/Files3|
-Z663 !s107 /home/buris2/ece411/mp2.2/hdl/WordJoin8_untitled.vhd|
+Z649 !s108 1393353298.367116
+Z650 !s90 -work|ece411|-nologo|-2008|-f|/tmp/Files3|
+Z651 !s107 /home/buris2/ece411/mp2.2/hdl/WordJoin8_untitled.vhd|
 R17
 R18
 !s100 dWf5f76zD2Z@9acW<=GPz0
@@ -7075,9 +7084,9 @@ L35
 VAAZ88J;eQXQ0G>G21:UXV1
 R13
 33
-R661
-R662
-R663
+R649
+R650
+R651
 R17
 R18
 !s100 o<Hl0VUN7D0ao0B=boz1d2
@@ -7089,16 +7098,16 @@ R7
 R8
 R9
 R21
-Z664 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/WordMux2_untitled.vhd
-Z665 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/WordMux2_untitled.vhd
+Z652 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/WordMux2_untitled.vhd
+Z653 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/WordMux2_untitled.vhd
 l0
 L17
 VchV^DOK@EjF@N=S6RF9oX3
 R13
 33
-Z666 !s108 1399021073.763001
-R662
-Z667 !s107 /home/lis2/ece411/git/BTB/bound3/mp3/hdl/WordMux2_untitled.vhd|
+Z654 !s108 1399021073.763001
+R650
+Z655 !s107 /home/lis2/ece411/git/BTB/bound3/mp3/hdl/WordMux2_untitled.vhd|
 R17
 R18
 !s100 zRZ@nTf;C`OHMX97mbm6f0
@@ -7114,9 +7123,9 @@ L30
 VO@fZnCoOi0@_Ro:?llFV23
 R13
 33
-R666
-R662
-R667
+R654
+R650
+R655
 R17
 R18
 !s100 3d1jC^c^zXHCAXc5SmK;;3
@@ -7128,16 +7137,16 @@ R7
 R8
 R9
 R21
-Z668 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/WordMux4_untitled.vhd
-Z669 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/WordMux4_untitled.vhd
+Z656 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/WordMux4_untitled.vhd
+Z657 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/WordMux4_untitled.vhd
 l0
 L17
 VAnF=49S>JKLHFl4n`O7lN2
 R13
 33
-R346
-R347
-R348
+R342
+R343
+R344
 R17
 R18
 !s100 O8NC@miJfL1LBA2[BZm3_0
@@ -7153,30 +7162,30 @@ L32
 V:79dJH3=T@ckA<ABGhJEU3
 R13
 33
-R346
-R347
-R348
+R342
+R343
+R344
 R17
 R18
 !s100 @:2AY^C`SS=?o=XYNfk2M3
 !i10b 1
 Ewordmux5
-Z670 w1391481089
+Z658 w1391481089
 R6
 R7
 R8
 R9
 R39
-Z671 8/home/buris2/ece411/mp2/hdl/WordMux6_untitled.vhd
-Z672 F/home/buris2/ece411/mp2/hdl/WordMux6_untitled.vhd
+Z659 8/home/buris2/ece411/mp2/hdl/WordMux6_untitled.vhd
+Z660 F/home/buris2/ece411/mp2/hdl/WordMux6_untitled.vhd
 l0
 L17
 VWYgC]3?_G>?Kg7<PI8Ke31
 R13
 33
-Z673 !s108 1391482220.443076
+Z661 !s108 1391482220.443076
 R50
-Z674 !s107 /home/buris2/ece411/mp2/hdl/WordMux6_untitled.vhd|/home/buris2/ece411/mp2/hdl/IR_untitled.vhd|
+Z662 !s107 /home/buris2/ece411/mp2/hdl/WordMux6_untitled.vhd|/home/buris2/ece411/mp2/hdl/IR_untitled.vhd|
 R17
 R18
 !s100 Lch320=6Xme@ERZJo9;;G0
@@ -7192,9 +7201,9 @@ L33
 VCVWV=:g1d3>UhgdG8k2;:1
 R13
 33
-R673
+R661
 R50
-R674
+R662
 R17
 R18
 !s100 ^UilGnVE[PjREF8TcQG=H2
@@ -7206,8 +7215,8 @@ R7
 R8
 R9
 R21
-Z675 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/WordMux8_untitled.vhd
-Z676 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/WordMux8_untitled.vhd
+Z663 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/WordMux8_untitled.vhd
+Z664 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/WordMux8_untitled.vhd
 l0
 L17
 V1JfLn=m82fGaB<_J=dCG41
@@ -7239,14 +7248,14 @@ R18
 !s100 A?bgX[2e4f9Rg2FfjGnDG1
 !i10b 1
 Ewordsplit
-Z677 w1393346778
+Z665 w1393346778
 R6
 R7
 R8
 R9
 R10
-Z678 8/home/buris2/ece411/mp2.2/hdl/wordsplit_untitled.vhd
-Z679 F/home/buris2/ece411/mp2.2/hdl/wordsplit_untitled.vhd
+Z666 8/home/buris2/ece411/mp2.2/hdl/wordsplit_untitled.vhd
+Z667 F/home/buris2/ece411/mp2.2/hdl/wordsplit_untitled.vhd
 l0
 L17
 VjQ5l49^1>]]THIoPZ19PU2
@@ -7278,22 +7287,22 @@ R18
 !s100 H]gQ_lIPMKD63@5aSi6fJ2
 !i10b 1
 Ewordwrite
-Z680 w1393621682
+Z668 w1393621682
 R6
 R7
 R8
 R9
 R10
-Z681 8/home/buris2/ece411/mp2.2/hdl/wordwrite_struct.vhd
-Z682 F/home/buris2/ece411/mp2.2/hdl/wordwrite_struct.vhd
+Z669 8/home/buris2/ece411/mp2.2/hdl/wordwrite_struct.vhd
+Z670 F/home/buris2/ece411/mp2.2/hdl/wordwrite_struct.vhd
 l0
 L16
 VM6m^in;:eUjhKaC;oM[1h1
 R13
 32
-R411
+R401
 R118
-R412
+R402
 R64
 R18
 !s100 z>U[n]h=i<1V4mhQE87;H1
@@ -7302,7 +7311,7 @@ Astruct
 DEx6 ece411 9 wordjoin8 0 22 9MZDbj`L?zoD6GJgg[bCF3
 DEx6 ece411 8 wrtoword 0 22 WBihjM3d]J<b>3OCW_jU82
 DEx6 ece411 11 oword_split 0 22 CYCcP_<mFV_mT]^KnMO_F0
-R361
+R356
 DEx4 work 9 wordwrite 0 22 M6m^in;:eUjhKaC;oM[1h1
 R6
 R7
@@ -7313,9 +7322,9 @@ L47
 V6ebDkiSW:W7>;VL[A4Ie51
 R13
 32
-R411
+R401
 R118
-R412
+R402
 R64
 R18
 !s100 ]om_6]HogOKh_kPW^>1IB0
@@ -7327,8 +7336,8 @@ R7
 R8
 R9
 R21
-Z683 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/WR_CW_ripper_untitled.vhd
-Z684 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/WR_CW_ripper_untitled.vhd
+Z671 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/WR_CW_ripper_untitled.vhd
+Z672 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/WR_CW_ripper_untitled.vhd
 l0
 L17
 V@BGm:oHhVP]hT1o7aQX1T2
@@ -7366,8 +7375,8 @@ R7
 R8
 R9
 R21
-Z685 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/WR_IR_ripper_untitled.vhd
-Z686 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/WR_IR_ripper_untitled.vhd
+Z673 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/WR_IR_ripper_untitled.vhd
+Z674 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/WR_IR_ripper_untitled.vhd
 l0
 L17
 VJgOLNgUomm0`@na1EW;oE1
@@ -7405,8 +7414,8 @@ R7
 R8
 R9
 R21
-Z687 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/WRbyte_sel_untitled.vhd
-Z688 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/WRbyte_sel_untitled.vhd
+Z675 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/WRbyte_sel_untitled.vhd
+Z676 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/WRbyte_sel_untitled.vhd
 l0
 L17
 V<YA=b19B2>SA1nIm0AJ5K3
@@ -7444,16 +7453,16 @@ R7
 R8
 R9
 R21
-Z689 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/WriteLogic_untitled.vhd
-Z690 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/WriteLogic_untitled.vhd
+Z677 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/WriteLogic_untitled.vhd
+Z678 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/WriteLogic_untitled.vhd
 l0
 L17
 VU``2B<nRRbOaolif^IgNS1
 R13
 33
-R495
-R253
-R496
+R477
+R478
+R479
 R17
 R18
 !s100 ;>mz^VG0B6<XM3`FeZI680
@@ -7469,30 +7478,30 @@ L32
 V69e_4hd;48I<hIM9HQNC63
 R13
 33
-R495
-R253
-R496
+R477
+R478
+R479
 R17
 R18
 !s100 KFh4F;`f?]dS>?z1Nl:am0
 !i10b 1
 Ewrtoword
-R680
+R668
 R6
 R7
 R8
 R9
 R10
-Z691 8/home/buris2/ece411/mp2.2/hdl/wrtoword_struct.vhd
-Z692 F/home/buris2/ece411/mp2.2/hdl/wrtoword_struct.vhd
+Z679 8/home/buris2/ece411/mp2.2/hdl/wrtoword_struct.vhd
+Z680 F/home/buris2/ece411/mp2.2/hdl/wrtoword_struct.vhd
 l0
 L16
 VWBihjM3d]J<b>3OCW_jU82
 R13
 32
-R411
+R401
 R118
-R412
+R402
 R64
 R18
 !s100 WYRL8zBdBJRC4g7X2J1I`2
@@ -7501,7 +7510,7 @@ Astruct
 DEx6 ece411 9 wordsplit 0 22 jQ5l49^1>]]THIoPZ19PU2
 DEx6 ece411 8 bytemux2 0 22 hXd8W<GezECfdLPId`iFd1
 DEx6 ece411 8 bytejoin 0 22 N]F9ZQE;F3la39S8Z4;Ca2
-R278
+R275
 DEx4 work 8 wrtoword 0 22 WBihjM3d]J<b>3OCW_jU82
 R6
 R7
@@ -7512,9 +7521,9 @@ L47
 V7=NIM[ThF@z5@Em[R@DXi0
 R13
 32
-R411
+R401
 R118
-R412
+R402
 R64
 R18
 !s100 VM>NH7mM_SQl2JRCLR4lH0
@@ -7526,8 +7535,8 @@ R7
 R8
 R9
 R21
-Z693 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/ZEXT4_untitled.vhd
-Z694 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/ZEXT4_untitled.vhd
+Z681 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/ZEXT4_untitled.vhd
+Z682 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/ZEXT4_untitled.vhd
 l0
 L17
 V2?CnC@bSNjW8n:@8dXKnH0
@@ -7565,8 +7574,8 @@ R7
 R8
 R9
 R21
-Z695 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/ZEXT8_untitled.vhd
-Z696 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/ZEXT8_untitled.vhd
+Z683 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/ZEXT8_untitled.vhd
+Z684 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/ZEXT8_untitled.vhd
 l0
 L17
 Va>4`9ai88f`9BEP^GCR2L2
@@ -7604,8 +7613,8 @@ R7
 R8
 R9
 R21
-Z697 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/ZEXTtrap_untitled.vhd
-Z698 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/ZEXTtrap_untitled.vhd
+Z685 8/home/lis2/ece411/git/BTB/bound3/mp3/hdl/ZEXTtrap_untitled.vhd
+Z686 F/home/lis2/ece411/git/BTB/bound3/mp3/hdl/ZEXTtrap_untitled.vhd
 l0
 L17
 VmJ]Y>D7iLK;SeHC=AZl5g3
