@@ -16,10 +16,10 @@ USE ece411.LC3b_types.all;
 
 ENTITY BranchAdd IS
    PORT( 
-      ADJ9out : IN     LC3b_word;
-      PC1out  : IN     lc3b_word;
-      clk     : IN     std_logic;
-      BranchAddout  : OUT    lc3b_word
+      ADJ9out      : IN     LC3b_word;
+      clk          : IN     std_logic;
+      BranchAddout : OUT    lc3b_word;
+      PC4out       : IN     lc3b_word
    );
 
 -- Declarations
@@ -29,6 +29,6 @@ END BranchAdd ;
 --
 ARCHITECTURE untitled OF BranchAdd IS
 BEGIN
-  BranchAddout <= std_logic_vector(unsigned(ADJ9out) + unsigned(PC1out)) after DELAY_ADDER;
+  BranchAddout <= std_logic_vector(unsigned(ADJ9out) + unsigned(PC4out) + "10") after DELAY_ADDER;
 END ARCHITECTURE untitled;
 

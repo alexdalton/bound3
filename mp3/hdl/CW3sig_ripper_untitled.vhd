@@ -26,6 +26,8 @@ ENTITY CW3sig_ripper IS
       istrap        : OUT     std_logic;
       STIOP : OUT   std_logic;
       LDIOP : OUT   std_logic;
+      branch: out   std_logic;
+      uncondJMP : OUT std_logic;
       writeType    : OUT    std_logic_vector (1 DOWNTO 0)
    );
 
@@ -44,7 +46,9 @@ BEGIN
   writeType <= CW3out(17 downto 16);
   istrap <= CW3out(7);
   byteOP <= CW3out(10);
+  uncondJMP <= CW3out(11);
   STIOP <= CW3out(6);
   LDIOP <= CW3out(5);
+  branch <= CW3out(12);
 END ARCHITECTURE untitled;
 

@@ -16,10 +16,10 @@ USE ece411.LC3b_types.all;
 
 ENTITY JSRAdd IS
    PORT( 
-      ADJ11out   : IN     LC3b_word;
-      PC1out     : IN     lc3b_word;
-      clk        : IN     std_logic;
-      JSRAddout : OUT    lc3b_word
+      ADJ11out  : IN     LC3b_word;
+      clk       : IN     std_logic;
+      JSRAddout : OUT    lc3b_word;
+      PC4out    : IN     lc3b_word
    );
 
 -- Declarations
@@ -29,6 +29,6 @@ END JSRAdd ;
 --
 ARCHITECTURE untitled OF JSRAdd IS
 BEGIN
-  JSRAddout <= std_logic_vector(unsigned(ADJ11out) + unsigned(PC1out)) after DELAY_ADDER;
+  JSRAddout <= std_logic_vector(unsigned(ADJ11out) + unsigned(PC4out) + "10") after DELAY_ADDER;
 END ARCHITECTURE untitled;
 

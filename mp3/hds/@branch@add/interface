@@ -26,7 +26,7 @@ model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
 ordering 1
-suid 8,0
+suid 20,0
 usingSuid 1
 emptyRow *1 (LEmptyRow
 )
@@ -71,10 +71,10 @@ decl (Decl
 n "ADJ9out"
 t "LC3b_word"
 o 1
-suid 5,0
+suid 17,0
 )
 )
-uid 179,0
+uid 332,0
 )
 *15 (LogPort
 port (LogicalPort
@@ -83,33 +83,33 @@ m 1
 decl (Decl
 n "BranchAddout"
 t "lc3b_word"
-o 4
-suid 6,0
+o 3
+suid 18,0
 )
 )
-uid 181,0
+uid 334,0
 )
 *16 (LogPort
 port (LogicalPort
 decl (Decl
-n "PC1out"
-t "lc3b_word"
+n "clk"
+t "std_logic"
 o 2
-suid 7,0
+suid 19,0
 )
 )
-uid 183,0
+uid 336,0
 )
 *17 (LogPort
 port (LogicalPort
 decl (Decl
-n "clk"
-t "std_logic"
-o 3
-suid 8,0
+n "PC4out"
+t "lc3b_word"
+o 4
+suid 20,0
 )
 )
-uid 185,0
+uid 338,0
 )
 ]
 )
@@ -165,25 +165,25 @@ uid 99,0
 litem &14
 pos 0
 dimension 20
-uid 180,0
+uid 333,0
 )
 *24 (MRCItem
 litem &15
 pos 1
 dimension 20
-uid 182,0
+uid 335,0
 )
 *25 (MRCItem
 litem &16
 pos 2
 dimension 20
-uid 184,0
+uid 337,0
 )
 *26 (MRCItem
 litem &17
 pos 3
 dimension 20
-uid 186,0
+uid 339,0
 )
 ]
 )
@@ -454,19 +454,19 @@ value "/home/adalton2/ece411/bound3/mp3/hds/BranchAdd"
 )
 (vvPair
 variable "date"
-value "04/16/14"
+value "05/02/14"
 )
 (vvPair
 variable "day"
-value "Wed"
+value "Fri"
 )
 (vvPair
 variable "day_long"
-value "Wednesday"
+value "Friday"
 )
 (vvPair
 variable "dd"
-value "16"
+value "02"
 )
 (vvPair
 variable "entity_name"
@@ -494,7 +494,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "gelib-057-40.ews.illinois.edu"
+value "siebl-0220-18.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -510,7 +510,7 @@ value "$HDS_PROJECT_DIR/compile"
 )
 (vvPair
 variable "mm"
-value "04"
+value "05"
 )
 (vvPair
 variable "module_name"
@@ -518,11 +518,11 @@ value "BranchAdd"
 )
 (vvPair
 variable "month"
-value "Apr"
+value "May"
 )
 (vvPair
 variable "month_long"
-value "April"
+value "May"
 )
 (vvPair
 variable "p"
@@ -586,7 +586,7 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "18:29:16"
+value "01:14:50"
 )
 (vvPair
 variable "unit"
@@ -621,80 +621,86 @@ optionalChildren [
 uid 8,0
 optionalChildren [
 *60 (CptPort
-uid 159,0
+uid 312,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 160,0
+uid 313,0
 ro 90
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "14250,10625,15000,11375"
+xt "14250,8625,15000,9375"
 )
 tg (CPTG
-uid 161,0
+uid 314,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 162,0
+uid 315,0
 va (VaSet
 font "courier,8,0"
 )
-xt "16000,10550,19500,11450"
+xt "16000,8550,19500,9450"
 st "ADJ9out"
-blo "16000,11250"
+blo "16000,9250"
 tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 163,0
+uid 316,0
 va (VaSet
 font "courier,8,0"
 )
+xt "44000,1800,61500,2700"
+st "ADJ9out      : IN     LC3b_word  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
 n "ADJ9out"
 t "LC3b_word"
 o 1
-suid 5,0
+suid 17,0
 )
 )
 )
 *61 (CptPort
-uid 164,0
+uid 317,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 165,0
+uid 318,0
 ro 90
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "28000,6625,28750,7375"
+xt "23000,6625,23750,7375"
 )
 tg (CPTG
-uid 166,0
+uid 319,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 167,0
+uid 320,0
 va (VaSet
 font "courier,8,0"
 )
-xt "20500,6550,27000,7450"
+xt "15500,6550,22000,7450"
 st "BranchAddout"
 ju 2
-blo "27000,7250"
+blo "22000,7250"
 tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 168,0
+uid 321,0
 va (VaSet
 font "courier,8,0"
 )
+xt "44000,3600,61500,4500"
+st "BranchAddout : OUT    lc3b_word  ;
+"
 )
 thePort (LogicalPort
 lang 11
@@ -702,92 +708,98 @@ m 1
 decl (Decl
 n "BranchAddout"
 t "lc3b_word"
-o 4
-suid 6,0
+o 3
+suid 18,0
 )
 )
 )
 *62 (CptPort
-uid 169,0
+uid 322,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 170,0
+uid 323,0
 ro 90
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "14250,6625,15000,7375"
+xt "14250,9625,15000,10375"
 )
 tg (CPTG
-uid 171,0
+uid 324,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 172,0
+uid 325,0
 va (VaSet
 font "courier,8,0"
 )
-xt "16000,6550,19000,7450"
-st "PC1out"
-blo "16000,7250"
-tm "CptPortNameMgr"
-)
-)
-dt (MLText
-uid 173,0
-va (VaSet
-font "courier,8,0"
-)
-)
-thePort (LogicalPort
-decl (Decl
-n "PC1out"
-t "lc3b_word"
-o 2
-suid 7,0
-)
-)
-)
-*63 (CptPort
-uid 174,0
-ps "OnEdgeStrategy"
-shape (Triangle
-uid 175,0
-ro 90
-va (VaSet
-vasetType 1
-fg "0,65535,0"
-)
-xt "14250,11625,15000,12375"
-)
-tg (CPTG
-uid 176,0
-ps "CptPortTextPlaceStrategy"
-stg "VerticalLayoutStrategy"
-f (Text
-uid 177,0
-va (VaSet
-font "courier,8,0"
-)
-xt "16000,11550,17500,12450"
+xt "16000,9550,17500,10450"
 st "clk"
-blo "16000,12250"
+blo "16000,10250"
 tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 178,0
+uid 326,0
 va (VaSet
 font "courier,8,0"
 )
+xt "44000,2700,61500,3600"
+st "clk          : IN     std_logic  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
 n "clk"
 t "std_logic"
-o 3
-suid 8,0
+o 2
+suid 19,0
+)
+)
+)
+*63 (CptPort
+uid 327,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 328,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,7625,15000,8375"
+)
+tg (CPTG
+uid 329,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 330,0
+va (VaSet
+font "courier,8,0"
+)
+xt "16000,7550,19000,8450"
+st "PC4out"
+blo "16000,8250"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 331,0
+va (VaSet
+font "courier,8,0"
+)
+xt "44000,4500,60500,5400"
+st "PC4out       : IN     lc3b_word 
+"
+)
+thePort (LogicalPort
+decl (Decl
+n "PC4out"
+t "lc3b_word"
+o 4
+suid 20,0
 )
 )
 )
@@ -800,7 +812,7 @@ fg "0,65535,0"
 lineColor "0,32896,0"
 lineWidth 2
 )
-xt "15000,6000,28000,13000"
+xt "15000,6000,23000,11000"
 )
 oxt "15000,6000,25000,13000"
 biTextGroup (BiTextGroup
@@ -812,18 +824,18 @@ uid 11,0
 va (VaSet
 font "courier,8,1"
 )
-xt "19250,8600,22250,9500"
+xt "16750,7600,19750,8500"
 st "ece411"
-blo "19250,9300"
+blo "16750,8300"
 )
 second (Text
 uid 12,0
 va (VaSet
 font "courier,8,1"
 )
-xt "19250,9500,23750,10400"
+xt "16750,8500,21250,9400"
 st "BranchAdd"
-blo "19250,10200"
+blo "16750,9200"
 )
 )
 gi *64 (GenericInterface
@@ -836,7 +848,7 @@ uid 15,0
 va (VaSet
 font "courier,8,0"
 )
-xt "-9000,4500,1500,5400"
+xt "-11500,3500,-1000,4400"
 st "Generic Declarations"
 )
 header "Generic Declarations"
@@ -1312,7 +1324,7 @@ tm "PanelText"
 )
 parentGraphicsRef (HdmGraphicsRef
 libraryName "ece411"
-entityName "stage_decode"
+entityName "stage_memory"
 viewName "struct.bd"
 )
 defaultSymbolBody (SymbolBody
@@ -1502,6 +1514,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 186,0
+lastUid 339,0
 activeModelName "Symbol:CDM"
 )
