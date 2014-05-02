@@ -603,23 +603,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "/home/adalton2/ece411/bound3/mp3/hdl"
+value "/home/lis2/ece411/git/BTB/bound3/mp3/hdl"
 )
 (vvPair
 variable "HDSDir"
-value "/home/adalton2/ece411/bound3/mp3/hds"
+value "/home/lis2/ece411/git/BTB/bound3/mp3/hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "/home/adalton2/ece411/bound3/mp3/hds/stage_fetch/symbol.sb.info"
+value "/home/lis2/ece411/git/BTB/bound3/mp3/hds/stage_fetch/symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "/home/adalton2/ece411/bound3/mp3/hds/stage_fetch/symbol.sb.user"
+value "/home/lis2/ece411/git/BTB/bound3/mp3/hds/stage_fetch/symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "/home/adalton2/ece411/bound3/mp3/hds"
+value "/home/lis2/ece411/git/BTB/bound3/mp3/hds"
 )
 (vvPair
 variable "appl"
@@ -635,11 +635,11 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "/home/adalton2/ece411/bound3/mp3/hds/stage_fetch"
+value "/home/lis2/ece411/git/BTB/bound3/mp3/hds/stage_fetch"
 )
 (vvPair
 variable "d_logical"
-value "/home/adalton2/ece411/bound3/mp3/hds/stage_fetch"
+value "/home/lis2/ece411/git/BTB/bound3/mp3/hds/stage_fetch"
 )
 (vvPair
 variable "date"
@@ -683,7 +683,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "siebl-0220-18.ews.illinois.edu"
+value "siebl-0220-14.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -719,11 +719,11 @@ value "May"
 )
 (vvPair
 variable "p"
-value "/home/adalton2/ece411/bound3/mp3/hds/stage_fetch/symbol.sb"
+value "/home/lis2/ece411/git/BTB/bound3/mp3/hds/stage_fetch/symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "/home/adalton2/ece411/bound3/mp3/hds/stage_fetch/symbol.sb"
+value "/home/lis2/ece411/git/BTB/bound3/mp3/hds/stage_fetch/symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -779,7 +779,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "02:23:52"
+value "03:21:04"
 )
 (vvPair
 variable "unit"
@@ -787,7 +787,7 @@ value "stage_fetch"
 )
 (vvPair
 variable "user"
-value "adalton2"
+value "lis2"
 )
 (vvPair
 variable "version"
@@ -1566,7 +1566,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "courier,8,0"
 )
-xt "32200,50050,45700,50950"
+xt "32200,50050,43700,50950"
 st "
 by %user on %dd %month %year
 "
@@ -2192,7 +2192,7 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 1984,0
+lastUid 2053,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol:CDM"
