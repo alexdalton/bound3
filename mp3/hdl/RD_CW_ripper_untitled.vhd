@@ -19,7 +19,9 @@ ENTITY RD_CW_ripper IS
       RD_CW   : IN     lc3b_dword;
       src11_9 : OUT    std_logic;
       src2_0  : OUT    std_logic;
-      src8_6  : OUT    std_logic
+      src8_6  : OUT    std_logic;
+      srcAsel : OUT    std_logic;
+      srcBsel : OUT    std_logic
    );
 
 -- Declarations
@@ -32,5 +34,7 @@ BEGIN
   SRC11_9 <= RD_CW(2);
   SRC8_6 <= RD_CW(1);
   SRC2_0 <= RD_CW(0);
+  srcAsel <= RD_CW(31);
+  srcBsel <= RD_CW(30);
 END ARCHITECTURE untitled;
 

@@ -17,7 +17,8 @@ add wave -noupdate /mp3_cpu/DATAPATH/RAW_hazard
 add wave -noupdate /mp3_cpu/DATAPATH/RAW_hazard_clked
 add wave -noupdate /mp3_cpu/DATAPATH/STALL_L
 add wave -noupdate /mp3_cpu/DATAPATH/DECODE_STALL_L
-add wave -noupdate /mp3_cpu/DATAPATH/F2
+add wave -noupdate /mp3_cpu/DATAPATH/stage3/ALU_STALL
+add wave -noupdate /mp3_cpu/DATAPATH/stage3/ALU_STALL_L
 add wave -noupdate -label PC1out /mp3_cpu/DATAPATH/stage2/PC1out
 add wave -noupdate -label IR1out /mp3_cpu/DATAPATH/stage2/IR1out
 add wave -noupdate -label IR2out /mp3_cpu/DATAPATH/stage3/IR2out
@@ -27,14 +28,15 @@ add wave -noupdate /mp3_cpu/DATAPATH/Valid1out
 add wave -noupdate /mp3_cpu/DATAPATH/Valid2out
 add wave -noupdate /mp3_cpu/DATAPATH/Valid3out
 add wave -noupdate /mp3_cpu/DATAPATH/Valid4out
+add wave -noupdate /mp3_cpu/DATAPATH/stage3/ALUout
 add wave -noupdate -label RAM -expand /mp3_cpu/DATAPATH/stage2/aREGFILE/RAM
 TreeUpdate [SetDefaultTree]
-WaveRestoreCursors {{Cursor 1} {110526 ns} 0}
+WaveRestoreCursors {{Cursor 1} {1644 ns} 0}
 quietly wave cursor active 1
-configure wave -namecolwidth 300
+configure wave -namecolwidth 259
 configure wave -valuecolwidth 100
 configure wave -justifyvalue left
-configure wave -signalnamewidth 0
+configure wave -signalnamewidth 1
 configure wave -snapdistance 10
 configure wave -datasetprefix 0
 configure wave -rowmargin 4
@@ -45,4 +47,4 @@ configure wave -griddelta 40
 configure wave -timeline 0
 configure wave -timelineunits ns
 update
-WaveRestoreZoom {109244 ns} {110712 ns}
+WaveRestoreZoom {1480 ns} {1688 ns}

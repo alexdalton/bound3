@@ -118,13 +118,10 @@ VIEW struct.bd
 NO_GRAPHIC 92
 DESIGN @dest@reg_@mask@calc
 VIEW struct.bd
-GRAPHIC 527,0 94 0 
+GRAPHIC 727,0 94 0 
 DESIGN @dest@reg_@mask@calc
 VIEW struct.bd
-GRAPHIC 394,0 96 0 
-DESIGN @dest@reg_@mask@calc
-VIEW struct.bd
-GRAPHIC 539,0 97 0 
+NO_GRAPHIC 98
 LIBRARY mp3lib
 DESIGN @m@u@x2_8
 VIEW @u@n@t@i@t@l@e@d
@@ -165,7 +162,7 @@ VIEW struct.bd
 GRAPHIC 486,0 116 0 
 DESIGN @dest@reg_@mask@calc
 VIEW struct.bd
-GRAPHIC 527,0 117 0 
+GRAPHIC 727,0 117 0 
 DESIGN @dest@reg_@mask@calc
 VIEW struct.bd
 NO_GRAPHIC 120
@@ -219,7 +216,13 @@ VIEW struct.bd
 GRAPHIC 454,0 155 0 
 DESIGN @dest@reg_@mask@calc
 VIEW struct.bd
-GRAPHIC 527,0 157 0 
+GRAPHIC 727,0 157 0 
+DESIGN @dest@reg_@mask@calc
+VIEW struct.bd
+GRAPHIC 394,0 159 0 
+DESIGN @dest@reg_@mask@calc
+VIEW struct.bd
+GRAPHIC 539,0 160 0 
 DESIGN @dest@reg_@mask@calc
 VIEW struct.bd
 GRAPHIC 612,0 162 0 

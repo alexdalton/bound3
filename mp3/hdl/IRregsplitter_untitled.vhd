@@ -23,6 +23,7 @@ ENTITY IRregsplitter IS
       IR2_0  : OUT    lc3b_reg;
       IR5_4  : OUT    LC3B_SHFTOP;
       IR11   : OUT    std_logic;
+      IR5    : OUT    std_logic;
       OPCODE : OUT    LC3B_OPCODE;
       OFFSET9 : OUT   LC3B_OFFSET9;
       OFFSET11: OUT lc3b_OFFSET11;
@@ -42,6 +43,7 @@ BEGIN
   OPCODE <= IR1out(15 downto 12);
   OFFSET11 <= IR1out(10 downto 0);
   IR11 <= IR1out(11);
+  IR5 <= IR1out(5);
   OFFSET9 <= IR1out(8 downto 0);
   IR5_4 <= IR1out(5 downto 4);
   const111 <= "111";
