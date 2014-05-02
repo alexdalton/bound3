@@ -107,7 +107,7 @@ mwi 0
 uid 3037,0
 )
 (Instance
-name "U_2"
+name "aBTB"
 duLibraryName "ece411"
 duName "BTB"
 elements [
@@ -311,7 +311,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "03:21:04"
+value "03:55:13"
 )
 (vvPair
 variable "unit"
@@ -4872,8 +4872,8 @@ uid 3245,0
 va (VaSet
 font "courier,8,1"
 )
-xt "-29250,2900,-27750,3800"
-st "U_2"
+xt "-29250,2900,-27250,3800"
+st "aBTB"
 blo "-29250,3600"
 tm "InstanceNameMgr"
 )
@@ -6724,12 +6724,12 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-6,31,1914,1063"
-viewArea "-50654,-22316,61348,36358"
+windowSize "-6,33,1914,1065"
+viewArea "-40222,-22300,64992,32818"
 cachedDiagramExtent "-57500,-3000,74500,58300"
 hasePageBreakOrigin 1
 pageBreakOrigin "-69000,-51000"
-lastUid 3277,0
+lastUid 3352,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

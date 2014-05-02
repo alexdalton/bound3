@@ -17,7 +17,7 @@ unitName "LC3b_types"
 ]
 instances [
 (Instance
-name "U_0"
+name "aDataArray"
 duLibraryName "ece411"
 duName "BTB_DataArray"
 elements [
@@ -26,7 +26,7 @@ mwi 0
 uid 133,0
 )
 (Instance
-name "U_1"
+name "aTagArray"
 duLibraryName "ece411"
 duName "BTB_TagArray"
 elements [
@@ -35,7 +35,7 @@ mwi 0
 uid 167,0
 )
 (Instance
-name "U_2"
+name "aTakenArray"
 duLibraryName "ece411"
 duName "BTB_TakenArray"
 elements [
@@ -44,7 +44,7 @@ mwi 0
 uid 201,0
 )
 (Instance
-name "U_4"
+name "aValidArray"
 duLibraryName "ece411"
 duName "BTB_ValidArray"
 elements [
@@ -72,23 +72,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "/home/lis2/ece411/git/l2_&_forwarding_done/bound3/mp3/hdl"
+value "/home/lis2/ece411/git/BTB/bound3/mp3/hdl"
 )
 (vvPair
 variable "HDSDir"
-value "/home/lis2/ece411/git/l2_&_forwarding_done/bound3/mp3/hds"
+value "/home/lis2/ece411/git/BTB/bound3/mp3/hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "/home/lis2/ece411/git/l2_&_forwarding_done/bound3/mp3/hds/@b@t@b_way/struct.bd.info"
+value "/home/lis2/ece411/git/BTB/bound3/mp3/hds/@b@t@b_way/struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "/home/lis2/ece411/git/l2_&_forwarding_done/bound3/mp3/hds/@b@t@b_way/struct.bd.user"
+value "/home/lis2/ece411/git/BTB/bound3/mp3/hds/@b@t@b_way/struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "/home/lis2/ece411/git/l2_&_forwarding_done/bound3/mp3/hds"
+value "/home/lis2/ece411/git/BTB/bound3/mp3/hds"
 )
 (vvPair
 variable "appl"
@@ -104,11 +104,11 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "/home/lis2/ece411/git/l2_&_forwarding_done/bound3/mp3/hds/@b@t@b_way"
+value "/home/lis2/ece411/git/BTB/bound3/mp3/hds/@b@t@b_way"
 )
 (vvPair
 variable "d_logical"
-value "/home/lis2/ece411/git/l2_&_forwarding_done/bound3/mp3/hds/BTB_way"
+value "/home/lis2/ece411/git/BTB/bound3/mp3/hds/BTB_way"
 )
 (vvPair
 variable "date"
@@ -184,11 +184,11 @@ value "May"
 )
 (vvPair
 variable "p"
-value "/home/lis2/ece411/git/l2_&_forwarding_done/bound3/mp3/hds/@b@t@b_way/struct.bd"
+value "/home/lis2/ece411/git/BTB/bound3/mp3/hds/@b@t@b_way/struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "/home/lis2/ece411/git/l2_&_forwarding_done/bound3/mp3/hds/BTB_way/struct.bd"
+value "/home/lis2/ece411/git/BTB/bound3/mp3/hds/BTB_way/struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -244,7 +244,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "02:14:03"
+value "03:57:36"
 )
 (vvPair
 variable "unit"
@@ -899,8 +899,8 @@ uid 138,0
 va (VaSet
 font "courier,8,1"
 )
-xt "35500,18800,37000,19700"
-st "U_0"
+xt "35500,18800,41000,19700"
+st "aDataArray"
 blo "35500,19500"
 tm "InstanceNameMgr"
 )
@@ -1270,8 +1270,8 @@ uid 172,0
 va (VaSet
 font "courier,8,1"
 )
-xt "34750,11800,36250,12700"
-st "U_1"
+xt "34750,11800,39250,12700"
+st "aTagArray"
 blo "34750,12500"
 tm "InstanceNameMgr"
 )
@@ -1604,8 +1604,8 @@ uid 206,0
 va (VaSet
 font "courier,8,1"
 )
-xt "35250,25800,36750,26700"
-st "U_2"
+xt "35250,25800,41250,26700"
+st "aTakenArray"
 blo "35250,26500"
 tm "InstanceNameMgr"
 )
@@ -1936,8 +1936,8 @@ uid 274,0
 va (VaSet
 font "courier,8,1"
 )
-xt "35250,32800,36750,33700"
-st "U_4"
+xt "35250,32800,41250,33700"
+st "aValidArray"
 blo "35250,33500"
 tm "InstanceNameMgr"
 )
@@ -4348,11 +4348,11 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "-6,27,1914,1179"
-viewArea "-4800,2600,66474,44978"
+viewArea "-4800,2600,63080,42960"
 cachedDiagramExtent "0,-11300,69000,51000"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,-51000"
-lastUid 900,0
+lastUid 925,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

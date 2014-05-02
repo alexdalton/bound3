@@ -53,7 +53,7 @@ BEGIN
     WriteTag <= Data(WriteTagIndex) after DELAY_128B; -- used to check if there is a hit on write so we don't overwrite multiple ways with the same data
   END PROCESS ReadFromDataArray;
   --------------------------------------------------------------
-  WriteToDataArray : PROCESS (RESET_L, WriteIndex, DataWrite, DataIn)
+  WriteToDataArray : PROCESS (RESET_L, CLK, WriteIndex, DataWrite, DataIn)
   --------------------------------------------------------------
   VARIABLE DataIndex : integer;
   BEGIN

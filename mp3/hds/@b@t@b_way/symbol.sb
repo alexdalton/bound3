@@ -582,23 +582,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "/home/lis2/ece411/git/l2_&_forwarding_done/bound3/mp3/hdl"
+value "/home/lis2/ece411/git/BTB/bound3/mp3/hdl"
 )
 (vvPair
 variable "HDSDir"
-value "/home/lis2/ece411/git/l2_&_forwarding_done/bound3/mp3/hds"
+value "/home/lis2/ece411/git/BTB/bound3/mp3/hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "/home/lis2/ece411/git/l2_&_forwarding_done/bound3/mp3/hds/@b@t@b_way/symbol.sb.info"
+value "/home/lis2/ece411/git/BTB/bound3/mp3/hds/@b@t@b_way/symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "/home/lis2/ece411/git/l2_&_forwarding_done/bound3/mp3/hds/@b@t@b_way/symbol.sb.user"
+value "/home/lis2/ece411/git/BTB/bound3/mp3/hds/@b@t@b_way/symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "/home/lis2/ece411/git/l2_&_forwarding_done/bound3/mp3/hds"
+value "/home/lis2/ece411/git/BTB/bound3/mp3/hds"
 )
 (vvPair
 variable "appl"
@@ -614,11 +614,11 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "/home/lis2/ece411/git/l2_&_forwarding_done/bound3/mp3/hds/@b@t@b_way"
+value "/home/lis2/ece411/git/BTB/bound3/mp3/hds/@b@t@b_way"
 )
 (vvPair
 variable "d_logical"
-value "/home/lis2/ece411/git/l2_&_forwarding_done/bound3/mp3/hds/BTB_way"
+value "/home/lis2/ece411/git/BTB/bound3/mp3/hds/BTB_way"
 )
 (vvPair
 variable "date"
@@ -694,11 +694,11 @@ value "May"
 )
 (vvPair
 variable "p"
-value "/home/lis2/ece411/git/l2_&_forwarding_done/bound3/mp3/hds/@b@t@b_way/symbol.sb"
+value "/home/lis2/ece411/git/BTB/bound3/mp3/hds/@b@t@b_way/symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "/home/lis2/ece411/git/l2_&_forwarding_done/bound3/mp3/hds/BTB_way/symbol.sb"
+value "/home/lis2/ece411/git/BTB/bound3/mp3/hds/BTB_way/symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -754,7 +754,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "02:14:03"
+value "03:57:36"
 )
 (vvPair
 variable "unit"
@@ -2091,6 +2091,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 472,0
+lastUid 495,0
 activeModelName "Symbol:CDM"
 )

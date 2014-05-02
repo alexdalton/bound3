@@ -44,7 +44,7 @@ BEGIN
     DataOut <= Data(DataIndex) after DELAY_128B;
   END PROCESS ReadFromDataArray;
   --------------------------------------------------------------
-  WriteToDataArray : PROCESS (RESET_L, Index, DataWrite, DataIn)
+  WriteToDataArray : PROCESS (RESET_L, CLK, Index, DataWrite, DataIn)
   --------------------------------------------------------------
   VARIABLE DataIndex : integer;
   BEGIN
