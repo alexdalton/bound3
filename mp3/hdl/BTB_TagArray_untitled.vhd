@@ -34,7 +34,7 @@ ARCHITECTURE untitled OF BTB_TagArray IS
   SIGNAL Data : DataArray;
 BEGIN
   --------------------------------------------------------------
-  ReadFromDataArray : PROCESS (Data, ReadIndex)
+  ReadFromDataArray : PROCESS (Data, ReadIndex, WriteIndex)
   --------------------------------------------------------------
   VARIABLE DataIndex : integer;
   VARIABLE WriteTagIndex : integer;
