@@ -743,23 +743,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "/home/adalton2/ece411/bound3/mp3/hdl"
+value "/home/buris2/ece411/bound3/mp3/hdl"
 )
 (vvPair
 variable "HDSDir"
-value "/home/adalton2/ece411/bound3/mp3/hds"
+value "/home/buris2/ece411/bound3/mp3/hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "/home/adalton2/ece411/bound3/mp3/hds/stage_execute/symbol.sb.info"
+value "/home/buris2/ece411/bound3/mp3/hds/stage_execute/symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "/home/adalton2/ece411/bound3/mp3/hds/stage_execute/symbol.sb.user"
+value "/home/buris2/ece411/bound3/mp3/hds/stage_execute/symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "/home/adalton2/ece411/bound3/mp3/hds"
+value "/home/buris2/ece411/bound3/mp3/hds"
 )
 (vvPair
 variable "appl"
@@ -775,11 +775,11 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "/home/adalton2/ece411/bound3/mp3/hds/stage_execute"
+value "/home/buris2/ece411/bound3/mp3/hds/stage_execute"
 )
 (vvPair
 variable "d_logical"
-value "/home/adalton2/ece411/bound3/mp3/hds/stage_execute"
+value "/home/buris2/ece411/bound3/mp3/hds/stage_execute"
 )
 (vvPair
 variable "date"
@@ -823,7 +823,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "siebl-0220-18.ews.illinois.edu"
+value "evrt-252-17.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -859,11 +859,11 @@ value "May"
 )
 (vvPair
 variable "p"
-value "/home/adalton2/ece411/bound3/mp3/hds/stage_execute/symbol.sb"
+value "/home/buris2/ece411/bound3/mp3/hds/stage_execute/symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "/home/adalton2/ece411/bound3/mp3/hds/stage_execute/symbol.sb"
+value "/home/buris2/ece411/bound3/mp3/hds/stage_execute/symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -887,7 +887,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_ModelSimPath"
-value "<TBD>"
+value "/software/mentor/ModelSim-SE-10.1d/modeltech/bin"
 )
 (vvPair
 variable "task_NC-SimPath"
@@ -895,7 +895,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_PrecisionRTLPath"
-value "<TBD>"
+value "/software/mentor/PS2012b/Mgc_home/bin"
 )
 (vvPair
 variable "task_QuestaSimPath"
@@ -919,7 +919,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "00:33:06"
+value "16:54:25"
 )
 (vvPair
 variable "unit"
@@ -927,7 +927,7 @@ value "stage_execute"
 )
 (vvPair
 variable "user"
-value "adalton2"
+value "buris2"
 )
 (vvPair
 variable "version"
@@ -986,8 +986,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,1800,61500,2700"
-st "CW2out      : IN     lc3b_dword  ;
-"
+st "CW2out      : IN     lc3b_dword  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1031,8 +1030,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,2700,61000,3600"
-st "IR2out      : IN     lc3b_word  ;
-"
+st "IR2out      : IN     lc3b_word  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1076,8 +1074,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,3600,61000,4500"
-st "PC2out      : IN     lc3b_word  ;
-"
+st "PC2out      : IN     lc3b_word  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1121,8 +1118,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,13500,61000,14400"
-st "regB2out    : IN     lc3b_word  ;
-"
+st "regB2out    : IN     lc3b_word  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1166,8 +1162,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,12600,61000,13500"
-st "regA2out    : IN     lc3b_word  ;
-"
+st "regA2out    : IN     lc3b_word  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1211,8 +1206,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,9000,61000,9900"
-st "clk         : IN     std_logic  ;
-"
+st "clk         : IN     std_logic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1256,8 +1250,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,7200,61000,8100"
-st "Valid2out   : IN     std_logic  ;
-"
+st "Valid2out   : IN     std_logic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1302,8 +1295,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,14400,61000,15300"
-st "ALU3out     : OUT    lc3b_word  ;
-"
+st "ALU3out     : OUT    lc3b_word  ;"
 )
 thePort (LogicalPort
 m 1
@@ -1349,8 +1341,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,18900,61000,19800"
-st "Valid3out   : OUT    std_logic  ;
-"
+st "Valid3out   : OUT    std_logic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -1395,8 +1386,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,8100,61000,9000"
-st "clearValid  : IN     std_logic  ;
-"
+st "clearValid  : IN     std_logic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1441,8 +1431,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,20700,61000,21600"
-st "regA3out    : OUT    lc3b_word  ;
-"
+st "regA3out    : OUT    lc3b_word  ;"
 )
 thePort (LogicalPort
 m 1
@@ -1488,8 +1477,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,21600,60000,22500"
-st "regB3out    : OUT    lc3b_word 
-"
+st "regB3out    : OUT    lc3b_word "
 )
 thePort (LogicalPort
 m 1
@@ -1535,8 +1523,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,18000,61000,18900"
-st "PC3out      : OUT    lc3b_word  ;
-"
+st "PC3out      : OUT    lc3b_word  ;"
 )
 thePort (LogicalPort
 m 1
@@ -1582,8 +1569,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,17100,61000,18000"
-st "IR3out      : OUT    lc3b_word  ;
-"
+st "IR3out      : OUT    lc3b_word  ;"
 )
 thePort (LogicalPort
 m 1
@@ -1629,8 +1615,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,16200,61500,17100"
-st "CW3out      : OUT    lc3b_dword  ;
-"
+st "CW3out      : OUT    lc3b_dword  ;"
 )
 thePort (LogicalPort
 m 1
@@ -1675,8 +1660,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,4500,61000,5400"
-st "RESET_L     : IN     std_logic  ;
-"
+st "RESET_L     : IN     std_logic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1720,8 +1704,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,5400,61000,6300"
-st "STALL_L     : IN     std_logic  ;
-"
+st "STALL_L     : IN     std_logic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1765,8 +1748,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,11700,61000,12600"
-st "memIndirect : IN     std_logic  ;
-"
+st "memIndirect : IN     std_logic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1810,8 +1792,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,10800,61500,11700"
-st "memCWORD    : IN     lc3b_dword  ;
-"
+st "memCWORD    : IN     lc3b_dword  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1855,8 +1836,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,6300,61000,7200"
-st "STALL_L_B   : IN     std_logic  ;
-"
+st "STALL_L_B   : IN     std_logic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1900,8 +1880,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,9900,61000,10800"
-st "memAddress  : IN     lc3b_word  ;
-"
+st "memAddress  : IN     lc3b_word  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1946,8 +1925,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,19800,61000,20700"
-st "nextALUout  : OUT    lc3b_word  ;
-"
+st "nextALUout  : OUT    lc3b_word  ;"
 )
 thePort (LogicalPort
 m 1
@@ -1993,8 +1971,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,15300,61000,16200"
-st "ALU_STALL_L : OUT    std_logic  ;
-"
+st "ALU_STALL_L : OUT    std_logic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -2089,7 +2066,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "courier,8,0"
 )
-xt "32200,50050,45700,50950"
+xt "32200,50050,44700,50950"
 st "
 by %user on %dd %month %year
 "
@@ -2714,6 +2691,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 1913,0
+lastUid 2005,0
 activeModelName "Symbol:CDM"
 )

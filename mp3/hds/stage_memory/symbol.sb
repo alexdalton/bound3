@@ -943,23 +943,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "/home/adalton2/ece411/bound3/mp3/hdl"
+value "/home/buris2/ece411/bound3/mp3/hdl"
 )
 (vvPair
 variable "HDSDir"
-value "/home/adalton2/ece411/bound3/mp3/hds"
+value "/home/buris2/ece411/bound3/mp3/hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "/home/adalton2/ece411/bound3/mp3/hds/stage_memory/symbol.sb.info"
+value "/home/buris2/ece411/bound3/mp3/hds/stage_memory/symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "/home/adalton2/ece411/bound3/mp3/hds/stage_memory/symbol.sb.user"
+value "/home/buris2/ece411/bound3/mp3/hds/stage_memory/symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "/home/adalton2/ece411/bound3/mp3/hds"
+value "/home/buris2/ece411/bound3/mp3/hds"
 )
 (vvPair
 variable "appl"
@@ -975,11 +975,11 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "/home/adalton2/ece411/bound3/mp3/hds/stage_memory"
+value "/home/buris2/ece411/bound3/mp3/hds/stage_memory"
 )
 (vvPair
 variable "d_logical"
-value "/home/adalton2/ece411/bound3/mp3/hds/stage_memory"
+value "/home/buris2/ece411/bound3/mp3/hds/stage_memory"
 )
 (vvPair
 variable "date"
@@ -1023,7 +1023,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "siebl-0220-18.ews.illinois.edu"
+value "evrt-252-17.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -1059,11 +1059,11 @@ value "May"
 )
 (vvPair
 variable "p"
-value "/home/adalton2/ece411/bound3/mp3/hds/stage_memory/symbol.sb"
+value "/home/buris2/ece411/bound3/mp3/hds/stage_memory/symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "/home/adalton2/ece411/bound3/mp3/hds/stage_memory/symbol.sb"
+value "/home/buris2/ece411/bound3/mp3/hds/stage_memory/symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -1087,7 +1087,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_ModelSimPath"
-value "<TBD>"
+value "/software/mentor/ModelSim-SE-10.1d/modeltech/bin"
 )
 (vvPair
 variable "task_NC-SimPath"
@@ -1095,7 +1095,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_PrecisionRTLPath"
-value "<TBD>"
+value "/software/mentor/PS2012b/Mgc_home/bin"
 )
 (vvPair
 variable "task_QuestaSimPath"
@@ -1119,7 +1119,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "05:00:09"
+value "16:57:26"
 )
 (vvPair
 variable "unit"
@@ -1127,7 +1127,7 @@ value "stage_memory"
 )
 (vvPair
 variable "user"
-value "adalton2"
+value "buris2"
 )
 (vvPair
 variable "version"
@@ -3404,6 +3404,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 5883,0
+lastUid 5906,0
 activeModelName "Symbol:CDM"
 )
