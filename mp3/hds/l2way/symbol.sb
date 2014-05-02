@@ -79,7 +79,7 @@ uid 109,0
 port (LogicalPort
 decl (Decl
 n "Index"
-t "LC3b_c_index"
+t "LC3b_L2_index"
 o 5
 suid 2,0
 )
@@ -158,7 +158,7 @@ uid 123,0
 port (LogicalPort
 decl (Decl
 n "TagIn"
-t "LC3B_C_TAG"
+t "LC3B_L2_TAG"
 o 7
 suid 9,0
 )
@@ -170,7 +170,7 @@ port (LogicalPort
 m 1
 decl (Decl
 n "TagOut"
-t "LC3B_C_TAG"
+t "LC3B_L2_TAG"
 o 10
 suid 10,0
 )
@@ -536,23 +536,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "/home/lis2/ece411/git/postcp3/bound3/mp3/hdl"
+value "/home/adalton2/ece411/bound3/mp3/hdl"
 )
 (vvPair
 variable "HDSDir"
-value "/home/lis2/ece411/git/postcp3/bound3/mp3/hds"
+value "/home/adalton2/ece411/bound3/mp3/hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "/home/lis2/ece411/git/postcp3/bound3/mp3/hds/l2way/symbol.sb.info"
+value "/home/adalton2/ece411/bound3/mp3/hds/l2way/symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "/home/lis2/ece411/git/postcp3/bound3/mp3/hds/l2way/symbol.sb.user"
+value "/home/adalton2/ece411/bound3/mp3/hds/l2way/symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "/home/lis2/ece411/git/postcp3/bound3/mp3/hds"
+value "/home/adalton2/ece411/bound3/mp3/hds"
 )
 (vvPair
 variable "appl"
@@ -568,27 +568,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "/home/lis2/ece411/git/postcp3/bound3/mp3/hds/l2way"
+value "/home/adalton2/ece411/bound3/mp3/hds/l2way"
 )
 (vvPair
 variable "d_logical"
-value "/home/lis2/ece411/git/postcp3/bound3/mp3/hds/l2way"
+value "/home/adalton2/ece411/bound3/mp3/hds/l2way"
 )
 (vvPair
 variable "date"
-value "04/29/14"
+value "05/02/14"
 )
 (vvPair
 variable "day"
-value "Tue"
+value "Fri"
 )
 (vvPair
 variable "day_long"
-value "Tuesday"
+value "Friday"
 )
 (vvPair
 variable "dd"
-value "29"
+value "02"
 )
 (vvPair
 variable "entity_name"
@@ -616,7 +616,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "siebl-0218-26.ews.illinois.edu"
+value "siebl-0220-18.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -632,7 +632,7 @@ value "$HDS_PROJECT_DIR/compile"
 )
 (vvPair
 variable "mm"
-value "04"
+value "05"
 )
 (vvPair
 variable "module_name"
@@ -640,19 +640,19 @@ value "l2way"
 )
 (vvPair
 variable "month"
-value "Apr"
+value "May"
 )
 (vvPair
 variable "month_long"
-value "April"
+value "May"
 )
 (vvPair
 variable "p"
-value "/home/lis2/ece411/git/postcp3/bound3/mp3/hds/l2way/symbol.sb"
+value "/home/adalton2/ece411/bound3/mp3/hds/l2way/symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "/home/lis2/ece411/git/postcp3/bound3/mp3/hds/l2way/symbol.sb"
+value "/home/adalton2/ece411/bound3/mp3/hds/l2way/symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -708,7 +708,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "18:33:38"
+value "07:27:42"
 )
 (vvPair
 variable "unit"
@@ -716,7 +716,7 @@ value "l2way"
 )
 (vvPair
 variable "user"
-value "lis2"
+value "adalton2"
 )
 (vvPair
 variable "version"
@@ -818,13 +818,13 @@ uid 135,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,5400,62000,6300"
-st "Index      : IN     LC3b_c_index  ;"
+xt "44000,5400,62500,6300"
+st "Index      : IN     LC3b_L2_index  ;"
 )
 thePort (LogicalPort
 decl (Decl
 n "Index"
-t "LC3b_c_index"
+t "LC3b_L2_index"
 o 5
 suid 2,0
 )
@@ -1130,13 +1130,13 @@ uid 170,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,7200,61000,8100"
-st "TagIn      : IN     LC3B_C_TAG  ;"
+xt "44000,7200,61500,8100"
+st "TagIn      : IN     LC3B_L2_TAG  ;"
 )
 thePort (LogicalPort
 decl (Decl
 n "TagIn"
-t "LC3B_C_TAG"
+t "LC3B_L2_TAG"
 o 7
 suid 9,0
 )
@@ -1175,14 +1175,14 @@ uid 200,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,9900,61000,10800"
-st "TagOut     : OUT    LC3B_C_TAG  ;"
+xt "44000,9900,61500,10800"
+st "TagOut     : OUT    LC3B_L2_TAG  ;"
 )
 thePort (LogicalPort
 m 1
 decl (Decl
 n "TagOut"
-t "LC3B_C_TAG"
+t "LC3B_L2_TAG"
 o 10
 suid 10,0
 )
@@ -1330,7 +1330,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "courier,8,0"
 )
-xt "32200,50050,43700,50950"
+xt "32200,50050,45700,50950"
 st "
 by %user on %dd %month %year
 "
@@ -1955,6 +1955,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 277,0
+lastUid 323,0
 activeModelName "Symbol:CDM"
 )

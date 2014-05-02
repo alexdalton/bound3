@@ -24,14 +24,14 @@ ENTITY WayMux8 IS
       DataOut5    : IN     LC3b_oword;
       DataOut6    : IN     LC3b_oword;
       DataOut7    : IN     LC3b_oword;
-      TagOut0     : IN     LC3B_C_TAG;
-      TagOut1     : IN     LC3B_C_TAG;
-      TagOut2     : IN     LC3B_C_TAG;
-      TagOut3     : IN     LC3B_C_TAG;
-      TagOut4     : IN     LC3B_C_TAG;
-      TagOut5     : IN     LC3B_C_TAG;
-      TagOut6     : IN     LC3B_C_TAG;
-      TagOut7     : IN     LC3B_C_TAG;
+      TagOut0     : IN     LC3B_L2_TAG;
+      TagOut1     : IN     LC3B_L2_TAG;
+      TagOut2     : IN     LC3B_L2_TAG;
+      TagOut3     : IN     LC3B_L2_TAG;
+      TagOut4     : IN     LC3B_L2_TAG;
+      TagOut5     : IN     LC3B_L2_TAG;
+      TagOut6     : IN     LC3B_L2_TAG;
+      TagOut7     : IN     LC3B_L2_TAG;
       ValidOut0   : IN     std_logic;
       ValidOut1   : IN     std_logic;
       ValidOut2   : IN     std_logic;
@@ -41,7 +41,7 @@ ENTITY WayMux8 IS
       ValidOut6   : IN     std_logic;
       ValidOut7   : IN     std_logic;
       WayMuxData  : OUT    LC3b_oword;
-      WayMuxTag   : OUT    LC3B_C_TAG;
+      WayMuxTag   : OUT    LC3B_L2_TAG;
       WayMuxValid : OUT    std_logic;
       WayMuxSel   : IN     lc3b_8mux_sel
    );
@@ -55,7 +55,7 @@ ARCHITECTURE untitled OF WayMux8 IS
 BEGIN
   PROCESS (DataOut0, DataOut1, DataOut2, DataOut3, DataOut4, DataOut5, DataOut6, DataOut7, TagOut0, TagOut1, TagOut2, TagOut3, TagOut4, TagOut5, TagOut6, TagOut7, ValidOut0, ValidOut1, ValidOut2, ValidOut3, ValidOut4, ValidOut5, ValidOut6, ValidOut7, WayMuxSel)
     variable stateData : LC3b_oword;
-    variable stateTag : LC3B_C_TAG;
+    variable stateTag : LC3B_L2_TAG;
     variable stateValid : std_logic;
   BEGIN
     case WayMuxSel is 

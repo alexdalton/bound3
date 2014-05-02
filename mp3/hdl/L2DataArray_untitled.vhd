@@ -18,14 +18,14 @@ ENTITY L2DataArray IS
   PORT(
     RESET_L : IN std_logic;
     DataWrite : IN std_logic;
-    Index : IN LC3b_c_index;
+    Index : IN LC3b_L2_index;
     DataIn : IN LC3b_oword;
     DataOut : OUT LC3b_oword);
 END L2DataArray;
 
 --
 ARCHITECTURE untitled OF L2DataArray IS
-  TYPE DataArray IS array (7 downto 0) of LC3b_oword;
+  TYPE DataArray IS array (3 downto 0) of LC3b_oword;
   SIGNAL Data : DataArray;
 BEGIN
   --------------------------------------------------------------
@@ -34,7 +34,7 @@ BEGIN
   VARIABLE DataIndex : integer;
   BEGIN
     DataIndex := to_integer(unsigned(Index));
-    DataOut <= Data(DataIndex) after DELAY_1KB;
+    DataOut <= Data(DataIndex) after DELAY_512B;
   END PROCESS ReadFromDataArray;
   --------------------------------------------------------------
   WriteToDataArray : PROCESS (RESET_L, Index, DataWrite, DataIn)
@@ -47,10 +47,6 @@ BEGIN
       Data(1) <= (OTHERS => 'X');
       Data(2) <= (OTHERS => 'X');
       Data(3) <= (OTHERS => 'X');
-      Data(4) <= (OTHERS => 'X');
-      Data(5) <= (OTHERS => 'X');
-      Data(6) <= (OTHERS => 'X');
-      Data(7) <= (OTHERS => 'X');
     END IF;
     IF (DataWrite = '1') THEN
       Data(DataIndex) <= DataIn;

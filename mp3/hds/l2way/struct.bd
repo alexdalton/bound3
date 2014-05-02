@@ -66,23 +66,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "/home/lis2/ece411/git/postcp3/bound3/mp3/hdl"
+value "/home/adalton2/ece411/bound3/mp3/hdl"
 )
 (vvPair
 variable "HDSDir"
-value "/home/lis2/ece411/git/postcp3/bound3/mp3/hds"
+value "/home/adalton2/ece411/bound3/mp3/hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "/home/lis2/ece411/git/postcp3/bound3/mp3/hds/l2way/struct.bd.info"
+value "/home/adalton2/ece411/bound3/mp3/hds/l2way/struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "/home/lis2/ece411/git/postcp3/bound3/mp3/hds/l2way/struct.bd.user"
+value "/home/adalton2/ece411/bound3/mp3/hds/l2way/struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "/home/lis2/ece411/git/postcp3/bound3/mp3/hds"
+value "/home/adalton2/ece411/bound3/mp3/hds"
 )
 (vvPair
 variable "appl"
@@ -98,27 +98,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "/home/lis2/ece411/git/postcp3/bound3/mp3/hds/l2way"
+value "/home/adalton2/ece411/bound3/mp3/hds/l2way"
 )
 (vvPair
 variable "d_logical"
-value "/home/lis2/ece411/git/postcp3/bound3/mp3/hds/l2way"
+value "/home/adalton2/ece411/bound3/mp3/hds/l2way"
 )
 (vvPair
 variable "date"
-value "04/29/14"
+value "05/02/14"
 )
 (vvPair
 variable "day"
-value "Tue"
+value "Fri"
 )
 (vvPair
 variable "day_long"
-value "Tuesday"
+value "Friday"
 )
 (vvPair
 variable "dd"
-value "29"
+value "02"
 )
 (vvPair
 variable "entity_name"
@@ -146,7 +146,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "siebl-0218-26.ews.illinois.edu"
+value "siebl-0220-18.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -162,7 +162,7 @@ value "$HDS_PROJECT_DIR/compile"
 )
 (vvPair
 variable "mm"
-value "04"
+value "05"
 )
 (vvPair
 variable "module_name"
@@ -170,19 +170,19 @@ value "l2way"
 )
 (vvPair
 variable "month"
-value "Apr"
+value "May"
 )
 (vvPair
 variable "month_long"
-value "April"
+value "May"
 )
 (vvPair
 variable "p"
-value "/home/lis2/ece411/git/postcp3/bound3/mp3/hds/l2way/struct.bd"
+value "/home/adalton2/ece411/bound3/mp3/hds/l2way/struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "/home/lis2/ece411/git/postcp3/bound3/mp3/hds/l2way/struct.bd"
+value "/home/adalton2/ece411/bound3/mp3/hds/l2way/struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -238,7 +238,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "18:33:38"
+value "07:27:42"
 )
 (vvPair
 variable "unit"
@@ -246,7 +246,7 @@ value "l2way"
 )
 (vvPair
 variable "user"
-value "lis2"
+value "adalton2"
 )
 (vvPair
 variable "version"
@@ -291,7 +291,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "courier,8,0"
 )
-xt "32200,50050,43700,50950"
+xt "32200,50050,45700,50950"
 st "
 by %user on %dd %month %year
 "
@@ -1205,7 +1205,7 @@ blo "7000,10250"
 thePort (LogicalPort
 decl (Decl
 n "Index"
-t "LC3b_c_index"
+t "LC3b_L2_index"
 o 3
 )
 )
@@ -1384,7 +1384,7 @@ st "DataIn     : LC3b_oword"
 uid 237,0
 decl (Decl
 n "Index"
-t "LC3b_c_index"
+t "LC3b_L2_index"
 o 2
 suid 2,0
 )
@@ -1393,8 +1393,8 @@ uid 238,0
 va (VaSet
 font "courier,8,0"
 )
-xt "25000,1400,38000,2300"
-st "Index      : LC3b_c_index"
+xt "25000,1400,38500,2300"
+st "Index      : LC3b_L2_index"
 )
 )
 *34 (GlobalConnector
@@ -1590,7 +1590,7 @@ blo "30000,12250"
 thePort (LogicalPort
 decl (Decl
 n "Index"
-t "LC3b_c_index"
+t "LC3b_L2_index"
 o 3
 )
 )
@@ -1899,7 +1899,7 @@ blo "53000,11250"
 thePort (LogicalPort
 decl (Decl
 n "Index"
-t "LC3b_c_index"
+t "LC3b_L2_index"
 o 3
 )
 )
@@ -1933,7 +1933,7 @@ blo "53000,9250"
 thePort (LogicalPort
 decl (Decl
 n "TagIn"
-t "LC3B_C_TAG"
+t "LC3B_L2_TAG"
 o 4
 )
 )
@@ -1969,7 +1969,7 @@ thePort (LogicalPort
 m 1
 decl (Decl
 n "TagOut"
-t "LC3B_C_TAG"
+t "LC3B_L2_TAG"
 o 5
 )
 )
@@ -2061,7 +2061,7 @@ archFileType "UNKNOWN"
 uid 435,0
 decl (Decl
 n "TagIn"
-t "LC3B_C_TAG"
+t "LC3B_L2_TAG"
 o 9
 suid 18,0
 )
@@ -2070,15 +2070,15 @@ uid 436,0
 va (VaSet
 font "courier,8,0"
 )
-xt "25000,3200,37000,4100"
-st "TagIn      : LC3B_C_TAG"
+xt "25000,3200,37500,4100"
+st "TagIn      : LC3B_L2_TAG"
 )
 )
 *61 (Net
 uid 483,0
 decl (Decl
 n "TagOut"
-t "LC3B_C_TAG"
+t "LC3B_L2_TAG"
 o 10
 suid 21,0
 )
@@ -2087,8 +2087,8 @@ uid 484,0
 va (VaSet
 font "courier,8,0"
 )
-xt "25000,5900,37000,6800"
-st "TagOut     : LC3B_C_TAG"
+xt "25000,5900,37500,6800"
+st "TagOut     : LC3B_L2_TAG"
 )
 )
 *62 (SaComponent
@@ -2191,10 +2191,9 @@ blo "76000,11250"
 )
 )
 thePort (LogicalPort
-lang 11
 decl (Decl
 n "Index"
-t "LC3b_c_index"
+t "LC3b_L2_index"
 o 3
 )
 )
@@ -3293,12 +3292,12 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-8,27,1928,1063"
-viewArea "-6670,-6797,96592,47035"
+windowSize "-6,29,1914,1065"
+viewArea "-26524,-16432,68508,32008"
 cachedDiagramExtent "-5500,-4000,98000,51000"
 hasePageBreakOrigin 1
-pageBreakOrigin "0,0"
-lastUid 546,0
+pageBreakOrigin "-69000,-51000"
+lastUid 585,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -4410,7 +4409,7 @@ uid 465,0
 port (LogicalPort
 decl (Decl
 n "Index"
-t "LC3b_c_index"
+t "LC3b_L2_index"
 o 2
 suid 2,0
 )
@@ -4489,7 +4488,7 @@ uid 479,0
 port (LogicalPort
 decl (Decl
 n "TagIn"
-t "LC3B_C_TAG"
+t "LC3B_L2_TAG"
 o 9
 suid 18,0
 )
@@ -4501,7 +4500,7 @@ port (LogicalPort
 m 1
 decl (Decl
 n "TagOut"
-t "LC3B_C_TAG"
+t "LC3B_L2_TAG"
 o 10
 suid 21,0
 )

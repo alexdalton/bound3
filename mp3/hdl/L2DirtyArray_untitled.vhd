@@ -18,7 +18,7 @@ ENTITY L2DirtyArray IS
   PORT(
     RESET_L : IN std_logic;
     DirtyWrite : IN std_logic;
-    Index : IN LC3b_c_index;
+    Index : IN LC3b_L2_index;
     DirtyIn  : IN std_logic;
     DirtyOut : OUT std_logic
     );
@@ -27,7 +27,7 @@ END L2DirtyArray ;
 
 --
 ARCHITECTURE untitled OF L2DirtyArray IS
-  SIGNAL Dirty : std_logic_vector(7 downto 0);
+  SIGNAL Dirty : std_logic_vector(3 downto 0);
 BEGIN
   --------------------------------------------------------------
   ReadFromDirtyArray : PROCESS (Dirty, Index)
@@ -35,7 +35,7 @@ BEGIN
   VARIABLE DirtyIndex : integer;
   BEGIN
     DirtyIndex := to_integer(unsigned(Index));
-    DirtyOut <= Dirty(DirtyIndex) after DELAY_1KB;
+    DirtyOut <= Dirty(DirtyIndex) after DELAY_512B;
   END PROCESS ReadFromDirtyArray;
   --------------------------------------------------------------
   WriteToDirtyArray : PROCESS (RESET_L, Index, DirtyWrite, DirtyIn)
@@ -48,10 +48,6 @@ BEGIN
       Dirty(1) <= '0';
       Dirty(2) <= '0';
       Dirty(3) <= '0';
-      Dirty(4) <= '0';
-      Dirty(5) <= '0';
-      Dirty(6) <= '0';
-      Dirty(7) <= '0';
     END IF;
     IF (DirtyWrite = '1') THEN
       Dirty(DirtyIndex) <= DirtyIn;

@@ -18,7 +18,7 @@ ENTITY L2ValidArray IS
   PORT(
     RESET_L : IN std_logic;
     ValidWrite : IN std_logic;
-    Index : IN LC3b_c_index;
+    Index : IN LC3b_L2_index;
     ValidOut : OUT std_logic := '0'
   );
 -- Declarations
@@ -26,7 +26,7 @@ END L2ValidArray ;
 
 --
 ARCHITECTURE untitled OF L2ValidArray IS
-  SIGNAL Valid : std_logic_vector(7 downto 0);
+  SIGNAL Valid : std_logic_vector(3 downto 0);
 BEGIN
   --------------------------------------------------------------
   ReadFromValidArray : PROCESS (Valid, Index)
@@ -34,7 +34,7 @@ BEGIN
   VARIABLE ValidIndex : integer;
   BEGIN
     ValidIndex := to_integer(unsigned(Index));
-    ValidOut <= Valid(ValidIndex) after DELAY_1KB;
+    ValidOut <= Valid(ValidIndex) after DELAY_512B;
   END PROCESS ReadFromValidArray;
   --------------------------------------------------------------
   WriteToValidArray : PROCESS (RESET_L, Index, ValidWrite)
@@ -47,10 +47,6 @@ BEGIN
       Valid(1) <= '0';
       Valid(2) <= '0';
       Valid(3) <= '0';
-      Valid(4) <= '0';
-      Valid(5) <= '0';
-      Valid(6) <= '0';
-      Valid(7) <= '0';
     END IF;
     IF (ValidWrite = '1') THEN
       Valid(ValidIndex) <= '1';

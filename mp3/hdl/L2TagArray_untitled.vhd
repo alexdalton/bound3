@@ -18,16 +18,16 @@ ENTITY L2TagArray IS
   PORT(
     RESET_L : IN std_logic;
     TagWrite : IN std_logic;
-    Index : IN LC3b_c_index;
-    TagIn : IN LC3B_C_TAG;
-    TagOut : OUT LC3B_C_TAG
+    Index : IN LC3b_L2_index;
+    TagIn : IN LC3B_L2_TAG;
+    TagOut : OUT LC3B_L2_TAG
   );
 -- Declarations
 END L2TagArray ;
 
 --
 ARCHITECTURE untitled OF L2TagArray IS
-  TYPE TagArray IS array (7 downto 0) of LC3B_C_TAG;
+  TYPE TagArray IS array (3 downto 0) of LC3B_L2_TAG;
   SIGNAL Tag : TagArray;
 BEGIN
   --------------------------------------------------------------
@@ -36,7 +36,7 @@ BEGIN
   VARIABLE TagIndex : integer;
   BEGIN
     TagIndex := to_integer(unsigned(Index));
-    TagOut <= Tag(TagIndex) after DELAY_1KB;
+    TagOut <= Tag(TagIndex) after DELAY_512B;
   END PROCESS ReadFromTagArray;
   --------------------------------------------------------------
   WriteToTagArray : PROCESS (RESET_L, Index, TagWrite, TagIn)
@@ -49,10 +49,6 @@ BEGIN
       Tag(1) <= (OTHERS => 'X');
       Tag(2) <= (OTHERS => 'X');
       Tag(3) <= (OTHERS => 'X');
-      Tag(4) <= (OTHERS => 'X');
-      Tag(5) <= (OTHERS => 'X');
-      Tag(6) <= (OTHERS => 'X');
-      Tag(7) <= (OTHERS => 'X');
     END IF;
     IF (TagWrite = '1') THEN
       Tag(TagIndex) <= TagIn;

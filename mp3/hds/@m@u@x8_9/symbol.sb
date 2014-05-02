@@ -70,7 +70,7 @@ port (LogicalPort
 m 1
 decl (Decl
 n "Result"
-t "lc3b_c_tag"
+t "lc3b_l2_tag"
 o 10
 suid 1,0
 )
@@ -81,7 +81,7 @@ uid 153,0
 port (LogicalPort
 decl (Decl
 n "A"
-t "lc3b_c_tag"
+t "lc3b_l2_tag"
 o 1
 suid 3,0
 )
@@ -92,7 +92,7 @@ uid 155,0
 port (LogicalPort
 decl (Decl
 n "B"
-t "lc3b_c_tag"
+t "lc3b_l2_tag"
 o 2
 suid 4,0
 )
@@ -103,7 +103,7 @@ uid 157,0
 port (LogicalPort
 decl (Decl
 n "C"
-t "lc3b_c_tag"
+t "lc3b_l2_tag"
 o 3
 suid 5,0
 )
@@ -114,7 +114,7 @@ uid 159,0
 port (LogicalPort
 decl (Decl
 n "D"
-t "lc3b_c_tag"
+t "lc3b_l2_tag"
 o 4
 suid 6,0
 )
@@ -125,7 +125,7 @@ uid 161,0
 port (LogicalPort
 decl (Decl
 n "E"
-t "lc3b_c_tag"
+t "lc3b_l2_tag"
 o 5
 suid 7,0
 )
@@ -136,7 +136,7 @@ uid 163,0
 port (LogicalPort
 decl (Decl
 n "F"
-t "lc3b_c_tag"
+t "lc3b_l2_tag"
 o 6
 suid 8,0
 )
@@ -147,7 +147,7 @@ uid 165,0
 port (LogicalPort
 decl (Decl
 n "G"
-t "lc3b_c_tag"
+t "lc3b_l2_tag"
 o 7
 suid 9,0
 )
@@ -158,7 +158,7 @@ uid 167,0
 port (LogicalPort
 decl (Decl
 n "H"
-t "lc3b_c_tag"
+t "lc3b_l2_tag"
 o 8
 suid 10,0
 )
@@ -515,23 +515,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "/home/lis2/ece411/git/postcp3/bound3/mp3/hdl"
+value "/home/adalton2/ece411/bound3/mp3/hdl"
 )
 (vvPair
 variable "HDSDir"
-value "/home/lis2/ece411/git/postcp3/bound3/mp3/hds"
+value "/home/adalton2/ece411/bound3/mp3/hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "/home/lis2/ece411/git/postcp3/bound3/mp3/hds/@m@u@x8_9/symbol.sb.info"
+value "/home/adalton2/ece411/bound3/mp3/hds/@m@u@x8_9/symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "/home/lis2/ece411/git/postcp3/bound3/mp3/hds/@m@u@x8_9/symbol.sb.user"
+value "/home/adalton2/ece411/bound3/mp3/hds/@m@u@x8_9/symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "/home/lis2/ece411/git/postcp3/bound3/mp3/hds"
+value "/home/adalton2/ece411/bound3/mp3/hds"
 )
 (vvPair
 variable "appl"
@@ -547,27 +547,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "/home/lis2/ece411/git/postcp3/bound3/mp3/hds/@m@u@x8_9"
+value "/home/adalton2/ece411/bound3/mp3/hds/@m@u@x8_9"
 )
 (vvPair
 variable "d_logical"
-value "/home/lis2/ece411/git/postcp3/bound3/mp3/hds/MUX8_9"
+value "/home/adalton2/ece411/bound3/mp3/hds/MUX8_9"
 )
 (vvPair
 variable "date"
-value "04/29/14"
+value "05/02/14"
 )
 (vvPair
 variable "day"
-value "Tue"
+value "Fri"
 )
 (vvPair
 variable "day_long"
-value "Tuesday"
+value "Friday"
 )
 (vvPair
 variable "dd"
-value "29"
+value "02"
 )
 (vvPair
 variable "entity_name"
@@ -595,7 +595,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "siebl-0218-26.ews.illinois.edu"
+value "siebl-0220-18.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -611,7 +611,7 @@ value "$HDS_PROJECT_DIR/compile"
 )
 (vvPair
 variable "mm"
-value "04"
+value "05"
 )
 (vvPair
 variable "module_name"
@@ -619,19 +619,19 @@ value "MUX8_9"
 )
 (vvPair
 variable "month"
-value "Apr"
+value "May"
 )
 (vvPair
 variable "month_long"
-value "April"
+value "May"
 )
 (vvPair
 variable "p"
-value "/home/lis2/ece411/git/postcp3/bound3/mp3/hds/@m@u@x8_9/symbol.sb"
+value "/home/adalton2/ece411/bound3/mp3/hds/@m@u@x8_9/symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "/home/lis2/ece411/git/postcp3/bound3/mp3/hds/MUX8_9/symbol.sb"
+value "/home/adalton2/ece411/bound3/mp3/hds/MUX8_9/symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -687,7 +687,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "17:20:55"
+value "07:20:17"
 )
 (vvPair
 variable "unit"
@@ -695,7 +695,7 @@ value "MUX8_9"
 )
 (vvPair
 variable "user"
-value "lis2"
+value "adalton2"
 )
 (vvPair
 variable "version"
@@ -754,15 +754,15 @@ uid 112,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,9900,58000,10800"
-st "Result : OUT    lc3b_c_tag 
+xt "44000,9900,58500,10800"
+st "Result : OUT    lc3b_l2_tag 
 "
 )
 thePort (LogicalPort
 m 1
 decl (Decl
 n "Result"
-t "lc3b_c_tag"
+t "lc3b_l2_tag"
 o 10
 suid 1,0
 )
@@ -800,14 +800,14 @@ uid 117,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,1800,59000,2700"
-st "A      : IN     lc3b_c_tag  ;
+xt "44000,1800,59500,2700"
+st "A      : IN     lc3b_l2_tag  ;
 "
 )
 thePort (LogicalPort
 decl (Decl
 n "A"
-t "lc3b_c_tag"
+t "lc3b_l2_tag"
 o 1
 suid 3,0
 )
@@ -845,14 +845,14 @@ uid 122,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,2700,59000,3600"
-st "B      : IN     lc3b_c_tag  ;
+xt "44000,2700,59500,3600"
+st "B      : IN     lc3b_l2_tag  ;
 "
 )
 thePort (LogicalPort
 decl (Decl
 n "B"
-t "lc3b_c_tag"
+t "lc3b_l2_tag"
 o 2
 suid 4,0
 )
@@ -890,14 +890,14 @@ uid 127,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,3600,59000,4500"
-st "C      : IN     lc3b_c_tag  ;
+xt "44000,3600,59500,4500"
+st "C      : IN     lc3b_l2_tag  ;
 "
 )
 thePort (LogicalPort
 decl (Decl
 n "C"
-t "lc3b_c_tag"
+t "lc3b_l2_tag"
 o 3
 suid 5,0
 )
@@ -935,14 +935,14 @@ uid 132,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,4500,59000,5400"
-st "D      : IN     lc3b_c_tag  ;
+xt "44000,4500,59500,5400"
+st "D      : IN     lc3b_l2_tag  ;
 "
 )
 thePort (LogicalPort
 decl (Decl
 n "D"
-t "lc3b_c_tag"
+t "lc3b_l2_tag"
 o 4
 suid 6,0
 )
@@ -980,14 +980,14 @@ uid 137,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,5400,59000,6300"
-st "E      : IN     lc3b_c_tag  ;
+xt "44000,5400,59500,6300"
+st "E      : IN     lc3b_l2_tag  ;
 "
 )
 thePort (LogicalPort
 decl (Decl
 n "E"
-t "lc3b_c_tag"
+t "lc3b_l2_tag"
 o 5
 suid 7,0
 )
@@ -1025,14 +1025,14 @@ uid 142,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,6300,59000,7200"
-st "F      : IN     lc3b_c_tag  ;
+xt "44000,6300,59500,7200"
+st "F      : IN     lc3b_l2_tag  ;
 "
 )
 thePort (LogicalPort
 decl (Decl
 n "F"
-t "lc3b_c_tag"
+t "lc3b_l2_tag"
 o 6
 suid 8,0
 )
@@ -1070,14 +1070,14 @@ uid 147,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,7200,59000,8100"
-st "G      : IN     lc3b_c_tag  ;
+xt "44000,7200,59500,8100"
+st "G      : IN     lc3b_l2_tag  ;
 "
 )
 thePort (LogicalPort
 decl (Decl
 n "G"
-t "lc3b_c_tag"
+t "lc3b_l2_tag"
 o 7
 suid 9,0
 )
@@ -1115,14 +1115,14 @@ uid 152,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,8100,59000,9000"
-st "H      : IN     lc3b_c_tag  ;
+xt "44000,8100,59500,9000"
+st "H      : IN     lc3b_l2_tag  ;
 "
 )
 thePort (LogicalPort
 decl (Decl
 n "H"
-t "lc3b_c_tag"
+t "lc3b_l2_tag"
 o 8
 suid 10,0
 )
@@ -1884,6 +1884,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 201,0
+lastUid 224,0
 activeModelName "Symbol"
 )

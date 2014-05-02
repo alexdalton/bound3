@@ -283,23 +283,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "/home/lis2/ece411/git/postcp3/bound3/mp3/hdl"
+value "/home/adalton2/ece411/bound3/mp3/hdl"
 )
 (vvPair
 variable "HDSDir"
-value "/home/lis2/ece411/git/postcp3/bound3/mp3/hds"
+value "/home/adalton2/ece411/bound3/mp3/hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "/home/lis2/ece411/git/postcp3/bound3/mp3/hds/@true8@l@r@u/struct.bd.info"
+value "/home/adalton2/ece411/bound3/mp3/hds/@true8@l@r@u/struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "/home/lis2/ece411/git/postcp3/bound3/mp3/hds/@true8@l@r@u/struct.bd.user"
+value "/home/adalton2/ece411/bound3/mp3/hds/@true8@l@r@u/struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "/home/lis2/ece411/git/postcp3/bound3/mp3/hds"
+value "/home/adalton2/ece411/bound3/mp3/hds"
 )
 (vvPair
 variable "appl"
@@ -315,27 +315,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "/home/lis2/ece411/git/postcp3/bound3/mp3/hds/@true8@l@r@u"
+value "/home/adalton2/ece411/bound3/mp3/hds/@true8@l@r@u"
 )
 (vvPair
 variable "d_logical"
-value "/home/lis2/ece411/git/postcp3/bound3/mp3/hds/True8LRU"
+value "/home/adalton2/ece411/bound3/mp3/hds/True8LRU"
 )
 (vvPair
 variable "date"
-value "04/29/14"
+value "05/02/14"
 )
 (vvPair
 variable "day"
-value "Tue"
+value "Fri"
 )
 (vvPair
 variable "day_long"
-value "Tuesday"
+value "Friday"
 )
 (vvPair
 variable "dd"
-value "29"
+value "02"
 )
 (vvPair
 variable "entity_name"
@@ -363,7 +363,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "siebl-0218-26.ews.illinois.edu"
+value "siebl-0220-18.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -379,7 +379,7 @@ value "$HDS_PROJECT_DIR/compile"
 )
 (vvPair
 variable "mm"
-value "04"
+value "05"
 )
 (vvPair
 variable "module_name"
@@ -387,19 +387,19 @@ value "True8LRU"
 )
 (vvPair
 variable "month"
-value "Apr"
+value "May"
 )
 (vvPair
 variable "month_long"
-value "April"
+value "May"
 )
 (vvPair
 variable "p"
-value "/home/lis2/ece411/git/postcp3/bound3/mp3/hds/@true8@l@r@u/struct.bd"
+value "/home/adalton2/ece411/bound3/mp3/hds/@true8@l@r@u/struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "/home/lis2/ece411/git/postcp3/bound3/mp3/hds/True8LRU/struct.bd"
+value "/home/adalton2/ece411/bound3/mp3/hds/True8LRU/struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -455,7 +455,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "18:49:03"
+value "07:30:32"
 )
 (vvPair
 variable "unit"
@@ -463,7 +463,7 @@ value "True8LRU"
 )
 (vvPair
 variable "user"
-value "lis2"
+value "adalton2"
 )
 (vvPair
 variable "version"
@@ -508,7 +508,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "courier,8,0"
 )
-xt "70200,69050,81700,69950"
+xt "70200,69050,83700,69950"
 st "
 by %user on %dd %month %year
 "
@@ -1167,7 +1167,7 @@ blo "25000,15250"
 thePort (LogicalPort
 decl (Decl
 n "Index"
-t "LC3b_c_index"
+t "LC3b_L2_index"
 o 3
 )
 )
@@ -1267,14 +1267,13 @@ va (VaSet
 font "courier,8,0"
 )
 xt "25000,16550,26500,17450"
-st "CLK"
+st "clk"
 blo "25000,17250"
 )
 )
 thePort (LogicalPort
-lang 11
 decl (Decl
-n "CLK"
+n "clk"
 t "std_logic"
 o 4
 )
@@ -1384,7 +1383,7 @@ st "L2_RESP     : std_logic"
 uid 599,0
 decl (Decl
 n "Index"
-t "LC3b_c_index"
+t "LC3b_L2_index"
 o 10
 suid 8,0
 )
@@ -1393,8 +1392,8 @@ uid 600,0
 va (VaSet
 font "courier,8,0"
 )
-xt "-21000,19900,-7500,20800"
-st "Index       : LC3b_c_index"
+xt "-21000,19900,-7000,20800"
+st "Index       : LC3b_L2_index"
 )
 )
 *30 (Net
@@ -1747,9 +1746,9 @@ uid 674,0
 va (VaSet
 font "courier,8,1"
 )
-xt "16000,43000,19000,43900"
+xt "19000,39000,22000,39900"
 st "ece411"
-blo "16000,43700"
+blo "19000,39700"
 tm "BdLibraryNameMgr"
 )
 *42 (Text
@@ -1757,9 +1756,9 @@ uid 675,0
 va (VaSet
 font "courier,8,1"
 )
-xt "16000,43900,22000,44800"
+xt "19000,39900,25000,40800"
 st "Encoder8to3"
-blo "16000,44600"
+blo "19000,40600"
 tm "CptNameMgr"
 )
 *43 (Text
@@ -1767,9 +1766,9 @@ uid 676,0
 va (VaSet
 font "courier,8,1"
 )
-xt "16000,44800,21500,45700"
+xt "19000,40800,24500,41700"
 st "HitEncoder"
-blo "16000,45500"
+blo "19000,41500"
 tm "InstanceNameMgr"
 )
 ]
@@ -12898,12 +12897,12 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-6,27,1914,1059"
-viewArea "-25100,-2100,112357,69909"
+windowSize "-6,29,1914,1061"
+viewArea "-37017,-72,66160,52276"
 cachedDiagramExtent "-23000,0,119250,70000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-69000,0"
-lastUid 3375,0
+lastUid 3496,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -14026,7 +14025,7 @@ uid 617,0
 port (LogicalPort
 decl (Decl
 n "Index"
-t "LC3b_c_index"
+t "LC3b_L2_index"
 o 10
 suid 8,0
 )

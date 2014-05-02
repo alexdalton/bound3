@@ -16,16 +16,16 @@ USE ece411.LC3b_types.all;
 
 ENTITY MUX8_9 IS
    PORT( 
-      A      : IN     lc3b_c_tag;
-      B      : IN     lc3b_c_tag;
-      C      : IN     lc3b_c_tag;
-      D      : IN     lc3b_c_tag;
-      E      : IN     lc3b_c_tag;
-      F      : IN     lc3b_c_tag;
-      G      : IN     lc3b_c_tag;
-      H      : IN     lc3b_c_tag;
+      A      : IN     lc3b_l2_tag;
+      B      : IN     lc3b_l2_tag;
+      C      : IN     lc3b_l2_tag;
+      D      : IN     lc3b_l2_tag;
+      E      : IN     lc3b_l2_tag;
+      F      : IN     lc3b_l2_tag;
+      G      : IN     lc3b_l2_tag;
+      H      : IN     lc3b_l2_tag;
       Sel    : IN     lc3b_8mux_sel;
-      Result : OUT    lc3b_c_tag
+      Result : OUT    lc3b_l2_tag
    );
 
 -- Declarations
@@ -36,7 +36,7 @@ END MUX8_9 ;
 ARCHITECTURE untitled OF MUX8_9 IS
 BEGIN
   PROCESS (A, B, C, D, E, F, G, H, sel)
-    variable state : LC3b_c_tag;
+    variable state : LC3b_l2_tag;
   BEGIN
     case sel is 
       when "000" =>

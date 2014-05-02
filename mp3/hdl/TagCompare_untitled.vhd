@@ -25,7 +25,7 @@ END ENTITY TagCompare;
 --
 ARCHITECTURE untitled OF TagCompare IS
 BEGIN
-  isEqual <= '1' when (to_integer(unsigned(TagA)) = to_integer(unsigned(TagB))) else
+  isEqual <= '1' after DELAY_COMPARE16 when (to_integer(unsigned(TagA)) = to_integer(unsigned(TagB))) else
              '0' after DELAY_COMPARE16;
 END ARCHITECTURE untitled;
 

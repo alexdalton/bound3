@@ -90,7 +90,7 @@ uid 111,0
 port (LogicalPort
 decl (Decl
 n "Index"
-t "LC3b_c_index"
+t "LC3b_L2_index"
 o 10
 suid 3,0
 )
@@ -566,23 +566,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "/home/lis2/ece411/git/old/mp3/hdl"
+value "/home/adalton2/ece411/bound3/mp3/hdl"
 )
 (vvPair
 variable "HDSDir"
-value "/home/lis2/ece411/git/old/mp3/hds"
+value "/home/adalton2/ece411/bound3/mp3/hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "/home/lis2/ece411/git/old/mp3/hds/@true8@l@r@u/symbol.sb.info"
+value "/home/adalton2/ece411/bound3/mp3/hds/@true8@l@r@u/symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "/home/lis2/ece411/git/old/mp3/hds/@true8@l@r@u/symbol.sb.user"
+value "/home/adalton2/ece411/bound3/mp3/hds/@true8@l@r@u/symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "/home/lis2/ece411/git/old/mp3/hds"
+value "/home/adalton2/ece411/bound3/mp3/hds"
 )
 (vvPair
 variable "appl"
@@ -598,15 +598,15 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "/home/lis2/ece411/git/old/mp3/hds/@true8@l@r@u"
+value "/home/adalton2/ece411/bound3/mp3/hds/@true8@l@r@u"
 )
 (vvPair
 variable "d_logical"
-value "/home/lis2/ece411/git/old/mp3/hds/True8LRU"
+value "/home/adalton2/ece411/bound3/mp3/hds/True8LRU"
 )
 (vvPair
 variable "date"
-value "04/18/14"
+value "05/02/14"
 )
 (vvPair
 variable "day"
@@ -618,7 +618,7 @@ value "Friday"
 )
 (vvPair
 variable "dd"
-value "18"
+value "02"
 )
 (vvPair
 variable "entity_name"
@@ -646,7 +646,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "gelib-057-16.ews.illinois.edu"
+value "siebl-0220-18.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -662,7 +662,7 @@ value "$HDS_PROJECT_DIR/compile"
 )
 (vvPair
 variable "mm"
-value "04"
+value "05"
 )
 (vvPair
 variable "module_name"
@@ -670,19 +670,19 @@ value "True8LRU"
 )
 (vvPair
 variable "month"
-value "Apr"
+value "May"
 )
 (vvPair
 variable "month_long"
-value "April"
+value "May"
 )
 (vvPair
 variable "p"
-value "/home/lis2/ece411/git/old/mp3/hds/@true8@l@r@u/symbol.sb"
+value "/home/adalton2/ece411/bound3/mp3/hds/@true8@l@r@u/symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "/home/lis2/ece411/git/old/mp3/hds/True8LRU/symbol.sb"
+value "/home/adalton2/ece411/bound3/mp3/hds/True8LRU/symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -738,7 +738,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "01:38:52"
+value "07:30:15"
 )
 (vvPair
 variable "unit"
@@ -746,7 +746,7 @@ value "True8LRU"
 )
 (vvPair
 variable "user"
-value "lis2"
+value "adalton2"
 )
 (vvPair
 variable "version"
@@ -894,14 +894,14 @@ uid 130,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,9900,60500,10800"
-st "Index   : IN     LC3b_c_index  ;
+xt "44000,9900,61000,10800"
+st "Index   : IN     LC3b_L2_index  ;
 "
 )
 thePort (LogicalPort
 decl (Decl
 n "Index"
-t "LC3b_c_index"
+t "LC3b_L2_index"
 o 10
 suid 3,0
 )
@@ -2069,7 +2069,7 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 267,0
+lastUid 290,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol:CDM"

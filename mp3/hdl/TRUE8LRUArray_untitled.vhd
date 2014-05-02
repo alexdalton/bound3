@@ -18,7 +18,7 @@ ENTITY TRUE8LRUArray IS
   PORT(
     RESET_L : IN std_logic;
     DataWrite : IN std_logic;
-    Index : IN LC3b_c_index;
+    Index : IN LC3b_L2_index;
     clk   : IN std_logic;
     DataIn : IN LC3b_LRULINE;
     DataOut : OUT LC3b_LRULINE
@@ -28,7 +28,7 @@ END TRUE8LRUArray ;
 
 --
 ARCHITECTURE untitled OF TRUE8LRUArray IS
-  TYPE TRUELRUArray IS array (7 downto 0) of LC3b_LRULINE;
+  TYPE TRUELRUArray IS array (3 downto 0) of LC3b_LRULINE;
   SIGNAL Data : TRUELRUArray;
 BEGIN
   --------------------------------------------------------------
@@ -37,7 +37,7 @@ BEGIN
   VARIABLE DataIndex : integer;
   BEGIN
     DataIndex := to_integer(unsigned(Index));
-    DataOut <= Data(DataIndex) after DELAY_1KB;
+    DataOut <= Data(DataIndex) after DELAY_512B;
   END PROCESS ReadFromDataArray;
   --------------------------------------------------------------
   WriteToDataArray : PROCESS (RESET_L, Index, DataWrite, DataIn, clk)
@@ -50,10 +50,6 @@ BEGIN
       Data(1) <= "000001010011100101110111";
       Data(2) <= "000001010011100101110111";
       Data(3) <= "000001010011100101110111";
-      Data(4) <= "000001010011100101110111";
-      Data(5) <= "000001010011100101110111";
-      Data(6) <= "000001010011100101110111";
-      Data(7) <= "000001010011100101110111";
     END IF;
     IF (DataWrite = '1' and rising_edge(clk)) THEN
       Data(DataIndex) <= DataIn;
